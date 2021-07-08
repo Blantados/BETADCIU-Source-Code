@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf-botanPixel.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pico Pixel Down0000" x="0" y="0" width="93" height="81" pivotX="46" pivotY="40" frameX="0" frameY="0" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0001" x="0" y="0" width="93" height="81" frameX="0" frameY="0" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0002" x="93" y="0" width="92" height="80" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0003" x="93" y="0" width="92" height="80" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0004" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0005" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0006" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0007" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0008" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0009" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0010" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0011" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0012" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0013" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down0014" x="185" y="0" width="92" height="81" frameX="-1" frameY="-1" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down Miss0000" x="0" y="0" width="93" height="81" pivotX="46" pivotY="40" frameX="0" frameY="-6" frameWidth="93" frameHeight="82"/>
+	<SubTexture name="Pico Pixel Down Miss0001" x="277" y="0" width="88" height="88" frameX="-5" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0002" x="277" y="0" width="88" height="88" frameX="-5" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0003" x="365" y="0" width="89" height="86" frameX="-4" frameY="-2" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0004" x="365" y="0" width="89" height="86" frameX="-4" frameY="-2" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0005" x="454" y="0" width="89" height="85" frameX="-4" frameY="-3" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0006" x="454" y="0" width="89" height="85" frameX="-4" frameY="-3" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0007" x="365" y="0" width="89" height="86" frameX="-4" frameY="-2" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0008" x="365" y="0" width="89" height="86" frameX="-4" frameY="-2" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0009" x="454" y="0" width="89" height="85" frameX="-4" frameY="-3" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0010" x="454" y="0" width="89" height="85" frameX="-4" frameY="-3" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0011" x="365" y="0" width="89" height="86" frameX="-4" frameY="-2" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0012" x="365" y="0" width="89" height="86" frameX="-4" frameY="-2" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0013" x="454" y="0" width="89" height="85" frameX="-4" frameY="-3" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Down Miss0014" x="454" y="0" width="89" height="85" frameX="-4" frameY="-3" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="Pico Pixel Idle0000" x="543" y="0" width="88" height="100" pivotX="43" pivotY="52" frameX="0" frameY="-3" frameWidth="89" frameHeight="103"/>
+	<SubTexture name="Pico Pixel Idle0001" x="543" y="0" width="88" height="100" frameX="0" frameY="-3" frameWidth="89" frameHeight="103"/>
+	<SubTexture name="Pico Pixel Idle0002" x="631" y="0" width="88" height="100" frameX="0" frameY="-3" frameWidth="89" frameHeight="103"/>
+	<SubTexture name="Pico Pixel Idle0003" x="631" y="0" width="88" height="100" frameX="0" frameY="-3" frameWidth="89" frameHeight="103"/>
+	<SubTexture name="Pico Pixel Idle0004" x="719" y="0" width="88" height="102" frameX="-1" frameY="-1" frameWidth="89" frameHeight="103"/>
+	<SubTexture name="Pico Pixel Idle0005" x="719" y="0" width="88" height="102" frameX="-1" frameY="-1" frameWidth="89" frameHeight="103"/>
+	<SubTexture name="Pico Pixel Idle0006" x="807" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0007" x="807" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0008" x="896" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0009" x="896" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0010" x="896" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0011" x="896" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0012" x="896" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0013" x="896" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Idle0014" x="896" y="0" width="89" height="103"/>
+	<SubTexture name="Pico Pixel Left0000" x="180" y="103" width="94" height="100" pivotX="47" pivotY="50" frameX="0" frameY="-1" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left0001" x="180" y="103" width="94" height="100" frameX="0" frameY="-1" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left0002" x="0" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0003" x="0" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0004" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0005" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0006" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0007" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0008" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0009" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0010" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0011" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0012" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0013" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left0014" x="90" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="101"/>
+	<SubTexture name="Pico Pixel Left Miss0000" x="180" y="103" width="94" height="100" pivotX="47" pivotY="50" frameX="0" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0001" x="274" y="103" width="89" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0002" x="274" y="103" width="89" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0003" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0004" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0005" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0006" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0007" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0008" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0009" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0010" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0011" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0012" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0013" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Left Miss0014" x="363" y="103" width="90" height="100" frameX="-5" frameY="0" frameWidth="95" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0000" x="453" y="103" width="90" height="99" pivotX="47" pivotY="50" frameX="-2" frameY="-1" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0001" x="453" y="103" width="90" height="99" frameX="-2" frameY="-1" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0002" x="543" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0003" x="543" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0004" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0005" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0006" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0007" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0008" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0009" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0010" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0011" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0012" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0013" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right0014" x="630" y="103" width="87" height="100" frameX="0" frameY="0" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right Miss0000" x="453" y="103" width="90" height="99" pivotX="47" pivotY="50" frameX="-2" frameY="-5" frameWidth="92" frameHeight="100"/>
+	<SubTexture name="Pico Pixel Right Miss0001" x="717" y="103" width="87" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0002" x="717" y="103" width="87" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0003" x="804" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0004" x="804" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0005" x="892" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0006" x="892" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0007" x="804" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0008" x="804" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0009" x="892" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0010" x="892" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0011" x="804" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0012" x="804" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0013" x="892" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Right Miss0014" x="892" y="103" width="88" height="104" frameX="0" frameY="0" frameWidth="92" frameHeight="104"/>
+	<SubTexture name="Pico Pixel Up0000" x="0" y="207" width="91" height="107" pivotX="46" pivotY="53" frameX="-1" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0001" x="0" y="207" width="91" height="107" frameX="-1" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0002" x="91" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0003" x="91" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0004" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0005" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0006" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0007" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0008" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0009" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0010" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0011" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0012" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0013" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up0014" x="183" y="207" width="92" height="106" frameX="0" frameY="-1" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0000" x="0" y="207" width="91" height="107" pivotX="46" pivotY="53" frameX="0" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0001" x="275" y="207" width="87" height="105" frameX="-5" frameY="-2" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0002" x="275" y="207" width="87" height="105" frameX="-5" frameY="-2" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0003" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0004" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0005" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0006" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0007" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0008" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0009" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0010" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0011" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0012" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0013" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+	<SubTexture name="Pico Pixel Up Miss0014" x="362" y="207" width="86" height="107" frameX="-5" frameY="0" frameWidth="92" frameHeight="107"/>
+</TextureAtlas>

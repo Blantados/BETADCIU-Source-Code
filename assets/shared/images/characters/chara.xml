@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chara.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="chara0000" x="0" y="0" width="423" height="456"/>
+	<SubTexture name="chara0001" x="0" y="0" width="423" height="456"/>
+	<SubTexture name="chara0002" x="423" y="0" width="423" height="456"/>
+	<SubTexture name="chara0003" x="423" y="0" width="423" height="456"/>
+	<SubTexture name="chara0004" x="846" y="0" width="423" height="456"/>
+	<SubTexture name="chara0005" x="846" y="0" width="423" height="456"/>
+	<SubTexture name="chara0006" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara0007" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara0008" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara0009" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara0010" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara0011" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara0012" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara0013" x="1269" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0000" x="1692" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0001" x="1692" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0002" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0003" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0004" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0005" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0006" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0007" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0008" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0009" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0010" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0011" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0012" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0013" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara down0014" x="2115" y="0" width="423" height="456"/>
+	<SubTexture name="chara left0000" x="2538" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0001" x="2538" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0002" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0003" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0004" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0005" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0006" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0007" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0008" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0009" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0010" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0011" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0012" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0013" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara left0014" x="2961" y="0" width="423" height="457"/>
+	<SubTexture name="chara right0000" x="3384" y="0" width="423" height="456"/>
+	<SubTexture name="chara right0001" x="3384" y="0" width="423" height="456"/>
+	<SubTexture name="chara right0002" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0003" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0004" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0005" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0006" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0007" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0008" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0009" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0010" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0011" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0012" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0013" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara right0014" x="0" y="457" width="423" height="456"/>
+	<SubTexture name="chara up0000" x="423" y="457" width="423" height="470"/>
+	<SubTexture name="chara up0001" x="423" y="457" width="423" height="470"/>
+	<SubTexture name="chara up0002" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0003" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0004" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0005" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0006" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0007" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0008" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0009" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0010" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0011" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0012" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0013" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+	<SubTexture name="chara up0014" x="846" y="457" width="423" height="461" frameX="0" frameY="-9" frameWidth="423" frameHeight="470"/>
+</TextureAtlas>

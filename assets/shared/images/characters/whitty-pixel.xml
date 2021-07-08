@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="whitty-pixel.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Whitty Pixel Down0000" x="0" y="0" width="92" height="141" pivotX="46" pivotY="70"/>
+	<SubTexture name="Whitty Pixel Down0001" x="0" y="0" width="92" height="141"/>
+	<SubTexture name="Whitty Pixel Down0002" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0003" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0004" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0005" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0006" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0007" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0008" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0009" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0010" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0011" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Down0012" x="92" y="0" width="91" height="141" frameX="-1" frameY="0" frameWidth="92" frameHeight="141"/>
+	<SubTexture name="Whitty Pixel Idle0000" x="183" y="0" width="83" height="152" pivotX="42" pivotY="76" frameX="-1" frameY="0" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0001" x="183" y="0" width="83" height="152" frameX="-1" frameY="0" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0002" x="266" y="0" width="85" height="151" frameX="0" frameY="-2" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0003" x="266" y="0" width="85" height="151" frameX="0" frameY="-2" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0004" x="351" y="0" width="83" height="151" frameX="-2" frameY="-2" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0005" x="351" y="0" width="83" height="151" frameX="-2" frameY="-2" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0006" x="0" y="152" width="83" height="150" frameX="-2" frameY="-3" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0007" x="0" y="152" width="83" height="150" frameX="-2" frameY="-3" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0008" x="83" y="152" width="82" height="153" frameX="-1" frameY="0" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0009" x="83" y="152" width="82" height="153" frameX="-1" frameY="0" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0010" x="183" y="0" width="83" height="152" frameX="-1" frameY="0" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0011" x="183" y="0" width="83" height="152" frameX="-1" frameY="0" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Idle0012" x="183" y="0" width="83" height="152" frameX="-1" frameY="0" frameWidth="85" frameHeight="153"/>
+	<SubTexture name="Whitty Pixel Left0000" x="165" y="152" width="90" height="158" pivotX="45" pivotY="79"/>
+	<SubTexture name="Whitty Pixel Left0001" x="165" y="152" width="90" height="158"/>
+	<SubTexture name="Whitty Pixel Left0002" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0003" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0004" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0005" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0006" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0007" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0008" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0009" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0010" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0011" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Left0012" x="255" y="152" width="89" height="157" frameX="-1" frameY="-1" frameWidth="90" frameHeight="158"/>
+	<SubTexture name="Whitty Pixel Right0000" x="344" y="152" width="74" height="149" pivotX="37" pivotY="74" frameX="-2" frameY="0" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0001" x="344" y="152" width="74" height="149" frameX="-2" frameY="0" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0002" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0003" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0004" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0005" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0006" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0007" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0008" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0009" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0010" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0011" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Right0012" x="418" y="152" width="73" height="148" frameX="0" frameY="-1" frameWidth="76" frameHeight="149"/>
+	<SubTexture name="Whitty Pixel Up0000" x="0" y="310" width="80" height="164" pivotX="40" pivotY="82" frameX="-2" frameY="0" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0001" x="0" y="310" width="80" height="164" frameX="-2" frameY="0" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0002" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0003" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0004" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0005" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0006" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0007" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0008" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0009" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0010" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0011" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+	<SubTexture name="Whitty Pixel Up0012" x="80" y="310" width="81" height="162" frameX="0" frameY="-1" frameWidth="82" frameHeight="164"/>
+</TextureAtlas>

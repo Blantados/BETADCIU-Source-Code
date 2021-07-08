@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ruby_assets.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ruby Sing Note DOWN0000" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0001" x="344" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0002" x="688" y="0" width="347" height="723"/>
+	<SubTexture name="ruby Sing Note DOWN0003" x="1035" y="0" width="347" height="723"/>
+	<SubTexture name="ruby Sing Note DOWN0004" x="1382" y="0" width="346" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0005" x="1728" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0006" x="2072" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0007" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0008" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0009" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0010" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0011" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0012" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0013" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0014" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note DOWN0015" x="0" y="0" width="344" height="723" frameX="0" frameY="0" frameWidth="347" frameHeight="723"/>
+	<SubTexture name="ruby Sing Note LEFT0000" x="2416" y="0" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0001" x="2772" y="0" width="355" height="761" frameX="0" frameY="0" frameWidth="356" frameHeight="761"/>
+	<SubTexture name="ruby Sing Note LEFT0002" x="3127" y="0" width="350" height="761" frameX="0" frameY="0" frameWidth="356" frameHeight="761"/>
+	<SubTexture name="ruby Sing Note LEFT0003" x="3477" y="0" width="350" height="761" frameX="0" frameY="0" frameWidth="356" frameHeight="761"/>
+	<SubTexture name="ruby Sing Note LEFT0004" x="0" y="761" width="350" height="761" frameX="0" frameY="0" frameWidth="356" frameHeight="761"/>
+	<SubTexture name="ruby Sing Note LEFT0005" x="350" y="761" width="352" height="761" frameX="0" frameY="0" frameWidth="356" frameHeight="761"/>
+	<SubTexture name="ruby Sing Note LEFT0006" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0007" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0008" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0009" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0010" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0011" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0012" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0013" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0014" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0015" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0016" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0017" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note LEFT0018" x="702" y="761" width="356" height="761"/>
+	<SubTexture name="ruby Sing Note RIGHT0000" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0001" x="1391" y="761" width="334" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0002" x="1725" y="761" width="339" height="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0003" x="2064" y="761" width="338" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0004" x="2402" y="761" width="337" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0005" x="2739" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0006" x="3072" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0007" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0008" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0009" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0010" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0011" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0012" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0013" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0014" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note RIGHT0015" x="1058" y="761" width="333" height="783" frameX="0" frameY="0" frameWidth="339" frameHeight="783"/>
+	<SubTexture name="ruby Sing Note UP0000" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0001" x="3737" y="761" width="333" height="805" frameX="-3" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0002" x="0" y="1566" width="336" height="805"/>
+	<SubTexture name="ruby Sing Note UP0003" x="336" y="1566" width="336" height="805"/>
+	<SubTexture name="ruby Sing Note UP0004" x="672" y="1566" width="335" height="805" frameX="-1" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0005" x="1007" y="1566" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0006" x="1339" y="1566" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0007" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0008" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0009" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0010" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0011" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0012" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0013" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0014" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0015" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0016" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0017" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0018" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0019" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0020" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0021" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0022" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0023" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0024" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0025" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0026" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0027" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0028" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0029" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0030" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0031" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0032" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0033" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0034" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0035" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0036" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0037" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0038" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0039" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0040" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0041" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0042" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0043" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0044" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0045" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0046" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0047" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0048" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0049" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0050" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0051" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0052" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0053" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0054" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0055" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0056" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0057" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0058" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby Sing Note UP0059" x="3405" y="761" width="332" height="805" frameX="-4" frameY="0" frameWidth="336" frameHeight="805"/>
+	<SubTexture name="ruby idle dance0000" x="1671" y="1566" width="357" height="762"/>
+	<SubTexture name="ruby idle dance0001" x="2028" y="1566" width="356" height="762" frameX="-1" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0002" x="2384" y="1566" width="345" height="762" frameX="-11" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0003" x="2729" y="1566" width="334" height="762" frameX="-22" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0004" x="3063" y="1566" width="334" height="762" frameX="-22" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0005" x="3397" y="1566" width="334" height="762" frameX="-22" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0006" x="3731" y="1566" width="335" height="762" frameX="-21" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0007" x="0" y="2371" width="340" height="762" frameX="-16" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0008" x="340" y="2371" width="351" height="762" frameX="-6" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0009" x="691" y="2371" width="356" height="762" frameX="-1" frameY="0" frameWidth="357" frameHeight="762"/>
+	<SubTexture name="ruby idle dance0010" x="1047" y="2371" width="357" height="762"/>
+	<SubTexture name="ruby idle dance0011" x="1404" y="2371" width="357" height="762"/>
+	<SubTexture name="ruby idle dance0012" x="1761" y="2371" width="357" height="691" frameX="0" frameY="-71" frameWidth="357" frameHeight="762"/>
+</TextureAtlas>

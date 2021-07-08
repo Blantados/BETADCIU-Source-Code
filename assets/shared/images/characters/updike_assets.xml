@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="updike_assets.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="updingdong down note0000" x="0" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0001" x="0" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0002" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0003" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0004" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0005" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0006" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0007" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0008" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0009" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0010" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0011" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0012" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0013" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0014" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0015" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0016" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0017" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0018" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0019" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0020" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0021" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0022" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0023" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note0024" x="563" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0000" x="1126" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0001" x="1126" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0002" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0003" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0004" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0005" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0006" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0007" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0008" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0009" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0010" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0011" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0012" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0013" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0014" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0015" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0016" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0017" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0018" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0019" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0020" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0021" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0022" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0023" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong down note edgy0024" x="1689" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong idle0000" x="2252" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong idle0001" x="2252" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong idle0002" x="2815" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong idle0003" x="2815" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong idle0004" x="3378" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong idle0005" x="3378" y="0" width="563" height="801"/>
+	<SubTexture name="updingdong idle0006" x="0" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle0007" x="0" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle0008" x="563" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle0009" x="563" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle0010" x="563" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle0011" x="563" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0000" x="1126" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0001" x="1126" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0002" x="1689" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0003" x="1689" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0004" x="2252" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0005" x="2252" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0006" x="2815" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0007" x="2815" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0008" x="3378" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0009" x="3378" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0010" x="3378" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong idle edgy0011" x="3378" y="801" width="563" height="801"/>
+	<SubTexture name="updingdong left note0000" x="0" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0001" x="0" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0002" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0003" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0004" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0005" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0006" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0007" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0008" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0009" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0010" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0011" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0012" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0013" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0014" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0015" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0016" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0017" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0018" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0019" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0020" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0021" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0022" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0023" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note0024" x="563" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0000" x="1126" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0001" x="1126" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0002" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0003" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0004" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0005" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0006" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0007" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0008" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0009" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0010" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0011" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0012" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0013" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0014" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0015" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0016" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0017" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0018" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0019" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0020" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0021" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0022" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0023" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong left note edgy0024" x="1689" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0000" x="2252" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0001" x="2252" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0002" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0003" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0004" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0005" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0006" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0007" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0008" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0009" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0010" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0011" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0012" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0013" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0014" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0015" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0016" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0017" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0018" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0019" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0020" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0021" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0022" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0023" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note0024" x="2815" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0000" x="3378" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0001" x="3378" y="1602" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0002" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0003" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0004" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0005" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0006" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0007" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0008" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0009" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0010" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0011" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0012" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0013" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0014" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0015" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0016" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0017" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0018" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0019" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0020" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0021" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0022" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0023" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong right note edgy0024" x="0" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0000" x="563" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0001" x="563" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0002" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0003" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0004" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0005" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0006" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0007" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0008" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0009" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0010" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0011" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0012" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0013" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0014" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0015" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0016" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0017" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0018" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0019" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0020" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0021" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0022" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0023" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note0024" x="1126" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0000" x="1689" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0001" x="1689" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0002" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0003" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0004" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0005" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0006" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0007" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0008" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0009" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0010" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0011" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0012" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0013" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0014" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0015" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0016" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0017" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0018" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0019" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0020" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0021" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0022" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0023" x="2252" y="2403" width="563" height="801"/>
+	<SubTexture name="updingdong up note edgy0024" x="2252" y="2403" width="563" height="801"/>
+</TextureAtlas>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Monika_Finale.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MONIKA IDLE0000" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0001" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0002" x="0" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0003" x="0" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0004" x="121" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0005" x="121" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0006" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0007" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0008" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0009" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0010" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0011" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0012" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0013" x="242" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0014" x="363" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0015" x="363" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0016" x="484" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0017" x="484" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0018" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0019" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0020" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0021" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0022" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0023" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0024" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0025" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0026" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0027" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0028" x="0" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0029" x="0" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0030" x="121" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0031" x="121" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0032" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0033" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0034" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0035" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0036" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0037" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0038" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0039" x="642" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0040" x="763" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0041" x="763" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0042" x="484" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0043" x="484" y="139" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0044" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0045" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0046" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0047" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0048" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0049" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0050" x="822" y="0" width="116" height="132"/>
+	<SubTexture name="MONIKA IDLE0051" x="822" y="0" width="116" height="132"/>
+</TextureAtlas>

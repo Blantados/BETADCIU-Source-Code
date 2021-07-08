@@ -1,0 +1,6 @@
+normal
+pixel
+kapi
+pixel-corrupted
+empty
+bw

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lane_Pixel_assets.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lane Pixel Down0000" x="0" y="0" width="84" height="84" frameX="0" frameY="-3" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0001" x="0" y="0" width="84" height="84" frameX="0" frameY="-3" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0002" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0003" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0004" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0005" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0006" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0007" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0008" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0009" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0010" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0011" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0012" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0013" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Down0014" x="84" y="0" width="78" height="87" frameX="-6" frameY="0" frameWidth="84" frameHeight="87"/>
+	<SubTexture name="Lane Pixel Idle0000" x="162" y="0" width="75" height="88" frameX="-1" frameY="-6" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0001" x="162" y="0" width="75" height="88" frameX="-1" frameY="-6" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0002" x="237" y="0" width="76" height="91" frameX="0" frameY="-3" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0003" x="237" y="0" width="76" height="91" frameX="0" frameY="-3" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0004" x="313" y="0" width="74" height="91" frameX="-2" frameY="-1" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0005" x="313" y="0" width="74" height="91" frameX="-2" frameY="-1" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0006" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0007" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0008" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0009" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0010" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0011" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0012" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0013" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Idle0014" x="387" y="0" width="74" height="93" frameX="-1" frameY="0" frameWidth="76" frameHeight="94"/>
+	<SubTexture name="Lane Pixel Left0000" x="0" y="93" width="86" height="92" frameX="-3" frameY="0" frameWidth="91" frameHeight="92"/>
+	<SubTexture name="Lane Pixel Left0001" x="0" y="93" width="86" height="92" frameX="-3" frameY="0" frameWidth="91" frameHeight="92"/>
+	<SubTexture name="Lane Pixel Left0002" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0003" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0004" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0005" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0006" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0007" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0008" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0009" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0010" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0011" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0012" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0013" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Left0014" x="86" y="93" width="91" height="92"/>
+	<SubTexture name="Lane Pixel Right0000" x="177" y="93" width="67" height="93" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0001" x="177" y="93" width="67" height="93" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0002" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0003" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0004" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0005" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0006" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0007" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0008" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0009" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0010" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0011" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0012" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0013" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Right0014" x="244" y="93" width="66" height="96" frameX="0" frameY="0" frameWidth="67" frameHeight="96"/>
+	<SubTexture name="Lane Pixel Up0000" x="310" y="93" width="69" height="100" frameX="-3" frameY="0" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0001" x="310" y="93" width="69" height="100" frameX="-3" frameY="0" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0002" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0003" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0004" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0005" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0006" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0007" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0008" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0009" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0010" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0011" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0012" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0013" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+	<SubTexture name="Lane Pixel Up0014" x="379" y="93" width="73" height="99" frameX="0" frameY="-1" frameWidth="73" frameHeight="100"/>
+</TextureAtlas>

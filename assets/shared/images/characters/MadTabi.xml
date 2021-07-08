@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MadTabi.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="MadTabiDown0000" x="0" y="0" width="522" height="703"/>
+	<SubTexture name="MadTabiDown0001" x="522" y="0" width="522" height="703"/>
+	<SubTexture name="MadTabiDown0002" x="1044" y="0" width="522" height="703"/>
+	<SubTexture name="MadTabiDown0003" x="1566" y="0" width="522" height="703"/>
+	<SubTexture name="MadTabiDown0004" x="2088" y="0" width="522" height="703"/>
+	<SubTexture name="MadTabiDown0005" x="2610" y="0" width="522" height="703"/>
+	<SubTexture name="MadTabiDown0006" x="3132" y="0" width="522" height="703"/>
+	<SubTexture name="MadTabiDown0007" x="0" y="703" width="522" height="703"/>
+	<SubTexture name="MadTabiIdle0000" x="522" y="703" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0001" x="1051" y="703" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0002" x="1580" y="703" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0003" x="2109" y="703" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0004" x="2638" y="703" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0005" x="3167" y="703" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0006" x="0" y="1442" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0007" x="529" y="1442" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0008" x="1058" y="1442" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0009" x="1587" y="1442" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0010" x="2116" y="1442" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0011" x="2645" y="1442" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0012" x="3174" y="1442" width="529" height="739"/>
+	<SubTexture name="MadTabiIdle0013" x="0" y="2181" width="529" height="739"/>
+	<SubTexture name="MadTabiLeft0000" x="529" y="2181" width="634" height="740"/>
+	<SubTexture name="MadTabiLeft0001" x="1163" y="2181" width="634" height="740"/>
+	<SubTexture name="MadTabiLeft0002" x="1797" y="2181" width="634" height="740"/>
+	<SubTexture name="MadTabiLeft0003" x="2431" y="2181" width="634" height="740"/>
+	<SubTexture name="MadTabiLeft0004" x="3065" y="2181" width="634" height="740"/>
+	<SubTexture name="MadTabiLeft0005" x="0" y="2921" width="634" height="740"/>
+	<SubTexture name="MadTabiLeft0006" x="634" y="2921" width="634" height="740"/>
+	<SubTexture name="MadTabiLeft0007" x="1268" y="2921" width="634" height="740"/>
+	<SubTexture name="MadTabiRight0000" x="1902" y="2921" width="790" height="718"/>
+	<SubTexture name="MadTabiRight0001" x="2692" y="2921" width="790" height="718"/>
+	<SubTexture name="MadTabiRight0002" x="0" y="3661" width="790" height="718"/>
+	<SubTexture name="MadTabiRight0003" x="790" y="3661" width="790" height="718"/>
+	<SubTexture name="MadTabiRight0004" x="1580" y="3661" width="790" height="718"/>
+	<SubTexture name="MadTabiRight0005" x="2370" y="3661" width="790" height="718"/>
+	<SubTexture name="MadTabiUp0000" x="3160" y="3661" width="550" height="895"/>
+	<SubTexture name="MadTabiUp0001" x="0" y="4556" width="550" height="895"/>
+	<SubTexture name="MadTabiUp0002" x="550" y="4556" width="550" height="895"/>
+	<SubTexture name="MadTabiUp0003" x="1100" y="4556" width="550" height="895"/>
+	<SubTexture name="MadTabiUp0004" x="1650" y="4556" width="550" height="895"/>
+	<SubTexture name="MadTabiUp0005" x="2200" y="4556" width="550" height="895"/>
+	<SubTexture name="MadTabiUp0006" x="2750" y="4556" width="550" height="895"/>
+	<SubTexture name="MadTabiUp0007" x="3300" y="4556" width="550" height="895"/>
+</TextureAtlas>

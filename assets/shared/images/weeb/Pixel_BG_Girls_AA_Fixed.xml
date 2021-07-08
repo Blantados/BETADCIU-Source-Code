@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Pixel_BG_Girls_AA_Fixed.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG girls group0000" x="0" y="512" width="441" height="89" pivotX="182.15" pivotY="148"/>
+	<SubTexture name="BG girls group0001" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0002" x="441" y="512" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0003" x="441" y="512" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0004" x="441" y="512" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0005" x="441" y="512" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0006" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0007" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0008" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0009" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0010" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0011" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0012" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0013" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0014" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0015" x="0" y="601" width="441" height="89"/>
+	<SubTexture name="BG girls group0016" x="441" y="601" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0017" x="441" y="601" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0018" x="441" y="512" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0019" x="441" y="512" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0020" x="0" y="690" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0021" x="0" y="690" width="441" height="87" frameX="0" frameY="-2" frameWidth="441" frameHeight="89"/>
+	<SubTexture name="BG girls group0022" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0023" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0024" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0025" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0026" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0027" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0028" x="0" y="512" width="441" height="89"/>
+	<SubTexture name="BG girls group0029" x="0" y="512" width="441" height="89"/>
+</TextureAtlas>

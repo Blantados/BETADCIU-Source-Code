@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shaggy.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="burst0000" x="0" y="0" width="545" height="268" pivotX="603.55" pivotY="417.55" frameX="-313" frameY="-305" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0001" x="545" y="0" width="818" height="400" frameX="-186" frameY="-233" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0002" x="545" y="0" width="818" height="400" frameX="-186" frameY="-233" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0003" x="1363" y="0" width="1096" height="536" frameX="-56" frameY="-68" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0004" x="1363" y="0" width="1096" height="536" frameX="-56" frameY="-68" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0005" x="2459" y="0" width="1183" height="555" frameX="-12" frameY="-20" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0006" x="2459" y="0" width="1183" height="555" frameX="-12" frameY="-20" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0007" x="3642" y="0" width="1218" height="570" frameX="0" frameY="-10" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0008" x="3642" y="0" width="1218" height="570" frameX="0" frameY="-10" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0009" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0010" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0011" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0012" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0013" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0014" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0015" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0016" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0017" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0018" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0019" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0020" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0021" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0022" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0023" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0024" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0025" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0026" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0027" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0028" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0029" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0030" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0031" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0032" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0033" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0034" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0035" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0036" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0037" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0038" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0039" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0040" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0041" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0042" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0043" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0044" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+	<SubTexture name="burst0045" x="4860" y="0" width="8" height="6" frameX="-631" frameY="0" frameWidth="1218" frameHeight="633"/>
+</TextureAtlas>

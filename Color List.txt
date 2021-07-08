@@ -1,0 +1,18 @@
+        FlxColor.BLACK, // demon hot milf cass
+		0xFFB7D855, // go pico
+		0xFFE1E1E1, // updike
+		0xFF1D1E35, // bf-whitty
+		0xFF19618C, // rebecca
+		0xFF64B3FE, // bf-blantad (that's me!)
+		0xFFFFB8E3, // monika-finale
+		0xFFFFAA6F, // bf-senpai-angry-pixel (a lot of hyphens)
+		0xFF1F7EFF, // lane-pixel
+		0xFF06D22A, // neon
+		0xFFFFFFFF, // bob
+		FlxColor.BLACK, // opheebop
+		0xFFFF3333, // sus
+		0xFFE1E1E1, // Angered Stickmin
+		0xFFE67A34, // Kiryu Coco
+		0xFFEF71B1, // Mano Aloe
+		0xFFFFD779, // Nekofreak
+		0xFF51d8fb // BF

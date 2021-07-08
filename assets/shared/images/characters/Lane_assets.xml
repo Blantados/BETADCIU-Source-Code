@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lane_assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lane idle0000" x="0" y="0" width="379" height="444" frameX="-6" frameY="-25" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0001" x="0" y="0" width="379" height="444" frameX="-6" frameY="-25" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0002" x="400" y="0" width="382" height="457" frameX="0" frameY="-12" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0003" x="400" y="0" width="382" height="457" frameX="0" frameY="-12" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0004" x="803" y="0" width="372" height="458" frameX="-12" frameY="-5" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0005" x="803" y="0" width="372" height="458" frameX="-12" frameY="-5" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0006" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0007" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0008" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0009" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0010" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0011" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0012" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0013" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane idle0014" x="1196" y="0" width="374" height="465" frameX="-6" frameY="0" frameWidth="385" frameHeight="469"/>
+	<SubTexture name="lane singdown0000" x="1591" y="0" width="421" height="424" frameX="0" frameY="-13" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0001" x="1591" y="0" width="421" height="424" frameX="0" frameY="-13" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0002" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0003" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0004" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0005" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0006" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0007" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0008" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0009" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0010" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0011" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0012" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0013" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singdown0014" x="0" y="486" width="396" height="437" frameX="-28" frameY="0" frameWidth="424" frameHeight="437"/>
+	<SubTexture name="lane singleft0000" x="417" y="486" width="434" height="464" frameX="-15" frameY="0" frameWidth="456" frameHeight="464"/>
+	<SubTexture name="lane singleft0001" x="417" y="486" width="434" height="464" frameX="-15" frameY="0" frameWidth="456" frameHeight="464"/>
+	<SubTexture name="lane singleft0002" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0003" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0004" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0005" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0006" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0007" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0008" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0009" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0010" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0011" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0012" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0013" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singleft0014" x="872" y="486" width="456" height="464"/>
+	<SubTexture name="lane singright0000" x="1349" y="486" width="338" height="471" frameX="-3" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0001" x="1349" y="486" width="338" height="471" frameX="-3" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0002" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0003" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0004" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0005" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0006" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0007" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0008" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0009" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0010" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0011" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0012" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0013" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singright0014" x="1708" y="486" width="334" height="482" frameX="0" frameY="0" frameWidth="341" frameHeight="482"/>
+	<SubTexture name="lane singup0000" x="0" y="989" width="350" height="501" frameX="-14" frameY="0" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0001" x="0" y="989" width="350" height="501" frameX="-14" frameY="0" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0002" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0003" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0004" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0005" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0006" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0007" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0008" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0009" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0010" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0011" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0012" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0013" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+	<SubTexture name="lane singup0014" x="371" y="989" width="368" height="496" frameX="0" frameY="-7" frameWidth="368" frameHeight="503"/>
+</TextureAtlas>

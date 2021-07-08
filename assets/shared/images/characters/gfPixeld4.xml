@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfPixeld4s.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF IDLE0000" x="0" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0001" x="0" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0002" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0003" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0004" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0005" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0006" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0007" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0008" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0009" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0010" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0011" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0012" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0013" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0014" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF IDLE0015" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0016" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0017" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0018" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0019" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0020" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0021" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0022" x="390" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0023" x="390" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0024" x="390" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0025" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0026" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0027" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0028" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF IDLE0029" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0000" x="0" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0001" x="0" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0002" x="130" y="512" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0003" x="130" y="512" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0004" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0005" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0006" x="130" y="512" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0007" x="130" y="512" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0008" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0009" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0010" x="130" y="512" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0011" x="130" y="512" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0012" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0013" x="130" y="0" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0014" x="130" y="512" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0015" x="130" y="628" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0016" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0017" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0018" x="130" y="628" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0019" x="130" y="628" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0020" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0021" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0022" x="390" y="628" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0023" x="390" y="628" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0024" x="390" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0025" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0026" x="130" y="628" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0027" x="130" y="628" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0028" x="130" y="116" width="120" height="106"/>
+	<SubTexture name="GF SWITCH0029" x="130" y="116" width="120" height="106"/>
+</TextureAtlas>
