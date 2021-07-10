@@ -1201,13 +1201,16 @@ class ChartingState extends MusicBeatState
 
 	private function addNote(?n:Note):Void
 	{
-		var noteStrum = getStrumTime(dummyArrow.y) + (curSection * (Conductor.stepCrochet * 16));
+		var noteStrum = getStrumTime(dummyArrow.y) + sectionStartTime();
 		//Very rough way of adding burning notes, if Kade wants to make this better, go ahead.
 		var noteData = Math.floor(FlxG.mouse.x / GRID_SIZE) + (FlxG.keys.pressed.ALT ? 8 : 0);
 		
 		var noteSus = 0;
 
-		_song.notes[curSection].sectionNotes.push([noteStrum, noteData, noteSus]);
+		if (n != null)
+			_song.notes[curSection].sectionNotes.push([n.strumTime, n.noteData, n.sustainLength]);
+		else
+			_song.notes[curSection].sectionNotes.push([noteStrum, noteData, noteSus]);
 
 		curSelectedNote = _song.notes[curSection].sectionNotes[_song.notes[curSection].sectionNotes.length - 1];
 

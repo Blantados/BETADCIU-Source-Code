@@ -20,6 +20,7 @@ import llua.LuaL;
 import flixel.FlxBasic;
 import flixel.FlxCamera;
 import flixel.FlxG;
+import flixel.system.FlxSound;
 
 class ModchartState 
 {
@@ -238,6 +239,7 @@ class ModchartState
 	function changeGFCharacter(id:String, x:Float, y:Float, fix:Bool)
 	{		
 					PlayState.instance.removeObject(PlayState.gf);
+					//PlayState.gf = new Character(x, y, null);
 					PlayState.instance.destroyObject(PlayState.gf);
 					PlayState.gf = new Character(x, y, id);
 					PlayState.instance.addObject(PlayState.gf);
@@ -253,6 +255,7 @@ class ModchartState
 	function changeDadCharacter(id:String, x:Float, y:Float)
 	{		
 					PlayState.instance.removeObject(PlayState.dad);
+					//PlayState.dad = new Character(x, y, null);
 					PlayState.instance.destroyObject(PlayState.dad);
 					PlayState.dad = new Character(x, y, id);
 					PlayState.instance.addObject(PlayState.dad);
@@ -262,6 +265,7 @@ class ModchartState
 	function changeBoyfriendCharacter(id:String, x:Float, y:Float)
 	{							
 					PlayState.instance.removeObject(PlayState.boyfriend);
+					//PlayState.boyfriend = new Boyfriend(x, y, null);
 					PlayState.instance.destroyObject(PlayState.boyfriend);
 					PlayState.boyfriend = new Boyfriend(x, y, id);
 					PlayState.instance.addObject(PlayState.boyfriend);
@@ -504,6 +508,10 @@ class ModchartState
 				//Lua_helper.add_callback(lua,"gfGoBack", function() {
 				//		PlayState.gfBG.goBack();
 				//});
+
+				Lua_helper.add_callback(lua,"playSound", function(id:String) {
+					FlxG.sound.play(Paths.sound(id));
+				});
 				
 				Lua_helper.add_callback(lua,"restartVideo", function() {
 					GlobalVideo.get().restart();
@@ -558,6 +566,11 @@ class ModchartState
 					var c:FlxColor = new FlxColor();
 					c.setRGB(r, g, b);
 					FlxG.camera.fade(FlxColor.WHITE, d, f);
+				});
+				Lua_helper.add_callback(lua, "flashCam", function (r:Int,g:Int,b:Int, d:Float, f:Bool) {
+					var c:FlxColor = new FlxColor();
+					c.setRGB(r, g, b);
+					FlxG.camera.flash(c, d, f);
 				});
 	
 				Lua_helper.add_callback(lua,"getCameraX", function () {

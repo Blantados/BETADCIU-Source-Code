@@ -225,6 +225,7 @@ class PlayState extends MusicBeatState
 	var stageFront2:FlxSprite;
 	var bg2:FlxSprite;
 	var bg:FlxSprite;
+	var bgwire:FlxSprite;
 	var babyArrow:FlxSprite;
 	var babyArrow2:FlxSprite;
 	var daSign:FlxSprite;
@@ -283,6 +284,7 @@ class PlayState extends MusicBeatState
 	var monikaFinaleBG:FlxSprite;
 
 	var phillyCityLights:FlxTypedGroup<FlxSprite>;
+	var phillyCityLightswire:FlxTypedGroup<FlxSprite>;
 	var phillyTrain:FlxSprite;
 	var trainSound:FlxSound;
 
@@ -319,6 +321,7 @@ class PlayState extends MusicBeatState
 	var amyPixelBG:AmyPixelBG;
 	var tankWatchtower:TankWatchtower;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
+	var melandperi:MelandPeri;
 
 	var talking:Bool = true;
 	var songScore:Int = 0;
@@ -780,6 +783,82 @@ class PlayState extends MusicBeatState
 
 				var street:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.image('philly/street', 'week3'));
 				add(street);
+			}
+
+			case 'philly-wire':
+			{
+				curStage = 'philly-wire';
+
+				bg = new FlxSprite(-100).loadGraphic(Paths.image('philly/sky', 'week3'));
+				bg.scrollFactor.set(0.1, 0.1);
+				add(bg);
+
+				bgwire = new FlxSprite(-100).loadGraphic(Paths.image('wire/sky'));
+				bgwire.scrollFactor.set(0.1, 0.1);
+				add(bgwire);
+
+				var city:FlxSprite = new FlxSprite(-10).loadGraphic(Paths.image('philly/city', 'week3'));
+				city.scrollFactor.set(0.3, 0.3);
+				city.setGraphicSize(Std.int(city.width * 0.85));
+				city.updateHitbox();
+				add(city);
+
+				var citywire:FlxSprite = new FlxSprite(-10).loadGraphic(Paths.image('wire/city'));
+				citywire.scrollFactor.set(0.3, 0.3);
+				citywire.setGraphicSize(Std.int(citywire.width * 0.85));
+				citywire.updateHitbox();
+				add(citywire);
+
+				phillyCityLights = new FlxTypedGroup<FlxSprite>();
+				add(phillyCityLights);
+
+				for (i in 0...5)
+				{
+					var light:FlxSprite = new FlxSprite(city.x).loadGraphic(Paths.image('philly/win' + i, 'week3'));
+					light.scrollFactor.set(0.3, 0.3);
+					light.visible = false;
+					light.setGraphicSize(Std.int(light.width * 0.85));
+					light.updateHitbox();
+					light.antialiasing = true;
+					phillyCityLights.add(light);
+				}
+
+				phillyCityLightswire = new FlxTypedGroup<FlxSprite>();
+				add(phillyCityLightswire);
+
+				for (i in 0...1)
+				{
+					var lightwire:FlxSprite = new FlxSprite(city.x).loadGraphic(Paths.image('wire/win' + i));
+					lightwire.scrollFactor.set(0.3, 0.3);
+					lightwire.visible = false;
+					lightwire.setGraphicSize(Std.int(lightwire.width * 0.85));
+					lightwire.updateHitbox();
+					lightwire.antialiasing = true;
+					phillyCityLightswire.add(lightwire);
+				}
+
+				var streetBehind:FlxSprite = new FlxSprite(-40, 50).loadGraphic(Paths.image('philly/behindTrain', 'week3'));
+				add(streetBehind);
+
+				var streetBehindwire:FlxSprite = new FlxSprite(-40, 50).loadGraphic(Paths.image('wire/behindTrain'));
+				add(streetBehindwire);
+
+				phillyTrain = new FlxSprite(2000, 360).loadGraphic(Paths.image('philly/train', 'week3'));
+				add(phillyTrain);
+
+				trainSound = new FlxSound().loadEmbedded(Paths.sound('train_passes', 'week3'));
+				FlxG.sound.list.add(trainSound);
+
+				// var cityLights:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.win0.png);
+
+				var street:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.image('philly/street', 'week3'));
+				add(street);
+
+				var streetwire:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.image('wire/street'));
+				add(streetwire);
+
+				melandperi = new MelandPeri(400, 130);
+				melandperi.scrollFactor.set(0.95, 0.95);
 			}
 
 			case 'phillyannie':
@@ -2296,6 +2375,8 @@ class PlayState extends MusicBeatState
 				gfVersion = 'nogf-pixel';
 			case 'nogf-rebecca':
 				gfVersion = 'nogf-rebecca';
+			case 'nogf-wire':
+				gfVersion = 'nogf-wire';
 			case 'madgf':
 				gfVersion = 'madgf';
 			case 'piper-pixel-mario':
@@ -2407,35 +2488,30 @@ class PlayState extends MusicBeatState
 				boyfriend = new Boyfriend(870, 450, 'hex');
 				dad = new Character(0, 100, 'sarvente');
 				boyfriend = new Boyfriend(1090, 450, 'ruv');
+				dad = new Character(0, 100, 'dad');
+				boyfriend = new Boyfriend(870, 450, 'mom');
+				dad = new Character(0, 100, 'bf-sky');
+				dad = new Character(0, 100, 'hd-senpaiangry');
+				dad = new Character(0, 100, 'hd-senpai');
+				dad = new Character(0, 100, 'pico');
+				dad = new Character(0, 100, 'bf-annie');
 
 				if (SONG.song.toLowerCase() == 'guns')
-				{
-					dad = new Character(0, 100, 'dad');
-					boyfriend = new Boyfriend(870, 450, 'mom');
-					dad = new Character(0, 100, 'pico');
-					boyfriend = new Boyfriend(870, 450, 'bf-senpai');
+				{					
 					dad = new Character(100, 150, 'garcello');
-					boyfriend = new Boyfriend(1090, 450, 'bf-annie');
 					dad = new Character(100, 150, 'zardy');
 					boyfriend = new Boyfriend(1090, 450, 'bf-spooky');			
 					boyfriend = new Boyfriend(1090, 450, 'bf-carol');
 					dad = new Character(0, 100, 'exgf');
-					boyfriend = new Boyfriend(870, 450, 'bf-sky');
 					dad = new Character(0, 100, 'tricky');				
 				}
+
 				if (SONG.song.toLowerCase() == 'ugh')
-				{
-					dad = new Character(0, 100, 'bf-sky');
-					boyfriend = new Boyfriend(870, 450, 'bf-exgf');
-					dad = new Character(0, 100, 'mom');
-					boyfriend = new Boyfriend(870, 450, 'dad');
-					dad = new Character(0, 100, 'hd-senpaiangry');
-					dad = new Character(0, 100, 'hd-senpai');
+				{				
+					boyfriend = new Boyfriend(870, 450, 'bf-exgf');	
 					boyfriend = new Boyfriend(870, 450, 'monika');
 					dad = new Character(0, 100, 'whittyCrazy');
-					dad = new Character(0, 100, 'cassandra');
-					boyfriend = new Boyfriend(870, 450, 'pico');
-					dad = new Character(0, 100, 'bf-annie');
+					dad = new Character(0, 100, 'cassandra');		
 					boyfriend = new Boyfriend(870, 450, 'playable-garcello');
 				}
 				
@@ -2471,7 +2547,20 @@ class PlayState extends MusicBeatState
 				dad = new Character(dad.x, dad.y, SONG.player2);
 				boyfriend = new Boyfriend(boyfriend.x, boyfriend.y, SONG.player1);
 			}	
-		}
+		}	
+
+		if (curStage == 'spooky')
+		{
+			if (SONG.song.toLowerCase() == 'haachama')
+			{
+				dad = new Character(100, 150, 'opheebop');
+				boyfriend = new Boyfriend(100, 150, 'pumpkinpie');
+				dad = new Character(100, 150, 'crazygf');
+				boyfriend = new Boyfriend(100, 150, 'drunk-annie');
+				dad = new Character(dad.x, dad.y, SONG.player2);
+				boyfriend = new Boyfriend(boyfriend.x, boyfriend.y, SONG.player1);
+			}	
+		}	
 
 		if (curStage == 'schoolnoon')
 		{
@@ -2944,6 +3033,7 @@ class PlayState extends MusicBeatState
 				boyfriend.x += 40;
 				boyfriend.y -= 75;
 			case 'monster' | 'monster-christmas':
+				boyfriend.x += 100;
 				boyfriend.y -= 250;
 			case 'haachama':
 				boyfriend.y -= 250;
@@ -3038,6 +3128,9 @@ class PlayState extends MusicBeatState
 
 		if (curStage == 'stageruv')
 			add(pillarbroke);
+
+		if (curStage == 'philly-wire')
+			add(melandperi);
 
 		add(dad);
 		add(boyfriend);
@@ -4515,7 +4608,7 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-			case 'philly':
+			case 'philly' | 'phillyannie' | 'philly-wire':
 				if (trainMoving)
 				{
 					trainFrameTiming += elapsed;
@@ -8443,9 +8536,9 @@ class PlayState extends MusicBeatState
 					iconP2.animation.play('pico');
 				case 104:
 					remove(boyfriend);
-					boyfriend = new Boyfriend(810, 450, 'bf-senpai');
+					boyfriend = new Boyfriend(810, 100, 'hd-senpaiangry');
 					add(boyfriend);
-					iconP1.animation.play('bf-senpai');
+					iconP1.animation.play('hd-senpaiangry');
 				case 128:
 					remove(dad);
 					dad = new Character(-55, 75, 'garcello');
@@ -9859,6 +9952,9 @@ class PlayState extends MusicBeatState
 			case 'emptystage':
 				monikaFinaleBG.animation.play('idle');
 
+			case 'philly-wire':
+				melandperi.dance();
+
 			case 'tank':
                 tankWatchtower.dance();
 				tank0.animation.play('idle', true);
@@ -9889,7 +9985,7 @@ class PlayState extends MusicBeatState
 
 				if (FlxG.random.bool(10) && fastCarCanDrive)
 					fastCarDrive();
-			case "philly":
+			case "philly" | "philly-wire":
 				if (!trainMoving)
 					trainCooldown += 1;
 

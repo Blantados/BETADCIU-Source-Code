@@ -247,7 +247,14 @@ class HealthIcon extends FlxSprite
 		animation.add('cj-ruby', [318, 319], 0, false, isPlayer);
 		animation.add('gf-demon', [320, 17], 0, false, isPlayer);
 		animation.add('dad-happy', [12, 321], 0, false, isPlayer);
-		animation.add('hex-virus', [322, 323], 0, false, isPlayer);
+		animation.add('bob2', [322, 323], 0, false, isPlayer);
+		animation.add('bosip', [324, 325], 0, false, isPlayer);
+		animation.add('peri', [326, 327], 0, false, isPlayer);
+		animation.add('bana', [328, 329], 0, false, isPlayer);
+		animation.add('mel', [330, 331], 0, false, isPlayer);
+		animation.add('cg5', [332, 333], 0, false, isPlayer);
+		animation.add('pumpkinpie', [334, 335], 0, false, isPlayer);
+		animation.add('mia', [336, 337], 0, false, isPlayer);
 
 		animation.play(char);
 
