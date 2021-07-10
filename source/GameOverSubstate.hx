@@ -99,6 +99,18 @@ class GameOverSubstate extends MusicBeatSubstate
 		{
 			FlxG.sound.music.stop();
 
+			if (PlayState.upScrollEvent || PlayState.downScrollEvent)
+			{
+				FlxG.save.data.downscroll = !FlxG.save.data.downscroll;
+				PlayState.upScrollEvent = false;
+				PlayState.downScrollEvent = false;
+			}
+
+			if (PlayState.isPixel)
+			{
+				PlayState.isPixel = false;
+			}
+
 			if (PlayState.isStoryMode)
 				FlxG.switchState(new StoryMenuState());
 			else if (PlayState.isBETADCIU)
@@ -143,6 +155,17 @@ class GameOverSubstate extends MusicBeatSubstate
 			bf.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
 			FlxG.sound.play(Paths.music('gameOverEnd' + stageSuffix));
+			if (PlayState.upScrollEvent || PlayState.downScrollEvent)
+			{
+				FlxG.save.data.downscroll = !FlxG.save.data.downscroll;
+				PlayState.upScrollEvent = false;
+				PlayState.downScrollEvent = false;
+			}
+
+			if (PlayState.isPixel)
+			{
+				PlayState.isPixel = false;
+			}
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)
 			{
 				FlxG.camera.fade(FlxColor.BLACK, 2, false, function()

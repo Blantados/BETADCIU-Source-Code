@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="peri_assets.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="peri down0000" x="0" y="0" width="517" height="794"/>
+	<SubTexture name="peri down0001" x="0" y="0" width="517" height="794"/>
+	<SubTexture name="peri down0002" x="517" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0003" x="517" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0004" x="1031" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0005" x="1031" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0006" x="1031" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0007" x="1031" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0008" x="1031" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0009" x="1031" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri down0010" x="1031" y="0" width="514" height="794" frameX="0" frameY="0" frameWidth="517" frameHeight="794"/>
+	<SubTexture name="peri idle0000" x="1545" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0001" x="1545" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0002" x="2059" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0003" x="2059" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0004" x="2573" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0005" x="2573" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0006" x="3087" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0007" x="3087" y="0" width="514" height="794"/>
+	<SubTexture name="peri idle0008" x="0" y="794" width="514" height="794"/>
+	<SubTexture name="peri idle0009" x="0" y="794" width="514" height="794"/>
+	<SubTexture name="peri idle0010" x="0" y="794" width="514" height="794"/>
+	<SubTexture name="peri idle0011" x="0" y="794" width="514" height="794"/>
+	<SubTexture name="peri idle0012" x="0" y="794" width="514" height="794"/>
+	<SubTexture name="peri idle0013" x="0" y="794" width="514" height="794"/>
+	<SubTexture name="peri left0000" x="514" y="794" width="520" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0001" x="514" y="794" width="520" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0002" x="1034" y="794" width="514" height="798" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0003" x="1034" y="794" width="514" height="798" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0004" x="1548" y="794" width="514" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0005" x="1548" y="794" width="514" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0006" x="1548" y="794" width="514" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0007" x="1548" y="794" width="514" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0008" x="1548" y="794" width="514" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0009" x="1548" y="794" width="514" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri left0010" x="1548" y="794" width="514" height="797" frameX="0" frameY="0" frameWidth="520" frameHeight="798"/>
+	<SubTexture name="peri right0000" x="2062" y="794" width="574" height="802"/>
+	<SubTexture name="peri right0001" x="2062" y="794" width="574" height="802"/>
+	<SubTexture name="peri right0002" x="2636" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0003" x="2636" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0004" x="3191" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0005" x="3191" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0006" x="3191" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0007" x="3191" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0008" x="3191" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0009" x="3191" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri right0010" x="3191" y="794" width="555" height="802" frameX="0" frameY="0" frameWidth="574" frameHeight="802"/>
+	<SubTexture name="peri up0000" x="0" y="1596" width="514" height="811" frameX="0" frameY="0" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0001" x="0" y="1596" width="514" height="811" frameX="0" frameY="0" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0002" x="514" y="1596" width="526" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0003" x="514" y="1596" width="526" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0004" x="1040" y="1596" width="530" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0005" x="1040" y="1596" width="530" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0006" x="1040" y="1596" width="530" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0007" x="1040" y="1596" width="530" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0008" x="1040" y="1596" width="530" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0009" x="1040" y="1596" width="530" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+	<SubTexture name="peri up0010" x="1040" y="1596" width="530" height="802" frameX="0" frameY="-9" frameWidth="530" frameHeight="811"/>
+</TextureAtlas>

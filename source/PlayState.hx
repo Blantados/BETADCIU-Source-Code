@@ -1685,7 +1685,36 @@ class PlayState extends MusicBeatState
 
 			case 'churchsarv':
 			{
-				defaultCamZoom = 0.8;
+				defaultCamZoom = 0.7;
+				curStage = 'churchsarv';
+				bg = new FlxSprite(-500, -850).loadGraphic(Paths.image('sacredmass/churchsarv/bg'));
+				bg.setGraphicSize(Std.int(bg.width * 1.2));
+				bg.updateHitbox();
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.9, 0.9);
+				bg.active = false;
+				add(bg);
+
+				var floor:FlxSprite = new FlxSprite(-500, -850).loadGraphic(Paths.image('sacredmass/churchsarv/floor'));
+				floor.setGraphicSize(Std.int(floor.width * 1.2));
+				floor.updateHitbox();
+				floor.antialiasing = true;
+				floor.scrollFactor.set(0.9, 0.9);
+				floor.active = false;
+				add(floor);
+
+				var pillars:FlxSprite = new FlxSprite(-500, -850).loadGraphic(Paths.image('sacredmass/churchsarv/pillars'));
+				pillars.setGraphicSize(Std.int(pillars.width * 1.2));
+				pillars.updateHitbox();
+				pillars.antialiasing = true;
+				pillars.scrollFactor.set(0.9, 0.9);
+				pillars.active = false;
+				add(pillars);
+			}
+
+			case 'churchsarvworship':
+			{
+				defaultCamZoom = 0.7;
 				curStage = 'churchsarv';
 				bg = new FlxSprite(-500, -850).loadGraphic(Paths.image('sacredmass/churchsarv/bg'));
 				bg.setGraphicSize(Std.int(bg.width * 1.2));
@@ -2659,7 +2688,7 @@ class PlayState extends MusicBeatState
 					tweenCamIn();
 				}
 
-			case "spooky" | "gura-amelia":
+			case "spooky" | "gura-amelia" | "sunday":
 				dad.y += 200;
 			case "hex-virus":
 				dad.y += 100;
@@ -2781,7 +2810,18 @@ class PlayState extends MusicBeatState
 				dad.y += 100;
 		}
 
-
+		if (!curStage.contains('school'))
+		{
+			switch (SONG.player2)
+			{
+				case 'bf-pixel' | 'bf-pixeld4BSide' | 'bf-pixeld4':
+					dad.x += 300;
+					dad.y += 150;
+				case 'senpai' | 'senpai-giddy' | 'senpai-angry' | 'monika' | 'monika-angry':
+					dad.x += 150;
+					dad.y -= 50;
+			}
+		}
 		
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
 
@@ -2967,6 +3007,9 @@ class PlayState extends MusicBeatState
 			case 'ruby-worried':
 				boyfriend.y -= 510;
 				boyfriend.x += 200;
+			case 'ruby':
+				boyfriend.x += 100;
+				boyfriend.y -= 350;
 		}
 
 		if (!curStage.contains('school'))

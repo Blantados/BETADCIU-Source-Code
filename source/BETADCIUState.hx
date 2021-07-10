@@ -37,6 +37,8 @@ class BETADCIUState extends MusicBeatState
 	public static var downscroll:Bool = false;
 	public static var mainSecret:Bool = false;
 	public static var bonusSecret:Bool = false;
+	var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+	public static var bgcol:FlxColor = 0xFF330000;
 
 	private var iconArray:Array<HealthIcon> = [];
 
@@ -69,7 +71,8 @@ class BETADCIUState extends MusicBeatState
 
 		// LOAD CHARACTERS
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.scrollFactor.x = 0;
+		bg.color = bgcol;
 		add(bg);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();

@@ -356,6 +356,7 @@ class ChartingState extends MusicBeatState
 	var stepperSectionBPM:FlxUINumericStepper;
 	var check_altAnim:FlxUICheckBox;
 	var check_bfAltAnim:FlxUICheckBox;
+	var check_crossFade:FlxUICheckBox;
 
 	function addSectionUI():Void
 	{
@@ -387,10 +388,7 @@ class ChartingState extends MusicBeatState
 			for (i in 0..._song.notes[curSection].sectionNotes.length)
 			{
 				var note = _song.notes[curSection].sectionNotes[i];
-				
-				var half = keyAmmo[_song.mania];
-				var nT = Math.floor(note[1] / (half * 2));
-				note[1] = (note[1] + half) % (half * 2) + nT * (half * 2);
+				note[1] = (note[1] + 4) % 8;
 				_song.notes[curSection].sectionNotes[i] = note;
 				updateGrid();
 			}
@@ -403,8 +401,11 @@ class ChartingState extends MusicBeatState
 		check_altAnim = new FlxUICheckBox(10, 400, null, null, "Alternate Animation", 100);
 		check_altAnim.name = 'check_altAnim';
 
-		check_bfAltAnim = new FlxUICheckBox(10, 450, null, null, "BF Alternate Animation", 100);
+		check_bfAltAnim = new FlxUICheckBox(10, 430, null, null, "BF Alternate Animation", 100);
 		check_bfAltAnim.name = 'check_bfAltAnim';
+
+		check_crossFade = new FlxUICheckBox(10, 460, null, null, "Cross Fade", 100);
+		check_crossFade.name = 'check_crossFade';
 
 		check_changeBPM = new FlxUICheckBox(10, 60, null, null, 'Change BPM', 100);
 		check_changeBPM.name = 'check_changeBPM';
@@ -417,6 +418,7 @@ class ChartingState extends MusicBeatState
 		tab_group_section.add(check_mustHitSection);
 		tab_group_section.add(check_altAnim);
 		tab_group_section.add(check_bfAltAnim);
+		tab_group_section.add(check_crossFade);
 		tab_group_section.add(check_changeBPM);
 		tab_group_section.add(copyButton);
 		tab_group_section.add(clearSectionButton);
@@ -528,6 +530,8 @@ class ChartingState extends MusicBeatState
 					_song.notes[curSection].altAnim = check.checked;
 				case "BF Alternate Animation":
 					_song.notes[curSection].bfAltAnim = check.checked;
+				case "Cross Fade":
+					_song.notes[curSection].crossFade = check.checked;
 			}
 		}
 		else if (id == FlxUINumericStepper.CHANGE_EVENT && (sender is FlxUINumericStepper))
@@ -1012,6 +1016,7 @@ class ChartingState extends MusicBeatState
 		check_mustHitSection.checked = sec.mustHitSection;
 		check_altAnim.checked = sec.altAnim;
 		check_bfAltAnim.checked = sec.bfAltAnim;
+		check_crossFade.checked = sec.crossFade;
 		check_changeBPM.checked = sec.changeBPM;
 		stepperSectionBPM.value = sec.bpm;
 	}
@@ -1137,7 +1142,8 @@ class ChartingState extends MusicBeatState
 			sectionNotes: [],
 			typeOfSection: 0,
 			altAnim: false,
-			bfAltAnim: false
+			bfAltAnim: false,
+			crossFade: false
 		};
 
 		_song.notes.push(sec);
@@ -1149,7 +1155,7 @@ class ChartingState extends MusicBeatState
 
 		for (i in _song.notes[curSection].sectionNotes)
 		{
-			if (i.strumTime == note.strumTime && i.noteData % (keyAmmo[_song.mania]) == note.noteData)
+			if (i.strumTime == note.strumTime && i.noteData % 4 == note.noteData)
 			{
 				curSelectedNote = _song.notes[curSection].sectionNotes[swagNum];
 			}
@@ -1167,7 +1173,7 @@ class ChartingState extends MusicBeatState
 			lastNote = note;
 			for (i in _song.notes[curSection].sectionNotes)
 			{
-				if (i[0] == note.strumTime && i[1] % (keyAmmo[_song.mania]) == note.noteData)
+				if (i[0] == note.strumTime && i[1] % 4 == note.noteData)
 				{
 					_song.notes[curSection].sectionNotes.remove(i);
 				}
@@ -1201,7 +1207,7 @@ class ChartingState extends MusicBeatState
 		
 		var noteSus = 0;
 
-		_song.notes[curSection].sectionNotes.push([noteStrum, noteData + keyAmmo[_song.mania] * 2, noteSus]);
+		_song.notes[curSection].sectionNotes.push([noteStrum, noteData, noteSus]);
 
 		curSelectedNote = _song.notes[curSection].sectionNotes[_song.notes[curSection].sectionNotes.length - 1];
 

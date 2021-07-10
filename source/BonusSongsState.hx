@@ -67,6 +67,8 @@ class BonusSongsState extends MusicBeatState
 		addWeek(['Five-Nights' ,'FNFVSEDDSWORLD', 'Accidental-Bop'], 7, ['hex', 'tord2', 'tord2']);
 		addWeek(['Resketch', 'Sharkventure', 'Gura-Nazel'], 8, ['pico-m', 'liz', 'gura-amelia']);
 		addWeek(['Expurgation', 'Milf-G', 'Demon-Training'], 9, ['cjClone', 'rosie', 'dad']);
+		addWeek(['Bopeebo Rumble'], 9, ['monika']);
+		addWeek(['Unholy-Worship'], 10, ['dad']);
 	
 		// LOAD MUSIC
 

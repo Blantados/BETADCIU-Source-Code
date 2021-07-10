@@ -2086,34 +2086,31 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 			case 'sunday':
-				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/sunday');
+				tex = Paths.getSparrowAtlas('characters/sunday_assets');
 				frames = tex;
-				animation.addByPrefix('idle', 'Dad idle dance', 24);
-				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
-				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
+				animation.addByPrefix('idle-alt', 'sunday alt idle', 24, true);
+				animation.addByPrefix('idle', 'sunday idle', 24, true);
+				animation.addByPrefix('singUP', 'sunday up', 24, false);
+				animation.addByPrefix('singUP-alt', 'sunday alt up', 24, false);
+				animation.addByPrefix('singDOWN', 'sunday down', 24, false);
+				animation.addByPrefix('singLEFT', 'sunday left', 24, false);
+				animation.addByPrefix('singRIGHT', 'sunday right', 24, false);
 
-				if (isPlayer)
-				{
-					addOffset('idle');
-					addOffset("singUP", -12, 50);
-					addOffset("singRIGHT", -40, 10);
-					addOffset("singLEFT", 40, 27);
-					addOffset("singDOWN", 40, -30);
-				}	
-
-				else
-				{
-					addOffset('idle');
-					addOffset("singUP", -6, 50);
-					addOffset("singRIGHT", 0, 27);
-					addOffset("singLEFT", -10, 10);
-					addOffset("singDOWN", 0, -30);
-				}
+				addOffset('idle',1,1);
+				addOffset('idle-alt',1,1);
+				addOffset("singDOWN", 157, -27);
+				addOffset("singRIGHT", -71,-10);
+				addOffset("singUP", 137, 147);
+				addOffset("singUP-alt", 137, 147);
+				addOffset("singLEFT", 39,-1);	
 				
-				playAnim('idle');
+				if (PlayState.SONG.song.toLowerCase() == "valentine")
+				{
+					playAnim('idle-alt');
+				}else
+				{
+					playAnim('idle');
+				}
 
 			case 'pompom-mad':
 				// DAD ANIMATION LOADING CODE
@@ -6738,6 +6735,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'ruby Sing Note LEFT0', 24, false);
 				animation.addByPrefix('singRIGHT', 'ruby Sing Note RIGHT0', 24, false);
 				animation.addByPrefix('singDOWN', 'ruby Sing Note DOWN0', 24, false);
+				animation.addByPrefix('hey', 'ruby hey0', 24, false);
 				
 				if (isPlayer)
 				{
@@ -6745,6 +6743,7 @@ class Character extends FlxSprite
 					addOffset("singUP", 1, 42);
 					addOffset("singLEFT", 4, 19);
 					addOffset("singRIGHT", 18, 0);
+					addOffset("hey", 24, 19);
 					addOffset("singDOWN", 11, -38);
 				}
 
@@ -6753,6 +6752,7 @@ class Character extends FlxSprite
 					addOffset('idle');
 					addOffset("singUP", -18, 42);
 					addOffset("singRIGHT", -17, 19);
+					addOffset("hey", -17, 19);
 					addOffset("singLEFT", -22, 0);
 					addOffset("singDOWN", -23, -38);
 				}

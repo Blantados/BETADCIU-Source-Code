@@ -235,12 +235,19 @@ class ModchartState
 
 	public static var luaSprites:Map<String,FlxSprite> = [];
 
-	function changeGFCharacter(id:String, x:Float, y:Float)
+	function changeGFCharacter(id:String, x:Float, y:Float, fix:Bool)
 	{		
 					PlayState.instance.removeObject(PlayState.gf);
 					PlayState.instance.destroyObject(PlayState.gf);
 					PlayState.gf = new Character(x, y, id);
 					PlayState.instance.addObject(PlayState.gf);
+					if (fix)
+					{
+						PlayState.instance.removeObject(PlayState.dad);
+						PlayState.instance.addObject(PlayState.dad);
+						PlayState.instance.removeObject(PlayState.boyfriend);
+						PlayState.instance.addObject(PlayState.boyfriend);
+					}
 	}
 
 	function changeDadCharacter(id:String, x:Float, y:Float)
