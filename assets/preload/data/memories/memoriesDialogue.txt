@@ -1,0 +1,40 @@
+:musicloop:dialogue/dialoguemusic
+:bg:cutscenes/intro1-3
+:soundoverwrite:dialogVoice/mem/1
+:bb-3:Alright, alright. As much as I hate to say it...
+:soundoverwritestop:
+:soundoverwrite:dialogVoice/mem/2
+:bb-2:You might actually be on my level.
+:soundoverwritestop:
+:sound:bfText
+:enableTypeSound:
+:bf-1:Bee bop!
+:disableTypeSound:
+:soundoverwrite:dialogVoice/mem/3
+:bb-3:But hey, at least I don't gotta worry about keeping relationships and chicks.
+:soundoverwritestop:
+:soundoverwrite:dialogVoice/mem/4
+:bb-2:I've got the night, the stars, and my little bro to keep me goin'!
+:soundoverwritestop:
+:soundoverwrite:dialogVoice/mem/5
+:bb-1:Next song, let's go!
+:soundoverwritestop:
+:enableTypeSound:
+:bf-3:..bep?
+:disableTypeSound:
+:soundoverwrite:dialogVoice/mem/6
+:bb-1:What, worried about me already?
+:soundoverwritestop:
+:soundoverwrite:dialogVoice/mem/7
+:bb-2:Come on man, we've only done two songs!
+:soundoverwritestop:
+:soundoverwrite:dialogVoice/mem/8
+:bb-3:Pfft- my heart can take it!
+:soundoverwritestop:
+:soundoverwrite:dialogVoice/mem/9
+:bb-2:As IF I'm backing down from a rap battle with YOU!
+:soundoverwritestop:
+:soundoverwrite:dialogVoice/mem/10
+:bb-2:Let's.. fuckin.. GO!
+:soundoverwritestop:
+:musicstop:

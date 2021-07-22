@@ -47,7 +47,7 @@ class NoteSplash extends FlxSprite
     override public function new()
     {
     	super();
-    	frames = (Paths.getSparrowAtlas("noteSplashes"));
+    	frames = (Paths.getSparrowAtlas("notestuff/noteSplashes"));
     	//impact 1
     	animation.addByPrefix("note1-0", "note impact 1  blue", 24, false);
     	animation.addByPrefix("note2-0", "note impact 1 green", 24, false);

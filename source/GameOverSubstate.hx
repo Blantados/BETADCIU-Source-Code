@@ -57,7 +57,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				daBf = 'bf4';
 			case 'bf5':	
 				daBf = 'bf5';
-			case 'bf-aloe':	
+			case 'bf-aloe' | 'bf-aloe-confused':	
 				daBf = 'bf-aloe';
 			case 'bf-gf' | 'bf-gf-demon':	
 				daBf = 'bf-gf';	

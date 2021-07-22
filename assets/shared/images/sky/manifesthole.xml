@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="manifesthole.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="manifest hole0000" x="0" y="0" width="1229" height="533" pivotX="616" pivotY="268" frameX="-1" frameY="-1" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0001" x="1239" y="0" width="1229" height="533" frameX="-1" frameY="-1" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0002" x="2478" y="0" width="1229" height="533" frameX="0" frameY="0" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0003" x="0" y="543" width="1229" height="533" frameX="0" frameY="0" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0004" x="0" y="543" width="1229" height="533" frameX="0" frameY="0" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0005" x="0" y="543" width="1229" height="533" frameX="0" frameY="0" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0006" x="0" y="543" width="1229" height="533" frameX="0" frameY="0" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0007" x="0" y="0" width="1229" height="533" frameX="-1" frameY="-1" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0008" x="0" y="0" width="1229" height="533" frameX="-1" frameY="-1" frameWidth="1230" frameHeight="534"/>
+	<SubTexture name="manifest hole0009" x="0" y="0" width="1229" height="533" frameX="-1" frameY="-1" frameWidth="1230" frameHeight="534"/>
+</TextureAtlas>

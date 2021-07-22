@@ -21,7 +21,7 @@ class PauseSubState extends MusicBeatSubstate
 {
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
-	var menuItems:Array<String> = ['Resume', 'Restart Song', 'Exit to menu'];
+	var menuItems:Array<String> = ['Resume', 'Restart Song', 'Restart with Cutscene', 'Exit to menu'];
 	var curSelected:Int = 0;
 
 	var pauseMusic:FlxSound;
@@ -160,7 +160,7 @@ class PauseSubState extends MusicBeatSubstate
 				{
 					grpMenuShit.clear();
 
-					menuItems = ['Restart Song', 'Exit to menu'];
+					menuItems = ['Restart Song', 'Restart with Cutscene', 'Exit to menu'];
 
 					for (i in 0...menuItems.length)
 					{
@@ -188,6 +188,18 @@ class PauseSubState extends MusicBeatSubstate
 					close();
 				case "Restart Song":
 					FlxG.resetState();
+					PlayState.showCutscene = false;
+					PlayState.isPixel = false;
+					if (PlayState.SONG.song == 'Takeover')
+					{
+						if (PlayState.downScrollEvent ==  true || PlayState.upScrollEvent ==  true)
+							FlxG.save.data.downscroll = !FlxG.save.data.downscroll;
+						else
+							FlxG.save.data.downscroll = FlxG.save.data.downscroll;
+					}
+				case "Restart with Cutscene":
+					FlxG.resetState();
+					PlayState.showCutscene = true;
 					PlayState.isPixel = false;
 					if (PlayState.SONG.song == 'Takeover')
 					{
@@ -198,6 +210,7 @@ class PauseSubState extends MusicBeatSubstate
 					}
 				case "Exit to menu":
 					PlayState.isPixel = false;
+					PlayState.showCutscene = false;
 					if (PlayState.SONG.song == 'Takeover')
 					{
 						if (PlayState.downScrollEvent ==  true || PlayState.upScrollEvent ==  true)

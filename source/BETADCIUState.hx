@@ -9,7 +9,9 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import lime.utils.Assets;
-
+import flixel.effects.FlxFlicker;
+import flixel.tweens.FlxTween;
+import flixel.addons.ui.FlxInputText;
 
 #if desktop
 import Discord.DiscordClient;
@@ -38,6 +40,11 @@ class BETADCIUState extends MusicBeatState
 	public static var mainSecret:Bool = false;
 	public static var bonusSecret:Bool = false;
 
+	var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+	public static var bgcol:FlxColor = 0xFFFFFFFF;
+	public static var bgcoldown:FlxColor = 0xFFFFFFFF;
+	public static var bgcolup:FlxColor = 0xFFFFFFFF;
+
 	private var iconArray:Array<HealthIcon> = [];
 
 	override function create()
@@ -47,6 +54,12 @@ class BETADCIUState extends MusicBeatState
 		{
 			if (!FlxG.sound.music.playing)
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+		}
+
+		if (FlxG.sound.music.volume == 0)
+		{
+			FlxG.sound.music.volume = 1;
+			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 		}
 
 		 #if desktop
@@ -69,8 +82,11 @@ class BETADCIUState extends MusicBeatState
 
 		// LOAD CHARACTERS
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.scrollFactor.x = 0;
+		bg.color = bgcol;
 		add(bg);
+
+	//	FlxTween.color(bg, 0.5, bgcol, bgcolup);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
@@ -174,6 +190,30 @@ class BETADCIUState extends MusicBeatState
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
 
+		/*switch(songs[curSelected].songName)
+		{
+			case 'Ugh':
+				bgcol = 0xFFE78B07;
+				bgcoldown = 0xFFE78B07;
+				bgcolup = 0xFFE78B07;
+			case 'Guns':
+				bgcol = 0xFFE78B07;
+				bgcoldown = 0xFFFF2043;
+				bgcolup = 0xFFE78B07;
+			case 'Animal':
+				bgcol = 0xFFFF2043;
+				bgcoldown = 0xFF00FF90;
+				bgcolup = 0xFFE78B07;
+			case 'Nerves':
+				bgcol = 0xFF00FF90;
+				bgcoldown = 0xFF00FF90;
+				bgcolup = 0xFFFF2043;
+			default:
+				bgcol = 0xFFFFFFFF;
+				bgcoldown = 0xFFFFFFFF;
+				bgcolup = 0xFFFFFFFF;
+		}*/
+
 		if(FlxG.keys.pressed.H && FlxG.keys.pressed.A && FlxG.keys.pressed.C && FlxG.keys.pressed.M)
 		{
 			FlxG.sound.music.stop();
@@ -197,10 +237,12 @@ class BETADCIUState extends MusicBeatState
 		if (upP)
 		{
 			changeSelection(-1);
+		//	FlxTween.color(bg, 0.5, bgcol, bgcolup);
 		}
 		if (downP)
 		{
 			changeSelection(1);
+		//	FlxTween.color(bg, 0.5, bgcol, bgcoldown);
 		}
 
 		if (controls.BACK)
@@ -222,7 +264,23 @@ class BETADCIUState extends MusicBeatState
 			
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
-			LoadingState.loadAndSwitchState(new PlayState());
+			var llll = FlxG.sound.play(Paths.sound('confirmMenu')).length;
+			grpSongs.forEach(function(e:Alphabet){
+				if (e.text != songs[curSelected].songName){
+					FlxTween.tween(e, {x: -6000}, llll / 1000,{onComplete:function(e:FlxTween){
+					
+						if (FlxG.keys.pressed.ALT){
+							FlxG.switchState(new ChartingState());
+						}else{
+							LoadingState.loadAndSwitchState(new PlayState());
+						}
+					}});
+				}else{
+					FlxFlicker.flicker(e);
+					trace(curSelected);
+					FlxTween.tween(e, {x: e.x + 20}, llll/1000);
+				}	
+			});
 		}
 
 		#if !switch

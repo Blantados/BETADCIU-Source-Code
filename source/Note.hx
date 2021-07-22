@@ -30,6 +30,7 @@ class Note extends FlxSprite
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
 	public var noteType:Int = 0;
+	public var noteTypeCheck:String = '';
 
 	public var noteScore:Float = 1;
 
@@ -40,6 +41,8 @@ class Note extends FlxSprite
 	public static var RED_NOTE:Int = 3;
 
 	public var rating:String = "shit";
+
+	public var dadChar:String = PlayState.dad.curCharacter
 
 	public function new(_strumTime:Float, _noteData:Int, ?_prevNote:Note, ?sustainNote:Bool = false,  ?noteType:Int = 0)
 	{
@@ -89,7 +92,6 @@ class Note extends FlxSprite
 		}
 
 		//defaults if no noteStyle was found in chart
-		var noteTypeCheck:String = 'normal';
 
 		if (PlayState.SONG.noteStyle == null) {
 			switch(PlayState.storyWeek) {case 6: noteTypeCheck = 'pixel';}
@@ -98,7 +100,7 @@ class Note extends FlxSprite
 		switch (noteTypeCheck)
 		{
 			case 'pixel':
-				loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
+				loadGraphic(Paths.image('notestuff/arrows-pixels'), true, 17, 17);
 
 				animation.add('greenScroll', [6]);
 				animation.add('redScroll', [7]);
@@ -107,7 +109,7 @@ class Note extends FlxSprite
 
 				if (isSustainNote)
 				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrowEnds'), true, 7, 6);
+					loadGraphic(Paths.image('notestuff/arrowEnds'), true, 7, 6);
 
 					animation.add('purpleholdend', [4]);
 					animation.add('greenholdend', [6]);
@@ -124,7 +126,7 @@ class Note extends FlxSprite
 				updateHitbox();
 
 			case 'pixel-corrupted':
-				loadGraphic(Paths.image('weeb/pixelUI/arrows-pixelscorrupted'), true, 17, 17);
+				loadGraphic(Paths.image('notestuff/arrows-pixelscorrupted'), true, 17, 17);
 
 				animation.add('greenScroll', [6]);
 				animation.add('redScroll', [7]);
@@ -133,7 +135,7 @@ class Note extends FlxSprite
 
 				if (isSustainNote)
 				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrowEndscorrupted'), true, 7, 6);
+					loadGraphic(Paths.image('notestuff/arrowEndscorrupted'), true, 7, 6);
 
 					animation.add('purpleholdend', [4]);
 					animation.add('greenholdend', [6]);
@@ -150,7 +152,7 @@ class Note extends FlxSprite
 				updateHitbox();
 
 			case 'kapi':
-				frames = Paths.getSparrowAtlas('KAPINOTE_assets');
+				frames = Paths.getSparrowAtlas('notestuff/KAPINOTE_assets');
 
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');
@@ -169,7 +171,7 @@ class Note extends FlxSprite
 
 				if (pixel)
 				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
+					loadGraphic(Paths.image('notestuff/arrows-pixels'), true, 17, 17);
 
 					animation.add('greenScroll', [6]);
 					animation.add('redScroll', [7]);
@@ -178,7 +180,7 @@ class Note extends FlxSprite
 
 					if (isSustainNote)
 					{
-						loadGraphic(Paths.image('weeb/pixelUI/arrowEnds'), true, 7, 6);
+						loadGraphic(Paths.image('notestuff/arrowEnds'), true, 7, 6);
 
 						animation.add('purpleholdend', [4]);
 						animation.add('greenholdend', [6]);
@@ -201,7 +203,7 @@ class Note extends FlxSprite
 				antialiasing = true;	
 
 			case 'auditor':
-				frames = Paths.getSparrowAtlas('NOTE_assets');
+				frames = Paths.getSparrowAtlas('notestuff/NOTE_assets');
 
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');
@@ -220,7 +222,7 @@ class Note extends FlxSprite
 
 				if (burning)
 				{
-					frames = Paths.getSparrowAtlas('tricky/fourth/mech/ALL_deathnotes');
+					frames = Paths.getSparrowAtlas('notestuff/ALL_deathnotes');
 					animation.addByPrefix('greenScroll', 'Green Arrow');
 					animation.addByPrefix('redScroll', 'Red Arrow');
 					animation.addByPrefix('blueScroll', 'Blue Arrow');
@@ -232,7 +234,7 @@ class Note extends FlxSprite
 				antialiasing = true;	
 
 			case 'normal':
-				frames = Paths.getSparrowAtlas('NOTE_assets');
+				frames = Paths.getSparrowAtlas('notestuff/NOTE_assets');
 
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');
@@ -255,7 +257,7 @@ class Note extends FlxSprite
 
 				if (pixel)
 				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
+					loadGraphic(Paths.image('notestuff/arrows-pixels'), true, 17, 17);
 
 					animation.add('greenScroll', [6]);
 					animation.add('redScroll', [7]);
@@ -264,7 +266,7 @@ class Note extends FlxSprite
 
 					if (isSustainNote)
 					{
-						loadGraphic(Paths.image('weeb/pixelUI/arrowEnds'), true, 7, 6);
+						loadGraphic(Paths.image('notestuff/arrowEnds'), true, 7, 6);
 
 						animation.add('purpleholdend', [4]);
 						animation.add('greenholdend', [6]);
@@ -284,7 +286,7 @@ class Note extends FlxSprite
 
 				else if (danger)
 				{
-					loadGraphic(Paths.image('warningNote'), true, 157, 154);
+					loadGraphic(Paths.image('notestuff/warningNote'), true, 157, 154);
 
 					animation.add('greenScroll', [0]);
 					animation.add('redScroll', [0]);
@@ -297,7 +299,7 @@ class Note extends FlxSprite
 				}
 
 			case 'bw':
-				frames = Paths.getSparrowAtlas('NOTE_assets_BW');
+				frames = Paths.getSparrowAtlas('notestuff/NOTE_assets_BW');
 
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');
@@ -320,7 +322,7 @@ class Note extends FlxSprite
 
 				if (pixel)
 				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
+					loadGraphic(Paths.image('notestuff/arrows-pixels'), true, 17, 17);
 
 					animation.add('greenScroll', [6]);
 					animation.add('redScroll', [7]);
@@ -329,7 +331,7 @@ class Note extends FlxSprite
 
 					if (isSustainNote)
 					{
-						loadGraphic(Paths.image('weeb/pixelUI/arrowEnds'), true, 7, 6);
+						loadGraphic(Paths.image('notestuff/arrowEnds'), true, 7, 6);
 
 						animation.add('purpleholdend', [4]);
 						animation.add('greenholdend', [6]);
@@ -348,7 +350,7 @@ class Note extends FlxSprite
 				}
 
 			case 'empty':
-				frames = Paths.getSparrowAtlas('Note_Assets_withPixel');
+				frames = Paths.getSparrowAtlas('notestuff/Note_Assets_withPixel');
 
 				if (pixel)
 				{
@@ -391,7 +393,7 @@ class Note extends FlxSprite
 				antialiasing = true;
 
 			default:
-				frames = Paths.getSparrowAtlas('NOTE_assets');
+				frames = Paths.getSparrowAtlas('notestuff/NOTE_assets');
 
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');
@@ -414,7 +416,7 @@ class Note extends FlxSprite
 
 				if (pixel)
 				{
-					loadGraphic(Paths.image('weeb/pixelUI/arrows-pixels'), true, 17, 17);
+					loadGraphic(Paths.image('notestuff/arrows-pixels'), true, 17, 17);
 
 					animation.add('greenScroll', [6]);
 					animation.add('redScroll', [7]);
@@ -423,7 +425,7 @@ class Note extends FlxSprite
 
 					if (isSustainNote)
 					{
-						loadGraphic(Paths.image('weeb/pixelUI/arrowEnds'), true, 7, 6);
+						loadGraphic(Paths.image('notestuff/arrowEnds'), true, 7, 6);
 
 						animation.add('purpleholdend', [4]);
 						animation.add('greenholdend', [6]);
@@ -439,6 +441,20 @@ class Note extends FlxSprite
 					setGraphicSize(Std.int(width * PlayState.daPixelZoom));
 					updateHitbox();
 					antialiasing = false;
+				}
+
+				else if (danger)
+				{
+					loadGraphic(Paths.image('notestuff/warningNote'), true, 157, 154);
+
+					animation.add('greenScroll', [0]);
+					animation.add('redScroll', [0]);
+					animation.add('blueScroll', [0]);
+					animation.add('purpleScroll', [0]);
+
+					setGraphicSize(Std.int(width * 0.7));
+					updateHitbox();
+					antialiasing = true;
 				}
 		}
 			

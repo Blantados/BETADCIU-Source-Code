@@ -19,6 +19,7 @@ class HealthIcon extends FlxSprite
 		animation.add('bf-car', [0, 1], 0, false, isPlayer);
 		animation.add('bf-christmas', [0, 1], 0, false, isPlayer);
 		animation.add('bf-fnf-switch', [0, 1], 0, false, isPlayer);
+		animation.add('bf-updike', [0, 1], 0, false, isPlayer);
 		animation.add('spooky', [2, 3], 0, false, isPlayer);
 		animation.add('bf-spooky', [2, 3], 0, false);
 		animation.add('pico', [4, 5], 0, false, isPlayer);
@@ -54,6 +55,8 @@ class HealthIcon extends FlxSprite
 		animation.add('sarvente', [42, 43], 0, false, isPlayer);
 		animation.add('ruv', [44, 45], 0, false, isPlayer);
 		animation.add('bf-sky', [46, 47], 0, false, isPlayer);
+		animation.add('sky-happy', [46, 47], 0, false, isPlayer);
+		animation.add('sky-purehappiness', [46], 0, false, isPlayer);
 		animation.add('drunk-annie', [48, 49], 0, false, isPlayer);
 		animation.add('matt', [50, 51], 0, false, isPlayer);
 		animation.add('miku', [52, 53], 0, false, isPlayer);
@@ -231,6 +234,7 @@ class HealthIcon extends FlxSprite
 		animation.add('hd-senpai-happy-bw', [279, 293], 0, false, isPlayer);
 		animation.add('ruby', [294, 295], 0, false, isPlayer);
 		animation.add('ruby-worried', [294, 295], 0, false, isPlayer);
+		animation.add('ruby-worried-night', [294, 295], 0, false, isPlayer);
 		animation.add('cjClone', [296, 297], 0, false, isPlayer);
 		animation.add('bf-m', [298, 299], 0, false, isPlayer);
 		animation.add('pico-m', [300, 301], 0, false, isPlayer);
@@ -255,9 +259,15 @@ class HealthIcon extends FlxSprite
 		animation.add('cg5', [332, 333], 0, false, isPlayer);
 		animation.add('pumpkinpie', [334, 335], 0, false, isPlayer);
 		animation.add('mia', [336, 337], 0, false, isPlayer);
+		animation.add('mia-wire', [338, 339], 0, false, isPlayer);
+		animation.add('bana-wire', [340, 341], 0, false, isPlayer);
+		animation.add('sarvente-worried-night', [342, 43], 0, false, isPlayer);
+		animation.add('bf-senpai-worried', [343, 41], 0, false, isPlayer);
+		animation.add('sky-annoyed', [47, 344], 0, false, isPlayer);
+		animation.add('bf-aloe-confused', [345, 171], 0, false, isPlayer);
 
 		animation.play(char);
-
+		
 		switch(char)
 		{
 			case 'bf-pixel' | 'bf-pixeld4' | 'bf-pixeld4BSide' |'senpai' | 'senpai-angry' | 'senpai-giddy' |'spirit' | 'bf-gf-pixel' | 'monika' | 'monika-angry':

@@ -1106,7 +1106,7 @@ class ChartingState extends MusicBeatState
 			{
 				note.burning = daNoteInfo > 7;
 			}
-			else if (PlayState.curStage == 'tank' || PlayState.curStage == 'garStage' || PlayState.curStage == 'eddhouse')
+			if (PlayState.curStage == 'tank' || PlayState.curStage == 'garStage' || PlayState.curStage == 'eddhouse')
 			{
 				note.danger = daNoteInfo > 7;
 			}

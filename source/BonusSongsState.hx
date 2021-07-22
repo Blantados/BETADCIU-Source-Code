@@ -9,6 +9,8 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import lime.utils.Assets;
+import flixel.effects.FlxFlicker;
+import flixel.tweens.FlxTween;
 
 
 #if desktop
@@ -47,6 +49,13 @@ class BonusSongsState extends MusicBeatState
 			}
 		 */
 
+		 if (FlxG.sound.music.volume == 0)
+		{
+			FlxG.sound.music.volume = 1;
+			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+		}
+			
+
 		 #if desktop
 		 // Updating Discord Rich Presence
 		 DiscordClient.changePresence("In BETADCIU Menu", null);
@@ -67,8 +76,9 @@ class BonusSongsState extends MusicBeatState
 		addWeek(['Five-Nights' ,'FNFVSEDDSWORLD', 'Accidental-Bop'], 7, ['hex', 'tord2', 'tord2']);
 		addWeek(['Resketch', 'Sharkventure', 'Gura-Nazel'], 8, ['pico-m', 'liz', 'gura-amelia']);
 		addWeek(['Expurgation', 'Milf-G', 'Demon-Training'], 9, ['cjClone', 'rosie', 'dad']);
-		addWeek(['Bopeebo Rumble', 'B3 Forever'], 9, ['monika', 'mia']);
-		addWeek(['Unholy-Worship'], 10, ['dad']);
+		addWeek(['B3 Forever', 'Get Out', 'Battle'], 9, ['mia', 'peri', 'monika']);
+		addWeek(['Unholy-Worship', 'Memories', 'Context'], 10, ['dad', 'sarvente-worried-night', 'sky-annoyed']);
+		
 	
 		// LOAD MUSIC
 
@@ -225,7 +235,27 @@ class BonusSongsState extends MusicBeatState
 
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
-			LoadingState.loadAndSwitchState(new PlayState());
+			var llll = FlxG.sound.play(Paths.sound('confirmMenu')).length;
+			grpSongs.forEach(function(e:Alphabet){
+				if (e.text != songs[curSelected].songName){
+					FlxTween.tween(e, {x: -6000}, llll / 1000,{onComplete:function(e:FlxTween){
+					
+						if (FlxG.keys.pressed.ALT){
+							FlxG.switchState(new ChartingState());
+						}else{
+							LoadingState.loadAndSwitchState(new PlayState());
+						}
+					}});
+				}else{
+					FlxFlicker.flicker(e);
+					trace(curSelected);
+					FlxTween.tween(e, {x: e.x + 20}, llll/1000);
+				}
+			
+			
+			
+			
+			});
 		}
 	}
 

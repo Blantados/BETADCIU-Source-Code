@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="016_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="016 idle0000" x="0" y="0" width="544" height="808" frameX="0" frameY="-5" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0001" x="0" y="0" width="544" height="808" frameX="0" frameY="-5" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0002" x="544" y="0" width="538" height="805" frameX="-3" frameY="-4" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0003" x="544" y="0" width="538" height="805" frameX="-3" frameY="-4" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0004" x="1082" y="0" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0005" x="1082" y="0" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0006" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0007" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0008" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0009" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0010" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0011" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0012" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0013" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+	<SubTexture name="016 idle0014" x="0" y="808" width="529" height="806" frameX="-8" frameY="0" frameWidth="544" frameHeight="813"/>
+</TextureAtlas>

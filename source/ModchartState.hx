@@ -20,7 +20,9 @@ import llua.LuaL;
 import flixel.FlxBasic;
 import flixel.FlxCamera;
 import flixel.FlxG;
+import flixel.FlxObject;
 import flixel.system.FlxSound;
+import flixel.effects.FlxFlicker;
 
 class ModchartState 
 {
@@ -512,6 +514,14 @@ class ModchartState
 				Lua_helper.add_callback(lua,"playSound", function(id:String) {
 					FlxG.sound.play(Paths.sound(id));
 				});
+
+				Lua_helper.add_callback(lua,"changeDadIcon", function(id:String) {
+					PlayState.instance.iconP2.animation.play(id);
+				});
+
+				Lua_helper.add_callback(lua,"changeBFIcon", function(id:String) {
+					PlayState.instance.iconP1.animation.play(id);
+				});
 				
 				Lua_helper.add_callback(lua,"restartVideo", function() {
 					GlobalVideo.get().restart();
@@ -707,6 +717,26 @@ class ModchartState
 				
 				Lua_helper.add_callback(lua,"playActorAnimation", function(id:String,anim:String,force:Bool = false,reverse:Bool = false) {
 					getActorByName(id).playAnim(anim, force, reverse);
+				});
+
+				Lua_helper.add_callback(lua,"playBGAnimation", function(id:String,anim:String,force:Bool = false,reverse:Bool = false) {
+					getActorByName(id).animation.play(anim, force, reverse);
+				});
+
+				Lua_helper.add_callback(lua,"setDadAltAnim", function(alt:String){
+					PlayState.dad.altAnim = alt;
+				});
+
+				Lua_helper.add_callback(lua,"setBFAltAnim", function (alt:String){
+					PlayState.boyfriend.bfAltAnim = alt;
+				});
+
+				Lua_helper.add_callback(lua,"setGFAltAnim", function(alt:String){
+					PlayState.gf.altAnim = alt;
+				});
+
+				Lua_helper.add_callback(lua,"flickerActor", function (id:FlxObject, duration:Float, interval:Float) {
+					FlxFlicker.flicker(id, duration, interval);
 				});
 	
 				Lua_helper.add_callback(lua,"setActorAlpha", function(alpha:Float,id:String) {

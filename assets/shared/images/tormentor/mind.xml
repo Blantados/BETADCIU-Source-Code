@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stageback.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tormentor Bf Stage0000" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0001" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0002" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0003" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0004" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0005" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0006" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0007" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0008" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0009" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0010" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0011" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0012" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0013" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0014" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0015" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0016" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0017" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0018" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0019" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0020" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0021" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0022" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0023" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0024" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0025" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0026" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0027" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0028" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0029" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0030" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0031" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0032" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0033" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0034" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0035" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0036" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0037" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0038" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0039" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0040" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0041" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0042" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0043" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0044" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0045" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0046" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0047" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0048" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0049" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0050" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0051" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0052" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0053" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0054" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0055" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0056" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0057" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0058" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0059" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0060" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0061" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0062" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0063" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0064" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0065" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0066" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0067" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0068" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0069" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0070" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0071" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0072" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0073" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0074" x="0" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0075" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0076" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0077" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0078" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0079" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0080" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0081" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0082" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0083" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0084" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0085" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0086" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0087" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0088" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0089" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0090" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0091" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0092" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0093" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0094" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0095" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0096" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0097" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0098" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0099" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0100" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0101" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0102" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0103" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0104" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0105" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0106" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0107" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0108" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0109" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0110" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0111" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0112" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0113" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0114" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0115" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0116" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0117" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0118" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0119" x="4146" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0120" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0121" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0122" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0123" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0124" x="0" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0125" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0126" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0127" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0128" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0129" x="1382" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0130" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0131" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0132" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0133" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0134" x="2764" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0135" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0136" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0137" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0138" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0139" x="1382" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0140" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0141" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0142" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0143" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0144" x="2764" y="816" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0145" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0146" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0147" x="5528" y="0" width="1382" height="816"/>
+	<SubTexture name="Tormentor Bf Stage0148" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0149" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0150" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0151" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0152" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0153" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0154" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0155" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0156" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0157" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0158" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0159" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0160" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0161" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0162" x="0" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0163" x="0" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0164" x="0" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0165" x="0" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0166" x="1382" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0167" x="1382" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0168" x="1382" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0169" x="1382" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0170" x="1382" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0171" x="2764" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0172" x="2764" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0173" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0174" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0175" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0176" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0177" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0178" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0179" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0180" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0181" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0182" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0183" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0184" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0185" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0186" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0187" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0188" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0189" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0190" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0191" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0192" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0193" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0194" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0195" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0196" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0197" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0198" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0199" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0200" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0201" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0202" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0203" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0204" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0205" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0206" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0207" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0208" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0209" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0210" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0211" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0212" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0213" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0214" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0215" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0216" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0217" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0218" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0219" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0220" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0221" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0222" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0223" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0224" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0225" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0226" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0227" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0228" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0229" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0230" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0231" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0232" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0233" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0234" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0235" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0236" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0237" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0238" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0239" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0240" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0241" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0242" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0243" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0244" x="0" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0245" x="0" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0246" x="0" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0247" x="0" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0248" x="0" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0249" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0250" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0251" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0252" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0253" x="2764" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0254" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0255" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0256" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0257" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0258" x="4146" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0259" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0260" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0261" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0262" x="5528" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0263" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0264" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0265" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0266" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0267" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0268" x="4146" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0269" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0270" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0271" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0272" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0273" x="5528" y="1632" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0274" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0275" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0276" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0277" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0278" x="0" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0279" x="1382" y="2410" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0280" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0281" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0282" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0283" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0284" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0285" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0286" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0287" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0288" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0289" x="1382" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0290" x="1382" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0291" x="1382" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0292" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0293" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0294" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0295" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0296" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0297" x="4146" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0298" x="4146" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0299" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0300" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0301" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0302" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0303" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0304" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0305" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0306" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0307" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0308" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0309" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0310" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0311" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0312" x="2764" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0313" x="4146" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0314" x="4146" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0315" x="4146" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0316" x="4146" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0317" x="4146" y="3188" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0318" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0319" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0320" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0321" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0322" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0323" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0324" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0325" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0326" x="4146" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+	<SubTexture name="Tormentor Bf Stage0327" x="5528" y="816" width="1382" height="778" frameX="0" frameY="-38" frameWidth="1382" frameHeight="816"/>
+</TextureAtlas>
