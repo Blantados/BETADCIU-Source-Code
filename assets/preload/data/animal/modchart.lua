@@ -24,7 +24,7 @@ function beatHit (beat)
     end
 
     if curBeat == 28 then
-        changeBoyfriendCharacter('bf-spooky', 1090, 450)
+        changeBoyfriendCharacter('spooky', 1090, 300)
     end
 
     if curBeat == 40 then

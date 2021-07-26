@@ -49,7 +49,6 @@ class BETADCIUState extends MusicBeatState
 
 	override function create()
 	{
-
 		if (FlxG.sound.music != null)
 		{
 			if (!FlxG.sound.music.playing)

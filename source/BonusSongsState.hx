@@ -37,6 +37,8 @@ class BonusSongsState extends MusicBeatState
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
 
+	var bgPixel:FlxSprite;
+
 	private var iconArray:Array<HealthIcon> = [];
 
 	override function create()
@@ -78,7 +80,7 @@ class BonusSongsState extends MusicBeatState
 		addWeek(['Expurgation', 'Milf-G', 'Demon-Training'], 9, ['cjClone', 'rosie', 'dad']);
 		addWeek(['B3 Forever', 'Get Out', 'Battle'], 9, ['mia', 'peri', 'monika']);
 		addWeek(['Unholy-Worship', 'Memories', 'Context'], 10, ['dad', 'sarvente-worried-night', 'sky-annoyed']);
-		
+		addWeek(['Gun-Buddies', 'Sunshine', 'Deathmatch'], 11, ['botan', 'bob2', 'dad-mad']);
 	
 		// LOAD MUSIC
 
@@ -86,7 +88,7 @@ class BonusSongsState extends MusicBeatState
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGLightBlue'));
 		add(bg);
-
+		
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
@@ -219,6 +221,11 @@ class BonusSongsState extends MusicBeatState
 		if (controls.BACK)
 		{
 			FlxG.switchState(new MainMenuState());
+		}
+
+		if (songs[curSelected].songName.toLowerCase() == 'deathmatch')
+		{
+			
 		}
 
 		if (accepted)

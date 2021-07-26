@@ -23,6 +23,8 @@ import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.system.FlxSound;
 import flixel.effects.FlxFlicker;
+import flixel.addons.effects.FlxTrail;
+import flixel.addons.effects.FlxTrailArea;
 
 class ModchartState 
 {
@@ -522,6 +524,10 @@ class ModchartState
 				Lua_helper.add_callback(lua,"changeBFIcon", function(id:String) {
 					PlayState.instance.iconP1.animation.play(id);
 				});
+
+				Lua_helper.add_callback(lua,"characterZoom", function(id:String, zoomAmount:Float) {
+					getActorByName(id).setZoom(zoomAmount);
+				});
 				
 				Lua_helper.add_callback(lua,"restartVideo", function() {
 					GlobalVideo.get().restart();
@@ -968,6 +974,10 @@ class ModchartState
 	
 				Lua_helper.add_callback(lua,"tweenFadeOut", function(id:String, toAlpha:Float, time:Float, onComplete:String) {
 					FlxTween.tween(getActorByName(id), {alpha: toAlpha}, time, {ease: FlxEase.circOut, onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+				});
+
+				Lua_helper.add_callback(lua,"tweenColor", function(id:String, time:Float, initColor:FlxColor, finalColor:FlxColor) {
+					FlxTween.color(getActorByName(id), time, initColor, finalColor);
 				});
 
 				//forgot and accidentally commit to master branch

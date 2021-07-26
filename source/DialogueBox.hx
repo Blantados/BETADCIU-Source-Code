@@ -61,7 +61,7 @@ class DialogueBox extends FlxSpriteGroup
 
 		switch (PlayState.SONG.song.toLowerCase())
 		{
-			case 'whittyvssarv':
+			case 'whittyvssarv' | 'gun-buddies':
 				FlxG.sound.playMusic(Paths.music('gunsDialogue'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 			case 'senpai':
@@ -214,11 +214,12 @@ class DialogueBox extends FlxSpriteGroup
 		portraitGF = new FlxSprite(0, 20);
 		portraitGF.frames = Paths.getSparrowAtlas('portraits/gfPort');
 		portraitGF.animation.addByPrefix('enter', 'GF Portrait Normal', 24, false);
+		portraitGF.animation.addByPrefix('cry', 'GF Portrait Cry', 24, false);
 		portraitGF.scrollFactor.set();
 		add(portraitGF);
 		portraitGF.visible = false;
 
-		portraitLeft = new FlxSprite(0, 20);
+		portraitLeft = new FlxSprite(-40, 20);
 		portraitLeft.frames = Paths.getSparrowAtlas('portraits/gfPort');
 		portraitLeft.animation.addByPrefix('enter', 'GF Portrait Normal', 24, false);
 		portraitLeft.scrollFactor.set();
@@ -526,10 +527,28 @@ class DialogueBox extends FlxSpriteGroup
 				portraitRight.visible = false;
 				portraitLeftPixel.visible = false;
 				portraitRightPixel.visible = false;		
-				if (!portraitGF.visible)
+				if (!portraitGF.visible || portraitGF.animation.curAnim.name != 'enter')
 				{
 					portraitGF.visible = true;
 					portraitGF.animation.play('enter');
+				}
+
+			case 'gf-cry-gunpoint':
+				portraitSenpai.visible = false;
+				portraitBFPixel.visible = false;
+				portraitWhitty.visible = false;
+				portraitSarv.visible = false;
+				portraitZero.visible = false;
+				portraitMonika.visible = false;
+				portraitSelever.visible = false;
+				portraitLeft.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				if (!portraitGF.visible || portraitGF.animation.curAnim.name != 'cry')
+				{
+					portraitGF.visible = true;
+					portraitGF.animation.play('cry');
 				}
 
 			case 'shadowman':
@@ -935,6 +954,66 @@ class DialogueBox extends FlxSpriteGroup
 					portraitSelever.visible = true;
 					portraitSelever.animation.play('tf');
 				}
+
+			case 'pico':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				if (!portraitLeft.visible || (portraitLeft.visible && portraitLeft.frames != Paths.getSparrowAtlas('portraits/picoPortrait')))
+				{
+					portraitLeft.visible = true;
+					portraitLeft.frames = Paths.getSparrowAtlas('portraits/picoPortrait');
+					portraitLeft.animation.addByPrefix('enter', 'Portrait Enter instance', 24, false);
+					portraitLeft.animation.play('enter');
+				}
+
+			case 'pico-angry':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				if (!portraitLeft.visible || (portraitLeft.visible && portraitLeft.frames != Paths.getSparrowAtlas('portraits/picoAngryPortrait')))
+				{
+					portraitLeft.visible = true;
+					portraitLeft.frames = Paths.getSparrowAtlas('portraits/picoAngryPortrait');
+					portraitLeft.animation.addByPrefix('enter', 'Portrait Enter instance', 24, false);
+					portraitLeft.animation.play('enter');
+				}
+
+			case 'botan-happy':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				if (!portraitLeft.visible || (portraitLeft.visible && portraitLeft.frames != Paths.getSparrowAtlas('portraits/botanHappyPortrait')))
+				{
+					portraitLeft.visible = true;
+					portraitLeft.frames = Paths.getSparrowAtlas('portraits/botanHappyPortrait');
+					portraitLeft.animation.addByPrefix('enter', 'Portrait Enter instance', 24, false);
+					portraitLeft.animation.play('enter');
+				}
 		}
 
 		switch (direction)
@@ -964,6 +1043,12 @@ class DialogueBox extends FlxSpriteGroup
 					portraitRightPixel.flipX = false;
 				}
 
+				if (portraitLeftPixel.flipX == true)
+				{
+					portraitRightPixel.animation.play('enter');
+					portraitRightPixel.flipX = false;
+				}
+
 				if (portraitLeftPixel.flipX == false)
 				{
 					portraitLeftPixel.animation.play('enter');
@@ -971,6 +1056,7 @@ class DialogueBox extends FlxSpriteGroup
 				}
 
 				portraitSarv.flipX = true;
+				portraitLeft.flipX = true;
 				portraitGF.flipX = true;
 				portraitWhitty.flipX = true;
 				portraitMonika.flipX = false;
@@ -978,6 +1064,7 @@ class DialogueBox extends FlxSpriteGroup
 				
 		
 				portraitZero.x = 50;
+				portraitLeft.x = 30;
 				portraitBFPixel.x = 0;
 				portraitGF.x = 0;
 				portraitSenpai.x = 0;
@@ -998,6 +1085,12 @@ class DialogueBox extends FlxSpriteGroup
 				{
 					portraitZero.animation.play('enter');
 					portraitZero.flipX = false;
+				}
+
+				if (portraitLeft.flipX == true)
+				{
+					portraitLeft.animation.play('enter');
+					portraitLeft.flipX = false;
 				}
 
 				if (portraitBFPixel.flipX == false)
@@ -1031,6 +1124,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitSelever.flipX = false;
 				
 				portraitZero.x = -300;
+				portraitLeft.x = -40;
 				portraitBFPixel.x = -20;
 				portraitGF.x = 0;
 				portraitSenpai.x = -20;
@@ -1078,6 +1172,7 @@ class DialogueBox extends FlxSpriteGroup
 				}
 
 				portraitSarv.flipX = false;
+				portraitLeft.flipX = false;
 				portraitGF.flipX = false;
 				portraitWhitty.flipX = false;
 				portraitMonika.flipX = false;
@@ -1091,6 +1186,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitSarv.x = 200;
 				portraitSelever.x = 200;
 				portraitWhitty.x = -100;
+				portraitLeft.x = -70;
 				portraitLeftPixel.x = -20;
 				portraitRightPixel.x = 0;
 

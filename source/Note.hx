@@ -42,9 +42,9 @@ class Note extends FlxSprite
 
 	public var rating:String = "shit";
 
-	public var dadChar:String = PlayState.dad.curCharacter
+	public var dadChar:String = PlayState.dad.curCharacter;
 
-	public function new(_strumTime:Float, _noteData:Int, ?_prevNote:Note, ?sustainNote:Bool = false,  ?noteType:Int = 0)
+	public function new(_strumTime:Float, _noteData:Int, ?_prevNote:Note, ?sustainNote:Bool = false, noteTypeCheck:String="normal", ?noteType:Int = 0)
 	{
 		super();
 
@@ -54,6 +54,7 @@ class Note extends FlxSprite
 		prevNote = _prevNote;
 		this.noteType = noteType;
 		isSustainNote = sustainNote;
+		this.noteTypeCheck = noteTypeCheck;
 
 		x += 50;
 		// MAKE SURE ITS DEFINITELY OFF SCREEN?
