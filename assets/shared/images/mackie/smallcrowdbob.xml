@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="smallcrowdbob.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="small crowd bob0000" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0001" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0002" x="0" y="763" width="3390" height="754" frameX="0" frameY="-10" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0003" x="0" y="1517" width="3390" height="739" frameX="0" frameY="-24" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0004" x="0" y="1517" width="3390" height="739" frameX="0" frameY="-24" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0005" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0006" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0007" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0008" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0009" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0010" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0011" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0012" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+	<SubTexture name="small crowd bob0013" x="0" y="0" width="3390" height="763" frameX="0" frameY="0" frameWidth="3390" frameHeight="764"/>
+</TextureAtlas>

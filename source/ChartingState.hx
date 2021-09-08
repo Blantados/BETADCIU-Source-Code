@@ -36,6 +36,11 @@ import openfl.media.Sound;
 import openfl.net.FileReference;
 import openfl.utils.ByteArray;
 
+#if windows
+import Sys;
+import sys.FileSystem;
+#end
+
 using StringTools;
 
 class ChartingState extends MusicBeatState
@@ -67,6 +72,8 @@ class ChartingState extends MusicBeatState
 
 	var curRenderedNotes:FlxTypedGroup<Note>;
 	var curRenderedSustains:FlxTypedGroup<FlxSprite>;
+
+	var hiddenSongs:Array<String> =['norway', 'haachama', 'high-school-conflict', 'hunger', 'sorrow'];
 
 	var gridBG:FlxSprite;
 
@@ -475,10 +482,17 @@ class ChartingState extends MusicBeatState
 			// vocals.stop();
 		}
 
-		FlxG.sound.playMusic(Paths.inst(daSong), 0.6);
+		if (FileSystem.exists(Paths.inst2(daSong)))
+			FlxG.sound.playMusic(Sound.fromFile(Paths.inst2(daSong)), 0.6);
+		else
+			FlxG.sound.playMusic(Paths.inst(daSong), 0.6);
 
 		// WONT WORK FOR TUTORIAL OR TEST SONG!!! REDO LATER
-		vocals = new FlxSound().loadEmbedded(Paths.voices(daSong));
+		if (FileSystem.exists(Paths.voices2(daSong)))
+			vocals = new FlxSound().loadEmbedded(Sound.fromFile(Paths.voices2(daSong)));
+		else
+			vocals = new FlxSound().loadEmbedded(Paths.voices(daSong));
+
 		FlxG.sound.list.add(vocals);
 
 		FlxG.sound.music.pause();
@@ -630,7 +644,7 @@ class ChartingState extends MusicBeatState
 
 		curStep = recalculateSteps();
 
-		if (FlxG.keys.justPressed.ALT && UI_box.selected_tab == 0)
+		if (FlxG.keys.justPressed.ALT && !FlxG.keys.justPressed.ENTER && UI_box.selected_tab == 0)
 		{
 			writingNotes = !writingNotes;
 		}
@@ -1106,7 +1120,7 @@ class ChartingState extends MusicBeatState
 			{
 				note.burning = daNoteInfo > 7;
 			}
-			if (PlayState.curStage == 'tank' || PlayState.curStage == 'garStage' || PlayState.curStage == 'eddhouse')
+			if (PlayState.curStage == 'tank' || PlayState.curStage == 'garStage' || PlayState.curStage == 'eddhouse' || PlayState.curStage == 'ballisticAlley')
 			{
 				note.danger = daNoteInfo > 7;
 			}
@@ -1283,7 +1297,7 @@ class ChartingState extends MusicBeatState
 	function loadJson(song:String):Void
 	{
 		PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());
-		if ((PlayState.SONG.song == 'Norway' || PlayState.SONG.song == 'Haachama' || PlayState.SONG.song == 'High-School-Conflict' || PlayState.SONG.song == 'Hunger') && !PlayState.isHidden)
+		if (hiddenSongs.contains(song.toLowerCase()) && !Main.isHidden || song.toLowerCase() == 'restore' && !Main.restoreUnlocked || song.toLowerCase() == 'deathmatch' && !Main.realDeath || song.toLowerCase() == 'deathmatch-holo' && !Main.deathHolo)
 		{
 			LoadingState.loadAndSwitchState(new GoFindTheSecretState());
 		}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PowefulBlantados (2).png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="teleport0000" x="0" y="0" width="1912" height="1166" pivotX="827.15" pivotY="733.25" frameX="-205" frameY="-487" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0001" x="1917" y="0" width="1540" height="1617" frameX="-391" frameY="-261" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0002" x="3462" y="0" width="1666" height="1783" frameX="-328" frameY="-178" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0003" x="5133" y="0" width="1897" height="1783" frameX="-213" frameY="-178" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0004" x="0" y="1788" width="1897" height="1585" frameX="-213" frameY="-276" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0005" x="1902" y="1788" width="1897" height="1585" frameX="-213" frameY="-277" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0006" x="3804" y="1788" width="2007" height="1810" frameX="-158" frameY="-164" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0007" x="5816" y="1788" width="2130" height="1929" frameX="-96" frameY="-104" frameWidth="2323" frameHeight="2137"/>
+	<SubTexture name="teleport0008" x="0" y="3722" width="2323" height="2137"/>
+	<SubTexture name="teleport0009" x="2328" y="3722" width="2323" height="2137" frameX="-827" frameY="-733" frameWidth="2323" frameHeight="2137"/>
+</TextureAtlas>

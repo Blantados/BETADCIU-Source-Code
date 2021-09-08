@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BB_Sprite_Sheet.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BB Sing Note DOWN0000" x="0" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note DOWN0001" x="570" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note LEFT0000" x="1140" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note LEFT0001" x="1710" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note RIGH0000" x="2280" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note RIGHT0001" x="2850" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note RIGHT0002" x="3420" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note UP0000" x="0" y="889" width="565" height="884"/>
+	<SubTexture name="BB Sing Note UP0001" x="570" y="889" width="565" height="884"/>
+	<SubTexture name="BB idle dance0000" x="1140" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0001" x="1698" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0002" x="2256" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0003" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0004" x="3372" y="889" width="553" height="863"/>
+</TextureAtlas>

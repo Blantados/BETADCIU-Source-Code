@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="limoDriveOhNo.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BeforeFly0000" x="0" y="0" width="2067" height="807" pivotX="152.65" pivotY="173.8" frameX="-102" frameY="-82" frameWidth="2323" frameHeight="972"/>
+	<SubTexture name="BeforeFly0001" x="2072" y="0" width="2112" height="856" frameX="-102" frameY="-58" frameWidth="2323" frameHeight="972"/>
+	<SubTexture name="BeforeFly0002" x="0" y="861" width="2142" height="870" frameX="-91" frameY="-51" frameWidth="2323" frameHeight="972"/>
+	<SubTexture name="BeforeFly0003" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0004" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0005" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0006" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0007" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0008" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0009" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0010" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0011" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0012" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0013" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0014" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0015" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0016" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0017" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0018" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0019" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0020" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0021" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0022" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0023" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0024" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0025" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0026" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0027" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0028" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0029" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0030" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0031" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0032" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0033" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0034" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0035" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0036" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0037" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0038" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0039" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0040" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0041" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0042" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0043" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0044" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0045" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0046" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0047" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0048" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0049" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0050" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0051" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0052" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0053" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0054" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0055" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0056" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0057" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0058" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0059" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0060" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0061" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0062" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0063" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0064" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0065" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0066" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0067" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0068" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0069" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0070" x="0" y="1838" width="2323" height="972"/>
+	<SubTexture name="BeforeFly0071" x="2147" y="861" width="2323" height="972"/>
+	<SubTexture name="Flying0000" x="2328" y="1838" width="2118" height="898" pivotX="61.8" pivotY="150.05" frameX="-11" frameY="-14" frameWidth="2142" frameHeight="925"/>
+	<SubTexture name="Flying0001" x="2328" y="1838" width="2118" height="898" frameX="-11" frameY="-14" frameWidth="2142" frameHeight="925"/>
+	<SubTexture name="Flying0002" x="0" y="2815" width="2142" height="925"/>
+	<SubTexture name="Flying0003" x="2147" y="2815" width="2142" height="925"/>
+</TextureAtlas>

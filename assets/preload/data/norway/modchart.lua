@@ -1,7 +1,6 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " donwscroll: " .. downscroll)
     setActorAlpha(0, 'tordBG')
-
 end
 
 local defaultHudX = 0
@@ -24,6 +23,10 @@ function update (elapsed)
 end
 
 function beatHit (beat)
+
+    if curBeat == 135 then
+        dadAltAnim = true
+    end
 
 end
 
@@ -56,11 +59,12 @@ function stepHit (step)
         changeBoyfriendCharacter('cassandra', 1096, 0)
     end
 
-    if curStep == 512 then
-        changeDadCharacter('cj', 100, 0)
+    if curStep == 512 then     
+        changeDadCharacter('cj', 100, 0)   
     end
 
     if curStep == 544 then
+        dadAltAnim = false
         changeBoyfriendCharacter('ruby', 1096, 0)
     end
 
@@ -80,9 +84,12 @@ function stepHit (step)
         changeBoyfriendCharacter('hd-senpai', 1096, 0)
     end
 
-    if curStep == 120 or curStep == 248 or curStep == 375 or curStep == 632 or curStep == 696 or curStep == 824 or curStep == 952 or curStep == 1208 then
-        for i = 0, 7 do
-            tweenPosXAngle(i, _G['defaultStrum'..i..'X'],getActorAngle(i) + 360, 0.3, 'setDefault')
-        end
+    if curStep == 640 then
+        changeDadCharacter('tankman', 100, 180)
     end
+
+    if curStep == 672 then
+        changeBoyfriendCharacter('hd-senpai', 1096, 0)
+    end
+
 end

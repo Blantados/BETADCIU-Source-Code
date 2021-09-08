@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="alyabob.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="alya bob0000" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0001" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0002" x="204" y="0" width="204" height="236" frameX="0" frameY="-6" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0003" x="0" y="241" width="204" height="224" frameX="0" frameY="-18" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0004" x="0" y="241" width="204" height="224" frameX="0" frameY="-18" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0005" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0006" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0007" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0008" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0009" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0010" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0011" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0012" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+	<SubTexture name="alya bob0013" x="0" y="0" width="204" height="241" frameX="0" frameY="0" frameWidth="204" frameHeight="242"/>
+</TextureAtlas>

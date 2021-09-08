@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="picoPort.png">
+	<!-- Created with MY OWN FUCKING HANDS -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pico Portrait Normal instance 10000" x="45" y="47" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Angry instance 10000" x="445" y="47" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Dark instance 10000" x="845" y="47" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Speak Dark instance 10000" x="1245" y="47" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Speak Eyes Dark instance 10000" x="1245" y="47" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Woah instance 10000" x="1645" y="47" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Shout Dark instance 10000" x="45" y="438" width="410" height="299"/>
+	<SubTexture name="Pico Portrait Threat instance 10000" x="545" y="438" width="410" height="299"/>
+	<SubTexture name="Pico Portrait Happy Dark instance 10000" x="1045" y="438" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Gunless Speak Dark instance 10000" x="1445" y="438" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Gunless Dark instance 10000" x="1845" y="438" width="400" height="299"/>
+	<SubTexture name="Pico Portrait Gunless Happy Dark instance 10000" x="2245" y="438" width="400" height="299"/>
+</TextureAtlas>

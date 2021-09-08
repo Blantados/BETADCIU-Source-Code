@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BlantadCutscene.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Blantados Warning Glint0000" x="0" y="0" width="599" height="740" pivotX="36.85" pivotY="11.1" frameX="0" frameY="-3" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0001" x="604" y="0" width="591" height="741" frameX="-7" frameY="-2" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0002" x="1200" y="0" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0003" x="1808" y="0" width="600" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0004" x="2413" y="0" width="588" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0005" x="3006" y="0" width="587" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0006" x="3598" y="0" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0007" x="4193" y="0" width="592" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0008" x="4790" y="0" width="591" height="743" frameX="-21" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0009" x="5386" y="0" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0010" x="5981" y="0" width="590" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0011" x="6576" y="0" width="589" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0012" x="7170" y="0" width="595" height="743" frameX="-15" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0013" x="0" y="748" width="597" height="743" frameX="-13" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0014" x="602" y="748" width="604" height="743" frameX="-11" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0015" x="1211" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0016" x="1819" y="748" width="604" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0017" x="2428" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0018" x="3036" y="748" width="600" height="743" frameX="-10" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0019" x="3641" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0020" x="4249" y="748" width="600" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0021" x="4854" y="748" width="588" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0022" x="5447" y="748" width="587" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0023" x="6039" y="748" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0024" x="4193" y="0" width="592" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0025" x="4790" y="0" width="591" height="743" frameX="-21" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0026" x="6634" y="748" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0027" x="5981" y="0" width="590" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0028" x="6576" y="0" width="589" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0029" x="7170" y="0" width="595" height="743" frameX="-15" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0030" x="0" y="748" width="597" height="743" frameX="-13" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0031" x="602" y="748" width="604" height="743" frameX="-11" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0032" x="1211" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0033" x="1819" y="748" width="604" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0034" x="2428" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0035" x="3036" y="748" width="600" height="743" frameX="-10" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0036" x="3641" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0037" x="4249" y="748" width="600" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0038" x="4854" y="748" width="588" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0039" x="5447" y="748" width="587" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0040" x="6039" y="748" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0041" x="4193" y="0" width="592" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0042" x="4790" y="0" width="591" height="743" frameX="-21" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0043" x="6634" y="748" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0044" x="5981" y="0" width="590" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0045" x="6576" y="0" width="589" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0046" x="7170" y="0" width="595" height="743" frameX="-15" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0047" x="0" y="748" width="597" height="743" frameX="-13" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0048" x="602" y="748" width="604" height="743" frameX="-11" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0049" x="1211" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0050" x="1819" y="748" width="604" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0051" x="2428" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0052" x="3036" y="748" width="600" height="743" frameX="-10" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0053" x="3641" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0054" x="4249" y="748" width="600" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0055" x="4854" y="748" width="588" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0056" x="5447" y="748" width="587" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0057" x="6039" y="748" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0058" x="4193" y="0" width="592" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0059" x="4790" y="0" width="591" height="743" frameX="-21" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0060" x="6634" y="748" width="590" height="743" frameX="-19" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0061" x="5981" y="0" width="590" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0062" x="6576" y="0" width="589" height="743" frameX="-18" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0063" x="7170" y="0" width="595" height="743" frameX="-15" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0064" x="0" y="748" width="597" height="743" frameX="-13" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0065" x="602" y="748" width="604" height="743" frameX="-11" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0066" x="1211" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0067" x="1819" y="748" width="604" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0068" x="2428" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0069" x="3036" y="748" width="600" height="743" frameX="-10" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0070" x="3641" y="748" width="603" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="Blantados Warning Glint0071" x="4249" y="748" width="600" height="743" frameX="-9" frameY="0" frameWidth="615" frameHeight="743"/>
+	<SubTexture name="BlantadosLiftthing0000" x="7229" y="748" width="677" height="741" pivotX="138.6" pivotY="22.75" frameX="-23" frameY="-13" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0001" x="0" y="1496" width="659" height="744" frameX="-29" frameY="-10" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0002" x="664" y="1496" width="656" height="747" frameX="-23" frameY="-7" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0003" x="1325" y="1496" width="651" height="752" frameX="-11" frameY="-2" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0004" x="1981" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0005" x="2648" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0006" x="3317" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0007" x="3987" y="1496" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0008" x="4658" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0009" x="5327" y="1496" width="663" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0010" x="5995" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0011" x="6662" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0012" x="7331" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0013" x="0" y="2255" width="670" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0014" x="675" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0015" x="1348" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0016" x="2021" y="2255" width="667" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0017" x="2693" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0018" x="3362" y="2255" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0019" x="4033" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0020" x="4702" y="2255" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0021" x="1981" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0022" x="2648" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0023" x="3317" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0024" x="3987" y="1496" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0025" x="4658" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0026" x="5327" y="1496" width="663" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0027" x="5995" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0028" x="6662" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0029" x="7331" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0030" x="0" y="2255" width="670" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0031" x="675" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0032" x="1348" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0033" x="2021" y="2255" width="667" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0034" x="2693" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0035" x="3362" y="2255" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0036" x="4033" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0037" x="4702" y="2255" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0038" x="1981" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0039" x="2648" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0040" x="3317" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0041" x="3987" y="1496" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0042" x="4658" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0043" x="5327" y="1496" width="663" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0044" x="5995" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0045" x="6662" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0046" x="7331" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0047" x="0" y="2255" width="670" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0048" x="675" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0049" x="1348" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0050" x="2021" y="2255" width="667" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0051" x="2693" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0052" x="3362" y="2255" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0053" x="4033" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0054" x="4702" y="2255" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0055" x="1981" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0056" x="2648" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0057" x="3317" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0058" x="3987" y="1496" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0059" x="4658" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0060" x="5327" y="1496" width="663" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0061" x="5995" y="1496" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0062" x="6662" y="1496" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0063" x="7331" y="1496" width="665" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0064" x="0" y="2255" width="670" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0065" x="675" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0066" x="1348" y="2255" width="668" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0067" x="2021" y="2255" width="667" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0068" x="2693" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0069" x="3362" y="2255" width="666" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0070" x="4033" y="2255" width="664" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="BlantadosLiftthing0071" x="4702" y="2255" width="662" height="754" frameX="0" frameY="0" frameWidth="700" frameHeight="754"/>
+	<SubTexture name="Powerful Idle0000" x="5369" y="2255" width="615" height="735" pivotX="53" pivotY="13.5" frameX="-4" frameY="-10" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0001" x="5989" y="2255" width="616" height="737" frameX="0" frameY="-8" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0002" x="6610" y="2255" width="609" height="740" frameX="-5" frameY="-3" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0003" x="7224" y="2255" width="599" height="743" frameX="-7" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0004" x="0" y="3014" width="597" height="743" frameX="-8" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0005" x="602" y="3014" width="591" height="743" frameX="-17" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0006" x="1198" y="3014" width="590" height="743" frameX="-18" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0007" x="1793" y="3014" width="591" height="743" frameX="-17" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0008" x="2389" y="3014" width="592" height="743" frameX="-17" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0009" x="2986" y="3014" width="586" height="743" frameX="-20" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0010" x="3577" y="3014" width="586" height="743" frameX="-18" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0011" x="4168" y="3014" width="587" height="743" frameX="-16" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0012" x="4760" y="3014" width="591" height="743" frameX="-16" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0013" x="5356" y="3014" width="592" height="743" frameX="-13" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0014" x="5953" y="3014" width="599" height="743" frameX="-11" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0015" x="6557" y="3014" width="599" height="743" frameX="-9" frameY="0" frameWidth="619" frameHeight="745"/>
+	<SubTexture name="Powerful Idle0016" x="7161" y="3014" width="604" height="743" frameX="-8" frameY="0" frameWidth="619" frameHeight="745"/>
+</TextureAtlas>

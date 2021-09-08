@@ -9,7 +9,8 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import lime.utils.Assets;
-
+import flixel.effects.FlxFlicker;
+import flixel.tweens.FlxTween;
 
 #if desktop
 import Discord.DiscordClient;
@@ -35,13 +36,13 @@ class BETADCIUSecretState extends MusicBeatState
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
 	public static var downscroll:Bool = false;
-	public static var mainSecret:Bool = false;
-	public static var bonusSecret:Bool = false;
 
 	private var iconArray:Array<HealthIcon> = [];
 
 	override function create()
 	{
+		FlxG.mouse.visible = false;
+
 		if (FlxG.sound.music != null)
 		{
 			FlxG.sound.music.fadeIn(2, 0, 0.8);
@@ -60,7 +61,7 @@ class BETADCIUSecretState extends MusicBeatState
 		#end
 
 			addWeek(['Hunger', 'High-School-Conflict', 'Norway'], 1, ['rebecca', 'monika', 'tord']);
-			addWeek(['Haachama'], 2, ['haachama']);
+			addWeek(['Sorrow', 'Shinkyoku'], 2, ['calli', 'duet-sm']);
 
 
 		// LOAD MUSIC
@@ -213,7 +214,23 @@ class BETADCIUSecretState extends MusicBeatState
 			
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
-			LoadingState.loadAndSwitchState(new PlayState());
+			var llll = FlxG.sound.play(Paths.sound('confirmMenu')).length;
+			grpSongs.forEach(function(e:Alphabet){
+				if (e.text != songs[curSelected].songName){
+					FlxTween.tween(e, {x: -6000}, llll / 1000,{onComplete:function(e:FlxTween){
+					
+						if (FlxG.keys.pressed.ALT){
+							FlxG.switchState(new ChartingState());
+						}else{
+							LoadingState.loadAndSwitchState(new PlayState());
+						}
+					}});
+				}else{
+					FlxFlicker.flicker(e);
+					trace(curSelected);
+					FlxTween.tween(e, {x: e.x + 20}, llll/1000);
+				}	
+			});
 		}
 
 		#if !switch

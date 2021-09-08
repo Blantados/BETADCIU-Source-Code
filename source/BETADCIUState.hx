@@ -28,8 +28,10 @@ class BETADCIUState extends MusicBeatState
 	var curDifficulty:Int = 2;
 
 	var scoreText:FlxText;
+	var enterText:FlxText;
 	var diffText:FlxText;
 	var comboText:FlxText;
+	var passwordText:FlxInputText;
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 	var combo:String = '';
@@ -37,8 +39,10 @@ class BETADCIUState extends MusicBeatState
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
 	public static var downscroll:Bool = false;
-	public static var mainSecret:Bool = false;
-	public static var bonusSecret:Bool = false;
+	public static var inMain:Bool = true;
+	public static var canMove:Bool = true;
+	var extras:FlxSprite;
+	var blackScreen:FlxSprite;
 
 	var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 	public static var bgcol:FlxColor = 0xFFFFFFFF;
@@ -49,13 +53,7 @@ class BETADCIUState extends MusicBeatState
 
 	override function create()
 	{
-		if (FlxG.sound.music != null)
-		{
-			if (!FlxG.sound.music.playing)
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
-		}
-
-		if (FlxG.sound.music.volume == 0)
+		if (FlxG.sound.music.volume == 0 || !FlxG.sound.music.playing)
 		{
 			FlxG.sound.music.volume = 1;
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
@@ -68,6 +66,10 @@ class BETADCIUState extends MusicBeatState
 
 		var isDebug:Bool = false;
 
+		FlxG.mouse.visible = true;
+		inMain = true;
+		canMove = true;
+
 		#if debug
 		isDebug = true;
 		#end
@@ -75,7 +77,7 @@ class BETADCIUState extends MusicBeatState
 			addWeek(['Ugh', 'Guns', 'Animal'], 1, ['tankman', 'tankman', 'drunk-annie']);
 			addWeek(['Nerves', 'Manifest', 'Roses-Remix'], 2, ['garcello', 'sky-mad', 'senpai-giddy']);
 			addWeek(['Takeover', 'Hands'], 3, ['demoncass', 'coco-car']);
-			addWeek(['Cosmic', 'Storm'], 5, ['kou', 'annie-bw']);
+			addWeek(['Cosmic', 'Storm', 'Haachama'], 5, ['kou', 'annie-bw', 'haachama']);
 
 		// LOAD MUSIC
 
@@ -130,6 +132,36 @@ class BETADCIUState extends MusicBeatState
 
 		changeSelection();
 
+		extras = new FlxSprite(scoreText.x + 50, 600).loadGraphic(Paths.image('extras', 'shared'), true, 360, 110);
+		extras.animation.add('idle', [0]);
+		extras.animation.add('hover', [1]);
+		extras.scrollFactor.set();
+		extras.setGraphicSize(Std.int(extras.width * 0.8));
+		extras.updateHitbox();
+		add(extras);
+
+		blackScreen = new FlxSprite(-100, -100).makeGraphic(Std.int(FlxG.width * 0.5), Std.int(FlxG.height * 0.5), FlxColor.BLACK);
+		blackScreen.screenCenter();
+		blackScreen.scrollFactor.set();
+		blackScreen.visible = false;
+		add(blackScreen);
+
+		enterText = new FlxText(0, 0, 0, "Enter Password:", 48);
+		enterText.setFormat('Pixel Arial 11 Bold', 48, FlxColor.WHITE, CENTER);
+		enterText.screenCenter();
+		enterText.y -= 100;
+		enterText.visible = false;
+		add(enterText);
+
+		passwordText = new FlxInputText(0, 300, 550, '', 36, FlxColor.WHITE, FlxColor.BLACK);
+		passwordText.fieldBorderColor = FlxColor.WHITE;
+		passwordText.fieldBorderThickness = 3;
+		passwordText.maxLength = 20;
+		passwordText.screenCenter(X);
+		passwordText.y += 75;
+		passwordText.visible = false;
+		add(passwordText);
+
 		// FlxG.sound.playMusic(Paths.music('title'), 0);
 		// FlxG.sound.music.fadeIn(2, 0, 0.8);
 		selector = new FlxText();
@@ -157,6 +189,8 @@ class BETADCIUState extends MusicBeatState
 			trace(md);
 		 */
 
+
+
 		super.create();
 	}
 
@@ -180,6 +214,17 @@ class BETADCIUState extends MusicBeatState
 		}
 	}
 
+	function isOnBtt(xx:Float, yy:Float, dis:Float)
+	{
+		var xDis = xx - FlxG.mouse.x;
+		var yDis = yy - FlxG.mouse.y;
+		if (Math.sqrt(Math.pow(xDis, 2) + Math.pow(yDis, 2)) < dis)
+		{
+			return(true);
+		}
+		else return(false);
+	}
+
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
@@ -189,37 +234,24 @@ class BETADCIUState extends MusicBeatState
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
 
-		/*switch(songs[curSelected].songName)
+		if (isOnBtt(extras.getMidpoint().x, extras.getMidpoint().y, 150))
 		{
-			case 'Ugh':
-				bgcol = 0xFFE78B07;
-				bgcoldown = 0xFFE78B07;
-				bgcolup = 0xFFE78B07;
-			case 'Guns':
-				bgcol = 0xFFE78B07;
-				bgcoldown = 0xFFFF2043;
-				bgcolup = 0xFFE78B07;
-			case 'Animal':
-				bgcol = 0xFFFF2043;
-				bgcoldown = 0xFF00FF90;
-				bgcolup = 0xFFE78B07;
-			case 'Nerves':
-				bgcol = 0xFF00FF90;
-				bgcoldown = 0xFF00FF90;
-				bgcolup = 0xFFFF2043;
-			default:
-				bgcol = 0xFFFFFFFF;
-				bgcoldown = 0xFFFFFFFF;
-				bgcolup = 0xFFFFFFFF;
-		}*/
-
-		if(FlxG.keys.pressed.H && FlxG.keys.pressed.A && FlxG.keys.pressed.C && FlxG.keys.pressed.M)
-		{
-			FlxG.sound.music.stop();
-			FlxG.switchState(new BETADCIUSecretState());
-			FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX', 'shared'));
-			PlayState.isHidden = true;
+			extras.animation.play('hover');
+			if (FlxG.mouse.justPressed)
+			{
+				blackScreen.visible = true;
+				enterText.visible = true;
+				passwordText.visible = true;
+				canMove = false;
+			}
 		}
+		else if (!isOnBtt(extras.getMidpoint().x, extras.getMidpoint().y, 150))
+		{
+			extras.animation.play('idle');
+		}
+
+		if (passwordText.visible == true)
+			inMain = false;
 
 		lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, 0.4));
 
@@ -233,23 +265,21 @@ class BETADCIUState extends MusicBeatState
 		var downP = controls.DOWN_P;
 		var accepted = controls.ACCEPT;
 
-		if (upP)
+		if (upP && inMain && canMove)
 		{
 			changeSelection(-1);
-		//	FlxTween.color(bg, 0.5, bgcol, bgcolup);
 		}
-		if (downP)
+		if (downP && inMain && canMove)
 		{
 			changeSelection(1);
-		//	FlxTween.color(bg, 0.5, bgcol, bgcoldown);
 		}
 
-		if (controls.BACK)
+		if (controls.BACK && inMain && canMove)
 		{
 			FlxG.switchState(new MainMenuState());
 		}
 
-		if (accepted)
+		if (accepted && inMain && canMove)
 		{
 			var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
 
@@ -260,6 +290,7 @@ class BETADCIUState extends MusicBeatState
 			PlayState.isBETADCIU = true;
 			PlayState.isBonus = false;
 			PlayState.storyDifficulty = curDifficulty;
+			canMove = false;
 			
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
@@ -280,6 +311,29 @@ class BETADCIUState extends MusicBeatState
 					FlxTween.tween(e, {x: e.x + 20}, llll/1000);
 				}	
 			});
+		}
+
+		if (FlxG.keys.justPressed.ESCAPE && !inMain)
+		{
+			blackScreen.visible = false;
+			enterText.visible = false;
+			passwordText.visible = false;
+			passwordText.text = '';
+			inMain = true;
+			canMove = true;
+		}		
+
+		if (passwordText.text == 'dont overwork' && FlxG.keys.justPressed.ENTER)
+		{
+			FlxG.sound.music.stop();
+			FlxG.switchState(new BETADCIUSecretState());
+			FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX', 'shared'));
+			Main.isHidden = true;
+		} 	
+		else if (passwordText.text != 'dont overwork' && FlxG.keys.justPressed.ENTER && !inMain)
+		{
+			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3, 'shared'));
+			passwordText.text = '';
 		}
 
 		#if !switch

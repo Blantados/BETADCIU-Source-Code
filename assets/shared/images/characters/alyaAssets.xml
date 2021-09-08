@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="alyaAssets.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Alya Down Note0000" x="0" y="0" width="358" height="363" pivotX="-201.35" pivotY="-14.2" frameX="0" frameY="-15" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0001" x="0" y="0" width="358" height="363" frameX="0" frameY="-15" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0002" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0003" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0004" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0005" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0006" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0007" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0008" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0009" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0010" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0011" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0012" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0013" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note0014" x="363" y="0" width="345" height="378" frameX="-4" frameY="0" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note MISS0000" x="0" y="0" width="358" height="363" pivotX="-201.35" pivotY="-14.2" frameX="0" frameY="-56" frameWidth="358" frameHeight="378"/>
+	<SubTexture name="Alya Down Note MISS0001" x="713" y="0" width="342" height="420" frameX="-6" frameY="0" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0002" x="713" y="0" width="342" height="420" frameX="-6" frameY="0" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0003" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0004" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0005" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0006" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0007" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0008" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0009" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0010" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0011" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0012" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0013" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0014" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0015" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0016" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0017" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0018" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0019" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0020" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0021" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0022" x="1410" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0023" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Down Note MISS0024" x="1060" y="0" width="345" height="414" frameX="-4" frameY="-6" frameWidth="358" frameHeight="420"/>
+	<SubTexture name="Alya Idle Dance0000" x="1760" y="0" width="349" height="403" pivotX="-52.4" pivotY="-8.3" frameX="-9" frameY="-18" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0001" x="1760" y="0" width="349" height="403" frameX="-9" frameY="-18" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0002" x="2114" y="0" width="349" height="408" frameX="-5" frameY="-13" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0003" x="2114" y="0" width="349" height="408" frameX="-5" frameY="-13" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0004" x="2468" y="0" width="352" height="411" frameX="0" frameY="-10" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0005" x="2468" y="0" width="352" height="411" frameX="0" frameY="-10" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0006" x="2825" y="0" width="356" height="419" frameX="-1" frameY="-2" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0007" x="2825" y="0" width="356" height="419" frameX="-1" frameY="-2" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0008" x="3186" y="0" width="355" height="421" frameX="-2" frameY="0" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0009" x="3186" y="0" width="355" height="421" frameX="-2" frameY="0" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0010" x="3186" y="0" width="355" height="421" frameX="-2" frameY="0" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0011" x="3186" y="0" width="355" height="421" frameX="-2" frameY="0" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0012" x="3186" y="0" width="355" height="421" frameX="-2" frameY="0" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Idle Dance0013" x="3186" y="0" width="355" height="421" frameX="-2" frameY="0" frameWidth="358" frameHeight="421"/>
+	<SubTexture name="Alya Left Note0000" x="3546" y="0" width="407" height="409" pivotX="-145.15" pivotY="-9.05" frameX="0" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0001" x="3546" y="0" width="407" height="409" frameX="0" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0002" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0003" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0004" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0005" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0006" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0007" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0008" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0009" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0010" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0011" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0012" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0013" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note0014" x="0" y="426" width="409" height="409" frameX="-7" frameY="0" frameWidth="416" frameHeight="409"/>
+	<SubTexture name="Alya Left Note MISS0000" x="414" y="426" width="407" height="409" pivotX="-172.35" pivotY="3" frameX="0" frameY="-7" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0001" x="826" y="426" width="321" height="415" frameX="-34" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0002" x="826" y="426" width="321" height="415" frameX="-34" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0003" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0004" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0005" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0006" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0007" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0008" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0009" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0010" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0011" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0012" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0013" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0014" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0015" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0016" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0017" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0018" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0019" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0020" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0021" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0022" x="1477" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0023" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Left Note MISS0024" x="1152" y="426" width="320" height="415" frameX="-32" frameY="0" frameWidth="407" frameHeight="416"/>
+	<SubTexture name="Alya Right Note0000" x="1802" y="426" width="351" height="411" pivotX="3.45" pivotY="-73.85" frameX="-1" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0001" x="1802" y="426" width="351" height="411" frameX="-1" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0002" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0003" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0004" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0005" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0006" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0007" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0008" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0009" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0010" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0011" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0012" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0013" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note0014" x="2158" y="426" width="348" height="411" frameX="0" frameY="0" frameWidth="352" frameHeight="411"/>
+	<SubTexture name="Alya Right Note MISS0000" x="2511" y="426" width="351" height="411" pivotX="2.2" pivotY="-71" frameX="0" frameY="-2" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0001" x="2867" y="426" width="348" height="413" frameX="0" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0002" x="2867" y="426" width="348" height="413" frameX="0" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0003" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0004" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0005" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0006" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0007" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0008" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0009" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0010" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0011" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0012" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0013" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0014" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0015" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0016" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0017" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0018" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0019" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0020" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0021" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0022" x="3577" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0023" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Right Note MISS0024" x="3220" y="426" width="352" height="413" frameX="-1" frameY="0" frameWidth="353" frameHeight="413"/>
+	<SubTexture name="Alya Up Note0000" x="0" y="846" width="352" height="457" pivotX="169.2" pivotY="233.6"/>
+	<SubTexture name="Alya Up Note0001" x="0" y="846" width="352" height="457"/>
+	<SubTexture name="Alya Up Note0002" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0003" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0004" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0005" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0006" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0007" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0008" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0009" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0010" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0011" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0012" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0013" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note0014" x="357" y="846" width="350" height="449" frameX="0" frameY="-8" frameWidth="352" frameHeight="457"/>
+	<SubTexture name="Alya Up Note MISS0000" x="712" y="846" width="352" height="458" pivotX="148.8" pivotY="205.4" frameX="-3" frameY="-1" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0001" x="1069" y="846" width="362" height="454" frameX="0" frameY="-4" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0002" x="1069" y="846" width="362" height="454" frameX="0" frameY="-4" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0003" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0004" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0005" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0006" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0007" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0008" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0009" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0010" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0011" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0012" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0013" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0014" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0015" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0016" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0017" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0018" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0019" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0020" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0021" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0022" x="1797" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0023" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+	<SubTexture name="Alya Up Note MISS0024" x="1436" y="846" width="356" height="458" frameX="-3" frameY="0" frameWidth="362" frameHeight="459"/>
+</TextureAtlas>

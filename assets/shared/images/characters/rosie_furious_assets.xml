@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rosie_assets 3.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="furious rosanna down0000" x="0" y="0" width="751" height="509" frameX="-6" frameY="0" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0001" x="751" y="0" width="757" height="507" frameX="-1" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0002" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0003" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0004" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0005" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0006" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0007" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0008" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0009" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0010" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0011" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0012" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0013" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0014" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0015" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0016" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0017" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0018" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0019" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0020" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0021" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0022" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0023" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0024" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0025" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0026" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0027" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0028" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna down0029" x="1508" y="0" width="758" height="507" frameX="0" frameY="-2" frameWidth="758" frameHeight="509"/>
+	<SubTexture name="furious rosanna idle0000" x="2266" y="0" width="650" height="635" frameX="0" frameY="-7" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0001" x="2916" y="0" width="651" height="638" frameX="-2" frameY="-4" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0002" x="0" y="638" width="651" height="639" frameX="-3" frameY="-3" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0003" x="651" y="638" width="651" height="640" frameX="-4" frameY="-2" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0004" x="1302" y="638" width="650" height="641" frameX="-5" frameY="-1" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0005" x="1952" y="638" width="651" height="641" frameX="-5" frameY="-1" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0006" x="2603" y="638" width="651" height="641" frameX="-5" frameY="-1" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0007" x="3254" y="638" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0008" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0009" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0010" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0011" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0012" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0013" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0014" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna idle0015" x="0" y="1280" width="651" height="642" frameX="-5" frameY="0" frameWidth="656" frameHeight="642"/>
+	<SubTexture name="furious rosanna left 0000" x="651" y="1280" width="601" height="677" frameX="-11" frameY="-4" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0001" x="1252" y="1280" width="600" height="680" frameX="-2" frameY="-1" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0002" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0003" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0004" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0005" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0006" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0007" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0008" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0009" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0010" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0011" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0012" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0013" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0014" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0015" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0016" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0017" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0018" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0019" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0020" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0021" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0022" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0023" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0024" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0025" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0026" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0027" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0028" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna left 0029" x="1852" y="1280" width="601" height="681" frameX="0" frameY="0" frameWidth="612" frameHeight="681"/>
+	<SubTexture name="furious rosanna right0000" x="2453" y="1280" width="805" height="642" frameX="0" frameY="0" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0001" x="3258" y="1280" width="783" height="637" frameX="-35" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0002" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0003" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0004" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0005" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0006" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0007" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0008" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0009" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0010" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0011" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0012" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0013" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0014" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0015" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0016" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0017" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0018" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0019" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0020" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0021" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0022" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0023" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0024" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0025" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0026" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0027" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0028" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna right0029" x="0" y="1961" width="779" height="637" frameX="-41" frameY="-5" frameWidth="820" frameHeight="642"/>
+	<SubTexture name="furious rosanna shoot0000" x="779" y="1961" width="762" height="507" frameX="-55" frameY="0" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0001" x="1541" y="1961" width="956" height="506" frameX="0" frameY="-1" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0002" x="2497" y="1961" width="1072" height="507" frameX="-7" frameY="0" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0003" x="0" y="2598" width="1111" height="507" frameX="-55" frameY="0" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0004" x="1111" y="2598" width="804" height="500" frameX="-63" frameY="-7" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0005" x="1915" y="2598" width="804" height="497" frameX="-66" frameY="-10" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0006" x="2719" y="2598" width="805" height="496" frameX="-67" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0007" x="0" y="3105" width="806" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0008" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0009" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0010" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0011" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0012" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0013" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0014" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0015" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0016" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna shoot0017" x="806" y="3105" width="714" height="496" frameX="-68" frameY="-11" frameWidth="1166" frameHeight="507"/>
+	<SubTexture name="furious rosanna up0000" x="1520" y="3105" width="661" height="656" frameX="-17" frameY="-3" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0001" x="2181" y="3105" width="669" height="657" frameX="-8" frameY="-2" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0002" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0003" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0004" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0005" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0006" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0007" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0008" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0009" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0010" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0011" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0012" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0013" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0014" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0015" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0016" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0017" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0018" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0019" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0020" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0021" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0022" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0023" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0024" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0025" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0026" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0027" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0028" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+	<SubTexture name="furious rosanna up0029" x="2850" y="3105" width="676" height="659" frameX="0" frameY="0" frameWidth="678" frameHeight="659"/>
+</TextureAtlas>

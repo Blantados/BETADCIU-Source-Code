@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FUCKINGHITITBITCH.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fuckinHITIT0000" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0001" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0002" x="0" y="108" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0003" x="0" y="108" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0004" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0005" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0006" x="0" y="216" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0007" x="0" y="216" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0008" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0009" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0010" x="0" y="324" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0011" x="0" y="324" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0012" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0013" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0014" x="0" y="432" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0015" x="0" y="432" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0016" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0017" x="0" y="0" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0018" x="0" y="540" width="1075" height="108"/>
+	<SubTexture name="fuckinHITIT0019" x="0" y="540" width="1075" height="108"/>
+</TextureAtlas>

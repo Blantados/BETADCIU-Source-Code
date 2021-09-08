@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Beardington_Assets.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Beardington Sing Note DOWN0000" x="0" y="0" width="296" height="436" pivotX="148" pivotY="235" frameX="0" frameY="-17" frameWidth="297" frameHeight="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0001" x="0" y="0" width="296" height="436" frameX="0" frameY="-17" frameWidth="297" frameHeight="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0002" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0003" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0004" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0005" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0006" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0007" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0008" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0009" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0010" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0011" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0012" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0013" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note DOWN0014" x="301" y="0" width="297" height="453"/>
+	<SubTexture name="Beardington Sing Note LEFT0000" x="603" y="0" width="352" height="462" pivotX="179.95" pivotY="231" frameX="0" frameY="-1" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0001" x="603" y="0" width="352" height="462" frameX="0" frameY="-1" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0002" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0003" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0004" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0005" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0006" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0007" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0008" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0009" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0010" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0011" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0012" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0013" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note LEFT0014" x="960" y="0" width="344" height="463" frameX="-7" frameY="0" frameWidth="352" frameHeight="463"/>
+	<SubTexture name="Beardington Sing Note RIGHT0000" x="1309" y="0" width="390" height="457" pivotX="191" pivotY="228" frameX="-1" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0001" x="1309" y="0" width="390" height="457" frameX="-1" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0002" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0003" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0004" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0005" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0006" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0007" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0008" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0009" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0010" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0011" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0012" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0013" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note RIGHT0014" x="0" y="468" width="382" height="456" frameX="0" frameY="0" frameWidth="391" frameHeight="457"/>
+	<SubTexture name="Beardington Sing Note UP0000" x="387" y="468" width="267" height="492" pivotX="136" pivotY="243" frameX="-1" frameY="0" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0001" x="387" y="468" width="267" height="492" frameX="-1" frameY="0" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0002" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0003" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0004" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0005" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0006" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0007" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0008" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0009" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0010" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0011" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0012" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0013" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington Sing Note UP0014" x="659" y="468" width="268" height="478" frameX="0" frameY="-14" frameWidth="268" frameHeight="492"/>
+	<SubTexture name="Beardington idle dance0000" x="932" y="468" width="354" height="488" pivotX="177" pivotY="250" frameX="0" frameY="-6" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0001" x="932" y="468" width="354" height="488" frameX="0" frameY="-6" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0002" x="1291" y="468" width="356" height="489" frameX="-7" frameY="-5" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0003" x="1291" y="468" width="356" height="489" frameX="-7" frameY="-5" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0004" x="1652" y="468" width="354" height="494" frameX="-5" frameY="0" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0005" x="1652" y="468" width="354" height="494" frameX="-5" frameY="0" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0006" x="0" y="967" width="357" height="488" frameX="-4" frameY="-6" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0007" x="0" y="967" width="357" height="488" frameX="-4" frameY="-6" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0008" x="362" y="967" width="354" height="486" frameX="-5" frameY="-8" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0009" x="362" y="967" width="354" height="486" frameX="-5" frameY="-8" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0010" x="721" y="967" width="282" height="487" frameX="-72" frameY="-7" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0011" x="721" y="967" width="282" height="487" frameX="-72" frameY="-7" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0012" x="1008" y="967" width="353" height="485" frameX="-7" frameY="-9" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0013" x="1008" y="967" width="353" height="485" frameX="-7" frameY="-9" frameWidth="363" frameHeight="494"/>
+	<SubTexture name="Beardington idle dance0014" x="1008" y="967" width="353" height="485" frameX="-7" frameY="-9" frameWidth="363" frameHeight="494"/>
+</TextureAtlas>

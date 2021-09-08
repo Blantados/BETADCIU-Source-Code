@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="phil_assets.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Phil Idle Dance0000" x="0" y="0" width="318" height="374" pivotX="166" pivotY="217" frameX="-7" frameY="-30" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0001" x="0" y="0" width="318" height="374" frameX="-7" frameY="-30" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0002" x="323" y="0" width="319" height="376" frameX="-6" frameY="-29" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0003" x="323" y="0" width="319" height="376" frameX="-6" frameY="-29" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0004" x="647" y="0" width="316" height="374" frameX="-2" frameY="-30" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0005" x="647" y="0" width="316" height="374" frameX="-2" frameY="-30" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0006" x="968" y="0" width="318" height="394" frameX="0" frameY="-10" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0007" x="1291" y="0" width="318" height="399" frameX="0" frameY="-5" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0008" x="0" y="404" width="318" height="404" frameX="0" frameY="0" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0009" x="0" y="404" width="318" height="404" frameX="0" frameY="0" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0010" x="0" y="404" width="318" height="404" frameX="0" frameY="0" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0011" x="0" y="404" width="318" height="404" frameX="0" frameY="0" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0012" x="0" y="404" width="318" height="404" frameX="0" frameY="0" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0013" x="0" y="404" width="318" height="404" frameX="0" frameY="0" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Idle Dance0014" x="0" y="404" width="318" height="404" frameX="0" frameY="0" frameWidth="325" frameHeight="405"/>
+	<SubTexture name="Phil Sing Note DOWN0000" x="323" y="404" width="349" height="359" pivotX="177" pivotY="189" frameX="-2" frameY="-9" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0001" x="323" y="404" width="349" height="359" frameX="-2" frameY="-9" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0002" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0003" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0004" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0005" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0006" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0007" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0008" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0009" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0010" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0011" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0012" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0013" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note DOWN0014" x="677" y="404" width="347" height="368" frameX="0" frameY="0" frameWidth="351" frameHeight="368"/>
+	<SubTexture name="Phil Sing Note LEFT0000" x="1029" y="404" width="353" height="386" pivotX="183" pivotY="212"/>
+	<SubTexture name="Phil Sing Note LEFT0001" x="1029" y="404" width="353" height="386"/>
+	<SubTexture name="Phil Sing Note LEFT0002" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0003" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0004" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0005" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0006" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0007" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0008" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0009" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0010" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0011" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0012" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0013" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note LEFT0014" x="0" y="813" width="343" height="385" frameX="-4" frameY="-1" frameWidth="353" frameHeight="386"/>
+	<SubTexture name="Phil Sing Note RIGHT0000" x="348" y="813" width="270" height="391" pivotX="131" pivotY="211"/>
+	<SubTexture name="Phil Sing Note RIGHT0001" x="348" y="813" width="270" height="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0002" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0003" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0004" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0005" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0006" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0007" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0008" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0009" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0010" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0011" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0012" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0013" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note RIGHT0014" x="623" y="813" width="265" height="387" frameX="-1" frameY="-4" frameWidth="270" frameHeight="391"/>
+	<SubTexture name="Phil Sing Note UP0000" x="893" y="813" width="341" height="414" pivotX="160" pivotY="227" frameX="-3" frameY="0" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0001" x="893" y="813" width="341" height="414" frameX="-3" frameY="0" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0002" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0003" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0004" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0005" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0006" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0007" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0008" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0009" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0010" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0011" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0012" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0013" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+	<SubTexture name="Phil Sing Note UP0014" x="1239" y="813" width="342" height="411" frameX="0" frameY="-3" frameWidth="344" frameHeight="414"/>
+</TextureAtlas>

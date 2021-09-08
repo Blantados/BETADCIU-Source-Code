@@ -18,8 +18,8 @@ class DialogueBox extends FlxSpriteGroup
 {
 	var box:FlxSprite;
 
-	var curCharacter:String = '';
-	var direction:String = '';
+	public static var curCharacter:String = '';
+	public var direction:String = '';
 
 	var dialogue:Alphabet;
 	var dialogueList:Array<String> = [];
@@ -39,6 +39,8 @@ class DialogueBox extends FlxSpriteGroup
 	var portraitTankmanHappy:FlxSprite;
 	var portraitTankmanSmile:FlxSprite;
 	var portraitWhitty:FlxSprite;
+	var portraitPico:FlxSprite;
+	var portraitBotan:FlxSprite;
 	var portraitSarv:FlxSprite;
 	var portraitGF:FlxSprite;
 	var portraitSelever:FlxSprite;
@@ -48,12 +50,16 @@ class DialogueBox extends FlxSpriteGroup
 	var portraitRight:FlxSprite;
 	var portraitLeftPixel:FlxSprite;
 	var portraitRightPixel:FlxSprite;
+	var fever:FlxSprite;
+	var tea:FlxSprite;
 
 	var gasp:Bool = false;
 	var norm:Bool = false;
 
 	var handSelect:FlxSprite;
 	var bgFade:FlxSprite;
+
+	var gunShit:String = '';
 
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
 	{
@@ -153,7 +159,7 @@ class DialogueBox extends FlxSpriteGroup
 		add(portraitSenpai);
 		portraitSenpai.visible = false;
 
-		portraitWhitty = new FlxSprite(-100, FlxG.height - 700);
+		portraitWhitty = new FlxSprite(100, FlxG.height - 575);
 		portraitWhitty.frames = Paths.getSparrowAtlas('portraits/whittyPort');
 		portraitWhitty.animation.addByPrefix('enter', 'Whitty Portrait Normal', 24, false);
 		portraitWhitty.animation.addByPrefix('agitated', 'Whitty Portrait Agitated', 24, false);
@@ -161,6 +167,41 @@ class DialogueBox extends FlxSpriteGroup
 		portraitWhitty.scrollFactor.set();
 		add(portraitWhitty);
 		portraitWhitty.visible = false;
+
+		portraitPico = new FlxSprite(100, FlxG.height - 550);
+		portraitPico.frames = Paths.getSparrowAtlas('portraits/picoPort');
+		portraitPico.animation.addByPrefix('enter', 'Pico Portrait Normal', 24, false);
+		portraitPico.animation.addByPrefix('angry', 'Pico Portrait Angry', 24, false);
+		portraitPico.animation.addByPrefix('dark', 'Pico Portrait Dark', 24, false);
+		portraitPico.animation.addByPrefix('speakdark', 'Pico Portrait Speak Dark', 24, false);
+		portraitPico.animation.addByPrefix('shoutdark', 'Pico Portrait Shout Dark', 24, false);
+		portraitPico.animation.addByPrefix('happydark', 'Pico Portrait Happy Dark', 24, false);
+		portraitPico.animation.addByPrefix('threat', 'Pico Portrait Threat', 24, false);
+		portraitPico.animation.addByPrefix('speakdark-gunless', 'Pico Portrait Gunless Speak Dark', 24, false);
+		portraitPico.animation.addByPrefix('dark-gunless', 'Pico Portrait Gunless Dark', 24, false);
+		portraitPico.animation.addByPrefix('happydark-gunless', 'Pico Portrait Gunless Happy Dark', 24, false);
+		portraitPico.scrollFactor.set();
+		add(portraitPico);
+		portraitPico.visible = false;
+
+		portraitBotan = new FlxSprite(100, FlxG.height - 600);
+		portraitBotan.frames = Paths.getSparrowAtlas('portraits/botanPort');
+		portraitBotan.animation.addByPrefix('enter', 'Botan Portrait Normal', 24, false);
+		portraitBotan.animation.addByPrefix('smirk', 'Botan Portrait Smirk', 24, false);
+		portraitBotan.animation.addByPrefix('worried', 'Botan Portrait Worried', 24, false);
+		portraitBotan.animation.addByPrefix('smile', 'Botan Portrait Smile', 24, false);
+		portraitBotan.animation.addByPrefix('speak', 'Botan Portrait Speak', 24, false);
+		portraitBotan.animation.addByPrefix('angry', 'Botan Portrait Angry', 24, false);
+		portraitBotan.animation.addByPrefix('blush', 'Botan Portrait Blush', 24, false);
+		portraitBotan.animation.addByPrefix('enter-gun', 'Botan Gun Portrait Normal', 24, false);
+		portraitBotan.animation.addByPrefix('smirk-gun', 'Botan Gun Portrait Smirk', 24, false);
+		portraitBotan.animation.addByPrefix('worried-gun', 'Botan Gun Portrait Worried', 24, false);
+		portraitBotan.animation.addByPrefix('smile-gun', 'Botan Gun Portrait Smile', 24, false);
+		portraitBotan.animation.addByPrefix('speak-gun', 'Botan Gun Portrait Speak', 24, false);
+		portraitBotan.animation.addByPrefix('blush-gun', 'Botan Gun Portrait Blush', 24, false);
+		portraitBotan.scrollFactor.set();
+		add(portraitBotan);
+		portraitBotan.visible = false;
 
 		portraitMonika = new FlxSprite(-20, 40);
 		portraitMonika.frames = Paths.getSparrowAtlas('portraits/monika');
@@ -251,6 +292,40 @@ class DialogueBox extends FlxSpriteGroup
 		add(portraitRightPixel);
 		portraitRightPixel.visible = false;
 
+		fever = new FlxSprite(830, 40);
+		fever.frames = Paths.getSparrowAtlas('portraits/feversprites');
+		fever.animation.addByPrefix('point', 'feverpoint', 24, false);
+		fever.animation.addByPrefix('silly', 'feversilly', 24, false);
+		fever.animation.addByPrefix('worry', 'feverworry', 24, false);
+		fever.animation.addByPrefix('flirt', 'feverflirt', 24, false);
+		fever.animation.addByPrefix('scared', 'feverscared', 24, false);
+		fever.animation.addByPrefix('confuse', 'feverconfuse', 24, false);
+		fever.animation.addByPrefix('tired', 'fevertired', 24, false);
+		fever.animation.addByPrefix('fine', 'feverfine', 24, false);
+		fever.animation.addByPrefix('annoyed', 'feverannoyed', 24, false);
+		fever.animation.addByPrefix('smile', 'feversmile', 24, false);
+		fever.setGraphicSize(Std.int(fever.width * 0.8));
+		fever.updateHitbox();
+		fever.scrollFactor.set();
+		add(fever);
+		fever.visible = false;
+
+		tea = new FlxSprite(40, 40);
+		tea.frames = Paths.getSparrowAtlas('portraits/teaSprites');
+		tea.animation.addByPrefix('smile', 'teaSmile', 24, false);
+		tea.animation.addByPrefix('neutral', 'teaNeutral', 24, false);
+		tea.animation.addByPrefix('worry', 'teaWorry', 24, false);
+		tea.animation.addByPrefix('blush', 'teaBlush', 24, false);
+		tea.animation.addByPrefix('annoy', 'teaAnnoy', 0, false);
+		tea.animation.addByPrefix('annoytwo', 'teaAnnoy2', 24, false);
+		tea.animation.addByPrefix('think', 'teaThink', 24, false);
+		tea.animation.addByPrefix('angry', 'teaAngry', 24, false);
+		tea.setGraphicSize(Std.int(tea.width * 0.8));
+		tea.updateHitbox();
+		tea.scrollFactor.set();
+		add(tea);
+		tea.visible = false;
+
 		
 		box.animation.play('normalOpen');
 		if (PlayState.SONG.song.toLowerCase() == 'senpai' || PlayState.SONG.song.toLowerCase() == 'thorns' || PlayState.SONG.song.toLowerCase() == 'roses')
@@ -335,6 +410,21 @@ class DialogueBox extends FlxSpriteGroup
 			}
 		}
 
+		if (swagDialogue.text == '...' && curCharacter == 'pico-dark')
+		{
+			PlayState.dad.playAnim('mad', true);
+		}
+
+		if (curCharacter == 'pico-happydark')
+		{
+			PlayState.dad.playAnim('huh', true, false);
+		}	
+
+		if (curCharacter == 'pico-threat')
+		{
+			PlayState.dad.playAnim('idle', true, false, 15);
+		}	
+
 		if (dialogueOpened && !dialogueStarted)
 		{
 			startDialogue();
@@ -368,6 +458,11 @@ class DialogueBox extends FlxSpriteGroup
 						portraitSelever.visible = false;
 						portraitMonika.visible = false;
 						portraitGF.visible = false;
+						portraitRight.visible =  false;
+						portraitLeft.visible = false;
+						portraitPico.visible =  false;
+						fever.visible = false;
+						tea.visible = false;
 						swagDialogue.alpha -= 1 / 5;
 						dropText.alpha = swagDialogue.alpha;
 					}, 5);
@@ -455,9 +550,31 @@ class DialogueBox extends FlxSpriteGroup
 				portraitRight.visible = false;
 				portraitLeftPixel.visible = false;
 				portraitRightPixel.visible = false;			
-				if (!portraitSenpai.visible)
+				if (!portraitSenpai.visible || (portraitSenpai.visible && portraitSenpai.frames != Paths.getSparrowAtlas('portraits/senpaiPortrait')))
 				{
 					portraitSenpai.visible = true;
+					portraitSenpai.frames = Paths.getSparrowAtlas('portraits/senpaiPortrait');
+					portraitSenpai.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
+					portraitSenpai.animation.play('enter');
+				}
+
+			case 'senpai-angry':
+				portraitBFPixel.visible = false;
+				portraitWhitty.visible = false;
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitZero.visible = false;
+				portraitMonika.visible = false;
+				portraitSelever.visible = false;
+				portraitLeft.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;			
+				if (!portraitSenpai.visible|| (portraitSenpai.visible && portraitSenpai.frames != Paths.getSparrowAtlas('portraits/senpai_angry')))
+				{
+					portraitSenpai.visible = true;
+					portraitSenpai.frames = Paths.getSparrowAtlas('portraits/senpai_angry');
+					portraitSenpai.animation.addByPrefix('enter', 'Portrait Enter instance', 24, false);
 					portraitSenpai.animation.play('enter');
 				}
 
@@ -527,6 +644,8 @@ class DialogueBox extends FlxSpriteGroup
 				portraitRight.visible = false;
 				portraitLeftPixel.visible = false;
 				portraitRightPixel.visible = false;		
+				portraitPico.visible = false;
+				portraitBotan.visible = false;
 				if (!portraitGF.visible || portraitGF.animation.curAnim.name != 'enter')
 				{
 					portraitGF.visible = true;
@@ -544,7 +663,9 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeft.visible = false;
 				portraitRight.visible = false;
 				portraitLeftPixel.visible = false;
-				portraitRightPixel.visible = false;		
+				portraitRightPixel.visible = false;	
+				portraitPico.visible = false;	
+				portraitBotan.visible = false;
 				if (!portraitGF.visible || portraitGF.animation.curAnim.name != 'cry')
 				{
 					portraitGF.visible = true;
@@ -964,15 +1085,17 @@ class DialogueBox extends FlxSpriteGroup
 				portraitMonika.visible = false;
 				portraitZero.visible = false;
 				portraitSelever.visible = false;
+				portraitBotan.visible = false;
+				portraitLeft.visible = false;
 				portraitRight.visible = false;
 				portraitLeftPixel.visible = false;
-				portraitRightPixel.visible = false;		
-				if (!portraitLeft.visible || (portraitLeft.visible && portraitLeft.frames != Paths.getSparrowAtlas('portraits/picoPortrait')))
+				portraitRightPixel.visible = false;					
+				fever.visible = false;
+				tea.visible = false;
+				if (!portraitPico.visible || (portraitPico.visible && portraitPico.animation.curAnim.name != 'enter'))
 				{
-					portraitLeft.visible = true;
-					portraitLeft.frames = Paths.getSparrowAtlas('portraits/picoPortrait');
-					portraitLeft.animation.addByPrefix('enter', 'Portrait Enter instance', 24, false);
-					portraitLeft.animation.play('enter');
+					portraitPico.visible = true;
+					portraitPico.animation.play('enter');
 				}
 
 			case 'pico-angry':
@@ -984,18 +1107,160 @@ class DialogueBox extends FlxSpriteGroup
 				portraitMonika.visible = false;
 				portraitZero.visible = false;
 				portraitSelever.visible = false;
+				portraitBotan.visible = false;
+				portraitLeft.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;					
+				fever.visible = false;
+				tea.visible = false;
+				if (!portraitPico.visible || (portraitPico.visible && portraitPico.animation.curAnim.name != 'angry'))
+				{
+					portraitPico.visible = true;
+					portraitPico.animation.play('angry');
+				}
+
+			case 'pico-dark' | 'pico-gunless-dark':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitBotan.visible = false;
+				portraitLeft.visible = false;
 				portraitRight.visible = false;
 				portraitLeftPixel.visible = false;
 				portraitRightPixel.visible = false;		
-				if (!portraitLeft.visible || (portraitLeft.visible && portraitLeft.frames != Paths.getSparrowAtlas('portraits/picoAngryPortrait')))
+				fever.visible = false;
+				tea.visible = false;
+
+				if (curCharacter.contains('gunless'))
 				{
-					portraitLeft.visible = true;
-					portraitLeft.frames = Paths.getSparrowAtlas('portraits/picoAngryPortrait');
-					portraitLeft.animation.addByPrefix('enter', 'Portrait Enter instance', 24, false);
-					portraitLeft.animation.play('enter');
+					gunShit ='-gunless';
+				}
+				else
+				{
+					gunShit = '';
 				}
 
-			case 'botan-happy':
+				if (!portraitPico.visible || (portraitPico.visible && portraitPico.animation.curAnim.name != ('dark' + gunShit)))
+				{
+					portraitPico.visible = true;
+					portraitPico.animation.play('dark'+ gunShit);
+				}
+
+			case 'pico-speakdark' | 'pico-gunless-speakdark':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitBotan.visible = false;
+				portraitLeft.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				fever.visible = false;
+				tea.visible = false;
+
+				if (curCharacter.contains('gunless'))
+				{
+					gunShit ='-gunless';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitPico.visible || (portraitPico.visible && portraitPico.animation.curAnim.name != ('speakdark' + gunShit)))
+				{
+					portraitPico.visible = true;
+					portraitPico.animation.play('speakdark' + gunShit);
+				}
+
+			case 'pico-shoutdark':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitBotan.visible = false;
+				portraitLeft.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				fever.visible = false;
+				tea.visible = false;
+				if (!portraitPico.visible || (portraitPico.visible && portraitPico.animation.curAnim.name != 'shoutdark'))
+				{
+					portraitPico.visible = true;
+					portraitPico.animation.play('shoutdark');
+				}
+
+			case 'pico-threat':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitBotan.visible = false;
+				portraitLeft.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				fever.visible = false;
+				tea.visible = false;
+				if (!portraitPico.visible || (portraitPico.visible && portraitPico.animation.curAnim.name != 'threat'))
+				{
+					portraitPico.visible = true;
+					portraitPico.animation.play('threat');
+				}
+
+			case 'pico-happydark' | 'pico-gunless-happydark':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitBotan.visible = false;
+				portraitLeft.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				fever.visible = false;
+				tea.visible = false;
+
+				if (curCharacter.contains('gunless'))
+				{
+					gunShit ='-gunless';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitPico.visible || (portraitPico.visible && portraitPico.animation.curAnim.name != ('happydark' + gunShit)))
+				{
+					portraitPico.visible = true;
+					portraitPico.animation.play('happydark' + gunShit);
+				}
+
+			case 'botan-smirk' | 'botan-gun-smirk':
 				portraitSarv.visible = false;
 				portraitGF.visible = false;
 				portraitSenpai.visible = false;
@@ -1007,12 +1272,486 @@ class DialogueBox extends FlxSpriteGroup
 				portraitRight.visible = false;
 				portraitLeftPixel.visible = false;
 				portraitRightPixel.visible = false;		
-				if (!portraitLeft.visible || (portraitLeft.visible && portraitLeft.frames != Paths.getSparrowAtlas('portraits/botanHappyPortrait')))
+				portraitPico.visible = false;
+				tea.visible = false;
+				fever.visible = false;
+
+				if (curCharacter.contains('gun'))
 				{
-					portraitLeft.visible = true;
-					portraitLeft.frames = Paths.getSparrowAtlas('portraits/botanHappyPortrait');
-					portraitLeft.animation.addByPrefix('enter', 'Portrait Enter instance', 24, false);
-					portraitLeft.animation.play('enter');
+					gunShit ='-gun';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitBotan.visible || (portraitBotan.visible && portraitBotan.animation.curAnim.name != ('smirk' + gunShit)))
+				{
+					portraitBotan.visible = true;
+					portraitBotan.animation.play('smirk' + gunShit);
+				}
+
+			case 'botan-smile' | 'botan-gun-smile':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				portraitPico.visible = false;
+				tea.visible = false;
+				fever.visible = false;
+
+				if (curCharacter.contains('gun'))
+				{
+					gunShit ='-gun';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitBotan.visible || (portraitBotan.visible && portraitBotan.animation.curAnim.name != ('smile' + gunShit)))
+				{
+					portraitBotan.visible = true;
+					portraitBotan.animation.play('smile' + gunShit);
+				}
+
+			case 'botan-worried' | 'botan-gun-worried':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				portraitPico.visible = false;
+				tea.visible = false;
+				fever.visible = false;
+
+				if (curCharacter.contains('gun'))
+				{
+					gunShit ='-gun';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitBotan.visible || (portraitBotan.visible && portraitBotan.animation.curAnim.name != ('worried' + gunShit)))
+				{
+					portraitBotan.visible = true;
+					portraitBotan.animation.play('worried' + gunShit);
+				}
+
+			case 'botan-angry' | 'botan-gun-angry':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				portraitPico.visible = false;
+				tea.visible = false;
+				fever.visible = false;
+
+				if (curCharacter.contains('gun'))
+				{
+					gunShit ='-gun';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitBotan.visible || (portraitBotan.visible && portraitBotan.animation.curAnim.name != ('angry' + gunShit)))
+				{
+					portraitBotan.visible = true;
+					portraitBotan.animation.play('angry' + gunShit);
+				}
+
+			case 'botan' | 'botan-gun':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				portraitPico.visible = false;
+				tea.visible = false;
+				fever.visible = false;
+
+				if (curCharacter.contains('gun'))
+				{
+					gunShit ='-gun';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitBotan.visible || (portraitBotan.visible && portraitBotan.animation.curAnim.name != ('enter' + gunShit)))
+				{
+					portraitBotan.visible = true;
+					portraitBotan.animation.play('enter' + gunShit);
+				}
+
+			case 'botan-blush' | 'botan-gun-blush':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;		
+				portraitPico.visible = false;
+				tea.visible = false;
+				fever.visible = false;
+
+				if (curCharacter.contains('gun'))
+				{
+					gunShit ='-gun';
+				}
+				else
+				{
+					gunShit = '';
+				}
+
+				if (!portraitBotan.visible || (portraitBotan.visible && portraitBotan.animation.curAnim.name != ('blush' + gunShit)))
+				{
+					portraitBotan.visible = true;
+					portraitBotan.animation.play('blush' + gunShit);
+				}
+
+			case 'fever-smile':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				tea.visible = false;
+				portraitBotan.visible = false;
+				if (!fever.visible || (fever.visible && fever.animation.curAnim.name != ('smile')))
+				{
+					fever.visible = true;
+					fever.animation.play('smile');
+				}
+
+			case 'fever-worried':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				tea.visible = false;
+				portraitBotan.visible = false;
+				if (!fever.visible || (fever.visible && fever.animation.curAnim.name != ('worry')))
+				{
+					fever.visible = true;
+					fever.animation.play('worry');
+				}
+
+			case 'fever-annoyed':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				tea.visible = false;
+				portraitBotan.visible = false;
+				if (!fever.visible || (fever.visible && fever.animation.curAnim.name != ('annoyed')))
+				{
+					fever.visible = true;
+					fever.animation.play('annoyed');
+				}
+
+			case 'fever-scared':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				tea.visible = false;
+				portraitBotan.visible = false;
+				if (!fever.visible || (fever.visible && fever.animation.curAnim.name != ('scared')))
+				{
+					fever.visible = true;
+					fever.animation.play('scared');
+				}
+
+			case 'fever-confused':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				tea.visible = false;
+				portraitBotan.visible = false;
+				if (!fever.visible || (fever.visible && fever.animation.curAnim.name != ('confuse')))
+				{
+					fever.visible = true;
+					fever.animation.play('confuse');
+				}
+
+			case 'fever-tired':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				tea.visible = false;
+				portraitBotan.visible = false;
+				if (!fever.visible || (fever.visible && fever.animation.curAnim.name != ('tired')))
+				{
+					fever.visible = true;
+					fever.animation.play('tired');
+				}
+
+			case 'fever-fine':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				tea.visible = false;
+				portraitBotan.visible = false;
+				if (!fever.visible || (fever.visible && fever.animation.curAnim.name != ('fine')))
+				{
+					fever.visible = true;
+					fever.animation.play('fine');
+				}
+
+			case 'tea-smile':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				fever.visible = false;
+				portraitBotan.visible = false;
+				if (!tea.visible || (tea.visible && tea.animation.curAnim.name != ('smile')))
+				{
+					tea.visible = true;
+					tea.animation.play('smile');
+				}
+
+			case 'tea':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				fever.visible = false;
+				portraitBotan.visible = false;
+				if (!tea.visible || (tea.visible && tea.animation.curAnim.name != ('neutral')))
+				{
+					tea.visible = true;
+					tea.animation.play('neutral');
+				}
+
+			case 'tea-worried':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				fever.visible = false;
+				portraitBotan.visible = false;
+				if (!tea.visible || (tea.visible && tea.animation.curAnim.name != ('worry')))
+				{
+					tea.visible = true;
+					tea.animation.play('worry');
+				}
+
+			case 'tea-think':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				fever.visible = false;
+				portraitBotan.visible = false;
+				if (!tea.visible || (tea.visible && tea.animation.curAnim.name != ('think')))
+				{
+					tea.visible = true;
+					tea.animation.play('think');
+				}
+
+			case 'tea-angry':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				fever.visible = false;
+				portraitBotan.visible = false;
+				if (!tea.visible || (tea.visible && tea.animation.curAnim.name != ('angry')))
+				{
+					tea.visible = true;
+					tea.animation.play('angry');
+				}
+
+			case 'tea-annoy':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				fever.visible = false;
+				portraitBotan.visible = false;
+				if (!tea.visible || (tea.visible && tea.animation.curAnim.name != ('annoy')))
+				{
+					tea.visible = true;
+					tea.animation.play('annoy');
+				}
+
+			case 'tea-annoy2':
+				portraitSarv.visible = false;
+				portraitGF.visible = false;
+				portraitSenpai.visible = false;
+				portraitWhitty.visible = false;
+				portraitBFPixel.visible = false;
+				portraitMonika.visible = false;
+				portraitZero.visible = false;
+				portraitSelever.visible = false;
+				portraitRight.visible = false;
+				portraitLeftPixel.visible = false;
+				portraitRightPixel.visible = false;	
+				portraitLeft.visible = false;
+				portraitPico.visible = false;
+				fever.visible = false;
+				portraitBotan.visible = false;
+				if (!tea.visible || (tea.visible && tea.animation.curAnim.name != ('annoy2')))
+				{
+					tea.visible = true;
+					tea.animation.play('annoy2');
 				}
 		}
 
@@ -1057,6 +1796,7 @@ class DialogueBox extends FlxSpriteGroup
 
 				portraitSarv.flipX = true;
 				portraitLeft.flipX = true;
+				portraitPico.flipX = true;
 				portraitGF.flipX = true;
 				portraitWhitty.flipX = true;
 				portraitMonika.flipX = false;
@@ -1069,9 +1809,10 @@ class DialogueBox extends FlxSpriteGroup
 				portraitGF.x = 0;
 				portraitSenpai.x = 0;
 				portraitMonika.x = 0;
-				portraitSarv.x = 800;
+				portraitSarv.x = 850;
 				portraitSelever.x = 800;
 				portraitWhitty.x = 0;
+				portraitPico.x = 800;
 				portraitLeftPixel.x = 0;
 				portraitRightPixel.x = 0;		
 
@@ -1173,6 +1914,7 @@ class DialogueBox extends FlxSpriteGroup
 
 				portraitSarv.flipX = false;
 				portraitLeft.flipX = false;
+				portraitPico.flipX = false;
 				portraitGF.flipX = false;
 				portraitWhitty.flipX = false;
 				portraitMonika.flipX = false;
@@ -1185,14 +1927,15 @@ class DialogueBox extends FlxSpriteGroup
 				portraitMonika.x = -20;
 				portraitSarv.x = 200;
 				portraitSelever.x = 200;
-				portraitWhitty.x = -100;
+				portraitWhitty.x = 100;
+				portraitPico.x = 100;
 				portraitLeft.x = -70;
 				portraitLeftPixel.x = -20;
 				portraitRightPixel.x = 0;
 
 				if (!PlayState.curStage.contains('school'))
 				{
-					if (curCharacter.contains('gf') || curCharacter.contains('right') || curCharacter.contains('shadowman'))
+					if (curCharacter.contains('gf') || curCharacter.contains('right') || curCharacter.contains('shadowman') || curCharacter.contains('fever'))
 					{
 						box.flipX = false;
 					}

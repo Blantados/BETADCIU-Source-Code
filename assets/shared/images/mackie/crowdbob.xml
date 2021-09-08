@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crowdbob.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="crowd bob0000" x="0" y="0" width="3430" height="886"/>
+	<SubTexture name="crowd bob0001" x="0" y="0" width="3430" height="886"/>
+	<SubTexture name="crowd bob0002" x="0" y="886" width="3429" height="872" frameX="0" frameY="-13" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0003" x="0" y="1758" width="3429" height="848" frameX="0" frameY="-36" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0004" x="0" y="1758" width="3429" height="848" frameX="0" frameY="-36" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0005" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0006" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0007" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0008" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0009" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0010" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0011" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0012" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+	<SubTexture name="crowd bob0013" x="0" y="2606" width="3429" height="885" frameX="0" frameY="0" frameWidth="3430" frameHeight="886"/>
+</TextureAtlas>

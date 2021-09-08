@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kk_assets.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kk down0000" x="0" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0001" x="0" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0002" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0003" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0004" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0005" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0006" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0007" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0008" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0009" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0010" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0011" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0012" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk down0013" x="419" y="0" width="419" height="467"/>
+	<SubTexture name="kk idle0000" x="838" y="0" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0001" x="838" y="0" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0002" x="1257" y="0" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0003" x="1257" y="0" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0004" x="0" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0005" x="0" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0006" x="419" y="467" width="421" height="468" frameX="-8" frameY="-8" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0007" x="419" y="467" width="421" height="468" frameX="-8" frameY="-8" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0008" x="840" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0009" x="840" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0010" x="840" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0011" x="840" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0012" x="840" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk idle0013" x="840" y="467" width="419" height="467" frameX="0" frameY="0" frameWidth="429" frameHeight="476"/>
+	<SubTexture name="kk left0000" x="1259" y="467" width="419" height="467"/>
+	<SubTexture name="kk left0001" x="1259" y="467" width="419" height="467"/>
+	<SubTexture name="kk left0002" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0003" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0004" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0005" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0006" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0007" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0008" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0009" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0010" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0011" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0012" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0013" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk left0014" x="0" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0000" x="419" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0001" x="419" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0002" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0003" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0004" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0005" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0006" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0007" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0008" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0009" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0010" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0011" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0012" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0013" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk right0014" x="838" y="935" width="419" height="467"/>
+	<SubTexture name="kk up0000" x="1257" y="935" width="419" height="467"/>
+	<SubTexture name="kk up0001" x="1257" y="935" width="419" height="467"/>
+	<SubTexture name="kk up0002" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0003" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0004" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0005" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0006" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0007" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0008" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0009" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0010" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0011" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0012" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0013" x="0" y="1402" width="419" height="467"/>
+	<SubTexture name="kk up0014" x="0" y="1402" width="419" height="467"/>
+</TextureAtlas>

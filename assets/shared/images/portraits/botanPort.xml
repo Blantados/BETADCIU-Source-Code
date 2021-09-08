@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="botanPort.png">
+	<!-- Created with MY OWN FUCKING HANDS -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Botan Portrait Normal instance 10000" x="45" y="3" width="429" height="344"/>
+	<SubTexture name="Botan Portrait Smirk instance 10000" x="495" y="3" width="429" height="344"/>
+	<SubTexture name="Botan Portrait Worried instance 10000" x="945" y="3" width="429" height="344"/>
+	<SubTexture name="Botan Portrait Smile instance 10000" x="1395" y="3" width="429" height="344"/>
+	<SubTexture name="Botan Portrait Speak instance 10000" x="1845" y="3" width="429" height="344"/>
+	<SubTexture name="Botan Portrait Angry instance 10000" x="2295" y="3" width="429" height="344"/>
+	<SubTexture name="Botan Portrait Blush instance 10000" x="2745" y="3" width="429" height="344"/>
+
+	<SubTexture name="Botan Gun Portrait Normal instance 10000" x="45" y="394" width="429" height="344"/>
+	<SubTexture name="Botan Gun Portrait Smirk instance 10000" x="495" y="394" width="429" height="344"/>
+	<SubTexture name="Botan Gun Portrait Worried instance 10000" x="945" y="394" width="429" height="344"/>
+	<SubTexture name="Botan Gun Portrait Smile instance 10000" x="1395" y="394" width="429" height="344"/>
+	<SubTexture name="Botan Gun Portrait Speak instance 10000" x="1845" y="394" width="429" height="344"/>
+	<SubTexture name="Botan Gun Portrait Angry instance 10000" x="2295" y="394" width="429" height="344"/>
+	<SubTexture name="Botan Gun Portrait Blush instance 10000" x="2745" y="394" width="429" height="344"/>
+</TextureAtlas>

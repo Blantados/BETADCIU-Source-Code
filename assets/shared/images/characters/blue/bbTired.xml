@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bbTired.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BB Sing Note DOWN0000" x="0" y="0" width="565" height="884" pivotX="284" pivotY="442" frameX="0" frameY="0" frameWidth="566" frameHeight="884"/>
+	<SubTexture name="BB Sing Note DOWN0001" x="570" y="0" width="565" height="884" frameX="-1" frameY="0" frameWidth="566" frameHeight="884"/>
+	<SubTexture name="BB Sing Note LEFT0000" x="1140" y="0" width="565" height="884" pivotX="284" pivotY="442"/>
+	<SubTexture name="BB Sing Note LEFT0001" x="1710" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note RIGHT0000" x="2280" y="0" width="565" height="884" pivotX="284" pivotY="442"/>
+	<SubTexture name="BB Sing Note RIGHT0001" x="2850" y="0" width="565" height="884"/>
+	<SubTexture name="BB Sing Note UP0000" x="0" y="889" width="565" height="884" pivotX="284" pivotY="442"/>
+	<SubTexture name="BB Sing Note UP0001" x="570" y="889" width="565" height="884"/>
+	<SubTexture name="BB idle dance0000" x="1140" y="889" width="553" height="863" pivotX="278" pivotY="431"/>
+	<SubTexture name="BB idle dance0001" x="1140" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0002" x="1698" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0003" x="1698" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0004" x="2256" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0005" x="2256" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0006" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0007" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0008" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0009" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0010" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0011" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0012" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0013" x="2814" y="889" width="553" height="863"/>
+	<SubTexture name="BB idle dance0014" x="2814" y="889" width="553" height="863"/>
+</TextureAtlas>

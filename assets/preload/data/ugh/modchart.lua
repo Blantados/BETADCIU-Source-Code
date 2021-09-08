@@ -20,11 +20,11 @@ end
 function beatHit (beat)
 
     if curBeat == 32 then
-        changeDadCharacter('bf-sky', -55, 510)
+        changeDadCharacter('bf-sky', 50, 320)
     end
 
     if curBeat == 48 then
-        changeBoyfriendCharacter('bf-exgf', 810, 75)
+        changeBoyfriendCharacter('bf-exgf', 770, 75)
     end
 
     if curBeat == 64 then
@@ -41,7 +41,8 @@ function beatHit (beat)
 
     if curBeat == 88 then
         changeDadCharacter('hd-senpai', 20, 100)
-        changeBoyfriendCharacter('monika', 1060, 375)
+        changeBoyfriendCharacter('hd-monika', 810, 125)
+        followBFYOffset = 50
     end
 
     if curBeat == 96 then
@@ -49,6 +50,7 @@ function beatHit (beat)
     end
 
     if curBeat == 112 then
+        followBFYOffset = 0
         changeDadCharacter('whittyCrazy', 20, 100)
         changeBoyfriendCharacter('hex', 810, 75)
     end
@@ -66,7 +68,7 @@ function beatHit (beat)
     end
 
     if curBeat == 176 then
-        changeBoyfriendCharacter('playable-garcello', 810, 450)
+        changeBoyfriendCharacter('garcello', 610, 100)
     end
 
     if curBeat == 192 then

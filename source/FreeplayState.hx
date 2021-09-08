@@ -31,6 +31,7 @@ class FreeplayState extends MusicBeatState
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 	var combo:String = '';
+	var hiddenSongs:Array<String> =['Norway', 'Haachama', 'High-School-Conflict', 'Hunger', 'Sorrow'];
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
@@ -235,7 +236,14 @@ class FreeplayState extends MusicBeatState
 			PlayState.storyDifficulty = curDifficulty;
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
-			LoadingState.loadAndSwitchState(new PlayState());
+			if (hiddenSongs.contains(songs[curSelected].songName) && !Main.isHidden || PlayState.SONG.song == 'Restore' && !Main.restoreUnlocked || PlayState.SONG.song == 'Deathmatch' && !Main.realDeath || PlayState.SONG.song == 'Deathmatch-Holo' && !Main.deathHolo)
+			{
+				LoadingState.loadAndSwitchState(new GoFindTheSecretState());
+			}
+			else
+			{
+				LoadingState.loadAndSwitchState(new PlayState());
+			}	
 		}
 	}
 

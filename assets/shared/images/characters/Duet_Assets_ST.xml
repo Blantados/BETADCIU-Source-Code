@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Duet_Assets_ST.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Duet Idle0000" x="0" y="0" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Idle0001" x="0" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0002" x="125" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0003" x="125" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0004" x="250" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0005" x="250" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0006" x="375" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0007" x="375" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0008" x="500" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0009" x="500" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0010" x="625" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0011" x="625" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0012" x="750" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Idle0013" x="875" y="0" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0000" x="0" y="141" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Down0001" x="0" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0002" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0003" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0004" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0005" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0006" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0007" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0008" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0009" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0010" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0011" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0012" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down0013" x="125" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0000" x="0" y="141" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Down Miss0001" x="250" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0002" x="250" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0003" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0004" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0005" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0006" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0007" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0008" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0009" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0010" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0011" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0012" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Down Miss0013" x="375" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0000" x="500" y="141" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Left0001" x="500" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0002" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0003" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0004" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0005" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0006" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0007" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0008" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0009" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0010" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0011" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0012" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left0013" x="625" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0000" x="500" y="141" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Left Miss0001" x="750" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0002" x="750" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0003" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0004" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0005" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0006" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0007" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0008" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0009" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0010" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0011" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0012" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Left Miss0013" x="875" y="141" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0000" x="0" y="282" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Right0001" x="0" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0002" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0003" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0004" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0005" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0006" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0007" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0008" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0009" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0010" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0011" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0012" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right0013" x="125" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0000" x="0" y="282" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Right Miss0001" x="250" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0002" x="250" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0003" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0004" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0005" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0006" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0007" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0008" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0009" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0010" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0011" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0012" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Right Miss0013" x="375" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0000" x="500" y="282" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Up0001" x="500" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0002" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0003" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0004" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0005" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0006" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0007" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0008" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0009" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0010" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0011" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0012" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up0013" x="625" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0000" x="500" y="282" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Senpai Up Miss0001" x="750" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0002" x="750" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0003" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0004" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0005" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0006" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0007" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0008" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0009" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0010" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0011" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0012" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Senpai Up Miss0013" x="875" y="282" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0000" x="0" y="423" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Down0001" x="0" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0002" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0003" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0004" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0005" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0006" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0007" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0008" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0009" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0010" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0011" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0012" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down0013" x="125" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0000" x="0" y="423" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Down Miss0001" x="250" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0002" x="250" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0003" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0004" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0005" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0006" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0007" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0008" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0009" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0010" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0011" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0012" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Down Miss0013" x="375" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0000" x="500" y="423" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Left0001" x="500" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0002" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0003" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0004" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0005" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0006" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0007" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0008" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0009" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0010" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0011" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0012" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left0013" x="625" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0000" x="500" y="423" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Left Miss0001" x="750" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0002" x="750" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0003" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0004" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0005" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0006" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0007" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0008" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0009" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0010" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0011" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0012" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Left Miss0013" x="875" y="423" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0000" x="0" y="564" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Right0001" x="0" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0002" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0003" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0004" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0005" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0006" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0007" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0008" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0009" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0010" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0011" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0012" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right0013" x="125" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0000" x="0" y="564" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Right Miss0001" x="250" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0002" x="250" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0003" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0004" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0005" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0006" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0007" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0008" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0009" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0010" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0011" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0012" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Right Miss0013" x="375" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0000" x="500" y="564" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Up0001" x="500" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0002" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0003" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0004" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0005" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0006" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0007" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0008" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0009" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0010" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0011" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0012" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up0013" x="625" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0000" x="500" y="564" width="115" height="131" pivotX="58" pivotY="66"/>
+	<SubTexture name="Duet Tankman Up Miss0001" x="750" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0002" x="750" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0003" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0004" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0005" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0006" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0007" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0008" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0009" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0010" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0011" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0012" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0013" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="Duet Tankman Up Miss0013" x="875" y="564" width="115" height="131"/>
+	<SubTexture name="cutscene idle20000" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20001" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20002" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20003" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20004" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20005" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20006" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20007" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20008" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20009" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20010" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20011" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20012" x="0" y="705" width="115" height="131"/>
+	<SubTexture name="cutscene idle20013" x="0" y="705" width="115" height="131"/>
+</TextureAtlas>

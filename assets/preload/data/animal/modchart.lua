@@ -40,7 +40,7 @@ function beatHit (beat)
     end
 
     if curBeat == 63 then
-        changeBoyfriendCharacter('monika', 1090, 400)
+        changeBoyfriendCharacter('hd-monika', 1090, 125)
     end
 
     if curBeat == 72 then
@@ -119,7 +119,7 @@ function beatHit (beat)
     end
 
     if curBeat == 268 then
-        changeBoyfriendCharacter('bf-sky', 1090, 500)
+        changeBoyfriendCharacter('bf-sky', 1090, 300)
     end
 
 end

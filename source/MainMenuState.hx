@@ -38,13 +38,15 @@ class MainMenuState extends MusicBeatState
 
 	public static var kadeEngineVer:String = "Kade Engine";
 	public static var gameVer:String = "0.2.7.1";
-	public static var betadciuVer:String = "Update 7.5";
+	public static var betadciuVer:String = "Update 8.5";
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
 
 	override function create()
 	{
+		FlxG.mouse.visible = false;
+		
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
@@ -198,6 +200,13 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
+
+		#if debug
+		if (FlxG.keys.justPressed.FIVE)
+		{
+			FlxG.save.data.seenDeathPassword = !FlxG.save.data.seenDeathPassword;
+		}
+		#end
 
 		if (!selectedSomethin)
 		{

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Background0000" x="0" y="0" width="2216" height="1085"/>
+	<SubTexture name="bg_with_seizures0000" x="2216" y="0" width="2749" height="957" frameX="-146" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0001" x="4965" y="0" width="2229" height="957" frameX="-35" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0002" x="0" y="1085" width="2487" height="957" frameX="0" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0003" x="2487" y="1085" width="2749" height="957" frameX="-146" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0004" x="5236" y="1085" width="2229" height="957" frameX="-35" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0005" x="0" y="2042" width="2487" height="957" frameX="0" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_withought_seizures0000" x="2487" y="2042" width="2898" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_withought_seizures0001" x="5385" y="2042" width="2348" height="1007" frameX="-31" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_withought_seizures0002" x="0" y="3049" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_withought_seizures0003" x="2608" y="3049" width="2898" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_withought_seizures0004" x="5506" y="3049" width="2348" height="1007" frameX="-31" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_withought_seizures0005" x="0" y="4056" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+</TextureAtlas>

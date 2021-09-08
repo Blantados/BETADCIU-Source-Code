@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg_binb.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Background0000" x="0" y="0" width="2216" height="1085"/>
+	<SubTexture name="bg_binb0000" x="2216" y="0" width="2898" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb0001" x="5114" y="0" width="2348" height="1007" frameX="-31" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb0002" x="0" y="1085" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb0003" x="2608" y="1085" width="2898" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb0004" x="5506" y="1085" width="2348" height="1007" frameX="-31" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb0005" x="0" y="2092" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb0006" x="2608" y="2092" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0000" x="2216" y="0" width="2898" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0001" x="5216" y="2092" width="1977" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0002" x="5114" y="0" width="2348" height="1007" frameX="-31" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0003" x="0" y="3099" width="1977" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0004" x="1977" y="3099" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0005" x="4585" y="3099" width="1977" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0006" x="2608" y="1085" width="2898" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0007" x="0" y="4106" width="1977" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0008" x="5506" y="1085" width="2348" height="1007" frameX="-31" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0009" x="1977" y="4106" width="1977" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0010" x="0" y="2092" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0011" x="3954" y="4106" width="1977" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0012" x="2608" y="2092" width="2608" height="1007" frameX="0" frameY="0" frameWidth="3045" frameHeight="1007"/>
+	<SubTexture name="bg_binb_calm0013" x="5931" y="4106" width="1977" height="1007" frameX="-147" frameY="0" frameWidth="3045" frameHeight="1007"/>
+</TextureAtlas>

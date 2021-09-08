@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GH_NOTES.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down confirm0000" x="0" y="0" width="125" height="125" frameX="0" frameY="-12" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="down confirm0001" x="125" y="0" width="125" height="137"/>
+	<SubTexture name="down confirm0002" x="250" y="0" width="125" height="123" frameX="0" frameY="-14" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="down pressed0000" x="375" y="0" width="125" height="123"/>
+	<SubTexture name="downHold0000" x="500" y="0" width="68" height="69"/>
+	<SubTexture name="downHoldEnd0000" x="568" y="0" width="54" height="54"/>
+	<SubTexture name="downNote0000" x="622" y="0" width="91" height="91"/>
+	<SubTexture name="downNoteBaby0000" x="713" y="0" width="125" height="123"/>
+	<SubTexture name="left confirmed0000" x="838" y="0" width="125" height="125" frameX="0" frameY="-12" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="left confirmed0001" x="0" y="137" width="125" height="137"/>
+	<SubTexture name="left confirmed0002" x="125" y="137" width="125" height="123" frameX="0" frameY="-14" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="left pressed0000" x="250" y="137" width="125" height="123"/>
+	<SubTexture name="leftHold0000" x="375" y="137" width="68" height="69"/>
+	<SubTexture name="leftHoldEnd0000" x="443" y="137" width="54" height="54"/>
+	<SubTexture name="leftNote0000" x="497" y="137" width="91" height="91"/>
+	<SubTexture name="leftNoteBaby0000" x="588" y="137" width="125" height="123"/>
+	<SubTexture name="right confirm0000" x="713" y="137" width="125" height="125" frameX="0" frameY="-12" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="right confirm0001" x="838" y="137" width="125" height="137"/>
+	<SubTexture name="right confirm0002" x="0" y="274" width="125" height="123" frameX="0" frameY="-14" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="right pressed0000" x="125" y="274" width="125" height="123"/>
+	<SubTexture name="rightHold0000" x="250" y="274" width="68" height="69"/>
+	<SubTexture name="rightHoldEnd0000" x="318" y="274" width="54" height="54"/>
+	<SubTexture name="rightNote0000" x="372" y="274" width="91" height="91"/>
+	<SubTexture name="rightNoteBaby0000" x="463" y="274" width="125" height="123"/>
+	<SubTexture name="up confirm0000" x="588" y="274" width="125" height="125" frameX="0" frameY="-12" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="up confirm0001" x="713" y="274" width="125" height="137"/>
+	<SubTexture name="up confirm0002" x="838" y="274" width="125" height="123" frameX="0" frameY="-14" frameWidth="125" frameHeight="137"/>
+	<SubTexture name="up pressed0000" x="0" y="411" width="125" height="123"/>
+	<SubTexture name="upHold0000" x="125" y="411" width="68" height="69"/>
+	<SubTexture name="upHoldEnd0000" x="193" y="411" width="54" height="54"/>
+	<SubTexture name="upNote0000" x="247" y="411" width="91" height="91"/>
+	<SubTexture name="upNoteBaby0000" x="338" y="411" width="125" height="123"/>
+</TextureAtlas>

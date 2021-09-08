@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="blanket.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blanket0000" x="0" y="0" width="293" height="197" frameX="0" frameY="0" frameWidth="1415" frameHeight="220"/>
+	<SubTexture name="blanket0001" x="293" y="0" width="271" height="197" frameX="-2" frameY="-2" frameWidth="1415" frameHeight="220"/>
+	<SubTexture name="blanket0002" x="564" y="0" width="277" height="184" frameX="-1" frameY="-1" frameWidth="1415" frameHeight="220"/>
+	<SubTexture name="blanket0003" x="0" y="197" width="420" height="209" frameX="-34" frameY="-11" frameWidth="1415" frameHeight="220"/>
+	<SubTexture name="blanket0004" x="420" y="197" width="420" height="209" frameX="-434" frameY="-11" frameWidth="1415" frameHeight="220"/>
+	<SubTexture name="blanket0005" x="0" y="406" width="420" height="209" frameX="-814" frameY="-11" frameWidth="1415" frameHeight="220"/>
+	<SubTexture name="blanket0006" x="420" y="406" width="420" height="209" frameX="-995" frameY="-5" frameWidth="1415" frameHeight="220"/>
+	<SubTexture name="blanket0007" x="840" y="406" width="0" height="0" frameX="106" frameY="-5" frameWidth="1415" frameHeight="220"/>
+</TextureAtlas>

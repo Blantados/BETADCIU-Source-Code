@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="teaSprites.png"><SubTexture name="teaSmile0000" x="0" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="teaNeutral0000" x="424" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="teaWorry0000" x="848" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="teaBlush0000" x="1272" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="teaAnnoy20000" x="0" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="teaAnnoy0000" x="424" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="teaThink0000" x="848" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="teaAngry0000" x="1272" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+</TextureAtlas>

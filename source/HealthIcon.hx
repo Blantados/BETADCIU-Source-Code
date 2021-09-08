@@ -7,6 +7,14 @@ import Sys;
 import sys.FileSystem;
 #end
 
+#if sys
+import sys.io.File;
+import haxe.io.Path;
+import openfl.utils.ByteArray;
+import flash.display.BitmapData;
+import sys.FileSystem;
+#end
+
 class HealthIcon extends FlxSprite
 
 {
@@ -18,14 +26,13 @@ class HealthIcon extends FlxSprite
 	public function new(char:String = 'bf', isPlayer:Bool = false)
 	{
 		super();
-		if (FileSystem.exists('assets/shared/images/customicons/icon-' + char + '.png'))
-		{
-			loadGraphic(Paths.image('customicons/icon-' + char, 'shared'), true, 150, 150);
 
-			animation.add(char, [0, 1, 2], 0, false, isPlayer);
+		if (FileSystem.exists(Paths.image('customicons/icon-'+char))) {
+			var rawPic = BitmapData.fromFile(Paths.image('customicons/icon-'+char));
+			loadGraphic(rawPic, true, 150, 150);
+			animation.add(char, [0, 1], false, isPlayer);
 
 			animation.play(char);
-
 		}
 		else
 		{
@@ -49,6 +56,7 @@ class HealthIcon extends FlxSprite
 			animation.add('bf-old', [14, 15], 0, false, isPlayer);
 			animation.add('gf', [16, 17], 0, false, isPlayer);
 			animation.add('bf-gf', [16, 17], 0, false, isPlayer);
+			animation.add('gf-crucified', [16, 17], 0, false, isPlayer);
 			animation.add('parents-christmas', [18,19], 0, false, isPlayer);
 			animation.add('monster', [20, 21], 0, false, isPlayer);
 			animation.add('monster-christmas', [20, 21], 0, false, isPlayer);
@@ -59,7 +67,6 @@ class HealthIcon extends FlxSprite
 			animation.add('bf-annie', [28, 29], 0, false, isPlayer);
 			animation.add('zardy', [30, 31], 0, false, isPlayer);
 			animation.add('whitty', [32, 33], 0, false, isPlayer);
-			animation.add('bf-whitty', [32, 33], 0, false, isPlayer);
 			animation.add('hex', [34, 35], 0, false, isPlayer);
 			animation.add('bf-carol', [36, 37], 0, false, isPlayer);
 			animation.add('gf4', [36, 37], 0, false, isPlayer);
@@ -68,9 +75,11 @@ class HealthIcon extends FlxSprite
 			animation.add('bf-senpai', [40, 41], 0, false, isPlayer);
 			animation.add('hd-senpai', [40, 41], 0, false, isPlayer);
 			animation.add('hd-senpaiangry', [40, 41], 0, false, isPlayer);
+			animation.add('hd-senpai-happy', [40, 41], 0, false, isPlayer);
 			animation.add('hd-senpai-fear', [41], 0, false, isPlayer);
 			animation.add('bf-sarv', [42, 43], 0, false, isPlayer);
 			animation.add('sarvente', [42, 43], 0, false, isPlayer);
+			animation.add('sarvente-dark', [42, 43], 0, false, isPlayer);
 			animation.add('ruv', [44, 45], 0, false, isPlayer);
 			animation.add('bf-sky', [46, 47], 0, false, isPlayer);
 			animation.add('sky-happy', [46, 47], 0, false, isPlayer);
@@ -95,12 +104,20 @@ class HealthIcon extends FlxSprite
 			animation.add('knuckles', [80, 81], 0, false, isPlayer);
 			animation.add('lila', [82, 83], 0, false, isPlayer);
 			animation.add('garcellotired', [84, 85], 0, false, isPlayer);
+			animation.add('garcellotired-blue', [84, 85], 0, false, isPlayer);
 			animation.add('gura-amelia', [86, 87], 0, false, isPlayer);
+			animation.add('gura-amelia-walfie', [86, 87], 0, false, isPlayer);
 			animation.add('botan', [88, 89], 0, false, isPlayer);
 			animation.add('bf-dad', [90, 91], 0, false, isPlayer);
 			animation.add('bf-mom', [92, 93], 0, false, isPlayer);
+			animation.add('bf-mom-car', [92, 93], 0, false, isPlayer);
 			animation.add('nene', [94, 95], 0, false, isPlayer);
 			animation.add('bf-blantad', [96, 97], 0, false, isPlayer);
+			animation.add('blantad-new', [96, 97], 0, false, isPlayer);
+			animation.add('blantad-watch', [96, 97], 0, false, isPlayer);
+			animation.add('blantad-handscutscene', [96, 97], 0, false, isPlayer);
+			animation.add('blantad-handscutscene2', [96, 97], 0, false, isPlayer);
+			animation.add('blantad-teleport', [96, 97], 0, false, isPlayer);
 			animation.add('hd-senpaidark', [98], 0, false, isPlayer);
 			animation.add('matt-angry', [99], 0, false, isPlayer);
 			animation.add('uganda-knuckles', [100], 0, false, isPlayer);
@@ -108,9 +125,10 @@ class HealthIcon extends FlxSprite
 			animation.add('hd-spirit', [101,102], 0, false, isPlayer);
 			animation.add('sky-mad', [103], 0, false, isPlayer);
 			animation.add('senpaighosty', [104], 0, false, isPlayer);
-			animation.add('tankmansad', [105, 8], 0, false, isPlayer);
+			animation.add('tankman-sad', [105, 8], 0, false, isPlayer);
 			animation.add('monika-angry', [106, 107], 0, false, isPlayer);
 			animation.add('anchor', [108,109], 0, false, isPlayer);
+			animation.add('anchor-bowl', [108,109], 0, false, isPlayer);
 			animation.add('roro', [110,111], 0, false, isPlayer);
 			animation.add('agoti-mad', [112,113], 0, false, isPlayer);
 			animation.add('miku-mad', [114,115], 0, false, isPlayer);
@@ -119,7 +137,9 @@ class HealthIcon extends FlxSprite
 			animation.add('chara', [120,121], 0, false, isPlayer);
 			animation.add('tabi-crazy', [122,123], 0, false, isPlayer);
 			animation.add('sunday', [124,125], 0, false, isPlayer);
-			animation.add('bitdadcrazy', [126,127], 0, false, isPlayer);
+			animation.add('sunday-guitar', [124,125], 0, false, isPlayer);
+			animation.add('bitdadcrazy', [126], 0, false, isPlayer);
+			animation.add('dad-sad-pixel-white', [127], 0, false, isPlayer);
 			animation.add('bf-pixeld4', [128], 0, false, isPlayer);
 			animation.add('bf-pixeld4BSide', [129], 0, false, isPlayer);
 			animation.add('bitdad', [130], 0, false, isPlayer);
@@ -151,6 +171,7 @@ class HealthIcon extends FlxSprite
 			animation.add('tabi-pixel', [153], 0, false, isPlayer);
 			animation.add('green-monika', [154], 0, false, isPlayer);
 			animation.add('empty', [155], 0, false, isPlayer);
+			animation.add('template', [155], 0, false, isPlayer);
 			animation.add('neon', [156], 0, false, isPlayer);
 			animation.add('monika-jumpscare', [157], 0, false, isPlayer);
 			animation.add('baldi-angry', [158], 0, false, isPlayer);
@@ -255,19 +276,20 @@ class HealthIcon extends FlxSprite
 			animation.add('ruby-worried', [294, 295], 0, false, isPlayer);
 			animation.add('ruby-worried-night', [294, 295], 0, false, isPlayer);
 			animation.add('cjClone', [296, 297], 0, false, isPlayer);
-			animation.add('bf-m', [298, 299], 0, false, isPlayer);
-			animation.add('pico-m', [300, 301], 0, false, isPlayer);
+			animation.add('bf-sonic', [298, 299], 0, false, isPlayer);
+			animation.add('taki', [300, 301], 0, false, isPlayer);
 			animation.add('haachama', [302, 303], 0, false, isPlayer);
 			animation.add('kodacho', [304, 305], 0, false, isPlayer);
 			animation.add('isabella', [306, 307], 0, false, isPlayer);
 			animation.add('momi', [308, 309], 0, false, isPlayer);
 			animation.add('snow', [310, 311], 0, false, isPlayer);
-			animation.add('pompom-mackie', [312, 313], 0, false, isPlayer);
+			animation.add('mackiepom', [312, 313], 0, false, isPlayer);
 			animation.add('rosie', [314, 315], 0, false, isPlayer);
 			animation.add('rosie-angry', [314, 315], 0, false, isPlayer);
 			animation.add('rosie-furious', [314, 315], 0, false, isPlayer);
 			animation.add('cj', [316, 317], 0, false, isPlayer);
 			animation.add('cj-ruby', [318, 319], 0, false, isPlayer);
+			animation.add('cj-ruby-both', [318, 319], 0, false, isPlayer);
 			animation.add('gf-demon', [320, 17], 0, false, isPlayer);
 			animation.add('dad-happy', [12, 321], 0, false, isPlayer);
 			animation.add('bob2', [322, 323], 0, false, isPlayer);
@@ -278,8 +300,11 @@ class HealthIcon extends FlxSprite
 			animation.add('cg5', [332, 333], 0, false, isPlayer);
 			animation.add('pumpkinpie', [334, 335], 0, false, isPlayer);
 			animation.add('mia', [336, 337], 0, false, isPlayer);
+			animation.add('mia-lookstraight', [336, 337], 0, false, isPlayer);
+			animation.add('mia-lookstraight-blue', [336, 337], 0, false, isPlayer);
 			animation.add('mia-wire', [338, 339], 0, false, isPlayer);
 			animation.add('bana-wire', [340, 341], 0, false, isPlayer);
+			animation.add('sarvente-worried-blue', [342, 43], 0, false, isPlayer);
 			animation.add('sarvente-worried-night', [342, 43], 0, false, isPlayer);
 			animation.add('bf-senpai-worried', [343, 41], 0, false, isPlayer);
 			animation.add('sky-annoyed', [47, 344], 0, false, isPlayer);
@@ -292,8 +317,84 @@ class HealthIcon extends FlxSprite
 			animation.add('hex-virus', [352, 353], 0, false, isPlayer);
 			animation.add('ruv-mad', [354, 45], 0, false, isPlayer);
 			animation.add('tankman-mad', [355, 9], 0, false, isPlayer);
-			animation.add('dad-sad-pixel-white', [356], 0, false, isPlayer);
-
+			animation.add('hd-monika-angry', [356, 357], 0, false, isPlayer);
+			animation.add('bf-smol-ruv', [358, 359], 0, false, isPlayer);
+			animation.add('mario', [360, 361], 0, false, isPlayer);
+			animation.add('bico-christmas', [362, 363], 0, false, isPlayer);
+			animation.add('henry-blue', [364, 365], 0, false, isPlayer);
+			animation.add('blantad-blue', [366, 367], 0, false, isPlayer);
+			animation.add('bf-pump', [368, 369], 0, false, isPlayer);
+			animation.add('senpaighosty-blue', [371], 0, false, isPlayer);
+			animation.add('alya', [372, 373], 0, false, isPlayer);
+			animation.add('phil', [374, 375], 0, false, isPlayer);
+			animation.add('tordbot', [376, 377], 0, false, isPlayer);
+			animation.add('b3-mom-sad', [378], 0, false, isPlayer);
+			animation.add('b3-mom-mad', [379], 0, false, isPlayer);
+			animation.add('starecrown', [380, 381], 0, false, isPlayer);
+			animation.add('picoCrazy', [382, 383], 0, false, isPlayer);
+			animation.add('bf-cesar', [384, 385], 0, false, isPlayer);
+			animation.add('bf-demoncesar', [386, 387], 0, false, isPlayer);
+			animation.add('kkslider', [388, 389], 0, false, isPlayer);
+			animation.add('beardington', [390, 391], 0, false, isPlayer);
+			animation.add('steve', [392, 393], 0, false, isPlayer);
+			animation.add('noke', [394, 395], 0, false, isPlayer);
+			animation.add('cyrix', [396, 397], 0, false, isPlayer);
+			animation.add('cyrix-crazy', [398, 399], 0, false, isPlayer);
+			animation.add('sh-carol', [400, 401], 0, false, isPlayer);
+			animation.add('senpai-glitch', [402, 403], 0, false, isPlayer);
+			animation.add('spirit-glitch', [404, 405], 0, false, isPlayer);
+			animation.add('sarv-ruv', [406, 407], 0, false, isPlayer);
+			animation.add('sarv-ruv-both', [406, 407], 0, false, isPlayer);
+			animation.add('piconjo', [408, 409], 0, false, isPlayer);
+			animation.add('bb', [410, 411], 0, false, isPlayer);
+			animation.add('parents-christmas-soft', [412, 413], 0, false, isPlayer);
+			animation.add('bf-kaity', [414, 415], 0, false, isPlayer);
+			animation.add('bf-kaity-car', [414, 415], 0, false, isPlayer);
+			animation.add('isa', [416, 417], 0, false, isPlayer);
+			animation.add('bf-senpai-tankman', [418, 419], 0, false, isPlayer);
+			animation.add('calli', [420, 421], 0, false, isPlayer);
+			animation.add('lucian', [422, 423], 0, false, isPlayer);
+			animation.add('abby', [424, 425], 0, false, isPlayer);
+			animation.add('abby-mad', [424, 425], 0, false, isPlayer);
+			animation.add('ron', [426, 427], 0, false, isPlayer);
+			animation.add('nonsense', [428, 429], 0, false, isPlayer);
+			animation.add('nonsense-god', [430], 0, false, isPlayer);
+			animation.add('eteled2', [432, 433], 0, false, isPlayer);
+			animation.add('pshaggy', [434, 435], 0, false, isPlayer);
+			animation.add('calli-mad', [436, 437], 0, false, isPlayer);
+			animation.add('bf-aloe-corrupt', [438, 439], 0, false, isPlayer);
+			animation.add('calli-sad', [440, 441], 0, false, isPlayer);
+			animation.add('garcellodead', [442, 443], 0, false, isPlayer);
+			animation.add('kapi-angry', [444], 0, false, isPlayer);
+			animation.add('qt-kb', [445], 0, false, isPlayer);
+			animation.add('duet-sm', [446, 447], 0, false, isPlayer);
+			animation.add('parents-christmas-angel', [448, 449], 0, false, isPlayer);
+			animation.add('shaggy-matt', [450, 451], 0, false, isPlayer);
+			animation.add('mia-bana', [452, 453], 0, false, isPlayer);
+			animation.add('garcello-annie', [454, 455], 0, false, isPlayer);
+			animation.add('tord-tom', [456, 457], 0, false, isPlayer);
+			animation.add('edd-matt', [458, 459], 0, false, isPlayer);
+			animation.add('calli-mad-alpha', [460], 0, false, isPlayer);
+			animation.add('calli-sad-alpha', [461], 0, false, isPlayer);
+			animation.add('bf-aloe-old', [462, 463], 0, false, isPlayer);
+			animation.add('mia-old', [464, 465], 0, false, isPlayer);
+			animation.add('mia-wire-old', [466, 467], 0, false, isPlayer);
+			animation.add('hd-monika-old', [468, 469], 0, false, isPlayer);
+			animation.add('hd-monika-angry-old', [470, 471], 0, false, isPlayer);
+			animation.add('sunday-old', [472, 473], 0, false, isPlayer);
+			animation.add('blantad-bside', [476, 477], 0, false, isPlayer);
+			animation.add('hd-senpai-bside', [478, 479], 0, false, isPlayer);
+			animation.add('zardy-cablecrow', [480, 481], 0, false, isPlayer);
+			animation.add('tabi-agoti', [482, 483], 0, false, isPlayer);
+			animation.add('cesar-rosie', [484, 485], 0, false, isPlayer);
+			animation.add('exe-maijin', [486, 487], 0, false, isPlayer);
+			animation.add('exe', [488, 489], 0, false, isPlayer);
+			animation.add('maijin', [490, 491], 0, false, isPlayer);
+			animation.add('cablecrow', [492, 493], 0, false, isPlayer);
+			animation.add('bb-tired-blue', [494], 0, false, isPlayer);
+			animation.add('bf-blue', [495], 0, false, isPlayer);
+			animation.add('sayori-blue', [496, 497], 0, false, isPlayer);
+			
 			animation.play(char);
 		}
 		

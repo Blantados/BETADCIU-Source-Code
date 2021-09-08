@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FlyingBlantad.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FlyingBlantados0000" x="0" y="0" width="608" height="777" pivotX="71.25" pivotY="14.9" frameX="-5" frameY="-12" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0001" x="613" y="0" width="607" height="786" frameX="-4" frameY="-9" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0002" x="1225" y="0" width="619" height="790" frameX="-2" frameY="-5" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0003" x="1849" y="0" width="623" height="795"/>
+	<SubTexture name="FlyingBlantados0004" x="2477" y="0" width="620" height="795" frameX="0" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0005" x="3102" y="0" width="617" height="795" frameX="-1" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0006" x="3724" y="0" width="615" height="795" frameX="-1" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0007" x="4344" y="0" width="613" height="795" frameX="-1" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0008" x="4962" y="0" width="607" height="795" frameX="-10" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0009" x="5574" y="0" width="606" height="795" frameX="-11" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0010" x="6185" y="0" width="607" height="795" frameX="-10" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0011" x="6797" y="0" width="608" height="795" frameX="-10" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0012" x="7410" y="0" width="602" height="795" frameX="-13" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0013" x="0" y="800" width="602" height="795" frameX="-11" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0014" x="607" y="800" width="603" height="795" frameX="-9" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0015" x="1215" y="800" width="607" height="795" frameX="-9" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="FlyingBlantados0016" x="1827" y="800" width="608" height="795" frameX="-6" frameY="0" frameWidth="623" frameHeight="795"/>
+	<SubTexture name="tele20000" x="2440" y="800" width="949" height="904" pivotX="802.05" pivotY="535.55" frameX="-650" frameY="-497" frameWidth="2236" frameHeight="1896"/>
+	<SubTexture name="tele20001" x="3394" y="800" width="1321" height="1067" frameX="-457" frameY="-415" frameWidth="2236" frameHeight="1896"/>
+	<SubTexture name="tele20002" x="4720" y="800" width="1641" height="1403" frameX="-297" frameY="-247" frameWidth="2236" frameHeight="1896"/>
+	<SubTexture name="tele20003" x="0" y="2208" width="1862" height="1554" frameX="-187" frameY="-171" frameWidth="2236" frameHeight="1896"/>
+	<SubTexture name="tele20004" x="1867" y="2208" width="2236" height="1377" frameX="0" frameY="-260" frameWidth="2236" frameHeight="1896"/>
+	<SubTexture name="tele20005" x="4108" y="2208" width="1614" height="1896" frameX="-311" frameY="0" frameWidth="2236" frameHeight="1896"/>
+	<SubTexture name="tele20006" x="5727" y="2208" width="1226" height="1481" frameX="-505" frameY="-228" frameWidth="2236" frameHeight="1896"/>
+</TextureAtlas>

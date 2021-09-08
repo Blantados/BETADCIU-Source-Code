@@ -1,0 +1,18 @@
+:bg:alleybgfull:
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:d7: Hm.
+:dad:d5: You know-
+:dad:d5: It’s been a real pain trying to find you these past couple weeks...
+:bf:b6: ...
+:dad:d3: Let’s make a deal, hm?
+:dad:d3: If you can beat me in this next song, we can forget this all ever happened.
+:bf:b19: ?
+:bf:b19: Really...?
+:dad:d3: Really.
+:pico:p4: Don’t trust him B.
+:bf:b19: I-...
+:bf:b16: ...
+:bf:b20: Okay.
+:dad:d7: I guess it’s time to finally whip you into shape.

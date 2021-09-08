@@ -1,165 +1,254 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="sky_assets.png">
-	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="sky annoyed alt down0000" x="10" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343" pivotX="1.2" pivotY="1"/>
-	<SubTexture name="sky annoyed alt down0001" x="526" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0002" x="1042" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0003" x="1558" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0004" x="2074" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0005" x="2590" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0006" x="3106" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0007" x="3622" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0008" x="4138" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0009" x="3106" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0010" x="3622" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0011" x="4138" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0012" x="3106" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0013" x="3622" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0014" x="4138" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt down0015" x="3106" y="10" width="516" height="643" frameX="-50" frameY="300" frameWidth="566" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0000" x="4654" y="10" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343" pivotX="1.2" pivotY="1"/>
-	<SubTexture name="sky annoyed alt idle0001" x="5166" y="10" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0002" x="5678" y="10" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0003" x="6190" y="10" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0004" x="6702" y="10" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0005" x="7214" y="10" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0006" x="10" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0007" x="522" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0008" x="1034" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0009" x="1546" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0010" x="2058" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0011" x="2570" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0012" x="3082" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0013" x="3594" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0014" x="4106" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt idle0015" x="4618" y="653" width="512" height="643" frameX="-50" frameY="300" frameWidth="562" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0000" x="5130" y="653" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343" pivotX="-41.25" pivotY="1"/>
-	<SubTexture name="sky annoyed alt left0001" x="5685" y="653" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0002" x="6240" y="653" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0003" x="6795" y="653" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0004" x="7350" y="653" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0005" x="10" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0006" x="565" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0007" x="1120" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0008" x="1675" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0009" x="2230" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0010" x="2785" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0011" x="3340" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0012" x="3895" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0013" x="2785" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0014" x="3340" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt left0015" x="3895" y="1296" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0000" x="4450" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343" pivotX="-4.65" pivotY="1"/>
-	<SubTexture name="sky annoyed alt right0001" x="4916" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0002" x="5382" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0003" x="5848" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0004" x="6314" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0005" x="6780" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0006" x="7246" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0007" x="7712" y="1296" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0008" x="10" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0009" x="476" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0010" x="942" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0011" x="1408" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0012" x="1874" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0013" x="2340" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0014" x="2806" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt right0015" x="3272" y="1939" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0000" x="3738" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343" pivotX="1.2" pivotY="1"/>
-	<SubTexture name="sky annoyed alt up0001" x="4266" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0002" x="4794" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0003" x="5322" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0004" x="5850" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0005" x="4794" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0006" x="5322" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0007" x="5850" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0008" x="4794" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0009" x="5322" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0010" x="5850" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0011" x="4794" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0012" x="5322" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0013" x="5850" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0014" x="4794" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed alt up0015" x="5322" y="1939" width="528" height="643" frameX="-50" frameY="300" frameWidth="578" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0000" x="6378" y="1939" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343" pivotX="0.7" pivotY="1"/>
-	<SubTexture name="sky annoyed down0001" x="6887" y="1939" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0002" x="7396" y="1939" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0003" x="10" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0004" x="519" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0005" x="1028" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0006" x="1537" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0007" x="2046" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0008" x="2555" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0009" x="1537" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0010" x="2046" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0011" x="2555" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0012" x="1537" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0013" x="2046" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0014" x="2555" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed down0015" x="1537" y="2582" width="509" height="643" frameX="-50" frameY="300" frameWidth="559" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0000" x="3064" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343" pivotX="1.2" pivotY="1"/>
-	<SubTexture name="sky annoyed idle0001" x="3590" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0002" x="4116" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0003" x="4642" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0004" x="5168" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0005" x="5694" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0006" x="6220" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0007" x="6746" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0008" x="7272" y="2582" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0009" x="10" y="3225" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0010" x="536" y="3225" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0011" x="1062" y="3225" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0012" x="1588" y="3225" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0013" x="2114" y="3225" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0014" x="2640" y="3225" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed idle0015" x="3166" y="3225" width="526" height="643" frameX="-50" frameY="300" frameWidth="576" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0000" x="3692" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343" pivotX="-41.25" pivotY="1"/>
-	<SubTexture name="sky annoyed left0001" x="4247" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0002" x="4802" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0003" x="5357" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0004" x="5912" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0005" x="6467" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0006" x="7022" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0007" x="7577" y="3225" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0008" x="10" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0009" x="565" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0010" x="1120" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0011" x="1675" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0012" x="2230" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0013" x="1120" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0014" x="1675" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed left0015" x="2230" y="3868" width="555" height="643" frameX="-50" frameY="300" frameWidth="605" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0000" x="2785" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343" pivotX="-4.65" pivotY="1"/>
-	<SubTexture name="sky annoyed right0001" x="3251" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0002" x="3717" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0003" x="3717" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0004" x="4183" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0005" x="4183" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0006" x="4649" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0007" x="4649" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0008" x="5115" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0009" x="5115" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0010" x="5581" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0011" x="5581" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0012" x="6047" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0013" x="6047" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0014" x="6513" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed right0015" x="6513" y="3868" width="466" height="643" frameX="-50" frameY="300" frameWidth="516" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0000" x="6979" y="3868" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343" pivotX="1.2" pivotY="1"/>
-	<SubTexture name="sky annoyed up0001" x="7503" y="3868" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0002" x="10" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0003" x="534" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0004" x="1058" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0005" x="10" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0006" x="534" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0007" x="1058" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0008" x="10" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0009" x="534" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0010" x="1058" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0011" x="10" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0012" x="534" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0013" x="1058" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0014" x="10" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
-	<SubTexture name="sky annoyed up0015" x="534" y="4511" width="524" height="643" frameX="-50" frameY="300" frameWidth="574" frameHeight="343"/>
+	<SubTexture name="sky annoyed alt down0000" x="0" y="0" width="308" height="474" pivotX="-192.55" pivotY="-151.2" frameX="-3" frameY="-8" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0001" x="313" y="0" width="308" height="474" frameX="-3" frameY="-8" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0002" x="626" y="0" width="302" height="482" frameX="0" frameY="0" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0003" x="933" y="0" width="302" height="482" frameX="0" frameY="0" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0004" x="1240" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0005" x="1552" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0006" x="1864" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0007" x="2176" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0008" x="2488" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0009" x="1864" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0010" x="2176" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0011" x="2488" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0012" x="1864" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0013" x="2176" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0014" x="2488" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt down0015" x="1864" y="0" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed alt idle0000" x="2800" y="0" width="299" height="522" pivotX="-193.35" pivotY="-109.3" frameX="-12" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0001" x="3104" y="0" width="299" height="522" frameX="-12" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0002" x="3408" y="0" width="297" height="522" frameX="-3" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0003" x="3710" y="0" width="297" height="522" frameX="-3" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0004" x="4012" y="0" width="296" height="519" frameX="-1" frameY="-3" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0005" x="4313" y="0" width="296" height="519" frameX="-1" frameY="-3" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0006" x="4614" y="0" width="296" height="513" frameX="0" frameY="-9" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0007" x="4915" y="0" width="296" height="513" frameX="0" frameY="-9" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0008" x="5216" y="0" width="295" height="522" frameX="0" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0009" x="5516" y="0" width="295" height="522" frameX="0" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0010" x="5816" y="0" width="296" height="522" frameX="-5" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0011" x="6117" y="0" width="296" height="522" frameX="-5" frameY="0" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0012" x="6418" y="0" width="296" height="520" frameX="-7" frameY="-2" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0013" x="6719" y="0" width="296" height="520" frameX="-7" frameY="-2" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0014" x="7020" y="0" width="295" height="516" frameX="-8" frameY="-6" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt idle0015" x="7320" y="0" width="295" height="516" frameX="-8" frameY="-6" frameWidth="311" frameHeight="522"/>
+	<SubTexture name="sky annoyed alt left0000" x="7620" y="0" width="365" height="512" pivotX="-227.3" pivotY="-119.35"/>
+	<SubTexture name="sky annoyed alt left0001" x="0" y="527" width="365" height="512"/>
+	<SubTexture name="sky annoyed alt left0002" x="370" y="527" width="343" height="512" frameX="-10" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0003" x="718" y="527" width="343" height="512" frameX="-10" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0004" x="1066" y="527" width="332" height="512" frameX="-21" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0005" x="1403" y="527" width="332" height="512" frameX="-21" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0006" x="1740" y="527" width="340" height="512" frameX="-13" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0007" x="2085" y="527" width="340" height="512" frameX="-13" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0008" x="2430" y="527" width="338" height="512" frameX="-15" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0009" x="2773" y="527" width="338" height="512" frameX="-15" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0010" x="3116" y="527" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0011" x="3457" y="527" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0012" x="3798" y="527" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0013" x="3116" y="527" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0014" x="3457" y="527" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt left0015" x="3798" y="527" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0000" x="4139" y="527" width="293" height="511" pivotX="-153.5" pivotY="-119.35" frameX="0" frameY="-1" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0001" x="4437" y="527" width="293" height="511" frameX="0" frameY="-1" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0002" x="4735" y="527" width="296" height="509" frameX="-3" frameY="-3" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0003" x="5036" y="527" width="296" height="509" frameX="-3" frameY="-3" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0004" x="5337" y="527" width="300" height="509" frameX="-7" frameY="-3" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0005" x="5642" y="527" width="300" height="509" frameX="-7" frameY="-3" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0006" x="5947" y="527" width="299" height="512" frameX="-6" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0007" x="6251" y="527" width="299" height="512" frameX="-6" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0008" x="6555" y="527" width="297" height="512" frameX="-3" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0009" x="6857" y="527" width="297" height="512" frameX="-3" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0010" x="7159" y="527" width="296" height="512" frameX="-2" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0011" x="7460" y="527" width="296" height="512" frameX="-2" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0012" x="7761" y="527" width="297" height="512" frameX="-4" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0013" x="0" y="1044" width="297" height="512" frameX="-4" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0014" x="302" y="1044" width="298" height="512" frameX="-6" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt right0015" x="605" y="1044" width="298" height="512" frameX="-6" frameY="0" frameWidth="307" frameHeight="512"/>
+	<SubTexture name="sky annoyed alt up0000" x="908" y="1044" width="303" height="544" pivotX="-199.75" pivotY="-87.9" frameX="-1" frameY="0" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0001" x="1216" y="1044" width="303" height="544" frameX="-1" frameY="0" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0002" x="1524" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0003" x="1833" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0004" x="2142" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0005" x="1524" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0006" x="1833" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0007" x="2142" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0008" x="1524" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0009" x="1833" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0010" x="2142" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0011" x="1524" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0012" x="1833" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0013" x="2142" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0014" x="1524" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed alt up0015" x="1833" y="1044" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed down0000" x="2451" y="1044" width="311" height="474" pivotX="-192.55" pivotY="-151.2" frameX="0" frameY="-8" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0001" x="2767" y="1044" width="311" height="474" frameX="0" frameY="-8" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0002" x="3083" y="1044" width="302" height="482" frameX="0" frameY="0" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0003" x="3390" y="1044" width="302" height="482" frameX="0" frameY="0" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0004" x="3697" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0005" x="4009" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0006" x="4321" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0007" x="4633" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0008" x="4945" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0009" x="4321" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0010" x="4633" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0011" x="4945" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0012" x="4321" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0013" x="4633" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0014" x="4945" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed down0015" x="4321" y="1044" width="307" height="481" frameX="0" frameY="-1" frameWidth="311" frameHeight="482"/>
+	<SubTexture name="sky annoyed grr0000" x="5257" y="1044" width="329" height="517" pivotX="-187.1" pivotY="-114.35" frameX="-7" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0001" x="5591" y="1044" width="336" height="517"/>
+	<SubTexture name="sky annoyed grr0002" x="5932" y="1044" width="319" height="517" frameX="-17" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0003" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0004" x="5257" y="1044" width="329" height="517" frameX="-7" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0005" x="5591" y="1044" width="336" height="517"/>
+	<SubTexture name="sky annoyed grr0006" x="5932" y="1044" width="319" height="517" frameX="-17" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0007" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0008" x="5257" y="1044" width="329" height="517" frameX="-7" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0009" x="5591" y="1044" width="336" height="517"/>
+	<SubTexture name="sky annoyed grr0010" x="5932" y="1044" width="319" height="517" frameX="-17" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0011" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0012" x="5257" y="1044" width="329" height="517" frameX="-7" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0013" x="5591" y="1044" width="336" height="517"/>
+	<SubTexture name="sky annoyed grr0014" x="5932" y="1044" width="319" height="517" frameX="-17" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0015" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0016" x="5257" y="1044" width="329" height="517" frameX="-7" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0017" x="5591" y="1044" width="336" height="517"/>
+	<SubTexture name="sky annoyed grr0018" x="5932" y="1044" width="319" height="517" frameX="-17" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0019" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0020" x="5257" y="1044" width="329" height="517" frameX="-7" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0021" x="5591" y="1044" width="336" height="517"/>
+	<SubTexture name="sky annoyed grr0022" x="5932" y="1044" width="319" height="517" frameX="-17" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0023" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0024" x="5257" y="1044" width="329" height="517" frameX="-7" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0025" x="5591" y="1044" width="336" height="517"/>
+	<SubTexture name="sky annoyed grr0026" x="5932" y="1044" width="319" height="517" frameX="-17" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0027" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed grr0028" x="6256" y="1044" width="318" height="517" frameX="-18" frameY="0" frameWidth="336" frameHeight="517"/>
+	<SubTexture name="sky annoyed huh0000" x="6579" y="1044" width="299" height="517" pivotX="-182.85" pivotY="-114.35"/>
+	<SubTexture name="sky annoyed huh0001" x="6883" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0002" x="7187" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0003" x="6579" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0004" x="6883" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0005" x="7187" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0006" x="6579" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0007" x="6883" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0008" x="7187" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0009" x="6579" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0010" x="6883" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed huh0011" x="7187" y="1044" width="299" height="517"/>
+	<SubTexture name="sky annoyed idle0000" x="7491" y="1044" width="307" height="522" pivotX="-189.75" pivotY="-109.3" frameX="-8" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0001" x="7803" y="1044" width="307" height="522" frameX="-8" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0002" x="0" y="1593" width="303" height="522" frameX="-1" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0003" x="308" y="1593" width="303" height="522" frameX="-1" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0004" x="616" y="1593" width="301" height="519" frameX="0" frameY="-3" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0005" x="922" y="1593" width="301" height="519" frameX="0" frameY="-3" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0006" x="1228" y="1593" width="300" height="513" frameX="0" frameY="-9" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0007" x="1533" y="1593" width="300" height="513" frameX="0" frameY="-9" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0008" x="1838" y="1593" width="296" height="522" frameX="-3" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0009" x="2139" y="1593" width="296" height="522" frameX="-3" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0010" x="2440" y="1593" width="300" height="522" frameX="-5" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0011" x="2745" y="1593" width="300" height="522" frameX="-5" frameY="0" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0012" x="3050" y="1593" width="299" height="520" frameX="-8" frameY="-2" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0013" x="3354" y="1593" width="299" height="520" frameX="-8" frameY="-2" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0014" x="3658" y="1593" width="296" height="516" frameX="-11" frameY="-6" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed idle0015" x="3959" y="1593" width="296" height="516" frameX="-11" frameY="-6" frameWidth="315" frameHeight="522"/>
+	<SubTexture name="sky annoyed left0000" x="4260" y="1593" width="365" height="512" pivotX="-227.3" pivotY="-119.35"/>
+	<SubTexture name="sky annoyed left0001" x="4630" y="1593" width="365" height="512"/>
+	<SubTexture name="sky annoyed left0002" x="5000" y="1593" width="343" height="512" frameX="-10" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0003" x="5348" y="1593" width="343" height="512" frameX="-10" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0004" x="5696" y="1593" width="332" height="512" frameX="-21" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0005" x="6033" y="1593" width="332" height="512" frameX="-21" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0006" x="6370" y="1593" width="340" height="512" frameX="-13" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0007" x="6715" y="1593" width="340" height="512" frameX="-13" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0008" x="7060" y="1593" width="338" height="512" frameX="-15" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0009" x="7403" y="1593" width="338" height="512" frameX="-15" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0010" x="7746" y="1593" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0011" x="0" y="2120" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0012" x="341" y="2120" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0013" x="7746" y="1593" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0014" x="0" y="2120" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed left0015" x="341" y="2120" width="336" height="512" frameX="-17" frameY="0" frameWidth="365" frameHeight="512"/>
+	<SubTexture name="sky annoyed oh0000" x="682" y="2120" width="306" height="517" pivotX="-190.15" pivotY="-114.35"/>
+	<SubTexture name="sky annoyed oh0001" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0002" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0003" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0004" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0005" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0006" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0007" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0008" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0009" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0010" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0011" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0012" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0013" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0014" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0015" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0016" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0017" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0018" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0019" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0020" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0021" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0022" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0023" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0024" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0025" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0026" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0027" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0028" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed oh0029" x="682" y="2120" width="306" height="517"/>
+	<SubTexture name="sky annoyed right0000" x="993" y="2120" width="293" height="511" pivotX="-151.15" pivotY="-119.35" frameX="-2" frameY="-1" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0001" x="1291" y="2120" width="293" height="511" frameX="-2" frameY="-1" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0002" x="1589" y="2120" width="301" height="509" frameX="0" frameY="-3" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0003" x="1589" y="2120" width="301" height="509" frameX="0" frameY="-3" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0004" x="1895" y="2120" width="309" height="509" frameX="0" frameY="-3" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0005" x="1895" y="2120" width="309" height="509" frameX="0" frameY="-3" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0006" x="2209" y="2120" width="307" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0007" x="2209" y="2120" width="307" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0008" x="2521" y="2120" width="302" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0009" x="2521" y="2120" width="302" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0010" x="2828" y="2120" width="300" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0011" x="2828" y="2120" width="300" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0012" x="3133" y="2120" width="303" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0013" x="3133" y="2120" width="303" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0014" x="3441" y="2120" width="306" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed right0015" x="3441" y="2120" width="306" height="512" frameX="0" frameY="0" frameWidth="309" frameHeight="512"/>
+	<SubTexture name="sky annoyed ugh0000" x="3752" y="2120" width="307" height="474" pivotX="-221.45" pivotY="-87.9" frameX="-3" frameY="-72" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0001" x="4064" y="2120" width="307" height="474" frameX="-3" frameY="-72" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0002" x="4376" y="2120" width="295" height="544" frameX="0" frameY="0" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0003" x="4676" y="2120" width="295" height="544" frameX="0" frameY="0" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0004" x="4976" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0005" x="5276" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0006" x="5576" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0007" x="4976" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0008" x="5276" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0009" x="5576" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0010" x="4976" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0011" x="5276" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0012" x="5576" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0013" x="4976" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0014" x="5276" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0015" x="5576" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0016" x="4976" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed ugh0017" x="5276" y="2120" width="295" height="537" frameX="0" frameY="-6" frameWidth="310" frameHeight="546"/>
+	<SubTexture name="sky annoyed up0000" x="5876" y="2120" width="303" height="544" pivotX="-199.75" pivotY="-87.9" frameX="-1" frameY="0" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0001" x="6184" y="2120" width="303" height="544" frameX="-1" frameY="0" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0002" x="6492" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0003" x="6801" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0004" x="7110" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0005" x="6492" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0006" x="6801" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0007" x="7110" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0008" x="6492" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0009" x="6801" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0010" x="7110" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0011" x="6492" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0012" x="6801" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0013" x="7110" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0014" x="6492" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
+	<SubTexture name="sky annoyed up0015" x="6801" y="2120" width="304" height="537" frameX="0" frameY="-6" frameWidth="304" frameHeight="544"/>
 </TextureAtlas>

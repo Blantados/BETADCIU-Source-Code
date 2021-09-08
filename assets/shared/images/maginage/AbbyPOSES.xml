@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AbbyPOSES.png">
+	<!-- Created with Adobe Animate version 20.0.2.22168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AbbyDOWN0000" x="2838" y="1114" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0001" x="2838" y="1114" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0002" x="3319" y="1114" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0003" x="3319" y="1114" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0004" x="3319" y="1114" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0005" x="2838" y="1589" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0006" x="2838" y="1589" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0007" x="2838" y="1589" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0008" x="2838" y="1589" width="480" height="474"/>
+	<SubTexture name="AbbyDOWN0009" x="2838" y="1589" width="480" height="474"/>
+	<SubTexture name="AbbyIDLE0000" x="2584" y="0" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0001" x="2584" y="0" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0002" x="3156" y="0" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0003" x="3156" y="0" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0004" x="0" y="524" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0005" x="572" y="524" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0006" x="1144" y="524" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0007" x="1144" y="524" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0008" x="1716" y="524" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0009" x="1716" y="524" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0010" x="2288" y="557" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0011" x="2288" y="557" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0012" x="2860" y="557" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0013" x="3432" y="557" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0014" x="3432" y="557" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0015" x="3432" y="557" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0016" x="3432" y="557" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0017" x="0" y="1081" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0018" x="0" y="1081" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0019" x="0" y="1081" width="571" height="556"/>
+	<SubTexture name="AbbyIDLE0020" x="0" y="1081" width="571" height="556"/>
+	<SubTexture name="AbbyLEFT0000" x="1922" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0001" x="1922" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0002" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0003" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0004" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0005" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0006" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0007" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0008" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyLEFT0009" x="2380" y="1114" width="457" height="627"/>
+	<SubTexture name="AbbyRIGHT0000" x="0" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0001" x="0" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0002" x="646" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0003" x="646" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0004" x="646" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0005" x="1292" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0006" x="1938" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0007" x="1938" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0008" x="1938" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyRIGHT0009" x="1938" y="0" width="645" height="523"/>
+	<SubTexture name="AbbyUP0000" x="572" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0001" x="572" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0002" x="1022" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0003" x="1022" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0004" x="1472" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0005" x="1472" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0006" x="1472" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0007" x="1472" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0008" x="1472" y="1081" width="449" height="654"/>
+	<SubTexture name="AbbyUP0009" x="1472" y="1081" width="449" height="654"/>
+</TextureAtlas>

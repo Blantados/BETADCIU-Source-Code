@@ -51,7 +51,7 @@ class ModCharts
 	static public function quickSpin(sprite)
 	{
 		FlxTween.angle(sprite, 0, 360, 0.5, {
-			type: FlxTween.ONESHOT,
+			type: FlxTweenType.ONESHOT,
 			ease: FlxEase.quadInOut,
 			startDelay: 0,
 			loopDelay: 0
@@ -71,7 +71,7 @@ class ModCharts
 	 */
 	static public function circleLoop(sprite, rotateradius, duration)
 	{
-		FlxTween.circularMotion(sprite, sprite.x, sprite.y, rotateradius, 90, true, duration, {type: FlxTween.LOOPING});
+		FlxTween.circularMotion(sprite, sprite.x, sprite.y, rotateradius, 90, true, duration, {type: FlxTweenType.LOOPING});
 	}
 
 	/**
@@ -88,7 +88,7 @@ class ModCharts
 	 */
 	static public function moveTo(sprite, x, y, duration)
 	{
-		FlxTween.linearMotion(sprite, sprite.x, sprite.y, x, y, duration, true, {type: FlxTween.ONESHOT, ease: FlxEase.quadInOut});
+		FlxTween.linearMotion(sprite, sprite.x, sprite.y, x, y, duration, true, {type: FlxTweenType.ONESHOT, ease: FlxEase.quadInOut});
 	}
 
 	/**
@@ -103,7 +103,7 @@ class ModCharts
 	 */
 	static public function bounceLoop(sprite, duration)
 	{
-		FlxTween.linearMotion(sprite, sprite.x, sprite.y, sprite.x, sprite.y - 50, duration, true, {type: FlxTween.PINGPONG});
+		FlxTween.linearMotion(sprite, sprite.x, sprite.y, sprite.x, sprite.y - 50, duration, true, {type: FlxTweenType.PINGPONG});
 	}
 
 	/**
@@ -118,7 +118,7 @@ class ModCharts
 	 */
 	static public function bounceLoopBuffed(sprite, duration)
 	{
-		FlxTween.linearMotion(sprite, sprite.x, sprite.y, sprite.x, sprite.y - 200, duration, true, {type: FlxTween.PINGPONG});
+		FlxTween.linearMotion(sprite, sprite.x, sprite.y, sprite.x, sprite.y - 200, duration, true, {type: FlxTweenType.PINGPONG});
 	}
 
 	/**
@@ -239,7 +239,7 @@ class ModCharts
 			trace("Alpha can not be 0");
 			return;
 		}
-		FlxTween.tween(object, {"alpha": 0}, 2, {ease: FlxEase.quadOut, type: FlxTween.PINGPONG});
+		FlxTween.tween(object, {"alpha": 0}, 2, {ease: FlxEase.quadOut, type: FlxTweenType.PINGPONG});
 	}
 
 	/**

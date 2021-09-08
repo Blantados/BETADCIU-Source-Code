@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Crowd2.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Crowd2_Cheer0000" x="3" y="3" width="1858" height="720"/>
+	<SubTexture name="Crowd2_Cheer0001" x="1866" y="3" width="1823" height="701" frameX="-17" frameY="-19" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0002" x="3" y="728" width="1823" height="701" frameX="-17" frameY="-19" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0003" x="3" y="728" width="1823" height="701" frameX="-17" frameY="-19" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0004" x="3" y="728" width="1823" height="701" frameX="-17" frameY="-19" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0005" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0006" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0007" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0008" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0009" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0010" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0011" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0012" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0013" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Cheer0014" x="1831" y="728" width="1835" height="696" frameX="-11" frameY="-24" frameWidth="1858" frameHeight="720"/>
+	<SubTexture name="Crowd2_Idle0000" x="3" y="1434" width="1861" height="706" frameX="0" frameY="-4" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0001" x="3" y="1434" width="1861" height="706" frameX="0" frameY="-4" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0002" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0003" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0004" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0005" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0006" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0007" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0008" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0009" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0010" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0011" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0012" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0013" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+	<SubTexture name="Crowd2_Idle0014" x="1869" y="1434" width="1858" height="710" frameX="-1" frameY="0" frameWidth="1861" frameHeight="710"/>
+</TextureAtlas>

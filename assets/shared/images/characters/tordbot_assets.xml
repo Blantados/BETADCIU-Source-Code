@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tordbot_assets.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tordbot down0000" x="0" y="0" width="1503" height="2379"/>
+	<SubTexture name="tordbot down0001" x="1503" y="0" width="1477" height="2342" frameX="-26" frameY="43" frameWidth="1503" frameHeight="2379"/>
+	<SubTexture name="tordbot idle 0000" x="2980" y="0" width="1294" height="2295" frameX="49" frameY="80" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0001" x="2980" y="0" width="1294" height="2295" frameX="49" frameY="80" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0002" x="4274" y="0" width="1351" height="2273" frameX="80" frameY="54" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0003" x="4274" y="0" width="1351" height="2273" frameX="80" frameY="54" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0004" x="5625" y="0" width="1314" height="2287" frameX="57" frameY="71" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0005" x="5625" y="0" width="1314" height="2287" frameX="57" frameY="71" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0006" x="5625" y="0" width="1314" height="2287" frameX="57" frameY="71" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0007" x="2980" y="0" width="1294" height="2295" frameX="49" frameY="80" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0008" x="2980" y="0" width="1294" height="2295" frameX="49" frameY="80" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot idle 0009" x="2980" y="0" width="1294" height="2295" frameX="49" frameY="80" frameWidth="1351" frameHeight="2299"/>
+	<SubTexture name="tordbot left0000" x="0" y="2379" width="1818" height="2404" frameX="59" frameY="80" frameWidth="1839" frameHeight="2404"/>
+	<SubTexture name="tordbot left0001" x="1818" y="2379" width="1818" height="2396" frameX="80" frameY="72" frameWidth="1839" frameHeight="2404"/>
+	<SubTexture name="tordbot right0000" x="3636" y="2379" width="1835" height="2333" frameX="80" frameY="80" frameWidth="1836" frameHeight="2333"/>
+	<SubTexture name="tordbot right0001" x="5471" y="2379" width="1827" height="2326" frameX="80" frameY="73" frameWidth="1836" frameHeight="2333"/>
+	<SubTexture name="tordbot up0000" x="0" y="4783" width="1696" height="2417" frameX="80" frameY="80" frameWidth="1351" frameHeight="2299"/>/>
+	<SubTexture name="tordbot up0001" x="1696" y="4783" width="1639" height="2379" frameX="39" frameY="44" frameWidth="1696" frameHeight="2417"/>
+</TextureAtlas>

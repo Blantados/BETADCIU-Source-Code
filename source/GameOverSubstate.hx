@@ -13,54 +13,42 @@ class GameOverSubstate extends MusicBeatSubstate
 	var camFollow:FlxObject;
 
 	var stageSuffix:String = "";
+	var isSenpai:Bool = false;
+	var isCorrupt:Bool = false;
 
 	public function new(x:Float, y:Float)
 	{
 		var daCharacter = PlayState.boyfriend.curCharacter;
 		var daBf:String = '';
+
+		isCorrupt = false;
+		isSenpai = false;
+
 		switch (daCharacter)
 		{
 			case 'bf-pixel' | 'bf-pixeld4' | 'bf-pixeld4BSide':
 				stageSuffix = '-pixel';
 				daBf = 'bf-pixel-dead';
-			case 'bf-tankman-pixel':
+			case 'bf-tankman-pixel' | 'bf-pico-pixel' | 'bf-rico-pixel' | 'bf-tom-pixel' | 'bf-sonic-pixel' | 'bf-gf-pixel' | 'bf-wright-pixel' | 'bf-sans-pixel':
 				stageSuffix = '-pixel';
-				daBf = 'bf-tankman-pixel-dead';
-			case 'bf-pico-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-pico-pixel-dead';
-			case 'bf-sonic-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-sonic-pixel-dead';
-			case 'bf-tom-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-tom-pixel-dead';
-			case 'bf-rico-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-rico-pixel-dead';
-			case 'bf-gf-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-gf-pixel-dead';
-			case 'bf-wright-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-wright-pixel-dead';
-			case 'bf-sans-pixel':
-				stageSuffix = '-pixel';
-				daBf = 'bf-sans-pixel-dead';
-			case 'bf1':	
-				daBf = 'bf1';
-			case 'bf2':	
-				daBf = 'bf2';
-			case 'bf3':	
-				daBf = 'bf3';
-			case 'bf4':	
-				daBf = 'bf4';
-			case 'bf5':	
-				daBf = 'bf5';
-			case 'bf-aloe' | 'bf-aloe-confused':	
+				daBf = daCharacter + '-dead';
+			case 'bf-sans' | 'bf-frisk' | 'bf2' | 'bf3' | 'bf4' | 'bf5' | 'bf-sonic' | 'bf-bw' | 'bf-kaity' | 'bf-cesar' | 'bf-demoncesar' | 'bf-aloe-bw' | 'bf-lexi':	
+				daBf = daCharacter;
+			case 'bf-aloe' | 'bf-aloe-confused' | 'bf-aloe-car' | 'bf1':	
 				daBf = 'bf-aloe';
+			case 'bf-aloe-corrupt':
+				daBf = daCharacter;
+				isCorrupt = true;
 			case 'bf-gf' | 'bf-gf-demon':	
 				daBf = 'bf-gf';	
+			case 'bf-senpai-pixel' | 'bf-senpai-angry-pixel':
+				stageSuffix = '-senpai';
+				daBf = 'bf-senpai-pixel-dead';
+				isSenpai = true;
+			case 'bf-senpai-tankman':
+				stageSuffix = '-senpaitankman';
+				daBf = 'bf-senpai-tankman-pixel-dead';
+				isSenpai = true;
 			default:	
 				daBf = 'bf';
 		}
@@ -72,7 +60,11 @@ class GameOverSubstate extends MusicBeatSubstate
 		bf = new Boyfriend(x, y, daBf);
 		add(bf);
 
-		camFollow = new FlxObject(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y, 1, 1);
+		if (isSenpai)
+			camFollow = new FlxObject(bf.getMidpoint().x - 300, bf.getMidpoint().y - 500, 1, 1);
+		else
+			camFollow = new FlxObject(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y, 1, 1);
+
 		add(camFollow);
 
 		FlxG.sound.play(Paths.sound('fnf_loss_sfx' + stageSuffix));
@@ -127,7 +119,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			FlxG.camera.follow(camFollow, LOCKON, 0.01);
 		}
 
-		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.finished)
+		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.finished && !isCorrupt)
 		{
 			FlxG.sound.playMusic(Paths.music('gameOver' + stageSuffix));
 		}

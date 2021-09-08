@@ -1,0 +1,22 @@
+:bg:alleybgfull:
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:pico:p10: You did it! 
+:bf:b6: I...
+:bf:b3: yeah!
+:bf:b24: I guess I did!
+:bf:b2: So, um… we’re free to go right?
+:dad:d7: ...
+:dad:d2: C’mon, sport.
+:dad:d3: We never raised an idiot.
+:dad:d8: You didn’t ACTUALLY think I was leaving empty handed, did you?
+:dad:d9: !
+:bf:b11: !!!
+:bf:b12: N-no... st-
+:bf:b13: STAY AWAY FROM ME!
+:pico:p3: Keep your hands off of him!
+:dad:d10: !?
+:bf:b11: PICO-
+:pico:p6: Come on! 
+:pico:p6: I know a place we can hide!

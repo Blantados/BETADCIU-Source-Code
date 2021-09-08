@@ -26,6 +26,13 @@ class Main extends Sprite
 	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
 
 	public static var watermarks = true; // Whether to put Kade Engine liteartly anywhere
+	public static var noCopyright:Bool = false; // For Sharkventure Copyright Stuff
+	public static var isHidden:Bool = false; //Lol Hidden Menu Stuff
+	public static var seenMessage:Bool = false; //Lol Hidden Restore Shit
+	public static var restoreUnlocked:Bool = false; //Lol Hidden Restore Shit
+	public static var realDeath:Bool = false; //Lol Hidden Restore Shit
+	public static var cursedUnlocked:Bool = false; //Lol Hidden Restore Shit
+	public static var deathHolo:Bool = false; //Lol Hidden Restore Shit
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 

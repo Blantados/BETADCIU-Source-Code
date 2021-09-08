@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg_marx.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Background0000" x="0" y="0" width="2216" height="1085"/>
+	<SubTexture name="bg_moderateLeft0000" x="2216" y="0" width="1977" height="1007" frameX="0" frameY="0" frameWidth="2306" frameHeight="1134"/>
+	<SubTexture name="bg_moderateLeft0001" x="4193" y="0" width="1977" height="1007" frameX="0" frameY="0" frameWidth="2306" frameHeight="1134"/>
+	<SubTexture name="bg_moderateLeft0002" x="6170" y="0" width="1977" height="1125" frameX="0" frameY="0" frameWidth="2306" frameHeight="1134"/>
+	<SubTexture name="bg_moderateLeft0003" x="0" y="1125" width="1977" height="1007" frameX="0" frameY="0" frameWidth="2306" frameHeight="1134"/>
+	<SubTexture name="bg_moderateLeft0004" x="1977" y="1125" width="2306" height="1134"/>
+	<SubTexture name="bg_moderateLeft0005" x="4283" y="1125" width="1977" height="1007" frameX="0" frameY="0" frameWidth="2306" frameHeight="1134"/>
+	<SubTexture name="bg_radicalLeft0000" x="0" y="2259" width="2036" height="1131" frameX="0" frameY="-15" frameWidth="2306" frameHeight="1149"/>
+	<SubTexture name="bg_radicalLeft0001" x="2036" y="2259" width="2036" height="1131" frameX="0" frameY="-15" frameWidth="2306" frameHeight="1149"/>
+	<SubTexture name="bg_radicalLeft0002" x="4072" y="2259" width="2036" height="1131" frameX="0" frameY="-15" frameWidth="2306" frameHeight="1149"/>
+	<SubTexture name="bg_radicalLeft0003" x="6108" y="2259" width="2036" height="1131" frameX="0" frameY="-15" frameWidth="2306" frameHeight="1149"/>
+	<SubTexture name="bg_radicalLeft0004" x="0" y="3390" width="2306" height="1149"/>
+	<SubTexture name="bg_radicalLeft0005" x="2306" y="3390" width="2306" height="1134" frameX="0" frameY="-15" frameWidth="2306" frameHeight="1149"/>
+</TextureAtlas>

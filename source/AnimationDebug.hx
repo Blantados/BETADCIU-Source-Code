@@ -138,14 +138,9 @@ class AnimationDebug extends FlxState
 
 		if (FlxG.keys.justPressed.X)
 			if(isDad)
-				dad.flipX = true;
+				dad.flipX = !dad.flipX;
 			else
-				bf.flipX = true;
-		if (FlxG.keys.justPressed.Y)
-			if(isDad)
-				dad.flipX = false;
-			else
-				bf.flipX = false;
+				bf.flipX = !bf.flipX;
 
 		if (FlxG.keys.justPressed.ENTER)
 		{
@@ -204,9 +199,12 @@ class AnimationDebug extends FlxState
 		var leftP = FlxG.keys.anyJustPressed([LEFT]);
 
 		var holdShift = FlxG.keys.pressed.SHIFT;
+		var holdAlt = FlxG.keys.pressed.ALT;
 		var multiplier = 1;
 		if (holdShift)
 			multiplier = 10;
+		if (holdShift && holdAlt)
+			multiplier = 50;
 
 		if (upP || rightP || downP || leftP)
 		{

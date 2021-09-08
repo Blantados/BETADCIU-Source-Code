@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="feversprites.png">
+<SubTexture name="feverpoint0000" x="0" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feversilly0000" x="424" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feverworry0000" x="848" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feverflirt0000" x="1272" y="0" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feverscared0000" x="0" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feverconfuse0000" x="424" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="fevertired0000" x="848" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feverfine0000" x="1272" y="544" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feverannoyed0000" x="0" y="1088" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="casualpoint0000" x="424" y="1088" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+<SubTexture name="feversmile0000" x="848" y="1088" width="424" height="544" frameX="0" frameY="0" frameWidth="424" frameHeight="544" />
+</TextureAtlas>

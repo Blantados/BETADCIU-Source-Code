@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mackiepom_assets.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mackiepom dance left0000" x="0" y="0" width="466" height="570" frameX="-2" frameY="-3" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0001" x="0" y="0" width="466" height="570" frameX="-2" frameY="-3" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0002" x="466" y="0" width="459" height="564" frameX="-4" frameY="-7" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0003" x="466" y="0" width="459" height="564" frameX="-4" frameY="-7" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0004" x="925" y="0" width="448" height="568" frameX="0" frameY="-5" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0005" x="925" y="0" width="448" height="568" frameX="0" frameY="-5" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0006" x="1373" y="0" width="445" height="569" frameX="-3" frameY="-5" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0007" x="1373" y="0" width="445" height="569" frameX="-3" frameY="-5" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0008" x="1818" y="0" width="450" height="571" frameX="-2" frameY="0" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0009" x="1818" y="0" width="450" height="571" frameX="-2" frameY="0" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0010" x="2268" y="0" width="445" height="571" frameX="-2" frameY="-2" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance left0011" x="2268" y="0" width="445" height="571" frameX="-2" frameY="-2" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0000" x="2713" y="0" width="423" height="569" frameX="-1" frameY="-4" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0001" x="2713" y="0" width="423" height="569" frameX="-1" frameY="-4" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0002" x="3136" y="0" width="411" height="570" frameX="-2" frameY="-4" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0003" x="3136" y="0" width="411" height="570" frameX="-2" frameY="-4" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0004" x="3547" y="0" width="423" height="568" frameX="0" frameY="-3" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0005" x="3547" y="0" width="423" height="568" frameX="0" frameY="-3" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0006" x="3970" y="0" width="421" height="570" frameX="0" frameY="-1" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0007" x="3970" y="0" width="421" height="570" frameX="0" frameY="-1" frameWidth="448" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0008" x="2268" y="0" width="445" height="571" frameX="-1" frameY="0" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0009" x="2268" y="0" width="445" height="571" frameX="-1" frameY="0" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0010" x="1818" y="0" width="450" height="571" frameX="0" frameY="-2" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom dance right0011" x="1818" y="0" width="450" height="571" frameX="0" frameY="-2" frameWidth="468" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0000" x="4391" y="0" width="422" height="500" frameX="-3" frameY="0" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0001" x="4391" y="0" width="422" height="500" frameX="-3" frameY="0" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0002" x="4813" y="0" width="470" height="496" frameX="0" frameY="-6" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0003" x="4813" y="0" width="470" height="496" frameX="0" frameY="-6" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0004" x="5283" y="0" width="456" height="503" frameX="-3" frameY="0" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0005" x="5283" y="0" width="456" height="503" frameX="-3" frameY="0" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0006" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0007" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0008" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0009" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0010" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0011" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0012" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0013" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0014" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0015" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0016" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0017" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0018" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0019" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0020" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0021" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0022" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0023" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom down alt0024" x="5283" y="0" width="456" height="503" frameX="-3" frameY="-2" frameWidth="470" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0000" x="5739" y="0" width="509" height="572" frameX="-1" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0001" x="5739" y="0" width="509" height="572" frameX="-1" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0002" x="6248" y="0" width="516" height="570" frameX="-2" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0003" x="6248" y="0" width="516" height="570" frameX="-2" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0004" x="6764" y="0" width="517" height="569" frameX="0" frameY="-2" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0005" x="6764" y="0" width="517" height="569" frameX="0" frameY="-2" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0006" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0007" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0008" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0009" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0010" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0011" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0012" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0013" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0014" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0015" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0016" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0017" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0018" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0019" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0020" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0021" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0022" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0023" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom left alt0024" x="7281" y="0" width="517" height="572" frameX="0" frameY="0" frameWidth="518" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0000" x="0" y="572" width="458" height="573" frameX="0" frameY="-1" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0001" x="0" y="572" width="458" height="573" frameX="0" frameY="-1" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0002" x="458" y="572" width="454" height="575" frameX="-1" frameY="0" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0003" x="458" y="572" width="454" height="575" frameX="-1" frameY="0" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0004" x="912" y="572" width="457" height="571" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0005" x="912" y="572" width="457" height="571" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0006" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0007" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0008" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0009" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0010" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0011" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0012" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0013" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0014" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0015" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0016" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0017" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0018" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0019" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0020" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0021" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0022" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0023" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom right alt0024" x="1369" y="572" width="455" height="569" frameX="0" frameY="-4" frameWidth="458" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0000" x="1824" y="572" width="403" height="570" frameX="0" frameY="-4" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0001" x="1824" y="572" width="403" height="570" frameX="0" frameY="-4" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0002" x="2227" y="572" width="382" height="574" frameX="-1" frameY="0" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0003" x="2227" y="572" width="382" height="574" frameX="-1" frameY="0" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0004" x="2609" y="572" width="390" height="569" frameX="-1" frameY="-4" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0005" x="2609" y="572" width="390" height="569" frameX="-1" frameY="-4" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0006" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0007" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0008" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0009" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0010" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0011" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0012" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0013" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0014" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0015" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0016" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0017" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0018" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0019" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0020" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0021" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0022" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0023" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="mackiepom up alt0024" x="2999" y="572" width="392" height="571" frameX="-2" frameY="-3" frameWidth="403" frameHeight="1160"/>
+	<SubTexture name="one0000" x="3391" y="572" width="431" height="611"/>
+	<SubTexture name="one0001" x="3391" y="572" width="431" height="611"/>
+	<SubTexture name="one0002" x="3822" y="572" width="427" height="602" frameX="0" frameY="-5" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0003" x="3822" y="572" width="427" height="602" frameX="0" frameY="-5" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0004" x="4249" y="572" width="430" height="605" frameX="-1" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0005" x="4249" y="572" width="430" height="605" frameX="-1" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0006" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0007" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0008" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0009" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0010" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0011" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0012" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0013" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0014" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0015" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0016" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0017" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0018" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0019" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0020" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0021" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0022" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0023" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="one0024" x="4679" y="572" width="430" height="605" frameX="0" frameY="-4" frameWidth="431" frameHeight="1160"/>
+	<SubTexture name="pom down0000" x="5109" y="572" width="507" height="480" frameX="0" frameY="0" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0001" x="5109" y="572" width="507" height="480" frameX="0" frameY="0" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0002" x="5616" y="572" width="513" height="475" frameX="0" frameY="-5" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0003" x="5616" y="572" width="513" height="475" frameX="0" frameY="-5" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0004" x="6129" y="572" width="508" height="475" frameX="-1" frameY="-2" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0005" x="6129" y="572" width="508" height="475" frameX="-1" frameY="-2" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0006" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0007" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0008" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0009" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0010" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0011" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0012" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0013" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0014" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0015" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0016" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0017" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0018" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0019" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0020" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0021" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0022" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0023" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom down0024" x="6637" y="572" width="509" height="479" frameX="0" frameY="-1" frameWidth="513" frameHeight="1160"/>
+	<SubTexture name="pom left0000" x="7146" y="572" width="438" height="556" frameX="-2" frameY="0" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0001" x="7146" y="572" width="438" height="556" frameX="-2" frameY="0" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0002" x="7584" y="572" width="445" height="556" frameX="-2" frameY="-1" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0003" x="7584" y="572" width="445" height="556" frameX="-2" frameY="-1" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0004" x="0" y="1183" width="413" height="553" frameX="-2" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0005" x="0" y="1183" width="413" height="553" frameX="-2" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0006" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0007" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0008" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0009" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0010" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0011" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0012" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0013" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0014" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0015" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0016" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0017" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0018" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0019" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0020" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0021" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0022" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0023" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom left0024" x="413" y="1183" width="422" height="553" frameX="0" frameY="-3" frameWidth="447" frameHeight="1160"/>
+	<SubTexture name="pom right0000" x="835" y="1183" width="502" height="544" frameX="0" frameY="0" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0001" x="835" y="1183" width="502" height="544" frameX="0" frameY="0" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0002" x="1337" y="1183" width="498" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0003" x="1337" y="1183" width="498" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0004" x="1835" y="1183" width="502" height="544" frameX="0" frameY="0" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0005" x="1835" y="1183" width="502" height="544" frameX="0" frameY="0" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0006" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0007" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0008" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0009" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0010" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0011" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0012" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0013" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0014" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0015" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0016" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0017" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0018" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0019" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0020" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0021" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0022" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0023" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom right0024" x="2337" y="1183" width="500" height="543" frameX="-2" frameY="-2" frameWidth="502" frameHeight="1160"/>
+	<SubTexture name="pom up0000" x="2837" y="1183" width="427" height="608" frameX="-1" frameY="0" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0001" x="2837" y="1183" width="427" height="608" frameX="-1" frameY="0" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0002" x="3264" y="1183" width="426" height="602" frameX="-2" frameY="-4" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0003" x="3264" y="1183" width="426" height="602" frameX="-2" frameY="-4" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0004" x="3690" y="1183" width="430" height="605" frameX="0" frameY="-1" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0005" x="3690" y="1183" width="430" height="605" frameX="0" frameY="-1" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0006" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0007" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0008" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0009" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0010" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0011" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0012" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0013" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0014" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0015" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0016" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0017" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0018" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0019" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0020" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0021" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0022" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0023" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+	<SubTexture name="pom up0024" x="4120" y="1183" width="428" height="605" frameX="-1" frameY="-3" frameWidth="430" frameHeight="1160"/>
+</TextureAtlas>

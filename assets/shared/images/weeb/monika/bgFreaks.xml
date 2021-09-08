@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgFreaks.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG girls group0000" x="0" y="0" width="451" height="96"/>
+	<SubTexture name="BG girls group0001" x="0" y="0" width="451" height="96"/>
+	<SubTexture name="BG girls group0002" x="0" y="0" width="451" height="96"/>
+	<SubTexture name="BG girls group0003" x="461" y="0" width="451" height="96"/>
+	<SubTexture name="BG girls group0004" x="461" y="0" width="451" height="96"/>
+	<SubTexture name="BG girls group0005" x="461" y="0" width="451" height="96"/>
+	<SubTexture name="BG girls group0006" x="0" y="106" width="451" height="96"/>
+	<SubTexture name="BG girls group0007" x="0" y="106" width="451" height="96"/>
+	<SubTexture name="BG girls group0008" x="0" y="106" width="451" height="96"/>
+	<SubTexture name="BG girls group0009" x="461" y="106" width="451" height="96"/>
+	<SubTexture name="BG girls group0010" x="461" y="106" width="451" height="96"/>
+	<SubTexture name="BG girls group0011" x="461" y="106" width="451" height="96"/>
+	<SubTexture name="BG girls group0012" x="0" y="212" width="451" height="96"/>
+	<SubTexture name="BG girls group0013" x="0" y="212" width="451" height="96"/>
+	<SubTexture name="BG girls group0014" x="0" y="212" width="451" height="96"/>
+	<SubTexture name="BG girls group0015" x="461" y="212" width="451" height="96"/>
+	<SubTexture name="BG girls group0016" x="461" y="212" width="451" height="96"/>
+	<SubTexture name="BG girls group0017" x="461" y="212" width="451" height="96"/>
+	<SubTexture name="BG girls group0018" x="0" y="318" width="451" height="96"/>
+	<SubTexture name="BG girls group0019" x="0" y="318" width="451" height="96"/>
+	<SubTexture name="BG girls group0020" x="0" y="318" width="451" height="96"/>
+	<SubTexture name="BG girls group0021" x="461" y="318" width="451" height="96"/>
+	<SubTexture name="BG girls group0022" x="461" y="318" width="451" height="96"/>
+	<SubTexture name="BG girls group0023" x="461" y="318" width="451" height="96"/>
+</TextureAtlas>

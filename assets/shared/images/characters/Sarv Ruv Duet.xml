@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sarv Ruv Duet.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Duet Idle0000" x="0" y="0" width="730" height="779" pivotX="247.05" pivotY="270.45" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0001" x="0" y="0" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0002" x="735" y="0" width="713" height="777" frameX="0" frameY="-2" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0003" x="1453" y="0" width="696" height="776" frameX="0" frameY="-5" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0004" x="2154" y="0" width="696" height="776" frameX="0" frameY="-5" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0005" x="2855" y="0" width="687" height="776" frameX="0" frameY="-5" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0006" x="3547" y="0" width="725" height="781" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0007" x="0" y="786" width="730" height="781"/>
+	<SubTexture name="Duet Idle0008" x="735" y="786" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0009" x="735" y="786" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0010" x="0" y="0" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0011" x="0" y="0" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0012" x="0" y="0" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0013" x="0" y="0" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Duet Idle0014" x="0" y="0" width="730" height="779" frameX="0" frameY="0" frameWidth="730" frameHeight="781"/>
+	<SubTexture name="Ruv Duet Down0000" x="1470" y="786" width="881" height="716" pivotX="276" pivotY="207.95" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0001" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0002" x="2356" y="786" width="885" height="710" frameX="0" frameY="-5" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0003" x="2356" y="786" width="885" height="710" frameX="0" frameY="-5" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0004" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0005" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0006" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0007" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0008" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0009" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0010" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0011" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0012" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0013" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Down0014" x="1470" y="786" width="881" height="716" frameX="0" frameY="0" frameWidth="885" frameHeight="716"/>
+	<SubTexture name="Ruv Duet Left0000" x="3246" y="786" width="822" height="757" pivotX="289.95" pivotY="246.45" frameX="0" frameY="-1" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0001" x="3246" y="786" width="822" height="757" frameX="0" frameY="-1" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0002" x="0" y="3189" width="813" height="758" frameX="-3" frameY="0" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0003" x="0" y="3189" width="813" height="758" frameX="-3" frameY="0" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0004" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0005" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0006" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0007" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0008" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0009" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0010" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0011" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0012" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0013" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Left0014" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Ruv Duet Right0000" x="0" y="1572" width="789" height="789" pivotX="241.05" pivotY="276.45" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0001" x="0" y="1572" width="789" height="789" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0002" x="794" y="1572" width="792" height="789" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0003" x="794" y="1572" width="792" height="789" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0004" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0005" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0006" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0007" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0008" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0009" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0010" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0011" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0012" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0013" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Right0014" x="1591" y="1572" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Ruv Duet Up0000" x="2399" y="1572" width="748" height="846" pivotX="244.55" pivotY="334.45" frameX="0" frameY="-3" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Ruv Duet Up0001" x="2399" y="1572" width="748" height="846" frameX="0" frameY="-3" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Ruv Duet Up0002" x="3152" y="1572" width="748" height="849" frameX="0" frameY="0" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Ruv Duet Up0003" x="3152" y="1572" width="748" height="849" frameX="0" frameY="0" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Ruv Duet Up0004" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0005" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0006" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0007" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0008" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0009" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0010" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0011" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0012" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0013" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Ruv Duet Up0014" x="3905" y="1572" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Down0000" x="0" y="2427" width="881" height="705" pivotX="276" pivotY="216.45" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0001" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0002" x="886" y="2427" width="885" height="705"/>
+	<SubTexture name="Sarv Duet Down0003" x="1776" y="2427" width="885" height="703" frameX="0" frameY="-1" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0004" x="2666" y="2427" width="881" height="703" frameX="0" frameY="-1" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0005" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0006" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0007" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0008" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0009" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0010" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0011" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0012" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0013" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Down0014" x="0" y="2427" width="881" height="705" frameX="0" frameY="0" frameWidth="885" frameHeight="705"/>
+	<SubTexture name="Sarv Duet Left0000" x="3552" y="2427" width="822" height="757" pivotX="289.95" pivotY="246.45" frameX="0" frameY="-1" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0001" x="3552" y="2427" width="822" height="757" frameX="0" frameY="-1" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0002" x="0" y="3189" width="813" height="758" frameX="-3" frameY="0" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0003" x="0" y="3189" width="813" height="758" frameX="-3" frameY="0" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0004" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0005" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0006" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0007" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0008" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0009" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0010" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0011" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0012" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0013" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Left0014" x="818" y="3189" width="818" height="755" frameX="-2" frameY="-3" frameWidth="822" frameHeight="758"/>
+	<SubTexture name="Sarv Duet Right0000" x="1641" y="3189" width="789" height="789" pivotX="241.05" pivotY="276.45" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0001" x="1641" y="3189" width="789" height="789" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0002" x="2435" y="3189" width="792" height="789" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0003" x="2435" y="3189" width="792" height="789" frameX="-1" frameY="0" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0004" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0005" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0006" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0007" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0008" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0009" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0010" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0011" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0012" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0013" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Right0014" x="3232" y="3189" width="803" height="786" frameX="0" frameY="-3" frameWidth="803" frameHeight="789"/>
+	<SubTexture name="Sarv Duet Up0000" x="0" y="3983" width="748" height="846" pivotX="244.55" pivotY="334.45" frameX="0" frameY="-3" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Sarv Duet Up0001" x="0" y="3983" width="748" height="846" frameX="0" frameY="-3" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Sarv Duet Up0002" x="753" y="3983" width="748" height="849" frameX="0" frameY="0" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Sarv Duet Up0003" x="753" y="3983" width="748" height="849" frameX="0" frameY="0" frameWidth="750" frameHeight="850"/>
+	<SubTexture name="Sarv Duet Up0004" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0005" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0006" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0007" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0008" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0009" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0010" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0011" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0012" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0013" x="1506" y="3983" width="750" height="850"/>
+	<SubTexture name="Sarv Duet Up0014" x="1506" y="3983" width="750" height="850"/>
+</TextureAtlas>

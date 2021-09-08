@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mel_assets.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mel down0000" x="0" y="0" width="617" height="803"/>
+	<SubTexture name="mel down0001" x="0" y="0" width="617" height="803"/>
+	<SubTexture name="mel down0002" x="617" y="0" width="611" height="803" frameX="-2" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0003" x="617" y="0" width="611" height="803" frameX="-2" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0004" x="1228" y="0" width="603" height="803" frameX="-4" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0005" x="1228" y="0" width="603" height="803" frameX="-4" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0006" x="1228" y="0" width="603" height="803" frameX="-4" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0007" x="1228" y="0" width="603" height="803" frameX="-4" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0008" x="1228" y="0" width="603" height="803" frameX="-4" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0009" x="1228" y="0" width="603" height="803" frameX="-4" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel down0010" x="1228" y="0" width="603" height="803" frameX="-4" frameY="0" frameWidth="617" frameHeight="803"/>
+	<SubTexture name="mel idle0000" x="1831" y="0" width="566" height="803" frameX="0" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0001" x="1831" y="0" width="566" height="803" frameX="0" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0002" x="2397" y="0" width="534" height="804" frameX="-9" frameY="0" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0003" x="2397" y="0" width="534" height="804" frameX="-9" frameY="0" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0004" x="2931" y="0" width="511" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0005" x="2931" y="0" width="511" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0006" x="3442" y="0" width="490" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0007" x="3442" y="0" width="490" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0008" x="0" y="804" width="481" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0009" x="0" y="804" width="481" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0010" x="481" y="804" width="481" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0011" x="481" y="804" width="481" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0012" x="962" y="804" width="481" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel idle0013" x="1443" y="804" width="481" height="803" frameX="-14" frameY="-1" frameWidth="566" frameHeight="804"/>
+	<SubTexture name="mel left0000" x="1924" y="804" width="502" height="816"/>
+	<SubTexture name="mel left0001" x="1924" y="804" width="502" height="816"/>
+	<SubTexture name="mel left0002" x="2426" y="804" width="484" height="813" frameX="-18" frameY="-3" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0003" x="2426" y="804" width="484" height="813" frameX="-18" frameY="-3" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0004" x="2910" y="804" width="481" height="810" frameX="-21" frameY="-6" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0005" x="2910" y="804" width="481" height="810" frameX="-21" frameY="-6" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0006" x="2910" y="804" width="481" height="810" frameX="-21" frameY="-6" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0007" x="2910" y="804" width="481" height="810" frameX="-21" frameY="-6" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0008" x="2910" y="804" width="481" height="810" frameX="-21" frameY="-6" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0009" x="2910" y="804" width="481" height="810" frameX="-21" frameY="-6" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel left0010" x="2910" y="804" width="481" height="810" frameX="-21" frameY="-6" frameWidth="502" frameHeight="816"/>
+	<SubTexture name="mel right0000" x="3391" y="804" width="481" height="803"/>
+	<SubTexture name="mel right0001" x="3391" y="804" width="481" height="803"/>
+	<SubTexture name="mel right0002" x="0" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0003" x="0" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0004" x="481" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0005" x="481" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0006" x="481" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0007" x="481" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0008" x="481" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0009" x="481" y="1620" width="481" height="803"/>
+	<SubTexture name="mel right0010" x="481" y="1620" width="481" height="803"/>
+	<SubTexture name="mel up0000" x="962" y="1620" width="481" height="846" frameX="-13" frameY="0" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0001" x="962" y="1620" width="481" height="846" frameX="-13" frameY="0" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0002" x="1443" y="1620" width="487" height="828" frameX="-7" frameY="-18" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0003" x="1443" y="1620" width="487" height="828" frameX="-7" frameY="-18" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0004" x="1930" y="1620" width="494" height="829" frameX="0" frameY="-17" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0005" x="1930" y="1620" width="494" height="829" frameX="0" frameY="-17" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0006" x="1930" y="1620" width="494" height="829" frameX="0" frameY="-17" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0007" x="1930" y="1620" width="494" height="829" frameX="0" frameY="-17" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0008" x="1930" y="1620" width="494" height="829" frameX="0" frameY="-17" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0009" x="1930" y="1620" width="494" height="829" frameX="0" frameY="-17" frameWidth="494" frameHeight="846"/>
+	<SubTexture name="mel up0010" x="1930" y="1620" width="494" height="829" frameX="0" frameY="-17" frameWidth="494" frameHeight="846"/>
+</TextureAtlas>

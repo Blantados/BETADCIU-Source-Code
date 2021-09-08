@@ -15,7 +15,5 @@ bf-pixel
 senpai
 senpai-angry
 spirit
-liz
-momi
-nonsense
-eh
+whitty
+garcello

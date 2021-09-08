@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="qt-kb2.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="danceLeftNormal0000" x="0" y="0" width="876" height="688" pivotX="47.9" pivotY="-46.15" frameX="-38" frameY="0" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0001" x="881" y="0" width="895" height="679" frameX="-27" frameY="-9" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0002" x="1781" y="0" width="934" height="669" frameX="-3" frameY="-20" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0003" x="2720" y="0" width="940" height="667" frameX="-3" frameY="-22" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0004" x="3665" y="0" width="924" height="665" frameX="-29" frameY="-22" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0005" x="4594" y="0" width="938" height="666" frameX="-1" frameY="-21" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0006" x="5537" y="0" width="923" height="668" frameX="0" frameY="-19" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0007" x="0" y="693" width="905" height="665" frameX="-9" frameY="-22" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0008" x="910" y="693" width="892" height="662" frameX="-16" frameY="-25" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceLeftNormal0009" x="1807" y="693" width="847" height="661" frameX="-58" frameY="-26" frameWidth="953" frameHeight="689"/>
+	<SubTexture name="danceRightNormal0000" x="2659" y="693" width="806" height="665" pivotX="6.15" pivotY="-37.9" frameX="-58" frameY="-32" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0001" x="3470" y="693" width="810" height="669" frameX="-48" frameY="-28" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0002" x="4285" y="693" width="803" height="670" frameX="-46" frameY="-28" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0003" x="5093" y="693" width="803" height="672" frameX="-42" frameY="-26" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0004" x="0" y="1370" width="805" height="681" frameX="-44" frameY="-15" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0005" x="810" y="1370" width="806" height="689" frameX="-53" frameY="-7" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0006" x="1621" y="1370" width="806" height="693" frameX="-61" frameY="-3" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0007" x="2432" y="1370" width="835" height="689" frameX="-35" frameY="-7" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0008" x="3272" y="1370" width="867" height="696" frameX="-6" frameY="0" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="danceRightNormal0009" x="4144" y="1370" width="877" height="684" frameX="0" frameY="-12" frameWidth="877" frameHeight="698"/>
+	<SubTexture name="singDownKB0000" x="5026" y="1370" width="742" height="602" pivotX="72.2" pivotY="-108.1" frameX="-62" frameY="0" frameWidth="876" frameHeight="602"/>
+	<SubTexture name="singDownKB0001" x="5773" y="1370" width="787" height="601" frameX="-26" frameY="-1" frameWidth="876" frameHeight="602"/>
+	<SubTexture name="singDownKB0002" x="0" y="2071" width="803" height="602" frameX="-31" frameY="0" frameWidth="876" frameHeight="602"/>
+	<SubTexture name="singDownKB0003" x="808" y="2071" width="843" height="597" frameX="-9" frameY="-4" frameWidth="876" frameHeight="602"/>
+	<SubTexture name="singDownKB0004" x="1656" y="2071" width="876" height="579" frameX="0" frameY="-21" frameWidth="876" frameHeight="602"/>
+	<SubTexture name="singDownQT0000" x="2537" y="2071" width="810" height="646" pivotX="29.65" pivotY="-89" frameX="-29" frameY="-17" frameWidth="852" frameHeight="671"/>
+	<SubTexture name="singDownQT0001" x="3352" y="2071" width="830" height="654" frameX="-14" frameY="-14" frameWidth="852" frameHeight="671"/>
+	<SubTexture name="singDownQT0002" x="4187" y="2071" width="839" height="662" frameX="-6" frameY="-6" frameWidth="852" frameHeight="671"/>
+	<SubTexture name="singDownQT0003" x="5031" y="2071" width="836" height="667" frameX="-11" frameY="-4" frameWidth="852" frameHeight="671"/>
+	<SubTexture name="singDownQT0004" x="0" y="2743" width="852" height="669" frameX="0" frameY="0" frameWidth="852" frameHeight="671"/>
+	<SubTexture name="singLeftKB0000" x="857" y="2743" width="778" height="793" pivotX="137.6" pivotY="109.7" frameX="-36" frameY="-35" frameWidth="814" frameHeight="828"/>
+	<SubTexture name="singLeftKB0001" x="1640" y="2743" width="799" height="785" frameX="-8" frameY="-33" frameWidth="814" frameHeight="828"/>
+	<SubTexture name="singLeftKB0002" x="2444" y="2743" width="802" height="781" frameX="0" frameY="-36" frameWidth="814" frameHeight="828"/>
+	<SubTexture name="singLeftKB0003" x="3251" y="2743" width="789" height="809" frameX="-8" frameY="-8" frameWidth="814" frameHeight="828"/>
+	<SubTexture name="singLeftKB0004" x="4045" y="2743" width="762" height="820" frameX="-24" frameY="0" frameWidth="814" frameHeight="828"/>
+	<SubTexture name="singLeftQT0000" x="4812" y="2743" width="766" height="697" pivotX="69.15" pivotY="11.4" frameX="0" frameY="-23" frameWidth="785" frameHeight="720"/>
+	<SubTexture name="singLeftQT0001" x="5583" y="2743" width="764" height="696" frameX="-10" frameY="-24" frameWidth="785" frameHeight="720"/>
+	<SubTexture name="singLeftQT0002" x="0" y="3568" width="765" height="698" frameX="-12" frameY="-22" frameWidth="785" frameHeight="720"/>
+	<SubTexture name="singLeftQT0003" x="770" y="3568" width="764" height="710" frameX="-15" frameY="-10" frameWidth="785" frameHeight="720"/>
+	<SubTexture name="singLeftQT0004" x="1539" y="3568" width="770" height="720" frameX="-15" frameY="0" frameWidth="785" frameHeight="720"/>
+	<SubTexture name="singRightKB0000" x="2314" y="3568" width="659" height="646" pivotX="-224.7" pivotY="-94.4" frameX="-8" frameY="0" frameWidth="667" frameHeight="648"/>
+	<SubTexture name="singRightKB0001" x="2978" y="3568" width="660" height="645" frameX="-6" frameY="-1" frameWidth="667" frameHeight="648"/>
+	<SubTexture name="singRightKB0002" x="3643" y="3568" width="649" height="645" frameX="-6" frameY="-2" frameWidth="667" frameHeight="648"/>
+	<SubTexture name="singRightKB0003" x="4297" y="3568" width="639" height="645" frameX="-4" frameY="-3" frameWidth="667" frameHeight="648"/>
+	<SubTexture name="singRightKB0004" x="4941" y="3568" width="622" height="641" frameX="0" frameY="-7" frameWidth="667" frameHeight="648"/>
+	<SubTexture name="singRightQT0000" x="5568" y="3568" width="802" height="669" pivotX="-107.95" pivotY="-63.4" frameX="-23" frameY="-13" frameWidth="825" frameHeight="685"/>
+	<SubTexture name="singRightQT0001" x="0" y="4293" width="825" height="672" frameX="0" frameY="-10" frameWidth="825" frameHeight="685"/>
+	<SubTexture name="singRightQT0002" x="830" y="4293" width="810" height="676" frameX="-7" frameY="-5" frameWidth="825" frameHeight="685"/>
+	<SubTexture name="singRightQT0003" x="1645" y="4293" width="781" height="683" frameX="-23" frameY="-2" frameWidth="825" frameHeight="685"/>
+	<SubTexture name="singRightQT0004" x="2431" y="4293" width="797" height="685" frameX="-7" frameY="0" frameWidth="825" frameHeight="685"/>
+	<SubTexture name="singUpKB0000" x="3233" y="4293" width="899" height="825" pivotX="52.1" pivotY="118.8" frameX="-1" frameY="-5" frameWidth="904" frameHeight="830"/>
+	<SubTexture name="singUpKB0001" x="4137" y="4293" width="904" height="830"/>
+	<SubTexture name="singUpKB0002" x="5046" y="4293" width="892" height="790" frameX="-5" frameY="-40" frameWidth="904" frameHeight="830"/>
+	<SubTexture name="singUpKB0003" x="0" y="5128" width="872" height="801" frameX="-14" frameY="-28" frameWidth="904" frameHeight="830"/>
+	<SubTexture name="singUpKB0004" x="877" y="5128" width="865" height="795" frameX="-20" frameY="-34" frameWidth="904" frameHeight="830"/>
+	<SubTexture name="singUpQT0000" x="1747" y="5128" width="843" height="754" pivotX="39.7" pivotY="3.55"/>
+	<SubTexture name="singUpQT0001" x="2595" y="5128" width="828" height="745" frameX="-15" frameY="-9" frameWidth="843" frameHeight="754"/>
+	<SubTexture name="singUpQT0002" x="3428" y="5128" width="825" height="743" frameX="-18" frameY="-11" frameWidth="843" frameHeight="754"/>
+	<SubTexture name="singUpQT0003" x="4258" y="5128" width="842" height="739" frameX="-1" frameY="-13" frameWidth="843" frameHeight="754"/>
+	<SubTexture name="singUpQT0004" x="5105" y="5128" width="825" height="734" frameX="-18" frameY="-17" frameWidth="843" frameHeight="754"/>
+</TextureAtlas>

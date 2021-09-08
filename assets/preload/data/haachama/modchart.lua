@@ -23,20 +23,47 @@ function stepHit (step)
 
     if curStep == 464 then
         flashCam(255, 255, 255, 2)
+        playBGAnimation('halloweenBG', 'lightning', true, false)
         playSound('thunder_1')
         changeDadCharacter('opheebop', 100, 200)
     end
 
     if curStep == 590 then
         flashCam(255, 255, 255, 2)
+        playBGAnimation('halloweenBG', 'lightning', true, false)
         playSound('thunder_2')
-        changeBoyfriendCharacter('pumpkinpie', 870, 200)
+        changeBoyfriendCharacter('pumpkinpie', 920, 250)
     end
 
     if curStep == 752 then
         flashCam(255, 255, 255, 2)
+        playBGAnimation('halloweenBG', 'lightning', true, false)
         playSound('thunder_1')
         changeDadCharacter('crazygf', 100, 350)
     end
-    
+
+    if curStep == 878 then
+        flashCam(255, 255, 255, 2)
+        playBGAnimation('halloweenBG', 'lightning', true, false)
+        playSound('thunder_2')
+        changeBoyfriendCharacter('drunk-annie', 770, 150)
+        characterZoom('boyfriend', 1.2)
+        followBFYOffset = -50
+    end
+
+    if curStep == 1008 then
+        flashCam(255, 255, 255, 2)
+        playBGAnimation('halloweenBG', 'lightning', true, false)
+        playSound('thunder_1')
+        changeDadCharacter('taki', 50, 100)
+    end
+
+    if curStep == 1136 then
+        followBFYOffset = 0
+        flashCam(255, 255, 255, 2)
+        characterZoom('boyfriend', 1)
+        playBGAnimation('halloweenBG', 'lightning', true, false)
+        playSound('thunder_2')
+        changeBoyfriendCharacter('piconjo', 870, 300)        
+    end 
 end

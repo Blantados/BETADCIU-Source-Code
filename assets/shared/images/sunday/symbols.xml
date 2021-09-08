@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="symbols.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="acab0000" x="0" y="0" width="1488" height="852" frameX="0" frameY="0" frameWidth="1493" frameHeight="852"/>
+	<SubTexture name="acab0001" x="1488" y="0" width="1305" height="595" frameX="0" frameY="0" frameWidth="1493" frameHeight="852"/>
+	<SubTexture name="acab0002" x="2793" y="0" width="1493" height="852"/>
+	<SubTexture name="acab0003" x="1488" y="0" width="1305" height="595" frameX="0" frameY="0" frameWidth="1493" frameHeight="852"/>
+	<SubTexture name="acab0004" x="4286" y="0" width="1489" height="824" frameX="0" frameY="0" frameWidth="1493" frameHeight="852"/>
+	<SubTexture name="acab0005" x="1488" y="0" width="1305" height="595" frameX="0" frameY="0" frameWidth="1493" frameHeight="852"/>
+	<SubTexture name="comi0000" x="5775" y="0" width="1304" height="743"/>
+	<SubTexture name="comi0001" x="0" y="852" width="1304" height="740" frameX="0" frameY="0" frameWidth="1304" frameHeight="743"/>
+	<SubTexture name="comi0002" x="1304" y="852" width="1304" height="713" frameX="0" frameY="0" frameWidth="1304" frameHeight="743"/>
+	<SubTexture name="comi0003" x="2608" y="852" width="1304" height="595" frameX="0" frameY="0" frameWidth="1304" frameHeight="743"/>
+	<SubTexture name="fist0000" x="3912" y="852" width="1304" height="891"/>
+	<SubTexture name="fist0001" x="5216" y="852" width="1304" height="891"/>
+	<SubTexture name="fist0002" x="6520" y="852" width="1304" height="891"/>
+	<SubTexture name="fist0003" x="0" y="1743" width="1304" height="891"/>
+	<SubTexture name="fist0004" x="1304" y="1743" width="1304" height="595" frameX="0" frameY="0" frameWidth="1304" frameHeight="891"/>
+</TextureAtlas>

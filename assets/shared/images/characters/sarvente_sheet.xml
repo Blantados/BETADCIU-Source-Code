@@ -139,9 +139,9 @@
 
 	<!--SubTexture name="SarvDarkIdle00014" x="3260" y="0" width="386" height="824" frameX="0" frameY="-5" frameWidth="390" frameHeight="822"/-->
 
-	<SubTexture name="SarvDarkDown0000" x="5051" y="223" width="629" height="691" frameX="-4" frameY="-131" frameWidth="632" frameHeight="822"/><!--0-->
-	<SubTexture name="SarvDarkDown0001" x="5051" y="223" width="629" height="691" frameX="-4" frameY="-131" frameWidth="632" frameHeight="822"/><!--0-->
-	<SubTexture name="SarvDarkDown0002" x="5051" y="223" width="629" height="691" frameX="-4" frameY="-131" frameWidth="632" frameHeight="822"/><!--0-->
+	<SubTexture name="SarvDarkDown0000" x="6051" y="223" width="629" height="691" frameX="-4" frameY="-131" frameWidth="632" frameHeight="822"/><!--0-->
+	<SubTexture name="SarvDarkDown0001" x="6051" y="223" width="629" height="691" frameX="-4" frameY="-131" frameWidth="632" frameHeight="822"/><!--0-->
+	<SubTexture name="SarvDarkDown0002" x="6051" y="223" width="629" height="691" frameX="-4" frameY="-131" frameWidth="632" frameHeight="822"/><!--0-->
 	<SubTexture name="SarvDarkDown0003" x="6735" y="228" width="625" height="686" frameX="0" frameY="-136" frameWidth="629" frameHeight="822"/><!--1-->
 	<SubTexture name="SarvDarkDown0004" x="6735" y="228" width="625" height="686" frameX="0" frameY="-136" frameWidth="629" frameHeight="822"/><!--1-->
 	<SubTexture name="SarvDarkDown0005" x="6735" y="228" width="625" height="686" frameX="0" frameY="-136" frameWidth="629" frameHeight="822"/><!--1-->

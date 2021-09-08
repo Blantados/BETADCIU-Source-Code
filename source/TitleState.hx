@@ -44,7 +44,7 @@ class TitleState extends MusicBeatState
 	var textGroup:FlxGroup;
 	var ngSpr:FlxSprite;
 
-	var curWacky:Array<String> = [];
+	public static var curWacky:Array<String> = [];
 
 	var wackyImage:FlxSprite;
 
@@ -306,7 +306,7 @@ class TitleState extends MusicBeatState
 
 			new FlxTimer().start(2, function(tmr:FlxTimer)
 			{
-				FlxG.switchState(new MainMenuState());
+				FlxG.switchState(new SecretState());
 			});
 			// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
 		}
@@ -399,10 +399,15 @@ class TitleState extends MusicBeatState
 			// credTextShit.text = 'Shoutouts Tom Fulp';
 			// credTextShit.screenCenter();
 			case 9:
+				Main.seenMessage = true;
 				createCoolText([curWacky[0]]);
 			// credTextShit.visible = true;
 			case 11:
 				addMoreText(curWacky[1]);
+				if (curWacky[1].contains('uncorruption'))
+				{
+					Main.restoreUnlocked = true;
+				}
 			// credTextShit.text += '\nlmao';
 			case 12:
 				deleteCoolText();

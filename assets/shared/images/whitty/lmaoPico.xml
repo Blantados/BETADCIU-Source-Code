@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lmaoPico.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pico Look Down0000" x="0" y="0" width="346" height="479" pivotX="-46.25" pivotY="4.75"/>
+</TextureAtlas>

@@ -1,0 +1,24 @@
+:fever-confused:Great! We arrived just a few minutes ago and we're already lost.
+:tea-think:Why don't we ask that guy over there for directions?
+:fever-worried:Are you sure? He seems kinda dangerous.
+:tea:What? You scared?
+:fever-fine:Tch. Fine.
+:fever-confused:Hey you there! The one with the orange hair!
+:pico-angry:???
+:pico-angry:!
+:pico:Hey dude! Nice gun!
+:fever-confused:Uh... yeah... thanks.
+:tea-think:It is a pretty cool looking gun.
+:pico:Yeah it's pretty cool.
+:pico:A lil too cool.
+:pico:...
+:pico-dark:...
+:fever-confused:Dude, you alright?
+:pico-speakdark:Hand it over.
+:fever-scared:What?
+:pico-shoutdark:I SAID HAND IT OVER!!
+:fever-scared:DUDE WE JUST MET!
+:pico-shoutdark:HAND IT OVER OR THE GIRL GETS IT!
+:fever-fine:Ha! You don't have the guts to shoot her.
+:tea-angry:So you're okay with him killing me if he did.
+:pico-dark:Hmph

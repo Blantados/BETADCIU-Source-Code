@@ -11,7 +11,7 @@ import flixel.util.FlxColor;
 import lime.utils.Assets;
 import flixel.effects.FlxFlicker;
 import flixel.tweens.FlxTween;
-
+import flixel.util.FlxTimer;
 
 #if desktop
 import Discord.DiscordClient;
@@ -28,8 +28,10 @@ class BonusSongsState extends MusicBeatState
 	var curDifficulty:Int = 1;
 
 	var scoreText:FlxText;
+	var infoText:FlxText;
 	var diffText:FlxText;
 	var comboText:FlxText;
+	var copyrightText:FlxText;
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 	var combo:String = '';
@@ -38,29 +40,33 @@ class BonusSongsState extends MusicBeatState
 	private var curPlaying:Bool = false;
 
 	var bgPixel:FlxSprite;
+	var infoBG:FlxSprite;
+
+	var blackScreen:FlxSprite;
+	var enterText:Alphabet;
+	var otherText:FlxText;
+
+	var inUnlockMenu:Bool;
+	public static var canMove:Bool;
 
 	private var iconArray:Array<HealthIcon> = [];
 
 	override function create()
 	{
-		/* 
-			if (FlxG.sound.music != null)
-			{
-				if (!FlxG.sound.music.playing)
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-			}
-		 */
-
-		 if (FlxG.sound.music.volume == 0)
+		 if (FlxG.sound.music.volume == 0 || !FlxG.sound.music.playing)
 		{
 			FlxG.sound.music.volume = 1;
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 		}
+
+		inUnlockMenu = false;
+		canMove = true;
 			
+		FlxG.sound.cache(Paths.sound("unlock", 'shared'));
 
 		 #if desktop
 		 // Updating Discord Rich Presence
-		 DiscordClient.changePresence("In BETADCIU Menu", null);
+		 DiscordClient.changePresence("In Bonus Song Menu", null);
 		 #end
 
 		var isDebug:Bool = false;
@@ -68,19 +74,60 @@ class BonusSongsState extends MusicBeatState
 		#if debug
 		isDebug = true;
 		#end
+
+		var lamentCombo:String = '';
+		var rootsCombo:String = '';
+		var spookyCombo:String = '';
+		var ughCombo:String = '';
+		var argumentCombo:String = '';
+		var unholyCombo:String = '';
+
+		#if !switch
+		lamentCombo = Highscore.getCombo('Lament', 2);
+		rootsCombo = Highscore.getCombo('Roots', 2);
+		spookyCombo = Highscore.getCombo('Spooky-Fight', 2);
+		ughCombo = Highscore.getCombo('Ugh', 2);
+		argumentCombo = Highscore.getCombo('Argument', 2);
+		unholyCombo = Highscore.getCombo('Unholy-Worship', 2);
+		#end
+
 		addWeek(['Tutorial-Remix'], 1, ['gf']);
 		addWeek(['Monika', 'Roses-Remix-Senpai'], 1, ['monika', 'senpai-angry']);
-		addWeek(['Dead-Pixel', 'Treacherous-Dads'], 2, ['colt-angryd2', 'bitdad']);
 		addWeek(['Pico-G', 'Good-Enough', 'EEEAAAOOO'], 3, ['nene', 'bf-annie', 'lila']);
 		addWeek(['WhittyVsSarv', 'High-Sarv', 'Ruvbattle'], 4, ['sarvente', 'sarvente', 'ruv']);
-		addWeek(['Winter-Horrorland-Miku', 'Fading-Senpai', 'Possession'], 5, ['miku-mad-christmas', 'senpaighosty', 'coco']);
+		addWeek(['Winter-Horrorland-Miku', 'Fading-Senpai', 'Memories'], 5, ['miku-mad-christmas', 'senpaighosty', 'sarvente-worried-night']);
 		addWeek(['Their-Battle', 'Glitcher', 'Sussus-Moogus'], 6, ['tabi', 'agoti-glitcher', 'impostor']);
 		addWeek(['Five-Nights' ,'FNFVSEDDSWORLD', 'Accidental-Bop'], 7, ['hex', 'tord2', 'tord2']);
-		addWeek(['Resketch', 'Sharkventure', 'Gura-Nazel'], 8, ['pico-m', 'liz', 'gura-amelia']);
-		addWeek(['Expurgation', 'Milf-G', 'Demon-Training'], 9, ['cjClone', 'rosie', 'dad']);
-		addWeek(['B3 Forever', 'Get Out', 'Battle'], 9, ['mia', 'peri', 'monika']);
-		addWeek(['Unholy-Worship', 'Memories', 'Context'], 10, ['dad', 'sarvente-worried-night', 'sky-annoyed']);
-		addWeek(['Gun-Buddies', 'Sunshine', 'Deathmatch'], 11, ['botan', 'bob2', 'dad-mad']);
+		addWeek(['Sharkventure', 'Context', 'Pom-Pomeranian'], 8, ['liz', 'sky-annoyed', 'cj-ruby']);
+		addWeek(['Milf-G', 'Demon-Training', 'No-Cigar'], 9, ['rosie', 'dad', 'garcello']);
+		addWeek(['Fruity-Encounter', 'Get Out', 'Battle'], 10, ['mia', 'peri', 'monika']);
+		addWeek(['Gura-Nazel', 'Gun-Buddies', 'Possession'], 11, ['gura-amelia', 'botan', 'coco-car']);
+		addWeek(['Unholy-Worship', 'Argument', 'Pure-Gospel'], 12, ['dad', 'sarvente-lucifer', 'sh-carol']);
+		addWeek(['Sunshine', 'Jump-in', 'Aspirer'], 13, ['bob2', 'bob', 'blantad-blue']);
+		addWeek(['Ballistic', 'Expurgation', 'Crucify'], 14, ['picoCrazy', 'cjClone', 'gf']);
+		addWeek(['Ugh-Remix', 'Parish', 'Honeydew'], 15, ['tankman', 'isa', 'hd-senpai-happy']);
+		addWeek(['Mad-Tall', 'Spooky-Fight'], 15, ['bf-carol', 'zardy']);
+
+		if (lamentCombo == 'GFC' && ughCombo == 'GFC' && spookyCombo == 'GFC' && unholyCombo == 'GFC' && argumentCombo == 'GFC' || isDebug)
+		{
+			addSong('Cursed-Cocoa', 16, 'bico-christmas');
+			Main.cursedUnlocked = true;
+			FlxG.save.data.cursedUnlocked = true;
+		}	
+
+		addWeek(['Lament', 'Roots'], 16, ['sarvente', 'monika']);
+
+		if (lamentCombo == 'GFC' && rootsCombo == 'GFC')
+		{
+			addSong('Deathmatch-Holo', 16, 'calli-mad');
+			Main.deathHolo = true;
+			FlxG.save.data.deathHoloUnlocked = true;
+		}	
+
+		if (TitleState.curWacky[1].contains('uncorruption') && Main.seenMessage)
+		{
+			addSong('Restore', 6, 'senpai-glitch');
+		}
 	
 		// LOAD MUSIC
 
@@ -130,6 +177,64 @@ class BonusSongsState extends MusicBeatState
 
 		add(scoreText);
 
+		infoText = new FlxText(FlxG.width * 0.7, 105, FlxG.height, "", 20);
+		infoText.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, LEFT);
+		infoText.text = 'This song contains copyrighted' 
+		+ '\ncontent. Press P for Alternate'
+		+ '\nInst.';
+
+		copyrightText = new FlxText(FlxG.width * 0.7, 155, FlxG.height, "", 32);
+		copyrightText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, LEFT);
+		if (!Main.noCopyright) 
+			copyrightText.text = '\nAlternate Inst: Off';
+		else 
+			copyrightText.text = '\nAlternate Inst: On';
+		
+		infoBG = new FlxSprite(scoreText.x - 6, 100).makeGraphic(Std.int(FlxG.width * 0.35), 132, 0xFF000000);
+		infoBG.alpha = 0.6;
+		add(infoBG);
+
+		add(infoText);
+		add(copyrightText);
+
+		blackScreen = new FlxSprite(-100, -100).makeGraphic(Std.int(FlxG.width * 0.9), Std.int(FlxG.height * 0.5), FlxColor.BLACK);
+		blackScreen.screenCenter();
+		blackScreen.scrollFactor.set();
+		blackScreen.alpha = 0.9;
+		blackScreen.visible = false;
+		add(blackScreen);
+
+		var daSong:String = 'Deathmatch';
+
+		if (!FlxG.save.data.deathHoloUnlocked)
+			daSong = 'Deathmatch';
+		else
+			daSong = 'Deathmatch Holo\n';
+
+		enterText = new Alphabet(0, 0, daSong + " Unlocked", true);
+		enterText.screenCenter();
+		enterText.y -= 100;
+		enterText.visible = false;
+		add(enterText);
+		
+		otherText = new FlxText(0, 0, FlxG.width, "" , 44);
+		otherText.setFormat('Pixel Arial 11 Bold', 44, FlxColor.WHITE, CENTER);
+		if (!FlxG.save.data.deathHoloUnlocked)
+		{
+			otherText.text = "Asset Password:"
+			+ "\nsenpaiandtankman11";
+		}		
+		else
+		{
+			otherText.text = "No locked assets."
+			+ "\nPress Enter to Continue";
+		}	
+		
+		otherText.screenCenter();
+		otherText.y += 50;
+		otherText.visible = false;
+		add(otherText);
+
 		changeSelection();
 		changeDiff();
 
@@ -143,23 +248,26 @@ class BonusSongsState extends MusicBeatState
 
 		var swag:Alphabet = new Alphabet(1, 0, "swag");
 
-		// JUST DOIN THIS SHIT FOR TESTING!!!
-		/* 
-			var md:String = Markdown.markdownToHtml(Assets.getText('CHANGELOG.md'));
+		if (FlxG.save.data.deathUnlocked && !FlxG.save.data.seenDeathPassword)
+		{
+			FlxG.sound.play(Paths.sound('unlock', 'shared'));
+			blackScreen.visible = true;
+			enterText.visible = true;
+			otherText.visible = true;
+			inUnlockMenu = true;
+			FlxG.save.data.seenDeathPassword = true;
+		}
 
-			var texFel:TextField = new TextField();
-			texFel.width = FlxG.width;
-			texFel.height = FlxG.height;
-			// texFel.
-			texFel.htmlText = md;
-
-			FlxG.stage.addChild(texFel);
-
-			// scoreText.textField.htmlText = md;
-
-			trace(md);
-		 */
-
+		if (FlxG.save.data.deathHoloUnlocked && !FlxG.save.data.seenDeathHoloPassword)
+		{
+			FlxG.sound.play(Paths.sound('unlock', 'shared'));
+			blackScreen.visible = true;
+			enterText.visible = true;
+			otherText.visible = true;
+			inUnlockMenu = true;
+			FlxG.save.data.seenDeathHoloPassword = true;
+		}
+			
 		super.create();
 	}
 
@@ -197,6 +305,24 @@ class BonusSongsState extends MusicBeatState
 		if (Math.abs(lerpScore - intendedScore) <= 10)
 			lerpScore = intendedScore;
 
+		if (inUnlockMenu)
+		{
+			canMove = false;
+		}
+
+		if (inUnlockMenu && FlxG.keys.justPressed.ENTER)
+		{		
+			FlxTween.tween(enterText, {alpha: 0}, 0.5);
+			FlxTween.tween(otherText, {alpha: 0}, 0.5);
+			FlxTween.tween(blackScreen, {alpha: 0}, 0.5);
+
+			new FlxTimer().start(0.75, function(tmr:FlxTimer)
+			{
+				inUnlockMenu = false;
+				canMove = true;
+			});
+		}
+
 		scoreText.text = "PERSONAL BEST:" + lerpScore;
 		comboText.text = combo + '\n';
 
@@ -204,31 +330,26 @@ class BonusSongsState extends MusicBeatState
 		var downP = controls.DOWN_P;
 		var accepted = controls.ACCEPT;
 
-		if (upP)
+		if (upP && canMove)
 		{
 			changeSelection(-1);
 		}
-		if (downP)
+		if (downP && canMove)
 		{
 			changeSelection(1);
 		}
 
-		if (controls.LEFT_P)
+		if (controls.LEFT_P && canMove)
 			changeDiff(-1);
-		if (controls.RIGHT_P)
+		if (controls.RIGHT_P && canMove)
 			changeDiff(1);
 
-		if (controls.BACK)
+		if (controls.BACK && canMove)
 		{
 			FlxG.switchState(new MainMenuState());
 		}
 
-		if (songs[curSelected].songName.toLowerCase() == 'deathmatch')
-		{
-			
-		}
-
-		if (accepted)
+		if (accepted && canMove)
 		{
 			var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
 
@@ -239,6 +360,7 @@ class BonusSongsState extends MusicBeatState
 			PlayState.isBETADCIU = false;
 			PlayState.isBonus = true;
 			PlayState.storyDifficulty = curDifficulty;
+			canMove = false;
 
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
@@ -263,6 +385,34 @@ class BonusSongsState extends MusicBeatState
 			
 			
 			});
+		}
+
+		if (songs[curSelected].songName.toLowerCase() == 'sharkventure')
+		{
+			infoBG.visible = true;
+			infoText.visible = true;
+			copyrightText.visible = true;	
+		}
+		else if (songs[curSelected].songName.toLowerCase() != 'sharkventure')
+		{
+			infoBG.visible = false;
+			infoText.visible = false;
+			copyrightText.visible = false;		
+		}
+
+		if (infoText.visible == true && FlxG.keys.justPressed.P)
+		{
+			Main.noCopyright = !Main.noCopyright;
+			if (!Main.noCopyright) 
+			{
+				FlxG.sound.play(Paths.sound('cancelMenu'));
+				copyrightText.text = '\nAlternate Inst: Off';
+			}
+			else 
+			{
+				FlxG.sound.play(Paths.sound('confirmMenu'));
+				copyrightText.text = '\nAlternate Inst: On';
+			}
 		}
 	}
 
