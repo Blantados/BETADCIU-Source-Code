@@ -1,6 +1,5 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " donwscroll: " .. downscroll)
-
 end
 
 local defaultHudX = 0
@@ -81,6 +80,56 @@ end
 
 function stepHit (step)
 
+    if curStep == 1 then
+
+    end
+
+    if curStep == 192 then
+        changeDadCharacterBetter(-150, 250, 'parents-christmas-soft')
+        characterZoom('dad', 0.85)
+    end
+
+    if curStep == 224 then
+        followBFYOffset = 100
+        changeBoyfriendCharacterBetter(770, 195, 'parents-christmas-angel')
+        characterZoom('boyfriend', 0.82)
+    end
+
+    if curStep == 384 then
+        changeDadCharacterBetter(0, 190, 'cj-ruby')
+        characterZoom('dad', 0.95)
+    end
+
+    if curStep == 400 then
+        changeBoyfriendCharacterBetter(720, 220, 'sarv-ruv')
+        characterZoom('boyfriend', 0.85)
+    end
+
+    if curStep == 448 then
+        followDadYOffset = 175
+        changeDadCharacterBetter(-150, 180, 'qt-kb')
+        characterZoom('dad', 0.85)
+    end
+
+    if curStep == 580 then
+        followBFYOffset = 85
+        followBFXOffset = 20
+        changeBoyfriendCharacterBetter(720, 450, 'liz')
+        characterZoom('boyfriend', 0.85)
+    end
+
+    if curStep == 832 then
+        followDadYOffset = 50
+        changeDadCharacterBetter(0, 360, 'spooky-pixel')
+    end
+
+    if curStep == 848 then
+        followBFYOffset = 50
+        changeBoyfriendCharacterBetter(970, 530, 'gura-amelia-pixel')
+    end
+        
+    -- the arrow shits
+
     if step == 128 then
         l2 = true
         l2 = false
@@ -100,28 +149,28 @@ function stepHit (step)
     if step == 208 or step == 240 then
         l2 = false
         for i=0,7 do
-            setActorY(_G['defaultStrum'..i..'Y'] + 50 , i)
+            setActorY(_G['defaultStrum'..i..'X'] + 30 , i)
+            setActorY(_G['defaultStrum'..i..'Y'] - 50 , i)
         end
     end
 
     if step == 210 or step == 242 then
         for i=0,7 do
             setActorY(_G['defaultStrum'..i..'Y'], i)
-            setActorX(_G['defaultStrum'..i..'X'] - 50 , i)     
+            setActorX(_G['defaultStrum'..i..'X'] - 50, i)     
         end
     end
 
     if step == 211 or step == 243 then
         for i=0,7 do
-            setActorX(_G['defaultStrum'..i..'X'], i)
             setActorX(_G['defaultStrum'..i..'X'] + 50 , i)
         end
     end
 
     if step == 212 or step == 244 then
         for i=0,7 do
-            setActorX(_G['defaultStrum'..i..'X'] , i)
-            setActorY(_G['defaultStrum'..i..'Y'] - 50 , i)
+            setActorX(_G['defaultStrum'..i..'X'] + 10, i)
+            setActorY(_G['defaultStrum'..i..'Y'] - 50, i)
         end
     end
 
@@ -170,6 +219,22 @@ function stepHit (step)
         l2 = true
         l2 = false
         circleArrowsCrazy = true
+    end
+
+    if step == 872 then
+        dadAltAnim = true
+    end
+
+    if step == 880 then
+        dadAltAnim = false
+    end
+
+    if step == 704 or step == 888 then
+        bfAltAnim = true
+    end
+
+    if step == 706 or step == 896 then
+        bfAltAnim = false
     end
 
     if step == 896 then

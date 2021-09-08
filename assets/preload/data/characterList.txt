@@ -15,5 +15,6 @@ bf-pixel
 senpai
 senpai-angry
 spirit
-whitty
-garcello
+bf-dad
+rebecca
+impostor

@@ -85,6 +85,7 @@ class HealthIcon extends FlxSprite
 			animation.add('sky-happy', [46, 47], 0, false, isPlayer);
 			animation.add('sky-purehappiness', [46], 0, false, isPlayer);
 			animation.add('drunk-annie', [48, 49], 0, false, isPlayer);
+			animation.add('drunk-annie-blue', [48, 49], 0, false, isPlayer);
 			animation.add('matt', [50, 51], 0, false, isPlayer);
 			animation.add('miku', [52, 53], 0, false, isPlayer);
 			animation.add('bf-miku', [52, 53], 0, false, isPlayer);

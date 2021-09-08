@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="animatedEvilSchool.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="background 20000" x="0" y="0" width="512" height="512"/>
+	<SubTexture name="background 20001" x="512" y="0" width="512" height="512"/>
+	<SubTexture name="background 20002" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20003" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20004" x="1536" y="0" width="512" height="512"/>
+	<SubTexture name="background 20005" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20006" x="2048" y="0" width="512" height="512"/>
+	<SubTexture name="background 20007" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20008" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20009" x="2560" y="0" width="512" height="512"/>
+	<SubTexture name="background 20010" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20011" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20012" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20013" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20014" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20015" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20016" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20017" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20018" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20019" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20020" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20021" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20022" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20023" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20024" x="3072" y="0" width="512" height="512"/>
+	<SubTexture name="background 20025" x="3584" y="0" width="512" height="512"/>
+	<SubTexture name="background 20026" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20027" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20028" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20029" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20030" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20031" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20032" x="4096" y="0" width="512" height="512"/>
+	<SubTexture name="background 20033" x="4608" y="0" width="512" height="512"/>
+	<SubTexture name="background 20034" x="5120" y="0" width="512" height="512"/>
+	<SubTexture name="background 20035" x="5632" y="0" width="512" height="512"/>
+	<SubTexture name="background 20036" x="6144" y="0" width="512" height="512"/>
+	<SubTexture name="background 20037" x="1024" y="0" width="512" height="512"/>
+	<SubTexture name="background 20038" x="6656" y="0" width="512" height="512"/>
+	<SubTexture name="background 20039" x="7168" y="0" width="512" height="512"/>
+</TextureAtlas>

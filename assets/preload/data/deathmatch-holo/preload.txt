@@ -4,3 +4,5 @@ coco
 bf-aloe-corrupt
 calli-sad
 calli-mad
+calli-mad-alpha
+calli-sad-alpha

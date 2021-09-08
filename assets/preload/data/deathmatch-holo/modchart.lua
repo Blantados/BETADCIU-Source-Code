@@ -62,3 +62,14 @@ function stepHit (step)
 
 
 end
+
+function dadNoteHit()
+
+    if curBeat < 352 then
+        minusHealth(0.02)
+    end
+
+    if curBeat >= 512 and curBeat < 544 then
+        minusHealth(0.04)
+    end
+end
