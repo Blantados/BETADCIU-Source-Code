@@ -10032,7 +10032,7 @@ class PlayState extends MusicBeatState
 		if (FlxG.save.data.camzoom)
 		{
 			// HARDCODING FOR MILF ZOOMS!
-			if (curSong.toLowerCase() == 'milf' && curBeat >= 168 && curBeat < 200 && camZooming && FlxG.camera.zoom < 1.35)
+			if (curSong.toLowerCase().startsWith('milf') && curBeat >= 168 && curBeat < 200 && camZooming && FlxG.camera.zoom < 1.35)
 			{
 				FlxG.camera.zoom += 0.015;
 				camHUD.zoom += 0.03;
@@ -10040,8 +10040,17 @@ class PlayState extends MusicBeatState
 	
 			if (camZooming && FlxG.camera.zoom < 1.35 && curBeat % 4 == 0)
 			{
-				FlxG.camera.zoom += 0.015;
-				camHUD.zoom += 0.03;
+				switch (curSong.toLowerCase())
+				{
+					case 'expurgation':
+						FlxG.camera.zoom += 0.03;
+						camHUD.zoom += 0.06;
+					case 'crucify' | 'ballistic':
+						// do nothing lol
+					default:
+						FlxG.camera.zoom += 0.015;
+						camHUD.zoom += 0.03;
+				}
 			}
 
 			if (camZooming && FlxG.camera.zoom < 1.35 && curBeat % 2 == 0 && curSong.toLowerCase() == 'ballistic')
