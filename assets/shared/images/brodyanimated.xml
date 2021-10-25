@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="brodyanimated.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Animated0000" x="0" y="0" width="1280" height="720" pivotX="0" pivotY="0"/>
+	<SubTexture name="Animated0001" x="0" y="0" width="1280" height="720"/>
+	<SubTexture name="Animated0002" x="1290" y="0" width="1280" height="720"/>
+	<SubTexture name="Animated0003" x="2580" y="0" width="1280" height="720"/>
+	<SubTexture name="Animated0004" x="3870" y="0" width="1280" height="720"/>
+	<SubTexture name="Animated0005" x="5160" y="0" width="1280" height="720"/>
+	<SubTexture name="Animated0006" x="5160" y="0" width="1280" height="720"/>
+	<SubTexture name="Animated0007" x="6450" y="0" width="1280" height="720"/>
+	<SubTexture name="Animated0008" x="0" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0009" x="0" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0010" x="0" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0011" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0012" x="2580" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0013" x="2580" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0014" x="2580" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0015" x="3870" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0016" x="3870" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0017" x="3870" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0018" x="3870" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0019" x="3870" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0020" x="3870" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0021" x="3870" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0022" x="5160" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0023" x="5160" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0024" x="6450" y="730" width="1280" height="720"/>
+	<SubTexture name="Animated0025" x="0" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0026" x="0" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0027" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0028" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0029" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0030" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0031" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0032" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0033" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0034" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0035" x="2580" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0036" x="3870" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0037" x="5160" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0038" x="6450" y="1460" width="1280" height="720"/>
+	<SubTexture name="Animated0039" x="0" y="2190" width="1280" height="720"/>
+	<SubTexture name="Animated0040" x="1290" y="2190" width="1280" height="720"/>
+</TextureAtlas>

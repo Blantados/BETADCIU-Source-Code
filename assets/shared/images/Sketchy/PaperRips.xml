@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PaperRips.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ripping Graphic0000" x="0" y="0" width="1644" height="1118"/>
+	<SubTexture name="Ripping Graphic0001" x="0" y="0" width="1644" height="1118"/>
+	<SubTexture name="Ripping Graphic0002" x="1644" y="0" width="1644" height="1118"/>
+	<SubTexture name="Ripping Graphic0003" x="0" y="1118" width="1644" height="1118"/>
+	<SubTexture name="Ripping Graphic0004" x="0" y="1118" width="1644" height="1118"/>
+	<SubTexture name="Ripping Graphic0005" x="1644" y="1118" width="1644" height="1118"/>
+	<SubTexture name="Ripping Graphic0006" x="0" y="0" width="1644" height="1118"/>
+</TextureAtlas>

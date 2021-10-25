@@ -52,7 +52,7 @@ function beatHit (beat)
     end
 
     if curBeat == 96 then
-        changeDadCharacter('hd-senpai', 100, 100)
+        changeDadCharacter('hd-senpai-giddy', 100, 100)
     end
 
     if curBeat == 104 then

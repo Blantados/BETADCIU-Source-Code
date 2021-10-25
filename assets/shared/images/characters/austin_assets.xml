@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="austin_assets.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="austin Sing Note DOWN0000" x="10" y="10" width="615" height="555" frameX="0" frameY="-6" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0001" x="10" y="10" width="615" height="555" frameX="0" frameY="-6" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0002" x="635" y="10" width="608" height="559" frameX="-7" frameY="-2" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0003" x="635" y="10" width="608" height="559" frameX="-7" frameY="-2" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0004" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0005" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0006" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0007" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0008" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0009" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0010" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0011" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0012" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0013" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0014" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note DOWN0015" x="1253" y="10" width="616" height="561" frameX="-6" frameY="0" frameWidth="622" frameHeight="561"/>
+	<SubTexture name="austin Sing Note LEFT0000" x="1879" y="10" width="477" height="913" frameX="-29" frameY="-1" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0001" x="1879" y="10" width="477" height="913" frameX="-29" frameY="-1" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0002" x="2366" y="10" width="477" height="913" frameX="-25" frameY="-1" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0003" x="2366" y="10" width="477" height="913" frameX="-25" frameY="-1" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0004" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0005" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0006" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0007" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0008" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0009" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0010" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0011" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0012" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0013" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0014" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0015" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0016" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0017" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note LEFT0018" x="2853" y="10" width="494" height="914" frameX="0" frameY="0" frameWidth="506" frameHeight="914"/>
+	<SubTexture name="austin Sing Note RIGHT0000" x="3357" y="10" width="801" height="732" frameX="0" frameY="0" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0001" x="3357" y="10" width="801" height="732" frameX="0" frameY="0" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0002" x="4168" y="10" width="811" height="729" frameX="0" frameY="-3" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0003" x="4168" y="10" width="811" height="729" frameX="0" frameY="-3" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0004" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0005" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0006" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0007" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0008" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0009" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0010" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0011" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0012" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0013" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0014" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note RIGHT0015" x="4989" y="10" width="818" height="723" frameX="0" frameY="-9" frameWidth="818" frameHeight="732"/>
+	<SubTexture name="austin Sing Note UP0000" x="5817" y="10" width="488" height="938" frameX="0" frameY="-5" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0001" x="5817" y="10" width="488" height="938" frameX="0" frameY="-5" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0002" x="6315" y="10" width="484" height="941" frameX="-2" frameY="-2" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0003" x="6315" y="10" width="484" height="941" frameX="-2" frameY="-2" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0004" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0005" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0006" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0007" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0008" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0009" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0010" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0011" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0012" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0013" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0014" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0015" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0016" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0017" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0018" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0019" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0020" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0021" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0022" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0023" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0024" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0025" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0026" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0027" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0028" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0029" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0030" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0031" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0032" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0033" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0034" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0035" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0036" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0037" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0038" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0039" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0040" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0041" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0042" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0043" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0044" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0045" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0046" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0047" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0048" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0049" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0050" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0051" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0052" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0053" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0054" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0055" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0056" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0057" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0058" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin Sing Note UP0059" x="6809" y="10" width="480" height="943" frameX="-4" frameY="0" frameWidth="488" frameHeight="943"/>
+	<SubTexture name="austin fucking dies0000" x="7299" y="10" width="788" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0001" x="10" y="963" width="714" height="860" frameX="-74" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0002" x="734" y="963" width="722" height="860" frameX="-102" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0003" x="734" y="963" width="722" height="860" frameX="-102" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0004" x="1466" y="963" width="748" height="860" frameX="-102" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0005" x="2224" y="963" width="753" height="860" frameX="-97" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0006" x="2987" y="963" width="753" height="860" frameX="-97" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0007" x="3750" y="963" width="694" height="860" frameX="-97" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0008" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0009" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0010" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0011" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0012" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0013" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0014" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0015" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0016" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0017" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0018" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0019" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0020" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0021" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0022" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0023" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0024" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0025" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0026" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0027" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0028" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0029" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0030" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0031" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0032" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0033" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0034" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0035" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0036" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0037" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0038" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0039" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0040" x="4454" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0041" x="5160" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0042" x="5160" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0043" x="5160" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0044" x="5866" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0045" x="5866" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0046" x="6572" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0047" x="6572" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0048" x="6572" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0049" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0050" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0051" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0052" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0053" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0054" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0055" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0056" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies0057" x="7278" y="963" width="696" height="860" frameX="-99" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0000" x="10" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0001" x="716" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0002" x="1422" y="1833" width="696" height="877"/>
+	<SubTexture name="austin fucking dies confirm0003" x="2128" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0004" x="2834" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0005" x="3540" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0006" x="4246" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0007" x="4952" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0008" x="5658" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0009" x="6364" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0010" x="7070" y="1833" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0011" x="10" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0012" x="716" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0013" x="1422" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0014" x="2128" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0015" x="2834" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0016" x="3540" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0017" x="4246" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0018" x="4952" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0019" x="4952" y="2720" width="696" height="860" frameX="0" frameY="-17" frameWidth="696" frameHeight="877"/>
+	<SubTexture name="austin fucking dies confirm0020" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0021" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0022" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0023" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0024" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0025" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0026" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0027" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0028" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0029" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0030" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0031" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0032" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies confirm0033" x="7278" y="963" width="696" height="860" frameX="0" frameY="-17" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0000" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0001" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0002" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0003" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0004" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0005" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0006" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0007" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0008" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0009" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0010" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0011" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0012" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0013" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0014" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0015" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0016" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0017" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0018" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0019" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0020" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0021" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0022" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0023" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0024" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0025" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0026" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0027" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0028" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0029" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0030" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0031" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0032" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin fucking dies loop0033" x="7278" y="963" width="696" height="860" frameX="0" frameY="0" frameWidth="850" frameHeight="860"/>
+	<SubTexture name="austin idle dance0000" x="5658" y="2720" width="551" height="908" frameX="-13" frameY="0" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0001" x="6219" y="2720" width="578" height="903" frameX="-5" frameY="-5" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0002" x="6807" y="2720" width="599" height="902" frameX="0" frameY="-6" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0003" x="7416" y="2720" width="599" height="901" frameX="0" frameY="-7" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0004" x="10" y="3638" width="599" height="901" frameX="0" frameY="-7" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0005" x="619" y="3638" width="597" height="901" frameX="-1" frameY="-7" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0006" x="1226" y="3638" width="593" height="902" frameX="-2" frameY="-6" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0007" x="1829" y="3638" width="584" height="903" frameX="-4" frameY="-5" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0008" x="2423" y="3638" width="570" height="905" frameX="-7" frameY="-3" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0009" x="3003" y="3638" width="561" height="906" frameX="-9" frameY="-2" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0010" x="3574" y="3638" width="555" height="907" frameX="-11" frameY="-1" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0011" x="4139" y="3638" width="551" height="908" frameX="-13" frameY="0" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin idle dance0012" x="5658" y="2720" width="551" height="908" frameX="-13" frameY="0" frameWidth="599" frameHeight="908"/>
+	<SubTexture name="austin miss down0000" x="4700" y="3638" width="614" height="556" frameX="-1" frameY="-39" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0001" x="5324" y="3638" width="631" height="590" frameX="0" frameY="-4" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0002" x="5324" y="3638" width="631" height="590" frameX="0" frameY="-4" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0003" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0004" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0005" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0006" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0007" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0008" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0009" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0010" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0011" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0012" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0013" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0014" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0015" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0016" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0017" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0018" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0019" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0020" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0021" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0022" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0023" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0024" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss down0025" x="5965" y="3638" width="620" height="594" frameX="-5" frameY="0" frameWidth="631" frameHeight="595"/>
+	<SubTexture name="austin miss left0000" x="6595" y="3638" width="476" height="914" frameX="-19" frameY="-1" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0001" x="7081" y="3638" width="470" height="913" frameX="-4" frameY="0" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0002" x="7081" y="3638" width="470" height="913" frameX="-4" frameY="0" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0003" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0004" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0005" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0006" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0007" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0008" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0009" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0010" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0011" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0012" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0013" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0014" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0015" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0016" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0017" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0018" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0019" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0020" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0021" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss left0022" x="7561" y="3638" width="477" height="910" frameX="0" frameY="-3" frameWidth="495" frameHeight="915"/>
+	<SubTexture name="austin miss right0000" x="10" y="4562" width="800" height="733" frameX="-15" frameY="-2" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0001" x="820" y="4562" width="837" height="745" frameX="-6" frameY="0" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0002" x="820" y="4562" width="837" height="745" frameX="-6" frameY="0" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0003" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0004" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0005" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0006" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0007" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0008" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0009" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0010" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0011" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0012" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0013" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0014" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0015" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0016" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0017" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0018" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0019" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0020" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0021" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0022" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0023" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0024" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0025" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0026" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0027" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss right0028" x="1667" y="4562" width="848" height="741" frameX="0" frameY="-4" frameWidth="848" frameHeight="745"/>
+	<SubTexture name="austin miss up0000" x="2525" y="4562" width="487" height="939" frameX="0" frameY="0" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0001" x="3022" y="4562" width="474" height="917" frameX="-13" frameY="-24" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0002" x="3022" y="4562" width="474" height="917" frameX="-13" frameY="-24" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0003" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0004" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0005" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0006" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0007" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0008" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0009" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0010" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0011" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0012" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0013" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0014" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0015" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0016" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0017" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+	<SubTexture name="austin miss up0018" x="3506" y="4562" width="484" height="913" frameX="-8" frameY="-28" frameWidth="492" frameHeight="941"/>
+</TextureAtlas>

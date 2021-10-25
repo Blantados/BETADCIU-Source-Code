@@ -1,6 +1,6 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " downscroll: " .. downscroll)
-    setActorAlpha(0, 'bg2')
+    setActorAlpha(0, 'bg2', true)
 end
 
 local defaultHudX = 0
@@ -22,7 +22,7 @@ end
 function beatHit (beat)
 
     if curBeat % 32 == 16 then
-        tweenFadeInAndOut('bg2', 2, 6, 2)
+        tweenFadeInAndOut('bg2', 2, 6, 2, true)
     end
 
     if curBeat == 192 then

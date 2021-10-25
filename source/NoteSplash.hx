@@ -1,88 +1,88 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
-import Paths;
-import Song;
-import Conductor;
-import Math;
-import openfl.geom.Matrix;
-import openfl.display.BitmapData;
-import openfl.utils.AssetType;
-import lime.graphics.Image;
-import flixel.graphics.FlxGraphic;
-import openfl.utils.AssetManifest;
-import openfl.utils.AssetLibrary;
-import flixel.system.FlxAssets;
-import flixel.FlxBasic;
-import flixel.FlxG;
-import flixel.FlxGame;
-import flixel.FlxObject;
-import flixel.math.FlxMath;
-import flixel.math.FlxPoint;
-import flixel.math.FlxRect;
-import lime.utils.Assets;
-import openfl.geom.Matrix;
-import openfl.display.BitmapData;
-import openfl.utils.AssetType;
-import lime.graphics.Image;
-import flixel.graphics.FlxGraphic;
-import flixel.animation.FlxAnimation;
-
-import openfl.utils.AssetManifest;
-import openfl.utils.AssetLibrary;
-
-#if cpp
-import Sys;
-import sys.FileSystem;
-#end
-
-
-using StringTools;
 
 class NoteSplash extends FlxSprite
 {
-	
+	private var idleAnim:String;
+	private var textureLoaded:String = null;
 
-    override public function new()
-    {
-    	super();
-    	frames = (Paths.getSparrowAtlas("notestuff/noteSplashes"));
-    	//impact 1
-    	animation.addByPrefix("note1-0", "note impact 1  blue", 24, false);
-    	animation.addByPrefix("note2-0", "note impact 1 green", 24, false);
-    	animation.addByPrefix("note0-0", "note impact 1 purple", 24, false);
-    	animation.addByPrefix("note3-0", "note impact 1 red", 24, false);
-    	//impact 2
-    	animation.addByPrefix("note1-1", "note impact 2 blue", 24, false);
-    	animation.addByPrefix("note2-1", "note impact 2 green", 24, false);
-    	animation.addByPrefix("note0-1", "note impact 2 purple", 24, false);
-    	animation.addByPrefix("note3-1", "note impact 2 red", 24, false);
-    }
+	public function new(x:Float = 0, y:Float = 0, ?note:Int = 0) {
+		super(x, y);
 
-    public function setupNoteSplash(xPos:Float, yPos:Float, note:Int)
-    {
-    	if(note == 0)
-    	{
-    		note = 0;
-    	}
-    	x = xPos;
-    	y = yPos;
-    	alpha = 0.6;
-    	animation.play("note" + note + "-" + FlxG.random.int(0, 1), true);
-    	var a:FlxAnimation = animation.curAnim;
-    	a.frameRate = a.frameRate + FlxG.random.int(-2, 2);
-    	updateHitbox();
-    	offset.set(0.3 * width, 0.3 * height);
-    }
+		var skin:String = '';
 
-    override public function update(elapsed:Float)
-    {
-    	
-    	if(animation.curAnim.finished == true)
-    	{
-    		kill();
-    	}
-    	super.update(elapsed);
-    }
+		switch (PlayState.SONG.noteStyle)
+		{
+			case '1930' | 'fever':
+				skin = '-'+ PlayState.SONG.noteStyle;
+			default:
+				skin = PlayState.splashSkin;
+		}
+		
+
+		if (skin == 'normal' || skin == 'default') skin = "";
+
+		loadAnims(skin);
+
+		setupNoteSplash(x, y, note);
+			
+		antialiasing = true;
+	}
+
+	public function setupNoteSplash(x:Float, y:Float, note:Int = 0, texture:String = null, hueColor:Float = 0, satColor:Float = 0, brtColor:Float = 0) {
+		setPosition(x - Note.swagWidth * 0.95, y - Note.swagWidth);
+		alpha = 0.6;
+		scale.set(1, 1);
+
+		if(texture == null) {
+			texture = "";
+		}
+		else 
+		{
+			switch (PlayState.SONG.noteStyle)
+			{
+				case '1930' | 'fever':
+					texture = '-'+ PlayState.SONG.noteStyle;
+				default:
+					texture = PlayState.splashSkin;
+			}
+		}
+
+		if(textureLoaded != texture) {
+			loadAnims(texture);
+		}
+
+		if (texture == '-fever')
+		{
+			scale.set(1.08, 1.08);
+			if(note == 0 || note == 3)
+				offset.set((0.291 * this.width) - 150, (0.315 * this.height) - 150);
+			else
+				offset.set((0.33 * this.width) - 150, (0.315 * this.height) - 150);
+		}
+
+
+		var animNum:Int = FlxG.random.int(1, 2);
+		animation.play('note' + note + '-' + animNum, true);
+		animation.curAnim.frameRate = 24 + FlxG.random.int(-2, 2);
+	}
+
+	function loadAnims(skin:String) {
+		frames = Paths.getSparrowAtlas("notestuff/noteSplashes" + skin);
+		for (i in 1...3) {
+			animation.addByPrefix("note1-" + i, "note impact " + i + " blue", 24, false);
+			animation.addByPrefix("note2-" + i, "note impact " + i + " green", 24, false);
+			animation.addByPrefix("note0-" + i, "note impact " + i + " purple", 24, false);
+			animation.addByPrefix("note3-" + i, "note impact " + i + " red" , 24, false);
+		}
+	}
+
+	override function update(elapsed:Float) {
+		if(animation.curAnim.finished) kill();
+
+		super.update(elapsed);
+	}
 }

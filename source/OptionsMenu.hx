@@ -47,6 +47,12 @@ class OptionsMenu extends MusicBeatState
 			new SongPositionOption("Show the songs current position (as a bar)"),
 			#end
 		]),
+
+		new OptionCategory("BETADCIU", [
+			#if desktop
+			new NoStageChange("Stage Switching for Neonight's BETADCIUs")
+			#end
+		]),
 		
 		new OptionCategory("Misc", [
 			#if desktop

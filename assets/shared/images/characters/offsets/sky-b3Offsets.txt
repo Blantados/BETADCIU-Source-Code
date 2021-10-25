@@ -1,0 +1,9 @@
+danceLeft 0 0
+danceRight 0 0
+singUP 0 22
+singRIGHT 12 -10
+singLEFT 40 -10
+singDOWN 15 -40
+huh-special 0 0
+oh-special 0 0
+derp-special 0 0

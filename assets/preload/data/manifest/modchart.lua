@@ -1,6 +1,6 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " downscroll: " .. downscroll)
-    setActorAlpha(0, 'gfCrazyBG')
+    setActorAlpha(0, 'gfCrazyBG', true)
 end
 
 local defaultHudX = 0
@@ -69,7 +69,7 @@ function beatHit (beat)
     end
 
     if curBeat == 168 then
-        setActorAlpha(1, 'gfCrazyBG')
+        setActorAlpha(1, 'gfCrazyBG', true)
         characterZoom('dad', 1)
         changeDadCharacter('mom', 120, -100)
     end

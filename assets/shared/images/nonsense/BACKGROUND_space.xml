@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NonsenseModMe.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Wall Broken anim0000" x="0" y="0" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0001" x="0" y="0" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0002" x="3180" y="0" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0003" x="3180" y="0" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0004" x="0" y="1646" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0005" x="3180" y="1646" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0006" x="0" y="3292" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0007" x="3180" y="3292" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0008" x="0" y="4938" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0009" x="3180" y="4938" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0010" x="0" y="6584" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0011" x="3180" y="6584" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0074" x="3180" y="6584" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0075" x="0" y="6584" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0076" x="3180" y="4938" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0078" x="3180" y="3292" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0079" x="0" y="3292" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0080" x="3180" y="1646" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0081" x="0" y="1646" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0082" x="3180" y="0" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0083" x="3180" y="0" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0084" x="0" y="0" width="3180" height="1646"/>
+	<SubTexture name="Wall Broken anim0085" x="0" y="0" width="3180" height="1646"/>
+</TextureAtlas>

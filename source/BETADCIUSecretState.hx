@@ -209,6 +209,8 @@ class BETADCIUSecretState extends MusicBeatState
 			PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
 			PlayState.isStoryMode = false;
 			PlayState.isBETADCIU = true;
+			PlayState.isNeonight = false;
+			PlayState.isVitor = false;
 			PlayState.isBonus = false;
 			PlayState.storyDifficulty = curDifficulty;
 			

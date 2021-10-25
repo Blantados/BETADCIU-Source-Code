@@ -31,7 +31,7 @@ function beatHit (beat)
     end
 
     if curBeat == 104 then
-        changeBoyfriendCharacter('hd-senpaiangry', 810, 100)
+        changeBoyfriendCharacter('hd-senpai-angry', 810, 100)
         followBFXOffset = -50
         followBFYOffset = 50
     end

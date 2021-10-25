@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yukichi_leader_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yukichi down note0000" x="85" y="85" width="570" height="736" frameX="0" frameY="-3" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0001" x="85" y="85" width="570" height="736" frameX="0" frameY="-3" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0002" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0003" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0004" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0005" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0006" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0007" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0008" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0009" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0010" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0011" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0012" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi down note0013" x="730" y="85" width="561" height="736" frameX="-2" frameY="0" frameWidth="570" frameHeight="739"/>
+	<SubTexture name="yukichi idle0000" x="1366" y="85" width="528" height="674" frameX="-8" frameY="-14" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0001" x="1366" y="85" width="528" height="674" frameX="-8" frameY="-14" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0002" x="1969" y="85" width="526" height="675" frameX="-2" frameY="-13" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0003" x="1969" y="85" width="526" height="675" frameX="-2" frameY="-13" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0004" x="2570" y="85" width="515" height="686" frameX="-1" frameY="-2" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0005" x="2570" y="85" width="515" height="686" frameX="-1" frameY="-2" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0006" x="3160" y="85" width="513" height="687" frameX="0" frameY="-1" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0007" x="3160" y="85" width="513" height="687" frameX="0" frameY="-1" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0008" x="85" y="896" width="513" height="688" frameX="0" frameY="0" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0009" x="85" y="896" width="513" height="688" frameX="0" frameY="0" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0010" x="85" y="896" width="513" height="688" frameX="0" frameY="0" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0011" x="85" y="896" width="513" height="688" frameX="0" frameY="0" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0012" x="85" y="896" width="513" height="688" frameX="0" frameY="0" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi idle0013" x="85" y="896" width="513" height="688" frameX="0" frameY="0" frameWidth="536" frameHeight="688"/>
+	<SubTexture name="yukichi left note0000" x="673" y="896" width="533" height="694" frameX="-3" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0001" x="673" y="896" width="533" height="694" frameX="-3" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0002" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0003" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0004" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0005" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0006" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0007" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0008" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0009" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0010" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0011" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0012" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi left note0013" x="1281" y="896" width="536" height="692" frameX="0" frameY="0" frameWidth="536" frameHeight="694"/>
+	<SubTexture name="yukichi right note0000" x="1892" y="896" width="563" height="681" frameX="-1" frameY="-2" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0001" x="1892" y="896" width="563" height="681" frameX="-1" frameY="-2" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0002" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0003" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0004" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0005" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0006" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0007" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0008" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0009" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0010" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0011" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0012" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi right note0013" x="2530" y="896" width="541" height="683" frameX="-17" frameY="0" frameWidth="564" frameHeight="683"/>
+	<SubTexture name="yukichi up note0000" x="3146" y="896" width="527" height="715" frameX="-1" frameY="0" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0001" x="3146" y="896" width="527" height="715" frameX="-1" frameY="0" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0002" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0003" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0004" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0005" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0006" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0007" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0008" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0009" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0010" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0011" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0012" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+	<SubTexture name="yukichi up note0013" x="85" y="1686" width="484" height="692" frameX="-57" frameY="-17" frameWidth="541" frameHeight="715"/>
+</TextureAtlas>

@@ -50,7 +50,8 @@ class SecretState extends MusicBeatState
 
 		lolText = new FlxText(0, 0, FlxG.width - 100, 32);
 		lolText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
-		lolText.text = "Heyo! Welcome to Update 8.5 of the BETADCIU mod. AKA The update that moves Haachama from the secret menu and fixes a few bugs. A relatively small update but there are plans for more stuff such as adding Vitor0502 and Neonight's covers to this mod though I'm still workin on that. Also changed the password becuz lol. For secret songs, one was updated significantly. Hope you enjoy!";
+		lolText.text = "Alright, Update 9! Skipped over Hunger for now because of a few coloring problems. Also really wanted to do a Diva BETADCIU so Hunger may as well be the next .5 song. It's a fairly short song with 12 turns so I guess that's fine. Also added a few of Neonight and Vitor0502's covers.
+		 Oh and I err.. removed some more stuff that will be ported to the Senpai and Tankman Mod coming soon! So yeah mostly songs that relate to that group. Hope you enjoy!";
 		lolText.borderColor = FlxColor.BLACK;
 		lolText.borderSize = 3;
 		lolText.borderStyle = FlxTextBorderStyle.OUTLINE;

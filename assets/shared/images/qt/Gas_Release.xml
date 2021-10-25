@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Gas.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Gas_Release0000" x="0" y="0" width="240" height="520" pivotX="0" pivotY="0"/>
+	<SubTexture name="Gas_Release0001" x="250" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0002" x="500" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0003" x="750" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0004" x="1000" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0005" x="1250" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0006" x="1500" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0007" x="1750" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0008" x="2000" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0009" x="2250" y="0" width="240" height="520"/>
+	<SubTexture name="Gas_Release0010" x="0" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0011" x="250" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0012" x="500" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0013" x="750" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0014" x="1000" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0015" x="1250" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0016" x="1500" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0017" x="1750" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0018" x="2000" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0019" x="2250" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0020" x="0" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0021" x="250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0022" x="1500" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0023" x="1750" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0024" x="2000" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0025" x="2250" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0026" x="0" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0027" x="250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0028" x="250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0029" x="1500" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0030" x="1750" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0031" x="2000" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0032" x="2250" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0033" x="0" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0034" x="250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0035" x="250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0036" x="1500" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0037" x="1750" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0038" x="2000" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0039" x="2250" y="530" width="240" height="520"/>
+	<SubTexture name="Gas_Release0040" x="0" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0041" x="250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0042" x="250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0043" x="500" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0044" x="750" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0045" x="1000" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0046" x="1250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0047" x="1500" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0048" x="1750" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0049" x="2000" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0050" x="2250" y="1060" width="240" height="520"/>
+	<SubTexture name="Gas_Release0051" x="0" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0052" x="250" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0053" x="500" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0054" x="750" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0055" x="1000" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0056" x="1250" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0057" x="1500" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0058" x="1750" y="1590" width="240" height="520"/>
+	<SubTexture name="Gas_Release0059" x="2000" y="1590" width="240" height="520"/>
+</TextureAtlas>

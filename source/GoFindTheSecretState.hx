@@ -47,7 +47,7 @@ class GoFindTheSecretState extends MusicBeatState
 	{
 		FlxG.sound.playMusic(Paths.music('nexus_bf'));
 
-		sonicBG = new FlxSprite(-100, -100).loadGraphic(Paths.image('sonicBG'));
+		sonicBG = new FlxSprite(-100, -100).loadGraphic(Paths.image('exe/sonicBG'));
 		sonicBG.setGraphicSize(Std.int(sonicBG.width * 1));
 		add(sonicBG);
 

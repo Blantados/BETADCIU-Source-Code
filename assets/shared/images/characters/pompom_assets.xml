@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pompom_assets.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pompom left0000" x="0" y="0" width="427" height="480" frameX="0" frameY="-55" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0001" x="0" y="0" width="427" height="480" frameX="0" frameY="-55" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0002" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0003" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0004" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0005" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0006" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0007" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0008" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0009" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0010" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0011" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0012" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0013" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom left0014" x="427" y="0" width="418" height="479" frameX="-8" frameY="-56" frameWidth="427" frameHeight="480"/>
+	<SubTexture name="pompom DOWN note0000" x="845" y="0" width="491" height="408" frameX="-2" frameY="-6" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0001" x="845" y="0" width="491" height="408" frameX="-2" frameY="-6" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0002" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0003" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0004" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0005" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0006" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0007" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0008" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0009" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0010" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0011" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0012" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0013" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0014" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0015" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0016" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0017" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0018" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0019" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0020" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0021" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0022" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0023" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom DOWN note0024" x="1336" y="0" width="488" height="409" frameX="0" frameY="-5" frameWidth="493" frameHeight="409"/>
+	<SubTexture name="pompom UP NOTE0000" x="1824" y="0" width="359" height="538" frameX="0" frameY="-44" frameWidth="359" frameHeight="547"/>
+	<SubTexture name="pompom UP NOTE0001" x="1824" y="0" width="359" height="538" frameX="0" frameY="-44" frameWidth="359" frameHeight="547"/>
+	<SubTexture name="pompom UP NOTE0002" x="2183" y="0" width="343" height="547" frameX="-12" frameY="-35" frameWidth="359" frameHeight="547"/>
+	<SubTexture name="pompom UP NOTE0003" x="2183" y="0" width="343" height="547" frameX="-12" frameY="-35" frameWidth="359" frameHeight="547"/>
+	<SubTexture name="pompom UP NOTE0004" x="2183" y="0" width="343" height="547" frameX="-12" frameY="-35" frameWidth="359" frameHeight="547"/>
+	<SubTexture name="pompom dance idle0000" x="2526" y="0" width="361" height="506" frameX="-1" frameY="-55" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0001" x="2887" y="0" width="370" height="506" frameX="-2" frameY="-55" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0002" x="2887" y="0" width="370" height="506" frameX="-2" frameY="-55" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0003" x="3257" y="0" width="365" height="504" frameX="0" frameY="-58" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0004" x="3257" y="0" width="365" height="504" frameX="0" frameY="-58" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0005" x="3257" y="0" width="365" height="504" frameX="0" frameY="-58" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0006" x="3257" y="0" width="365" height="504" frameX="0" frameY="-58" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0007" x="3257" y="0" width="365" height="504" frameX="0" frameY="-58" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0008" x="3622" y="0" width="323" height="484" frameX="-23" frameY="-76" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0009" x="0" y="547" width="332" height="482" frameX="-19" frameY="-77" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0010" x="0" y="547" width="332" height="482" frameX="-19" frameY="-77" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0011" x="332" y="547" width="327" height="482" frameX="-23" frameY="-77" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0012" x="332" y="547" width="327" height="482" frameX="-23" frameY="-77" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0013" x="332" y="547" width="327" height="482" frameX="-23" frameY="-77" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0014" x="332" y="547" width="327" height="482" frameX="-23" frameY="-77" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom dance idle0015" x="332" y="547" width="327" height="482" frameX="-23" frameY="-77" frameWidth="372" frameHeight="507"/>
+	<SubTexture name="pompom sing right0000" x="659" y="547" width="468" height="463" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0001" x="659" y="547" width="468" height="463" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0002" x="1127" y="547" width="472" height="462" frameX="0" frameY="-56" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0003" x="1127" y="547" width="472" height="462" frameX="0" frameY="-56" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0004" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0005" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0006" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0007" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0008" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0009" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0010" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0011" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0012" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0013" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0014" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0015" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0016" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0017" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0018" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0019" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0020" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0021" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0022" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0023" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+	<SubTexture name="pompom sing right0024" x="1599" y="547" width="473" height="464" frameX="-1" frameY="-55" frameWidth="474" frameHeight="464"/>
+</TextureAtlas>

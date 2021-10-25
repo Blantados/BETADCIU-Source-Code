@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mia_assets_sad.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mia Down0000" x="0" y="0" width="430" height="608" pivotX="222.25" pivotY="304.5" frameX="0" frameY="0" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0001" x="0" y="0" width="430" height="608" frameX="0" frameY="0" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0002" x="435" y="0" width="430" height="594" frameX="-3" frameY="-14" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0003" x="435" y="0" width="430" height="594" frameX="-3" frameY="-14" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0004" x="870" y="0" width="437" height="597" frameX="-13" frameY="-11" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0005" x="870" y="0" width="437" height="597" frameX="-13" frameY="-11" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0006" x="1312" y="0" width="438" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0007" x="1312" y="0" width="438" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0008" x="1755" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0009" x="1755" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0010" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0011" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0012" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0013" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0014" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0015" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0016" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0017" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0018" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Down0019" x="2199" y="0" width="439" height="602" frameX="-13" frameY="-7" frameWidth="452" frameHeight="609"/>
+	<SubTexture name="Mia Idle0000" x="2643" y="0" width="332" height="592" pivotX="132.15" pivotY="402.55" frameX="0" frameY="-30" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0001" x="2980" y="0" width="309" height="610" frameX="-8" frameY="-12" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0002" x="2980" y="0" width="309" height="610" frameX="-8" frameY="-12" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0003" x="3294" y="0" width="316" height="616" frameX="-8" frameY="-6" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0004" x="3294" y="0" width="316" height="616" frameX="-8" frameY="-6" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0005" x="3294" y="0" width="316" height="616" frameX="-8" frameY="-6" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0006" x="3615" y="0" width="321" height="622" frameX="-8" frameY="0" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0007" x="3615" y="0" width="321" height="622" frameX="-8" frameY="0" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0008" x="0" y="627" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0009" x="0" y="627" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0010" x="332" y="627" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0011" x="332" y="627" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Idle0012" x="332" y="627" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Left0000" x="664" y="627" width="494" height="577" pivotX="244.05" pivotY="291.15" frameX="-2" frameY="-23" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0001" x="664" y="627" width="494" height="577" frameX="-2" frameY="-23" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0002" x="1163" y="627" width="505" height="588" frameX="0" frameY="-9" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0003" x="1163" y="627" width="505" height="588" frameX="0" frameY="-9" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0004" x="1673" y="627" width="489" height="595" frameX="-15" frameY="-2" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0005" x="1673" y="627" width="489" height="595" frameX="-15" frameY="-2" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0006" x="2167" y="627" width="486" height="597" frameX="-17" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0007" x="2167" y="627" width="486" height="597" frameX="-17" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0008" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0009" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0010" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0011" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0012" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0013" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0014" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0015" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0016" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0017" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0018" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Left0019" x="2658" y="627" width="487" height="597" frameX="-16" frameY="0" frameWidth="505" frameHeight="600"/>
+	<SubTexture name="Mia Right0000" x="3150" y="627" width="514" height="524" pivotX="260.7" pivotY="213.9" frameX="0" frameY="-19" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0001" x="3150" y="627" width="514" height="524" frameX="0" frameY="-19" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0002" x="0" y="1252" width="494" height="515" frameX="0" frameY="-32" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0003" x="0" y="1252" width="494" height="515" frameX="0" frameY="-32" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0004" x="499" y="1252" width="492" height="529" frameX="0" frameY="-18" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0005" x="499" y="1252" width="492" height="529" frameX="0" frameY="-18" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0006" x="996" y="1252" width="490" height="541" frameX="0" frameY="-6" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0007" x="996" y="1252" width="490" height="541" frameX="0" frameY="-6" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0008" x="1491" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0009" x="1491" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0010" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0011" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0012" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0013" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0014" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0015" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0016" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0017" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0018" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0019" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Right0020" x="1987" y="1252" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Idle0000" x="2483" y="1252" width="332" height="592" pivotX="132.15" pivotY="402.55" frameX="0" frameY="-30" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0001" x="2820" y="1252" width="309" height="610" frameX="-8" frameY="-12" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0002" x="2820" y="1252" width="309" height="610" frameX="-8" frameY="-12" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0003" x="3134" y="1252" width="316" height="616" frameX="-8" frameY="-6" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0004" x="3134" y="1252" width="316" height="616" frameX="-8" frameY="-6" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0005" x="3134" y="1252" width="316" height="616" frameX="-8" frameY="-6" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0006" x="3455" y="1252" width="321" height="622" frameX="-8" frameY="0" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0007" x="3455" y="1252" width="321" height="622" frameX="-8" frameY="0" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0008" x="0" y="1879" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0009" x="0" y="1879" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0010" x="332" y="1879" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0011" x="332" y="1879" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Idle0012" x="332" y="1879" width="327" height="620" frameX="-8" frameY="-2" frameWidth="335" frameHeight="622"/>
+	<SubTexture name="Mia Tall Right0000" x="664" y="1879" width="514" height="524" pivotX="260.7" pivotY="213.9" frameX="0" frameY="-19" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0001" x="664" y="1879" width="514" height="524" frameX="0" frameY="-19" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0002" x="1183" y="1879" width="494" height="515" frameX="0" frameY="-32" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0003" x="1183" y="1879" width="494" height="515" frameX="0" frameY="-32" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0004" x="1682" y="1879" width="492" height="529" frameX="0" frameY="-18" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0005" x="1682" y="1879" width="492" height="529" frameX="0" frameY="-18" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0006" x="2179" y="1879" width="490" height="541" frameX="0" frameY="-6" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0007" x="2179" y="1879" width="490" height="541" frameX="0" frameY="-6" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0008" x="2674" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0009" x="2674" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0010" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0011" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0012" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0013" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0014" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0015" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0016" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0017" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0018" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0019" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Right0020" x="3170" y="1879" width="491" height="548" frameX="0" frameY="0" frameWidth="514" frameHeight="548"/>
+	<SubTexture name="Mia Tall Up0000" x="3666" y="1879" width="316" height="689" pivotX="129.35" pivotY="389.15" frameX="0" frameY="0" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0001" x="3666" y="1879" width="316" height="689" frameX="0" frameY="0" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0002" x="0" y="2573" width="321" height="663" frameX="-5" frameY="-27" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0003" x="0" y="2573" width="321" height="663" frameX="-5" frameY="-27" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0004" x="326" y="2573" width="297" height="661" frameX="-11" frameY="-28" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0005" x="326" y="2573" width="297" height="661" frameX="-11" frameY="-28" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0006" x="628" y="2573" width="300" height="667" frameX="-8" frameY="-23" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0007" x="628" y="2573" width="300" height="667" frameX="-8" frameY="-23" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0008" x="933" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0009" x="933" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0010" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0011" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0012" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0013" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0014" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0015" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0016" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0017" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0018" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0019" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0020" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0021" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0022" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Tall Up0023" x="1240" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0000" x="1547" y="2573" width="316" height="689" pivotX="129.35" pivotY="389.15" frameX="0" frameY="0" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0001" x="1547" y="2573" width="316" height="689" frameX="0" frameY="0" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0002" x="1868" y="2573" width="321" height="663" frameX="-5" frameY="-27" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0003" x="1868" y="2573" width="321" height="663" frameX="-5" frameY="-27" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0004" x="2194" y="2573" width="297" height="661" frameX="-11" frameY="-28" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0005" x="2194" y="2573" width="297" height="661" frameX="-11" frameY="-28" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0006" x="2496" y="2573" width="300" height="667" frameX="-8" frameY="-23" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0007" x="2496" y="2573" width="300" height="667" frameX="-8" frameY="-23" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0008" x="2801" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0009" x="2801" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0010" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0011" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0012" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0013" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0014" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0015" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0016" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0017" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0018" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0019" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0020" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0021" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0022" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+	<SubTexture name="Mia Up0023" x="3108" y="2573" width="302" height="668" frameX="-7" frameY="-22" frameWidth="326" frameHeight="690"/>
+</TextureAtlas>

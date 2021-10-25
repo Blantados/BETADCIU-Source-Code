@@ -2,61 +2,61 @@
 <TextureAtlas imagePath="Mario_Assets.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Mario Idle0000" x="0" y="0" width="289" height="549" frameX="0" frameY="-24" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0001" x="0" y="0" width="289" height="549" frameX="0" frameY="-24" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0002" x="289" y="0" width="289" height="555" frameX="0" frameY="-18" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0003" x="289" y="0" width="289" height="555" frameX="0" frameY="-18" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0004" x="578" y="0" width="289" height="563" frameX="0" frameY="-10" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0005" x="867" y="0" width="289" height="569" frameX="0" frameY="-4" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0006" x="867" y="0" width="289" height="569" frameX="0" frameY="-4" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0007" x="1156" y="0" width="289" height="573"/>
-	<SubTexture name="Mario Idle0008" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0009" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0010" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0011" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0012" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Idle0013" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
-	<SubTexture name="Mario Sing note DOWN0000" x="0" y="573" width="402" height="477" frameX="-6" frameY="0" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0001" x="0" y="573" width="402" height="477" frameX="-6" frameY="0" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0002" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0003" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0004" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0005" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0006" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0007" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0008" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note DOWN0009" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
-	<SubTexture name="Mario Sing note UP0000" x="808" y="573" width="335" height="536" frameX="0" frameY="-12" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0001" x="808" y="573" width="335" height="536" frameX="0" frameY="-12" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0002" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0003" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0004" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0005" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0006" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0007" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note UP0008" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
-	<SubTexture name="Mario Sing note left0000" x="1471" y="573" width="414" height="552" frameX="0" frameY="-8" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0001" x="1471" y="573" width="414" height="552" frameX="0" frameY="-8" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0002" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0003" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0004" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0005" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0006" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0007" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0008" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0009" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0010" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0011" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0012" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note left0013" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
-	<SubTexture name="Mario Sing note right0000" x="411" y="1125" width="362" height="581" frameX="0" frameY="-2" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0001" x="411" y="1125" width="362" height="581" frameX="0" frameY="-2" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0002" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0003" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0004" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0005" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0006" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0007" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0008" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
-	<SubTexture name="Mario Sing note right0009" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Idle0000" x="0" y="0" width="289" height="549" frameX="0" frameY="-24" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0001" x="0" y="0" width="289" height="549" frameX="0" frameY="-24" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0002" x="289" y="0" width="289" height="555" frameX="0" frameY="-18" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0003" x="289" y="0" width="289" height="555" frameX="0" frameY="-18" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0004" x="578" y="0" width="289" height="563" frameX="0" frameY="-10" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0005" x="867" y="0" width="289" height="569" frameX="0" frameY="-4" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0006" x="867" y="0" width="289" height="569" frameX="0" frameY="-4" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0007" x="1156" y="0" width="289" height="573"/>
+	<SubTexture name="Idle0008" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0009" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0010" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0011" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0012" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Idle0013" x="1445" y="0" width="289" height="570" frameX="0" frameY="-3" frameWidth="289" frameHeight="573"/>
+	<SubTexture name="Sing Down0000" x="0" y="573" width="402" height="477" frameX="-6" frameY="0" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0001" x="0" y="573" width="402" height="477" frameX="-6" frameY="0" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0002" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0003" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0004" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0005" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0006" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0007" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0008" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Down0009" x="402" y="573" width="406" height="469" frameX="0" frameY="-8" frameWidth="408" frameHeight="477"/>
+	<SubTexture name="Sing Up0000" x="808" y="573" width="335" height="536" frameX="0" frameY="-12" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0001" x="808" y="573" width="335" height="536" frameX="0" frameY="-12" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0002" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0003" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0004" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0005" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0006" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0007" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Up0008" x="1143" y="573" width="328" height="533" frameX="-9" frameY="0" frameWidth="337" frameHeight="548"/>
+	<SubTexture name="Sing Left0000" x="1471" y="573" width="414" height="552" frameX="0" frameY="-8" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0001" x="1471" y="573" width="414" height="552" frameX="0" frameY="-8" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0002" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0003" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0004" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0005" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0006" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0007" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0008" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0009" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0010" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0011" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0012" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Left0013" x="0" y="1125" width="411" height="560" frameX="-2" frameY="0" frameWidth="414" frameHeight="560"/>
+	<SubTexture name="Sing Right0000" x="411" y="1125" width="362" height="581" frameX="0" frameY="-2" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0001" x="411" y="1125" width="362" height="581" frameX="0" frameY="-2" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0002" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0003" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0004" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0005" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0006" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0007" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0008" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
+	<SubTexture name="Sing Right0009" x="773" y="1125" width="349" height="587" frameX="-13" frameY="0" frameWidth="362" frameHeight="587"/>
 </TextureAtlas>

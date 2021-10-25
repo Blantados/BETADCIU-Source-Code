@@ -99,16 +99,16 @@ function beatHit (beat)
     end
 
     if curBeat == 168 then
-        changeDadCharacter('hd-senpaiangry', 100, 100)
+        changeDadCharacter('hd-senpai-angry', 100, 100)
     end
 
     if curBeat == 176 then
-        changeDadCharacter('hd-senpai', 100, 100)
+        changeDadCharacter('hd-senpai-giddy', 100, 100)
         changeBoyfriendCharacter('tankman', 860, 300)
     end
 
     if curBeat == 183 then
-        changeDadIcon('hd-senpaidark')
+        changeDadIcon('hd-senpai-dark')
     end
 
     if curBeat == 184 then

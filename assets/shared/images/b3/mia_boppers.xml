@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mia_boppers.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Back Crowd Bop0000" x="0" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0001" x="2560" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0002" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0003" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0004" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0005" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0006" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0007" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0008" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0009" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0010" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0011" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0012" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0013" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0014" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0015" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0016" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0017" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0018" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0019" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0020" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0021" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0022" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Back Crowd Bop0023" x="5120" y="0" width="2560" height="1544"/>
+	<SubTexture name="Front Crowd Bop0000" x="0" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0001" x="2560" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0002" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0003" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0004" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0005" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0006" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0007" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0008" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0009" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0010" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0011" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0012" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0013" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0014" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0015" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0016" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0017" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0018" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0019" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0020" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0021" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0022" x="5120" y="1544" width="2560" height="1533"/>
+	<SubTexture name="Front Crowd Bop0023" x="5120" y="1544" width="2560" height="1533"/>
+</TextureAtlas>

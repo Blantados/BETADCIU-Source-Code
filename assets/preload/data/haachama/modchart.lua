@@ -21,7 +21,12 @@ end
 
 function stepHit (step)
 
+    if curStep == 336 then
+        playActorAnimation('dad', 'idle', true, false)
+    end
+
     if curStep == 464 then
+        playActorAnimation('boyfriend', 'idle', true, false)
         flashCam(255, 255, 255, 2)
         playBGAnimation('halloweenBG', 'lightning', true, false)
         playSound('thunder_1')
@@ -36,6 +41,7 @@ function stepHit (step)
     end
 
     if curStep == 752 then
+        playActorAnimation('boyfriend', 'idle', true, false)
         flashCam(255, 255, 255, 2)
         playBGAnimation('halloweenBG', 'lightning', true, false)
         playSound('thunder_1')
@@ -52,6 +58,7 @@ function stepHit (step)
     end
 
     if curStep == 1008 then
+        playActorAnimation('boyfriend', 'idle', true, false)
         flashCam(255, 255, 255, 2)
         playBGAnimation('halloweenBG', 'lightning', true, false)
         playSound('thunder_1')

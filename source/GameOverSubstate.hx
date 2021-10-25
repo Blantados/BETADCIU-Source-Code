@@ -32,13 +32,14 @@ class GameOverSubstate extends MusicBeatSubstate
 			case 'bf-tankman-pixel' | 'bf-pico-pixel' | 'bf-rico-pixel' | 'bf-tom-pixel' | 'bf-sonic-pixel' | 'bf-gf-pixel' | 'bf-wright-pixel' | 'bf-sans-pixel':
 				stageSuffix = '-pixel';
 				daBf = daCharacter + '-dead';
-			case 'bf-sans' | 'bf-frisk' | 'bf2' | 'bf3' | 'bf4' | 'bf5' | 'bf-sonic' | 'bf-bw' | 'bf-kaity' | 'bf-cesar' | 'bf-demoncesar' | 'bf-aloe-bw' | 'bf-lexi':	
-				daBf = daCharacter;
 			case 'bf-aloe' | 'bf-aloe-confused' | 'bf-aloe-car' | 'bf1':	
 				daBf = 'bf-aloe';
 			case 'bf-aloe-corrupt':
 				daBf = daCharacter;
 				isCorrupt = true;
+			case 'bf-pixel-neon':
+				stageSuffix = '-pixel';
+				daBf = 'bf-pixel-dead';
 			case 'bf-gf' | 'bf-gf-demon':	
 				daBf = 'bf-gf';	
 			case 'bf-senpai-pixel' | 'bf-senpai-angry-pixel':
@@ -50,7 +51,14 @@ class GameOverSubstate extends MusicBeatSubstate
 				daBf = 'bf-senpai-tankman-pixel-dead';
 				isSenpai = true;
 			default:	
-				daBf = 'bf';
+				if (PlayState.boyfriend.animOffsets.exists('firstDeath'))
+				{
+					daBf = daCharacter;
+				}
+				else
+				{
+					daBf = 'bf';
+				}		
 		}
 
 		super();

@@ -481,6 +481,26 @@ class AccuracyDOption extends Option
 	}
 }
 
+class NoStageChange extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+	
+	public override function press():Bool
+	{
+		FlxG.save.data.stageChange = !FlxG.save.data.stageChange;
+		trace('Doing Stage Change?: ' + FlxG.save.data.stageChange);
+		display = updateDisplay();
+		return true;
+	}
+	
+	private override function updateDisplay():String
+		return "Stage Changing " + (FlxG.save.data.stageChange ? "on" : "off");
+}
+
 class WatermarkOption extends Option
 {
 	public function new(desc:String)

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sunky.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sing Down instance 10000" x="0" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10001" x="909" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10002" x="1818" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10003" x="2727" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10004" x="3636" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10005" x="4545" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10006" x="5454" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10007" x="6363" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10008" x="7272" y="0" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10009" x="0" y="774" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10010" x="909" y="774" width="909" height="774"/>
+	<SubTexture name="Sing Down instance 10011" x="1818" y="774" width="909" height="774"/>
+	<SubTexture name="Idle instance 10000" x="2727" y="774" width="919" height="774"/>
+	<SubTexture name="Idle instance 10001" x="3646" y="774" width="919" height="774"/>
+	<SubTexture name="Idle instance 10002" x="4565" y="774" width="919" height="774"/>
+	<SubTexture name="Idle instance 10003" x="5484" y="774" width="919" height="774"/>
+	<SubTexture name="Idle instance 10004" x="6403" y="774" width="919" height="774"/>
+	<SubTexture name="Idle instance 10005" x="0" y="1548" width="919" height="774"/>
+	<SubTexture name="Idle instance 10006" x="919" y="1548" width="919" height="774"/>
+	<SubTexture name="Idle instance 10007" x="1838" y="1548" width="919" height="774"/>
+	<SubTexture name="Idle instance 10008" x="2757" y="1548" width="919" height="774"/>
+	<SubTexture name="Idle instance 10009" x="3676" y="1548" width="919" height="774"/>
+	<SubTexture name="Idle instance 10010" x="4595" y="1548" width="919" height="774"/>
+	<SubTexture name="Idle instance 10011" x="5514" y="1548" width="919" height="774"/>
+	<SubTexture name="Sing Left instance 10000" x="6433" y="1548" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10001" x="0" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10002" x="909" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10003" x="1818" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10004" x="2727" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10005" x="3636" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10006" x="4545" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10007" x="5454" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10008" x="6363" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10009" x="7272" y="2325" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10010" x="0" y="3102" width="909" height="777"/>
+	<SubTexture name="Sing Left instance 10011" x="909" y="3102" width="909" height="777"/>
+	<SubTexture name="Sing Right instance 10000" x="1818" y="3102" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10001" x="2727" y="3102" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10002" x="3636" y="3102" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10003" x="4545" y="3102" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10004" x="5454" y="3102" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10005" x="6363" y="3102" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10006" x="7272" y="3102" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10007" x="0" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10008" x="909" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10009" x="1818" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10010" x="2727" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Right instance 10011" x="3636" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10000" x="4545" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10001" x="5454" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10002" x="6363" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10003" x="7272" y="3879" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10004" x="0" y="4653" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10005" x="909" y="4653" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10006" x="1818" y="4653" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10007" x="2727" y="4653" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10008" x="3636" y="4653" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10009" x="4545" y="4653" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10010" x="5454" y="4653" width="909" height="774"/>
+	<SubTexture name="Sing Up instance 10011" x="6363" y="4653" width="909" height="774"/>
+</TextureAtlas>

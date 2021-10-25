@@ -1,0 +1,9 @@
+idle 0 0
+singUP -30 70
+singRIGHT 0 38
+singLEFT 67 38
+singDOWN 40 10
+singUP-alt 210 300
+singRIGHT-alt 0 20
+singLEFT-alt 870 80
+singDOWN-alt 20 -45

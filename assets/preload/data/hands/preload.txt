@@ -15,9 +15,9 @@ bf-sonic
 exgf
 sky-happy
 kou
-bf-miku
+miku
 cg5
-blantad-new
+blantad-watch
 blantad-handscutscene
 blantad-teleport
 holo-cart-ohno

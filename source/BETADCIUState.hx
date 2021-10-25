@@ -76,8 +76,10 @@ class BETADCIUState extends MusicBeatState
 
 			addWeek(['Ugh', 'Guns', 'Animal'], 1, ['tankman', 'tankman', 'drunk-annie']);
 			addWeek(['Nerves', 'Manifest', 'Roses-Remix'], 2, ['garcello', 'sky-mad', 'senpai-giddy']);
-			addWeek(['Takeover', 'Hands'], 3, ['demoncass', 'coco-car']);
+			addWeek(['Takeover', 'Hands', 'Diva'], 3, ['demoncass', 'coco-car', 'mia']);
+			addWeek(['Jeez'/*, 'Shinkyoku'*/], 4, ['brody'/*, 'duet-sm'*/]);
 			addWeek(['Cosmic', 'Storm', 'Haachama'], 5, ['kou', 'annie-bw', 'haachama']);
+			addWeek(['Scary Swings'/*, 'Hunger'*/], 5, ['spooky-pelo'/*, 'rebecca'*/]);
 
 		// LOAD MUSIC
 
@@ -288,6 +290,8 @@ class BETADCIUState extends MusicBeatState
 			PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
 			PlayState.isStoryMode = false;
 			PlayState.isBETADCIU = true;
+			PlayState.isNeonight = false;
+			PlayState.isVitor = false;
 			PlayState.isBonus = false;
 			PlayState.storyDifficulty = curDifficulty;
 			canMove = false;

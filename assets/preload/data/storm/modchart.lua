@@ -41,7 +41,7 @@ function stepHit (step)
     end
 
     if curStep == 256 then
-        boyfriend.playAnim('boyfriend', 'idle')
+        playActorAnimation('boyfriend', 'idle', true)
     end
 
     if curStep == 258 then		
@@ -63,7 +63,7 @@ function stepHit (step)
     end
 
     if curStep == 514 then 
-        changeDadCharacterBetter(0, 150, 'hd-senpai-bw')
+        changeDadCharacterBetter(0, 150, 'hd-senpai-giddy-bw')
         changeGFCharacterBetter (400, 130, 'gf-monika-bw')
     end
 

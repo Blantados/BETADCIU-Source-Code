@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="destroyedpaperjig.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DestroyedPaper0000" x="0" y="0" width="1529" height="867"/>
+	<SubTexture name="DestroyedPaper0001" x="1529" y="0" width="1529" height="867"/>
+	<SubTexture name="DestroyedPaper0002" x="0" y="867" width="1529" height="867"/>
+	<SubTexture name="DestroyedPaper0003" x="1529" y="867" width="1529" height="867"/>
+	<SubTexture name="DestroyedPaper0004" x="0" y="1734" width="1529" height="867"/>
+	<SubTexture name="DestroyedPaper0005" x="0" y="0" width="1529" height="867"/>
+</TextureAtlas>

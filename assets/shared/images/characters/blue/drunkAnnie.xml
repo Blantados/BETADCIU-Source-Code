@@ -22,7 +22,7 @@
 	<SubTexture name="Monster left note0002" x="96" y="1048" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="Monster left note0003" x="96" y="1048" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="Monster left note0004" x="96" y="1048" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
-	<SubTexture name="Monster left note0005" x="3596" y="1048" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
+	<SubTexture name="Monster left note0005" x="3596" y="548" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="Monster left note0006" x="3596" y="548" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="Monster left note0007" x="3596" y="548" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="Monster left note0008" x="3596" y="548" width="500" height="500" frameX="-10" frameY="-200" frameWidth="700" frameHeight="1000"/>
@@ -42,7 +42,7 @@
 	<SubTexture name="monster down0002" x="96" y="1548" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="monster down0003" x="96" y="1548" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="monster down0004" x="96" y="1548" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>
-	<SubTexture name="monster down0005" x="3596" y="1548" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>
+	<SubTexture name="monster down0005" x="3596" y="1048" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="monster down0006" x="3596" y="1048" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="monster down0007" x="3596" y="1048" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>
 	<SubTexture name="monster down0008" x="3596" y="1048" width="500" height="500" frameX="-10" frameY="-110" frameWidth="700" frameHeight="1000"/>

@@ -22,7 +22,7 @@ end
 function stepHit (step)
         
     if curStep == 1 then
-       
+      
     end
 
     if curStep == 256 then
@@ -33,7 +33,7 @@ function stepHit (step)
     if curStep == 320 then
         changeBoyfriendCharacterBetter(850, 620, 'bf-blue')
         characterZoom('boyfriend', 1.2)
-        followBFYOffset = -150
+        followBFYOffset = -125
     end
 
     if curStep == 384 then
@@ -43,24 +43,25 @@ function stepHit (step)
         followDadXOffset = -100
     end
 
-    if curStep == 512 then
-        followBFYOffset = 0
+    if curStep == 512 then 
         changeBoyfriendCharacterBetter(620, 300, 'drunk-annie-blue')
         characterZoom('boyfriend', 1.4)
+        followBFYOffset = -100
     end
 
     if curStep == 640 then
-        changeDadCharacterBetter(130, 200, 'b3-mom-sad')
+        changeDadCharacterBetter(130, 200, 'mom-sad-blue')
         characterZoom('dad', 1.15)
     end
 
     if curStep == 704 then
-        changeBoyfriendCharacterBetter(820, 350, 'mia-lookstraight-blue')
+        followBFYOffset = 0
+        changeBoyfriendCharacterBetter(820, 350, 'mia-lookstraight-sad-blue')
         characterZoom('boyfriend', 1.3)
     end
 
     if curStep == 768 then
-        changeDadCharacterBetter(130, 250, 'ruby-worried-night')
+        changeDadCharacterBetter(130, 250, 'ruby-worried-blue')
         characterZoom('dad', 1.15)
     end
 
@@ -85,8 +86,8 @@ function stepHit (step)
     end
 
     if curStep == 1280 then
-        changeBoyfriendCharacterBetter(800, 470, 'tankman')
+        followBFYOffset = 0
+        changeBoyfriendCharacterBetter(800, 470, 'tankman-sad-blue')
         characterZoom('boyfriend', 1.15)
-        followBFYOffset = -150
     end
 end

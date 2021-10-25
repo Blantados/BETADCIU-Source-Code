@@ -36,11 +36,11 @@ function beatHit (beat)
     end
 
     if curBeat == 80 then
-        changeDadCharacter('hd-senpaiangry', 20, 100)
+        changeDadCharacter('hd-senpai-angry', 20, 100)
     end
 
     if curBeat == 88 then
-        changeDadCharacter('hd-senpai', 20, 100)
+        changeDadCharacter('hd-senpai-giddy', 20, 100)
         changeBoyfriendCharacter('hd-monika', 810, 125)
         followBFYOffset = 50
     end

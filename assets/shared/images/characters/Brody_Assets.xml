@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Brody_Assets.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Brody Down0000" x="0" y="0" width="493" height="628" frameX="0" frameY="-4" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0001" x="0" y="0" width="493" height="628" frameX="0" frameY="-4" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0002" x="523" y="0" width="491" height="631" frameX="-5" frameY="-1" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0003" x="523" y="0" width="491" height="631" frameX="-5" frameY="-1" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0004" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0005" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0006" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0007" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0008" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0009" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0010" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0011" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0012" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Down0013" x="1044" y="0" width="492" height="632" frameX="-5" frameY="0" frameWidth="497" frameHeight="632"/>
+	<SubTexture name="Brody Left0000" x="1566" y="0" width="624" height="674" frameX="0" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0001" x="1566" y="0" width="624" height="674" frameX="0" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0002" x="2220" y="0" width="624" height="674" frameX="-6" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0003" x="2220" y="0" width="624" height="674" frameX="-6" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0004" x="2874" y="0" width="627" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0005" x="2874" y="0" width="627" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0006" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0007" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0008" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0009" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0010" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0011" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0012" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Left0013" x="0" y="704" width="628" height="674" frameX="-7" frameY="0" frameWidth="635" frameHeight="674"/>
+	<SubTexture name="Brody Right0000" x="658" y="704" width="517" height="669" frameX="-19" frameY="-1" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0001" x="658" y="704" width="517" height="669" frameX="-19" frameY="-1" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0002" x="1205" y="704" width="533" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0003" x="1205" y="704" width="533" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0004" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0005" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0006" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0007" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0008" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0009" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0010" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0011" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0012" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Right0013" x="1768" y="704" width="532" height="670" frameX="0" frameY="0" frameWidth="536" frameHeight="670"/>
+	<SubTexture name="Brody Ugh0000" x="2330" y="704" width="447" height="665" frameX="-12" frameY="-2" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0001" x="2330" y="704" width="447" height="665" frameX="-12" frameY="-2" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0002" x="2807" y="704" width="450" height="667" frameX="-5" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0003" x="3287" y="704" width="450" height="667" frameX="-5" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0004" x="0" y="1408" width="450" height="667" frameX="-2" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0005" x="480" y="1408" width="450" height="667" frameX="-2" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0006" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0007" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0008" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0009" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0010" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0011" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0012" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Ugh0013" x="960" y="1408" width="452" height="667" frameX="0" frameY="0" frameWidth="459" frameHeight="667"/>
+	<SubTexture name="Brody Up0000" x="1442" y="1408" width="496" height="705" frameX="-6" frameY="0" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0001" x="1442" y="1408" width="496" height="705" frameX="-6" frameY="0" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0002" x="1968" y="1408" width="504" height="699" frameX="-1" frameY="-6" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0003" x="1968" y="1408" width="504" height="699" frameX="-1" frameY="-6" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0004" x="2502" y="1408" width="506" height="676" frameX="0" frameY="-31" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0005" x="2502" y="1408" width="506" height="676" frameX="0" frameY="-31" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0006" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0007" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0008" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0009" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0010" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0011" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0012" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody Up0013" x="3038" y="1408" width="506" height="678" frameX="0" frameY="-29" frameWidth="506" frameHeight="707"/>
+	<SubTexture name="Brody idle dance0000" x="3574" y="1408" width="452" height="664" frameX="0" frameY="-10" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0001" x="3574" y="1408" width="452" height="664" frameX="0" frameY="-10" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0002" x="0" y="2143" width="452" height="667" frameX="-3" frameY="-7" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0003" x="0" y="2143" width="452" height="667" frameX="-3" frameY="-7" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0004" x="482" y="2143" width="438" height="672" frameX="-11" frameY="-2" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0005" x="482" y="2143" width="438" height="672" frameX="-11" frameY="-2" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0006" x="950" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0007" x="950" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0008" x="1416" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0009" x="1416" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0010" x="1416" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0011" x="1416" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0012" x="1416" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+	<SubTexture name="Brody idle dance0013" x="1416" y="2143" width="436" height="674" frameX="-13" frameY="0" frameWidth="455" frameHeight="674"/>
+</TextureAtlas>

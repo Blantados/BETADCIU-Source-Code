@@ -81,7 +81,7 @@ function stepHit (step)
     end
 
     if curStep == 672 then
-        changeBoyfriendCharacter('hd-senpai', 1096, 0)
+        changeBoyfriendCharacter('hd-senpai-giddy', 1096, 0)
     end
 
     if curStep == 640 then
@@ -89,7 +89,7 @@ function stepHit (step)
     end
 
     if curStep == 672 then
-        changeBoyfriendCharacter('hd-senpai', 1096, 0)
+        changeBoyfriendCharacter('hd-senpai-giddy', 1096, 0)
     end
 
 end

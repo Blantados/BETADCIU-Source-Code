@@ -106,7 +106,7 @@ class BonusSongsState extends MusicBeatState
 		addWeek(['Sunshine', 'Jump-in', 'Aspirer'], 13, ['bob2', 'bob', 'blantad-blue']);
 		addWeek(['Ballistic', 'Expurgation', 'Crucify'], 14, ['picoCrazy', 'cjClone', 'gf']);
 		addWeek(['Ugh-Remix', 'Parish', 'Honeydew'], 15, ['tankman', 'isa', 'hd-senpai-happy']);
-		addWeek(['Mad-Tall', 'Spooky-Fight'], 15, ['bf-carol', 'zardy']);
+		addWeek(['Mad-Tall', 'Spooky-Fight', 'Happy'], 16, ['bf-carol', 'zardy', 'exe-bw']);
 
 		if (lamentCombo == 'GFC' && ughCombo == 'GFC' && spookyCombo == 'GFC' && unholyCombo == 'GFC' && argumentCombo == 'GFC' || isDebug)
 		{
@@ -115,14 +115,17 @@ class BonusSongsState extends MusicBeatState
 			FlxG.save.data.cursedUnlocked = true;
 		}	
 
-		addWeek(['Lament', 'Roots'], 16, ['sarvente', 'monika']);
+		addWeek(['Lament', 'Roots'], 17, ['sarvente', 'monika']);
 
 		if (lamentCombo == 'GFC' && rootsCombo == 'GFC')
 		{
-			addSong('Deathmatch-Holo', 16, 'calli-mad');
+			addSong('Deathmatch-Holo', 17, 'calli-mad');
 			Main.deathHolo = true;
 			FlxG.save.data.deathHoloUnlocked = true;
 		}	
+
+		addWeek(['Technokinesis', 'Copy-Cat', 'Milk'], 18, ['yukichi-mad', 'nene2', 'mom']);
+		addWeek(['Norsky'], 19, ['sky-pissed']);
 
 		if (TitleState.curWacky[1].contains('uncorruption') && Main.seenMessage)
 		{
@@ -358,6 +361,8 @@ class BonusSongsState extends MusicBeatState
 			PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
 			PlayState.isStoryMode = false;
 			PlayState.isBETADCIU = false;
+			PlayState.isNeonight = false;
+			PlayState.isVitor = false;
 			PlayState.isBonus = true;
 			PlayState.storyDifficulty = curDifficulty;
 			canMove = false;

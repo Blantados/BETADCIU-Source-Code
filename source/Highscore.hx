@@ -100,6 +100,10 @@ class Highscore
 			daSong += '-easy';
 		else if (diff == 2)
 			daSong += '-hard';
+		else if (diff == 3)
+			daSong += '-neo';
+		else if (diff == 4)
+			daSong += '-vitor';
 
 		return daSong;
 	}

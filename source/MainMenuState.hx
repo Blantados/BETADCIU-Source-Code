@@ -27,32 +27,36 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['story mode', 'freeplay', 'betadciu', 'bonus songs', 'donate', 'options'];
+	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor0502', 'donate', 'options'];
 	#else
-	var optionShit:Array<String> = ['story mode', 'freeplay', 'betadciu'];
+	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor0502'];
 	#end
 
 	var newGaming:FlxText;
 	var newGaming2:FlxText;
 	var newInput:Bool = true;
+	var menuItem:FlxSprite;
+	public static var mainMusic = true;//
 
 	public static var kadeEngineVer:String = "Kade Engine";
 	public static var gameVer:String = "0.2.7.1";
-	public static var betadciuVer:String = "Update 8.5";
+	public static var betadciuVer:String = "Update 9";
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
+	var secretMenu:Int = 0;
 
 	override function create()
 	{
 		FlxG.mouse.visible = false;
+		secretMenu = 0;
 		
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end
 		
-		if (!FlxG.sound.music.playing)
+		if (!FlxG.sound.music.playing || !mainMusic)//
 		{
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 		}
@@ -88,29 +92,9 @@ class MainMenuState extends MusicBeatState
 
 		var tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
 
-		for (i in 0...2)
+		for (i in 0...1)
 		{
-			var menuItem:FlxSprite = new FlxSprite(100 + (i * 699), 60);
-			menuItem.frames = tex;
-			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
-			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
-			menuItem.setGraphicSize(Std.int(menuItem.width * 0.85));
-			menuItem.updateHitbox();
-			menuItem.animation.play('idle');
-			menuItem.ID = i;
-			if (menuItem.animation.curAnim.name == 'selected')
-			{
-				menuItem.x = (i * 699) - 200;	
-				menuItem.y = 60;	
-			}
-			menuItems.add(menuItem);
-			menuItem.scrollFactor.set();
-			menuItem.antialiasing = true;	
-		}
-
-		for (i in 2...3)
-		{
-			var menuItem:FlxSprite = new FlxSprite(100, 240);
+			menuItem = new FlxSprite(100, 60);
 			menuItem.frames = tex;
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
@@ -124,9 +108,46 @@ class MainMenuState extends MusicBeatState
 			menuItem.centerOffsets();
 		}
 
+		for (i in 1...2)
+		{
+			menuItem = new FlxSprite(710, 70);
+			menuItem.frames = tex;
+			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
+			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
+			menuItem.setGraphicSize(Std.int(menuItem.width * 0.65));
+			menuItem.updateHitbox();
+			menuItem.animation.play('idle');
+			menuItem.ID = i;
+			if (menuItem.animation.curAnim.name == 'selected')
+			{
+				menuItem.x -= 200;	
+				menuItem.y = 60;	
+			}
+			menuItems.add(menuItem);
+			menuItem.scrollFactor.set();
+			menuItem.antialiasing = true;
+			menuItem.centerOffsets();
+		}
+
+		for (i in 2...3)
+		{
+			menuItem = new FlxSprite(100, 240);
+			menuItem.frames = tex;
+			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
+			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
+			menuItem.setGraphicSize(Std.int(menuItem.width * 0.85));
+			menuItem.updateHitbox();
+			menuItem.animation.play('idle');
+			menuItem.ID = i;
+			menuItems.add(menuItem);
+			menuItem.scrollFactor.set();
+			menuItem.antialiasing = true;
+			menuItem.centerOffsets();
+		}
+
 		for (i in 3...4)
 		{
-			var menuItem:FlxSprite = new FlxSprite(710, 250);
+			menuItem = new FlxSprite(710, 250);
 			menuItem.frames = tex;
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
@@ -142,7 +163,7 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 4...5)
 		{
-			var menuItem:FlxSprite = new FlxSprite(150, 420);
+			menuItem = new FlxSprite(150, 420);
 			menuItem.frames = tex;
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
@@ -158,7 +179,7 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 5...6)
 		{
-			var menuItem:FlxSprite = new FlxSprite(800, 420);
+			menuItem = new FlxSprite(800, 420);
 			menuItem.frames = tex;
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
@@ -180,7 +201,6 @@ class MainMenuState extends MusicBeatState
 		add(versionShit);
 
 		// NG.core.calls.event.logEvent('swag').send();
-
 
 		if (FlxG.save.data.dfjk)
 			controls.setKeyboardScheme(KeyboardScheme.Solo, true);
@@ -204,10 +224,35 @@ class MainMenuState extends MusicBeatState
 		#if debug
 		if (FlxG.keys.justPressed.FIVE)
 		{
-			FlxG.save.data.seenDeathPassword = !FlxG.save.data.seenDeathPassword;
+			//FlxG.save.data.seenDeathPassword = !FlxG.save.data.seenDeathPassword;
+			FlxG.switchState(new FreeplayState());
 		}
 		#end
 
+		//secret menu
+		if (FlxG.keys.justPressed.UP && secretMenu == 0)
+			secretMenu++;
+		if (FlxG.keys.justPressed.UP && secretMenu == 1)
+			secretMenu++;
+		if (FlxG.keys.justPressed.DOWN && secretMenu == 2)
+			secretMenu++;
+		if (FlxG.keys.justPressed.DOWN && secretMenu == 3)
+			secretMenu++;
+		if (FlxG.keys.justPressed.LEFT && secretMenu == 4)
+			secretMenu++;
+		if (FlxG.keys.justPressed.RIGHT && secretMenu == 5)
+			secretMenu++;
+		if (FlxG.keys.justPressed.B && secretMenu == 6)
+			secretMenu++;
+		if (FlxG.keys.justPressed.A && secretMenu == 7)
+			secretMenu++;
+		if (FlxG.keys.justPressed.ENTER && secretMenu == 8)
+		{
+			FlxG.sound.music.stop();
+			FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX', 'shared'));
+			FlxG.switchState(new FreeplayState());
+		}
+			
 		if (!selectedSomethin)
 		{
 			if (controls.UP_P)
@@ -276,23 +321,21 @@ class MainMenuState extends MusicBeatState
 
 								switch (daChoice)
 								{
-									case 'story mode':
-										FlxG.switchState(new StoryMenuState());
-										trace("Story Menu Selected");
-									case 'freeplay':
-										FlxG.switchState(new FreeplayState());
-
-										trace("Freeplay Menu Selected");
-
 									case 'betadciu':
 										FlxG.switchState(new BETADCIUState());
-
 										trace("BETADCIU Menu Selected");
 
 									case 'bonus songs':
 										FlxG.switchState(new BonusSongsState());
-
 										trace("BETADCIU Menu Selected");
+
+									case 'neonight':
+										FlxG.switchState(new NeonightState());
+										trace("Neonight Menu Selected");
+
+									case 'vitor0502':
+										FlxG.switchState(new VitorState());
+										trace("Vitor Menu Selected");
 
 									case 'options':
 										FlxG.switchState(new OptionsMenu());

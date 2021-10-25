@@ -1,0 +1,12 @@
+idle 0 0
+singUP -47 24
+singRIGHT 26 -30
+singLEFT -20 16
+singDOWN -31 -29
+singUP-alt -47 56
+singRIGHT-alt -28 -16
+singLEFT-alt -10 15
+singDOWN-alt -30 -27
+wink -170 -55
+seethe -170 -55
+sickintro -170 -55

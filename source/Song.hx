@@ -25,6 +25,8 @@ typedef SwagSong =
 	var player2:String;
 	var gfVersion:String;
 	var noteStyle:String;
+	var dadNoteStyle:String;
+	var bfNoteStyle:String;
 	var stage:String;
 	var validScore:Bool;
 	var mania:Int;
@@ -40,8 +42,10 @@ class Song
 
 	public var player1:String = 'bf';
 	public var player2:String = 'dad';
-	public var gfVersion:String = '';
+	public var gfVersion:String = 'gf';
 	public var noteStyle:String = '';
+	public var dadNoteStyle:String = 'normal';
+	public var bfNoteStyle:String = 'normal';
 	public var stage:String = '';
 	public var mania:Int = 0;
 
@@ -61,6 +65,7 @@ class Song
 		switch (folderLowercase) {
 			case 'dad-battle': folderLowercase = 'dadbattle';
 			case 'philly-nice': folderLowercase = 'philly';
+			case 'scary-swings': folderLowercase = 'scary swings';
 		}
 		
 		trace('loading ' + folderLowercase + '/' + jsonInput.toLowerCase());

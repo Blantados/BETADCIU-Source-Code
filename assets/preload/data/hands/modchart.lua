@@ -124,7 +124,7 @@ function stepHit (step)
     end
     
     if curStep == 988 then
-        changeBoyfriendCharacter('bf-miku', 930, 220)
+        changeBoyfriendCharacter('miku', 980, -120)
     end
 
     if curStep == 1022 then
@@ -133,7 +133,7 @@ function stepHit (step)
     end
 
     if curStep == 1046 then
-        changeBoyfriendCharacter('blantad-new', 1000, -120)
+        changeBoyfriendCharacter('blantad-watch', 1000, -120)
     end
 
     if curStep == 1072 then
@@ -145,7 +145,7 @@ function stepHit (step)
         changeBoyfriendCharacter('blantad-handscutscene', 850, -130) 
         playSound('eyeglow')
         playActorAnimation('boyfriend', 'warning-special', true, false)
-        playBGAnimation('limoOhNo', 'drive', true, false)      
+        playBGAnimation2('limoOhNo', 'drive', true, false)      
         setActorAlpha(1, 'gfBG')
     end
 
@@ -173,13 +173,16 @@ function stepHit (step)
         setDefaultCamZoom(0.77)
         changeGFCharacter('holo-cart-hover', 357, 99)
         playActorAnimation('boyfriend', 'lift-special', true, false)
-        playBGAnimation('limoOhNo', 'driveFlying', true, false)  
+        playBGAnimation2('limoOhNo', 'driveFlying', true, false)  
         tweenPosQuad('bgLimoOhNo', bgLimoX, bgLimoY - 3800, 1)     
         tweenPosQuad('limoOhNo', limoX, limoY - 9500, 1)
         tweenPosQuad('gf', gfX, gfY - 9100, 1)
         tweenPosQuad('dad', dadX, dadY - 9500, 1)
         tweenPosQuad('boyfriend', bfX, bfY - 9500, 1)
+        moveHoloDancers('doinks');
         playSound('whoosh')
+        setActorVelocityX(5, 'upperSky')
+        setActorVelocityX(5, 'upperSky2')
         fastCamFollow = true
     end
 
@@ -203,6 +206,7 @@ function stepHit (step)
         playActorAnimation('blantadBG', 'tele', true, false)
         playSound('teleport')
         changeBoyfriendCharacter('snow', 1000, -9520)
+        followBFXOffset = -50
     end
 
     if curStep == 1210 then      
@@ -210,12 +214,14 @@ function stepHit (step)
     end
 
     if curStep == 1276 then
+        followBFXOffset = 0
         changeBoyfriendCharacter('bosip', 970, -9700)
     end
 
     if curStep == 1328 then
         changeDadCharacter('bf-mom-car', 140, -9400)
         changeBoyfriendCharacter('bf-dad', 930, -9650)
+        followBFXOffset = -50
     end
 
     if curStep == 1344 then      

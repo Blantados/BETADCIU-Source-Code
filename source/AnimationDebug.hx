@@ -21,9 +21,10 @@ class AnimationDebug extends FlxState
 	var dumbTexts:FlxTypedGroup<FlxText>;
 	var animList:Array<String> = [];
 	var curAnim:Int = 0;
-	var isDad:Bool = true;
 	var daAnim:String = 'spooky';
 	var camFollow:FlxObject;
+	public static var isBF:Bool = false;
+	public static var isDad:Bool = false;
 
 	public function new(daAnim:String = 'spooky')
 	{
@@ -39,10 +40,17 @@ class AnimationDebug extends FlxState
 		gridBG.scrollFactor.set(0.5, 0.5);
 		add(gridBG);
 
-		if (daAnim == 'bf')
-			isDad = false;
+		if (isBF)
+		{
+			bf = new Boyfriend(0, 0, daAnim);
+			bf.screenCenter();
+			bf.debugMode = true;
+			add(bf);
 
-		if (isDad)
+			char = bf;
+			bf.flipX = false;
+		}
+		else
 		{
 			dad = new Character(0, 0, daAnim);
 			dad.screenCenter();
@@ -51,16 +59,6 @@ class AnimationDebug extends FlxState
 
 			char = dad;
 			dad.flipX = false;
-		}
-		else
-		{
-			bf = new Boyfriend(0, 0);
-			bf.screenCenter();
-			bf.debugMode = true;
-			add(bf);
-
-			char = bf;
-			bf.flipX = false;
 		}
 
 		dumbTexts = new FlxTypedGroup<FlxText>();

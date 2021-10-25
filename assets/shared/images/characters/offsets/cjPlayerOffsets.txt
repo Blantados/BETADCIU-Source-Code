@@ -1,0 +1,8 @@
+idle 0 0
+intro 590 232
+singUP -6 18
+singLEFT 68 33
+singRIGHT 10 7
+singDOWN 70 -10
+singUP-alt 54 18
+haha 54 18

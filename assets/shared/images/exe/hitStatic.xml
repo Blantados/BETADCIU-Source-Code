@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hitStatic.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="staticANIMATION0000" x="0" y="0" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0001" x="1284" y="0" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0002" x="2568" y="0" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0003" x="0" y="720" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0004" x="1284" y="720" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0005" x="2568" y="720" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0006" x="0" y="0" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0007" x="0" y="1440" width="1284" height="720"/>
+	<SubTexture name="staticANIMATION0008" x="2568" y="0" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0000" x="1284" y="1440" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0001" x="2568" y="1440" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0002" x="0" y="2160" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0003" x="1284" y="2160" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0004" x="2568" y="2160" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0005" x="0" y="2880" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0006" x="1284" y="1440" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0007" x="1284" y="2880" width="1284" height="720"/>
+	<SubTexture name="greystaticANIMATION0008" x="1284" y="1440" width="1284" height="720"/>
+</TextureAtlas>

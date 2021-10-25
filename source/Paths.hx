@@ -136,8 +136,19 @@ class Paths
 			switch (songLowercase) {
 				case 'dad-battle': songLowercase = 'dadbattle';
 				case 'philly-nice': songLowercase = 'philly';
+				case 'scary-swings': songLowercase = 'scary swings';
 			}
-		return 'songs:assets/songs/${songLowercase}/Voices.$SOUND_EXT';
+
+		var pre:String = "";
+		var suf:String = "";
+
+		if (PlayState.isNeonight) {
+			suf = 'NN';
+		}
+		if (PlayState.isVitor) {
+			suf = 'V';
+		}
+		return 'songs:assets/songs/${songLowercase}/'+pre+'Voices'+suf+'.$SOUND_EXT';
 	}
 
 	inline static public function inst(song:String)
@@ -146,15 +157,22 @@ class Paths
 			switch (songLowercase) {
 				case 'dad-battle': songLowercase = 'dadbattle';
 				case 'philly-nice': songLowercase = 'philly';
+				case 'scary-swings': songLowercase = 'scary swings';
 			}
-		if (Main.noCopyright && song.toLowerCase() == "sharkventure")
-		{
-			return 'songs:assets/songs/${songLowercase}/Alt_Inst.$SOUND_EXT';
-		}
-		else
-		{
-			return 'songs:assets/songs/${songLowercase}/Inst.$SOUND_EXT';
+
+		var pre:String = "";
+		var suf:String = "";
+
+		if (Main.noCopyright && song.toLowerCase() == "sharkventure") 	{
+			pre = 'Alt_';
+		}			
+		if (PlayState.isNeonight) {
+			suf = 'NN';
 		}	
+		if (PlayState.isVitor) {		
+			suf = 'V';
+		}		
+		return 'songs:assets/songs/${songLowercase}/'+pre+'Inst'+suf+'.$SOUND_EXT';
 	}
 
 	inline static public function image(key:String, ?library:String)

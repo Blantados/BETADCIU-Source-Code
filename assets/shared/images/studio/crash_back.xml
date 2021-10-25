@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crash_back.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="code0000" x="10" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0001" x="1724" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0002" x="3438" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0003" x="5152" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0004" x="10" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0005" x="1724" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0006" x="3438" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0007" x="5152" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0008" x="10" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0009" x="10" y="3268" width="1704" height="1076"/>
+	<SubTexture name="code0010" x="10" y="4354" width="1704" height="1076"/>
+	<SubTexture name="code0011" x="10" y="5440" width="1704" height="1076"/>
+	<SubTexture name="code0012" x="10" y="6526" width="1704" height="1076"/>
+	<SubTexture name="code0013" x="1724" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0014" x="3438" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0015" x="5152" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0016" x="1724" y="3268" width="1704" height="1076"/>
+	<SubTexture name="code0017" x="1724" y="4354" width="1704" height="1076"/>
+	<SubTexture name="code0018" x="1724" y="5440" width="1704" height="1076"/>
+	<SubTexture name="code0019" x="1724" y="6526" width="1704" height="1076"/>
+	<SubTexture name="code0020" x="3438" y="3268" width="1704" height="1076"/>
+	<SubTexture name="code0021" x="5152" y="3268" width="1704" height="1076"/>
+	<SubTexture name="code0022" x="3438" y="4354" width="1704" height="1076"/>
+	<SubTexture name="code0023" x="5152" y="4354" width="1704" height="1076"/>
+	<SubTexture name="code0024" x="3438" y="5440" width="1704" height="1076"/>
+	<SubTexture name="code0025" x="10" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0026" x="1724" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0027" x="3438" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0028" x="5152" y="10" width="1704" height="1076"/>
+	<SubTexture name="code0029" x="10" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0030" x="1724" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0031" x="3438" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0032" x="5152" y="1096" width="1704" height="1076"/>
+	<SubTexture name="code0033" x="10" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0034" x="10" y="3268" width="1704" height="1076"/>
+	<SubTexture name="code0035" x="10" y="4354" width="1704" height="1076"/>
+	<SubTexture name="code0036" x="10" y="5440" width="1704" height="1076"/>
+	<SubTexture name="code0037" x="10" y="6526" width="1704" height="1076"/>
+	<SubTexture name="code0038" x="1724" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0039" x="3438" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0040" x="5152" y="2182" width="1704" height="1076"/>
+	<SubTexture name="code0041" x="1724" y="3268" width="1704" height="1076"/>
+	<SubTexture name="code0042" x="1724" y="4354" width="1704" height="1076"/>
+</TextureAtlas>

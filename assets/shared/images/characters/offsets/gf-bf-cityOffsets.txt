@@ -1,0 +1,11 @@
+cheer-380 -400
+sad -380 -400
+danceLeft -380 -400
+danceRight -380 -400
+singUP -360-309
+singRIGHT 0 -20
+singLEFT 0 -19
+singDOWN 0 -20
+hairBlow 45 -8
+hairFall 0 -9
+scared -2 -17
