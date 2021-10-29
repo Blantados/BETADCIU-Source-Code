@@ -1,5 +1,8 @@
 function start (song)
-	tweenCameraZoomIn(1.1, 0.1)
+    setActorAlpha(0, 'chara',  true)
+    followDadYOffset = 130
+    followBFYOffset = 130
+    setDefaultCamZoom(1.1)
 end
 
 local defaultHudX = 0
@@ -16,22 +19,40 @@ end
 
 function beatHit (beat)
 
-    -- not this time
-
+    if curBeat >= 1 then
+        if curBeat % 4 == 2 then
+            playActorAnimation('gf', 'scared', false, false)
+        end
+    end
 end
 
 function stepHit (step)
 
+    if curStep == 1 then
+        
+    end
+
+    if curStep == 128 then
+        setDefaultCamZoom(0.7)
+    end
+
+    if curStep == 768 then
+        tweenFadeInBG('chara', 0.5, 0.3)
+    end
+
+    if curStep == 896 then
+        tweenFadeOutBG('chara', 0, 0.3)
+    end
 end
 
 function playerTwoSing()
 
-    tweenCameraZoomIn(1.1, 0.1)
+    tweenCameraZoomIn(0.9, 0.1)
     shakeCam(0.02, 0.02)
     shakeHUD(0.03,0.03);
 
 end
 
 function playerOneSing()
-    tweenCameraZoomIn(1.1, 0.1)
+    tweenCameraZoomIn(0.9, 0.1)
 end

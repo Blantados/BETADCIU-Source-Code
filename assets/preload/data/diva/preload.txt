@@ -25,3 +25,5 @@ spooky-b3
 cablecrow
 zardy
 sky-b3
+bf-lexi-b3
+lexi-b3

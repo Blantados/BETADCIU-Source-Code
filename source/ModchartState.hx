@@ -250,7 +250,7 @@ class ModchartState
 				return Reflect.getProperty(PlayState.instance,id);
 			return PlayState.PlayState.strumLineNotes.members[Std.parseInt(id)];
 		}
-		return luaSprites.get(id);//
+		return luaSprites.get(id);
 	}
 
 	function getPropertyByName(id:String)
@@ -279,7 +279,9 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.dad);
 		PlayState.dad = new Character(x, y, id);
 		PlayState.instance.addObject(PlayState.dad);
-		PlayState.instance.iconP2.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP2.useOldSystem(id);
 
 		if (PlayState.changeArrows)
 		{
@@ -299,7 +301,9 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.dad1);
 		PlayState.dad1 = new Character(x, y, id);
 		PlayState.instance.addObject(PlayState.dad1);
-		PlayState.instance.iconP2.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP2.useOldSystem(id);
 
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
 		{
@@ -319,7 +323,9 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.dad2);
 		PlayState.dad2 = new Character(x, y, id);
 		PlayState.instance.addObject(PlayState.dad2);
-		PlayState.instance.iconP2.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP2.useOldSystem(id);
 
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
 		{
@@ -335,11 +341,13 @@ class ModchartState
 	function changeBoyfriendCharacter(id:String, x:Float, y:Float)
 	{							
 		PlayState.instance.removeObject(PlayState.boyfriend);
-		//PlayState.boyfriend = new Boyfriend(x, y, null);
+		//PlayState.boyfriend = new Boyfriend(x, y, null);//
 		PlayState.instance.destroyObject(PlayState.boyfriend);
 		PlayState.boyfriend = new Boyfriend(x, y, id);
 		PlayState.instance.addObject(PlayState.boyfriend);
-		PlayState.instance.iconP1.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP1.useOldSystem(id);
 
 		if (PlayState.changeArrows)
 		{
@@ -359,7 +367,9 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.boyfriend1);
 		PlayState.boyfriend1 = new Boyfriend(x, y, id);
 		PlayState.instance.addObject(PlayState.boyfriend1);
-		PlayState.instance.iconP1.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP1.useOldSystem(id);
 
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
 		{
@@ -378,11 +388,13 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.boyfriend2);
 		PlayState.boyfriend2 = new Boyfriend(x, y, id);
 		PlayState.instance.addObject(PlayState.boyfriend2);
-		PlayState.instance.iconP1.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP1.useOldSystem(id);
 		
 		if (PlayState.defaultBar)
 		{
-			PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + PlayState.dad.iconColor), FlxColor.fromString('#' + PlayState.boyfriend1.iconColor));
+			PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + PlayState.dad.iconColor), FlxColor.fromString('#' + PlayState.boyfriend2.iconColor));
 			PlayState.healthBar.updateBar();
 		}	
 	}
@@ -453,12 +465,12 @@ class ModchartState
 	// this is better. easier to port shit from playstate.
 	function changeGFCharacterBetter(x:Float, y:Float, id:String, ?xFactor:Float = 0.95, ?yFactor:Float = 0.95)
 	{		
-					PlayState.instance.removeObject(PlayState.gf);
-					//PlayState.gf = new Character(x, y, null);
-					PlayState.instance.destroyObject(PlayState.gf);
-					PlayState.gf = new Character(x, y, id);
-					PlayState.gf.scrollFactor.set(xFactor, yFactor);
-					PlayState.instance.addObject(PlayState.gf);
+		PlayState.instance.removeObject(PlayState.gf);
+		//PlayState.gf = new Character(x, y, null);
+		PlayState.instance.destroyObject(PlayState.gf);
+		PlayState.gf = new Character(x, y, id);
+		PlayState.gf.scrollFactor.set(xFactor, yFactor);
+		PlayState.instance.addObject(PlayState.gf);
 	}
 
 	function changeDadCharacterBetter(x:Float, y:Float, id:String)
@@ -468,7 +480,9 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.dad);
 		PlayState.dad = new Character(x, y, id);
 		PlayState.instance.addObject(PlayState.dad);
-		PlayState.instance.iconP2.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP2.useOldSystem(id);
 
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
 		{
@@ -488,7 +502,9 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.boyfriend);
 		PlayState.boyfriend = new Boyfriend(x, y, id);
 		PlayState.instance.addObject(PlayState.boyfriend);
-		PlayState.instance.iconP1.animation.play(id);
+
+		if (!PlayState.newIcons)
+			PlayState.instance.iconP1.useOldSystem(id);
 
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
 		{
@@ -570,7 +586,7 @@ class ModchartState
 		#end
 	}
 
-	function makeLuaSprite(spritePath:String,toBeCalled:String, drawBehind:Bool)
+	function makeLuaSprite(spritePath:String,toBeCalled:String, drawBehind:Bool, ?xFactor:Float = 1, ?yFactor:Float = 1)
 	{
 		#if sys
 		// pre lowercasing the song name (makeLuaSprite)
@@ -592,7 +608,8 @@ class ModchartState
 		if (scale > 1)
 			scale = 1;
 
-		sprite.makeGraphic(Std.int(data.width * scale),Std.int(data.width * scale),FlxColor.TRANSPARENT);
+		sprite.makeGraphic(Std.int(data.width * scale),Std.int(data.width * scale),FlxColor.TRANSPARENT);//
+		sprite.scrollFactor.set(xFactor, yFactor);
 
 		var data2:BitmapData = sprite.pixels.clone();
 		var matrix:Matrix = new Matrix();
@@ -721,6 +738,7 @@ class ModchartState
 				setVar("hudHeight", PlayState.instance.camHUD.height);
 	
 				setVar("mustHit", false);
+				setVar("newIcons", false);
 
 				setVar("strumLineY", PlayState.instance.strumLine.y);
 				
@@ -753,6 +771,10 @@ class ModchartState
 				Lua_helper.add_callback(lua,"changeDad1Character", changeDad1Character);
 
 				Lua_helper.add_callback(lua,"changeBoyfriend1Character", changeBoyfriend1Character);
+
+				Lua_helper.add_callback(lua,"changeDad2Character", changeDad2Character);
+
+				Lua_helper.add_callback(lua,"changeBoyfriend2Character", changeBoyfriend2Character);
 				
 				// Lua_helper.add_callback(lua,"makeAnimatedSprite", makeAnimatedLuaSprite);
 				// this one is still in development
@@ -772,6 +794,11 @@ class ModchartState
 					PlayState.instance.backgroundVideo("assets/videos/" + videoName + ".webm");
 				});
 
+				Lua_helper.add_callback(lua,"updateHealthbar", function(dadColor:String, bfColor:String) {
+					PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + dadColor), FlxColor.fromString('#' + bfColor));
+					PlayState.healthBar.updateBar();
+				});
+
 				Lua_helper.add_callback(lua,"pauseVideo", function() {
 					if (!GlobalVideo.get().paused)
 						GlobalVideo.get().pause();
@@ -787,11 +814,19 @@ class ModchartState
 				});
 
 				Lua_helper.add_callback(lua,"changeDadIcon", function(id:String) {
-					PlayState.instance.iconP2.animation.play(id);
+					PlayState.instance.iconP2.useOldSystem(id);
 				});
 
 				Lua_helper.add_callback(lua,"changeBFIcon", function(id:String) {
-					PlayState.instance.iconP1.animation.play(id);
+					PlayState.instance.iconP1.useOldSystem(id);
+				});
+
+				Lua_helper.add_callback(lua,"changeDadIconNew", function(id:String) {
+					PlayState.instance.iconP2.changeIcon(id);
+				});
+
+				Lua_helper.add_callback(lua,"changeBFIconNew", function(id:String) {
+					PlayState.instance.iconP1.changeIcon(id);
 				});
 
 				Lua_helper.add_callback(lua,"setBFStaticNotes", function(id:String) {

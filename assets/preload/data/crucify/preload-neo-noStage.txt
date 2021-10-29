@@ -1,4 +1,5 @@
 sarvente-dark
+trollge
 bf-carol
 garcello
 yukichi-police
@@ -9,5 +10,6 @@ agoti-mad
 tabi-crazy
 sky-mad
 neko-crazy
+tornsketchy
 starecrown
 tankman

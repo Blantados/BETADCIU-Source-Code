@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="myra_assets.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MyraIdle0000" x="0" y="0" width="440" height="750"/>
+	<SubTexture name="MyraIdle0001" x="440" y="0" width="440" height="750"/>
+	<SubTexture name="MyraIdle0002" x="880" y="0" width="440" height="750"/>
+	<SubTexture name="MyraIdle0003" x="1320" y="0" width="440" height="750"/>
+	<SubTexture name="MyraIdle0004" x="1320" y="0" width="440" height="750"/>
+	<SubTexture name="MyraIdle0005" x="1320" y="0" width="440" height="750"/>
+	<SubTexture name="MyraUp0000" x="0" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0001" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0002" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0003" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0004" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0005" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0006" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0007" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraUp0008" x="440" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0000" x="880" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0001" x="1320" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0002" x="1320" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0003" x="1320" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0004" x="1320" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0005" x="1320" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0006" x="1320" y="750" width="440" height="750"/>
+	<SubTexture name="MyraRight0007" x="1320" y="750" width="440" height="750"/>
+	<SubTexture name="MyraLeft0000" x="0" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0001" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0002" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0003" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0004" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0005" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0006" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0007" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLeft0008" x="440" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraDown0000" x="880" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraDown0001" x="1320" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraDown0002" x="1320" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraDown0003" x="1320" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraDown0004" x="1320" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraDown0005" x="1320" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraDown0006" x="1320" y="1500" width="440" height="750"/>
+	<SubTexture name="MyraLaugh0000" x="0" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraLaugh0001" x="440" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0000" x="880" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0001" x="1320" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0002" x="1320" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0003" x="1320" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0004" x="1320" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0005" x="1320" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0006" x="1320" y="2250" width="440" height="750"/>
+	<SubTexture name="MyraAAA0007" x="1320" y="2250" width="440" height="750"/>
+</TextureAtlas>

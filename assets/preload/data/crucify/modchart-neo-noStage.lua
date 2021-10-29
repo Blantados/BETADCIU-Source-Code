@@ -1,5 +1,5 @@
 function start (song) -- do nothing
-
+	setupNoteSplash('-fever')
 end
 
 function update (elapsed)
@@ -567,68 +567,78 @@ setCamZoom(0.62)
 
 function stepHit (step) -- do nothing
 
-	if curStep == 1 then
-		changeDadCharacter('yukichi-police', 370, 450)
+	if curStep == 1 then 
+		
 	end
 
 	if curStep == 256 then
-		changeDadCharacter('sarvente-dark', 430, 250)
+		changeDadCharacter('sarvente-dark', 430, 280)
 	end
 
-	if curStep == 384 then --trollge
-		changeDadCharacter('sarvente-dark', 450, 250)
+	if curStep == 384 then
+		changeDadCharacter('trollge', 470, 360)
 	end
 
 	if curStep == 512 then 
-		changeDadCharacter('bf-carol', 370, 650)
+		changeDadCharacter('bf-carol', 450, 650)
+		followDadXOffset = 50
 	end
 
 	if curStep == 640 then
+		followDadXOffset = 0
 		changeDadCharacter('garcello', 370, 300)
 	end
 
 	if curStep == 768 then
-		changeDadCharacter('yukichi-police', 300, 430)
+		changeDadCharacter('yukichi-police', 370, 450)
+		followDadXOffset = 100
+		followDadYOffset = -50
 	end
 
 	if curStep == 928 then
-		changeDadCharacter('angrybob', 370, 600)
+		changeDadCharacter('angrybob', 450, 590)
+		followDadXOffset = 0
+		followDadYOffset = -100
 	end
 
 	if curStep == 992 then
-		changeDadCharacter('cyrix-crazy', 500, 290)
+		followDadXOffset = 0
+		followDadYOffset = 0
+		changeDadCharacter('cyrix-crazy', 480, 280)
 		characterZoom('dad', 1)
 	end
 
 	if curStep == 1024 then
-		changeDadCharacter('ron', 370, 600)
+		changeDadCharacter('ron', 520, 580)
+		followDadXOffset = 30
+		followDadYOffset = -50
 	end
 
 	if curStep == 1280 then
-		changeDadCharacter('agoti-mad', 370, 600)
+		changeDadCharacter('agoti-mad', 430, 400)
 	end
 
 	if curStep == 1408 then
-		changeDadCharacter('tabi-crazy', 370, 600)
+		changeDadCharacter('tabi-crazy', 430, 350)
 	end
 
 	if curStep == 1536 then
-		changeDadCharacter('sky-mad', 370, 600)
+		changeDadCharacter('sky-mad', 450, 480)
 	end
 
 	if curStep == 1664 then
-		changeDadCharacter('neko-crazy', 370, 600)
+		changeDadCharacter('neko-crazy', 370, 580)
 	end
 
-	if curStep == 1792 then --sketchy
-		changeDadCharacter('neko-crazy', 370, 600)
+	if curStep == 1792 then
+		changeDadCharacter('tornsketchy', 330, 470)
 	end
 
 	if curStep == 1920 then
-		changeDadCharacter('starecrown', 370, 300)
+		changeDadCharacter('starecrown', 340, 250)
 	end
 
 	if curStep == 2048 then
-		changeDadCharacter('tankman', 370, 500)
+		changeDadCharacter('tankman', 480, 510)
 	end
 end

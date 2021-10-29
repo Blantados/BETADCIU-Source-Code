@@ -76,10 +76,9 @@ class BETADCIUState extends MusicBeatState
 
 			addWeek(['Ugh', 'Guns', 'Animal'], 1, ['tankman', 'tankman', 'drunk-annie']);
 			addWeek(['Nerves', 'Manifest', 'Roses-Remix'], 2, ['garcello', 'sky-mad', 'senpai-giddy']);
-			addWeek(['Takeover', 'Hands', 'Diva'], 3, ['demoncass', 'coco-car', 'mia']);
-			addWeek(['Jeez'/*, 'Shinkyoku'*/], 4, ['brody'/*, 'duet-sm'*/]);
-			addWeek(['Cosmic', 'Storm', 'Haachama'], 5, ['kou', 'annie-bw', 'haachama']);
-			addWeek(['Scary Swings'/*, 'Hunger'*/], 5, ['spooky-pelo'/*, 'rebecca'*/]);
+			addWeek(['Takeover', 'Hands', 'Jeez'], 3, ['demoncass', 'coco-car', 'brody']);
+			addWeek(['Cosmic', 'Storm', 'Haachama'], 4, ['kou', 'annie-bw', 'haachama']);
+			//addWeek(['Scary Swings'/*, 'Hunger'*/], 5, ['spooky-pelo'/*, 'rebecca'*/]);
 
 		// LOAD MUSIC
 
@@ -239,7 +238,7 @@ class BETADCIUState extends MusicBeatState
 		if (isOnBtt(extras.getMidpoint().x, extras.getMidpoint().y, 150))
 		{
 			extras.animation.play('hover');
-			if (FlxG.mouse.justPressed)
+			if (FlxG.mouse.justPressed && canMove)
 			{
 				blackScreen.visible = true;
 				enterText.visible = true;
@@ -325,19 +324,24 @@ class BETADCIUState extends MusicBeatState
 			passwordText.text = '';
 			inMain = true;
 			canMove = true;
-		}		
+		}	
+	
+		var wrongPass:Bool = false;
 
-		if (passwordText.text == 'dont overwork' && FlxG.keys.justPressed.ENTER)
-		{
-			FlxG.sound.music.stop();
-			FlxG.switchState(new BETADCIUSecretState());
-			FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX', 'shared'));
-			Main.isHidden = true;
-		} 	
-		else if (passwordText.text != 'dont overwork' && FlxG.keys.justPressed.ENTER && !inMain)
+		if (passwordText.text != "" && FlxG.keys.justPressed.ENTER)
+		{	
+			switch (passwordText.text)
+			{
+				//ha i'm not an idiot. Find the passwords for real.
+				default: wrongPass = true;
+			}	
+		} 
+			
+		if (wrongPass && !inMain)
 		{
 			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3, 'shared'));
 			passwordText.text = '';
+			wrongPass = false;
 		}
 
 		#if !switch
@@ -354,6 +358,33 @@ class BETADCIUState extends MusicBeatState
 			case 2:
 				diffText.text = "HARD";
 		}
+	}
+
+	function startSong(songName:String):Void
+	{
+		FlxG.sound.music.stop();
+		FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX', 'shared'));
+		Main.isHidden = true;
+
+		var songFormat = StringTools.replace(songName, " ", "-");
+		switch (songFormat) {
+			case 'Dad-Battle': songFormat = 'Dadbattle';
+			case 'Philly-Nice': songFormat = 'Philly';
+			case 'Scary-Swings': songFormat = 'Scary Swings';
+		}
+
+		var poop:String = Highscore.formatSong(songFormat, curDifficulty);
+
+		PlayState.SONG = Song.loadFromJson(poop, songName);
+		PlayState.isStoryMode = false;
+		PlayState.isBETADCIU = true;
+		PlayState.isBonus = false;
+		PlayState.isVitor = false;
+		PlayState.isNeonight = false;
+		PlayState.storyDifficulty = curDifficulty;
+		PlayState.storyWeek = 8;
+		trace('CUR WEEK: EXTRA WEEK');
+		LoadingState.loadAndSwitchState(new PlayState());
 	}
 
 	function changeSelection(change:Int = 0)

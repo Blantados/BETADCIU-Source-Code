@@ -7,3 +7,6 @@ mallEvil
 school
 tank
 churchselever
+facility
+eddhouse-bot
+genocide

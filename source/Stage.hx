@@ -116,11 +116,11 @@ class Stage extends MusicBeatState
 					phillyCityLights.add(light);
 				}
 
-				var streetBehind:FlxSprite = new FlxSprite(-40, 50).loadGraphic(Paths.image(pre+'behindTrain', 'week3'));
+				var streetBehind:FlxSprite = new FlxSprite(-40, 50).loadGraphic(Paths.image(pre+'/behindTrain', 'week3'));
 				swagBacks['streetBehind'] = streetBehind;
 				toAdd.push(streetBehind);
 
-				var phillyTrain = new FlxSprite(2000, 360).loadGraphic(Paths.image(pre+'train', 'week3'));
+				var phillyTrain = new FlxSprite(2000, 360).loadGraphic(Paths.image(pre+'/train', 'week3'));
 				swagBacks['phillyTrain'] = phillyTrain;
 				toAdd.push(phillyTrain);
 
@@ -978,6 +978,15 @@ class Stage extends MusicBeatState
 				swagBacks['bgpillar'] = bgpillar;
 				toAdd.push(bgpillar);
 
+				if (PlayState.isNeonight && PlayState.SONG.song.toLowerCase() == 'crucify')
+				{
+					var rock:FlxSprite = new FlxSprite().loadGraphic(Paths.image('agoti/rock', 'shared'));
+					rock.setPosition(600,250);
+					rock.scrollFactor.set(0.95, 0.95);
+					swagBacks['rock'] = rock;
+					toAdd.push(rock);
+				}
+
 				var speaker = new FlxSprite(-650, 600);
 				speaker.frames = Paths.getSparrowAtlas('agoti/LoudSpeaker_Moving');
 				speaker.animation.addByPrefix('bop', 'StereoMoving', 24, false);
@@ -1709,16 +1718,19 @@ class Stage extends MusicBeatState
 				swagBacks['manifestFloor'] = manifestFloor;
 				toAdd.push(manifestFloor);	
 
-				var gfCrazyBG = new FlxSprite(-300, 120);
-				gfCrazyBG.frames = Paths.getSparrowAtlas('characters/crazyGF');
-				gfCrazyBG.animation.addByPrefix('idle', 'gf Idle Dance', 24, false);
-				gfCrazyBG.antialiasing = true;
-				gfCrazyBG.setGraphicSize(Std.int(gfCrazyBG.width * 1.1));
-				gfCrazyBG.updateHitbox();
-				gfCrazyBG.scrollFactor.set(0.9, 0.9);
-				gfCrazyBG.flipX = true;
-				swagBacks['gfCrazyBG'] = gfCrazyBG;
-				toAdd.push(gfCrazyBG);	
+				if (PlayState.SONG.song.toLowerCase() == 'manifest' && PlayState.isBETADCIU)
+				{
+					var gfCrazyBG = new FlxSprite(-300, 120);
+					gfCrazyBG.frames = Paths.getSparrowAtlas('characters/crazyGF');
+					gfCrazyBG.animation.addByPrefix('idle', 'gf Idle Dance', 24, false);
+					gfCrazyBG.antialiasing = true;
+					gfCrazyBG.setGraphicSize(Std.int(gfCrazyBG.width * 1.1));
+					gfCrazyBG.updateHitbox();
+					gfCrazyBG.scrollFactor.set(0.9, 0.9);
+					gfCrazyBG.flipX = true;
+					swagBacks['gfCrazyBG'] = gfCrazyBG;
+					toAdd.push(gfCrazyBG);	
+				}
 			}
 
 			case 'skybroke':
@@ -1830,6 +1842,18 @@ class Stage extends MusicBeatState
 				rips.antialiasing = true;
 				swagBacks['rips'] = rips;
 				toAdd.push(rips);	
+			}
+
+			case 'neko-bedroom':
+			{
+				camZoom = 0.7;
+				curStage = 'bed-room';
+				var BedRoom = new FlxSprite(-600, -200).loadGraphic(Paths.image('neko/bg_bedroom', 'shared'));
+				BedRoom.antialiasing = true;
+				BedRoom.scrollFactor.set(0.97, 0.97);
+				BedRoom.active = false;
+				swagBacks['BedRoom'] = BedRoom;
+				toAdd.push(BedRoom);	
 			}
 
 			case 'garStage' | 'eddhouse2':
@@ -2045,11 +2069,112 @@ class Stage extends MusicBeatState
 				swagBacks['bg'] = bg;
 				toAdd.push(bg);
 
-				var topboppers:FlxSprite = new FlxSprite(-560, 20).loadGraphic(Paths.image('fever/CROWD1','shared'));
-				topboppers.antialiasing = true;
-				topboppers.scrollFactor.set(0.9, 0.9);
-				topboppers.active = false;
-				add(topboppers);
+				var bottomBoppers3 = new FlxSprite(-800, -180);
+				bottomBoppers3.frames = Paths.getSparrowAtlas('fever/CROWD1', 'shared');
+				bottomBoppers3.animation.addByPrefix('idle', "CROWD1", 24, false);
+				bottomBoppers3.animation.play('idle');
+				bottomBoppers3.scrollFactor.set(0.9, 0.9);
+				swagBacks['bottomBoppers3'] = bottomBoppers3;		
+				layInFront[2].push(bottomBoppers3);
+				animatedBacks.push(bottomBoppers3);
+			}
+
+			case 'genocide':
+			{
+				camZoom = 0.8;
+
+				var siniFireBehind = new FlxTypedGroup<SiniFire>();
+				swagGroup['siniFireBehind'] = siniFireBehind;
+				
+				var siniFireFront = new FlxTypedGroup<SiniFire>();
+				swagGroup['siniFireFront'] = siniFireFront;
+			
+				
+				var genocideBG = new FlxSprite(-600, -300).loadGraphic(Paths.image('tabi/fire/wadsaaa'));
+				genocideBG.antialiasing = true;
+				genocideBG.scrollFactor.set(0.9, 0.9);
+				swagBacks['genocideBG'] = genocideBG;		
+				toAdd.push(genocideBG);
+
+				for (i in 0...2)
+				{
+					var daFire:SiniFire = new SiniFire(genocideBG.x + (720 + (((95 * 10) / 2) * i)), genocideBG.y + 180, true, false, 30, i * 10, 84);
+					daFire.antialiasing = true;
+					daFire.scrollFactor.set(0.9, 0.9);
+					daFire.scale.set(0.4, 1);
+					daFire.y += 50;
+					siniFireBehind.add(daFire);
+					swagBacks['daFire' + i] = daFire;	
+				}
+				
+				toAdd.push(siniFireBehind);
+				
+				var genocideBoard = new FlxSprite(genocideBG.x, genocideBG.y).loadGraphic(Paths.image('tabi/fire/boards'));
+				genocideBoard.antialiasing = true;
+				genocideBoard.scrollFactor.set(0.9, 0.9);
+				swagBacks['genocideBoard'] = genocideBoard;		
+				toAdd.push(genocideBoard);
+				
+				var fire1:SiniFire = new SiniFire(genocideBG.x + (-100), genocideBG.y + 889, true, false, 30);
+				fire1.antialiasing = true;
+				fire1.scrollFactor.set(0.9, 0.9);
+				fire1.scale.set(2.5, 1.5);
+				fire1.y -= fire1.height * 1.5;
+				fire1.flipX = true;
+				swagBacks['fire1'] = fire1;	
+				siniFireFront.add(fire1);
+				
+				var fire2:SiniFire = new SiniFire((fire1.x + fire1.width) - 80, genocideBG.y + 889, true, false, 30);
+				fire2.antialiasing = true;
+				fire2.scrollFactor.set(0.9, 0.9);
+				fire2.y -= fire2.height * 1;
+				swagBacks['fire2'] = fire2;	
+				siniFireFront.add(fire2);
+				
+				var fire3:SiniFire = new SiniFire((fire2.x + fire2.width) - 30, genocideBG.y + 889, true, false, 30);
+				fire3.antialiasing = true;
+				fire3.scrollFactor.set(0.9, 0.9);
+				fire3.y -= fire3.height * 1;
+				swagBacks['fire3'] = fire3;	
+				siniFireFront.add(fire3);
+
+				var fire4:SiniFire = new SiniFire((fire3.x + fire3.width) - 10, genocideBG.y + 889, true, false, 30);
+				fire4.antialiasing = true;
+				fire4.scrollFactor.set(0.9, 0.9);
+				fire4.scale.set(1.5, 1.5);
+				fire4.y -= fire4.height * 1.5;
+				swagBacks['fire4'] = fire4;	
+				siniFireFront.add(fire4);
+				
+				toAdd.push(siniFireFront);
+				
+				var path:String = "";
+
+				if (PlayState.isNeonight && PlayState.SONG.song.toLowerCase() == 'crucify')
+					path = Paths.image('tabi/fire/glowyfurniture2');
+				else
+					path = Paths.image('tabi/fire/glowyfurniture');
+
+				var fuckYouFurniture:FlxSprite = new FlxSprite(genocideBG.x, genocideBG.y).loadGraphic(path);
+				fuckYouFurniture.antialiasing = true;
+				fuckYouFurniture.scrollFactor.set(0.9, 0.9);
+				swagBacks['fuckYouFurniture'] = fuckYouFurniture;		
+				toAdd.push(fuckYouFurniture);
+
+				var destBoombox:FlxSprite = new FlxSprite(400, 130).loadGraphic(Paths.image('tabi/fire/Destroyed_boombox'));
+				destBoombox.y += (destBoombox.height - 648) * -1;
+				destBoombox.y += 150;
+				destBoombox.x -= 110;
+				destBoombox.scale.set(1.2, 1.2);
+				swagBacks['destBoombox'] = destBoombox;		
+				toAdd.push(destBoombox);
+
+				var sumsticks:FlxSprite = new FlxSprite(-600, -300).loadGraphic(Paths.image('tabi/fire/overlayingsticks'));
+				sumsticks.antialiasing = true;
+				sumsticks.scrollFactor.set(0.9, 0.9);
+				sumsticks.active = false;
+				swagBacks['sumsticks'] = sumsticks;		
+				layInFront[2].push(sumsticks);
 			}
 
 			case 'neon':
@@ -2174,6 +2299,15 @@ class Stage extends MusicBeatState
 				bgt.active = false;				
 				swagBacks['bgt'] = bgt;
 				toAdd.push(bgt);
+
+				if(PlayState.SONG.gfVersion != 'gf-trollge')
+				{
+					var trashcan:FlxSprite = new FlxSprite(565, 420).loadGraphic(Paths.image('trashcan'));
+					trashcan.scrollFactor.set(0.95, 0.95);
+					trashcan.active = false;			
+					swagBacks['trashcan'] = trashcan;
+					toAdd.push(trashcan);
+				}
 			}
 
 			case 'stare': 
@@ -2181,7 +2315,7 @@ class Stage extends MusicBeatState
 				camZoom = 0.9;
 
 				var starecrownBG = new FlxSprite(-400, -175);
-				starecrownBG.frames = Paths.getSparrowAtlas('MazeStarecrown');
+				starecrownBG.frames = Paths.getSparrowAtlas('starecrown/Maze');
 				starecrownBG.animation.addByPrefix('idle', 'Stage');
 				starecrownBG.animation.play('idle');
 				starecrownBG.antialiasing = true;
@@ -2190,6 +2324,97 @@ class Stage extends MusicBeatState
 				starecrownBG.updateHitbox();
 				swagBacks['starecrownBG'] = starecrownBG;
 				toAdd.push(starecrownBG);
+			}
+
+			case 'garStageRise':
+			{
+				camZoom = 0.9;
+				
+				var bg = new FlxSprite(-500, -170).loadGraphic(Paths.image('garcello/garStagebgRise'));
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.9, 0.9);
+				bg.active = false;
+				swagBacks['bg'] = bg;
+				toAdd.push(bg);
+
+				var stageFront:FlxSprite = new FlxSprite(-500, -200).loadGraphic(Paths.image('garcello/garStageRise'));
+				stageFront.antialiasing = true;
+				stageFront.scrollFactor.set(0.9, 0.9);
+				stageFront.active = false;
+				swagBacks['stageFront'] = stageFront;
+				toAdd.push(stageFront);
+			}
+
+			case 'garStageDead':
+			{
+				camZoom = 0.9;
+
+				var bg:FlxSprite = new FlxSprite(-500, -170).loadGraphic(Paths.image('garcello/garStagebgAlt'));
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.7, 0.7);
+				bg.active = false;
+				swagBacks['bg'] = bg;
+				toAdd.push(bg);
+
+				var smoker:FlxSprite = new FlxSprite(0, -290);
+				smoker.frames = Paths.getSparrowAtlas('garcello/garSmoke');
+				smoker.setGraphicSize(Std.int(smoker.width * 1.7));
+				smoker.alpha = 0.3;
+				smoker.animation.addByPrefix('garsmoke', "smokey", 13);
+				smoker.animation.play('garsmoke');
+				smoker.scrollFactor.set(0.7, 0.7);
+				swagBacks['smoker'] = smoker;
+				toAdd.push(smoker);
+
+				var bgAlley:FlxSprite = new FlxSprite(-500, -200).loadGraphic(Paths.image('garcello/garStagealt'));
+				bgAlley.antialiasing = true;
+				bgAlley.scrollFactor.set(0.9, 0.9);
+				bgAlley.active = false;
+				swagBacks['bgAlley'] = bgAlley;
+				toAdd.push(bgAlley);
+
+				var corpse:FlxSprite = new FlxSprite(-230, 540).loadGraphic(Paths.image('garcello/gardead'));
+				corpse.antialiasing = true;
+				corpse.scrollFactor.set(0.9, 0.9);
+				corpse.active = false;
+				swagBacks['corpse'] = corpse;
+				toAdd.push(corpse);
+
+				var smoke:FlxSprite = new FlxSprite(0, 0);
+				smoke.frames = Paths.getSparrowAtlas('garcello/garSmoke');
+				smoke.setGraphicSize(Std.int(smoke.width * 1.6));
+				smoke.animation.addByPrefix('garsmoke', "smokey", 15);
+				smoke.animation.play('garsmoke');
+				smoke.scrollFactor.set(1.1, 1.1);
+				swagBacks['smoke'] = smoke;
+				layInFront[2].push(smoke);
+			}
+
+			case 'operaStage' | 'operaStage-old':
+			{
+				camZoom = 0.9;
+
+				switch (daStage)
+				{
+					case 'operaStage': pre = 'operastage';
+					case 'operaStage-old': pre = 'operastage_old';
+				}
+	
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('backgrounds/'+pre+'/stageback','shared'));
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.9, 0.9);
+				bg.active = false;
+				swagBacks['bg'] = bg;
+				toAdd.push(bg);
+
+				var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('backgrounds/'+pre+'/stagefront','shared'));
+				stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+				stageFront.updateHitbox();
+				stageFront.antialiasing = true;
+				stageFront.scrollFactor.set(0.9, 0.9);
+				stageFront.active = false;
+				swagBacks['stageFront'] = stageFront;
+				toAdd.push(stageFront);
 			}
 
 			//the end of my stuff
@@ -2436,8 +2661,6 @@ class Stage extends MusicBeatState
 				if (swagBacks['zardyBackground'].animation.finished){
 					swagBacks['zardyBackground'].animation.play('Maze');
 				}
-			case 'tank2':
-				moveTank();
 			case 'ITB':
 				var phillyCityLights = swagGroup['phillyCityLights'];
 				var lightsTimer:Array<Int> = [200, 700];
@@ -2458,7 +2681,7 @@ class Stage extends MusicBeatState
 						});
 					} else
 						lightsTimer[i]--;
-				}				
+				}		
 		}
 	}
 
@@ -2543,7 +2766,8 @@ class Stage extends MusicBeatState
 				if (FlxG.random.bool(10) && fastCarCanDrive)
 					fastCarDrive();
 			case 'manifest':
-				swagBacks['gfCrazyBG'].animation.play('idle');
+				if (PlayState.SONG.song.toLowerCase() == 'manifest' && PlayState.isBETADCIU)
+					swagBacks['gfCrazyBG'].animation.play('idle');
 			case 'mallSoft':
 				swagBacks['gfBG'].dance();
 				swagBacks['momDadBG'].animation.play('idle');
@@ -2580,7 +2804,6 @@ class Stage extends MusicBeatState
 				if (PlayState.SONG.song.toLowerCase() == 'technokinesis' && curStage == 'neon') {
 					swagBacks['chara'].playAnim('idle');
 				}
-			
 			case 'kbStreet':
 				if(curBeat >= 80 && curBeat <= 208) 
 				{
@@ -2675,22 +2898,6 @@ class Stage extends MusicBeatState
 		trainCars = 8;
 		trainFinishing = false;
 		startedMoving = false;
-	}
-
-	var tankX:Int = 400;
-	var tankSpeed:Float = FlxG.random.float(5, 7);
-	var tankAngle:Float = FlxG.random.float(-90, 45);
-
-	function moveTank()
-	{
-		if(!PlayState.instance.inCutscene)
-		{	
-			var tankRolling = swagBacks['tankRolling'];
-			tankAngle += FlxG.elapsed * tankSpeed;
-			tankRolling.angle = tankAngle - 75;
-			tankRolling.x = tankX + 1500 * Math.cos(Math.PI / 180 * (1 * tankAngle + 180));
-			tankRolling.y = 1300 + 1100 * Math.sin(Math.PI / 180 * (1 * tankAngle + 180));
-		}
 	}
 
 	public function resetFastCar():Void

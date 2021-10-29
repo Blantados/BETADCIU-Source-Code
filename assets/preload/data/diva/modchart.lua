@@ -29,7 +29,7 @@ function stepHit (step)
 
     --for testing purposes
     if curStep == 1 then
-       
+        
     end
 
     if curStep == 192 then
@@ -135,23 +135,24 @@ function stepHit (step)
     end
 
     if curStep == 1408 then -- beebz
-      
+        changeDadCharacter('beebz', 25, 640)
     end
 
     if curStep == 1424 then -- b3 gf? if no such thing then normal gf
       
     end
 
-    if curStep == 1488 then -- b3 dad
-      
+    if curStep == 1488 then
+        changeDadCharacter('dad-b3', 55, 275)
     end
 
     if curStep == 1536 then -- b3 bf dad
       
     end
 
-    if curStep == 1600 then -- lila and spookeez
-      
+    if curStep == 1600 then
+        changeDadCharacter('lila', 55, 400)
+        changeBoyfriendCharacter('spooky-b3', 920, 600)
     end
 
     if curStep == 1640 then -- peri and bana
@@ -178,16 +179,16 @@ function stepHit (step)
         changeDadCharacter('cablecrow', -155, 250)
     end
 
-    if curStep == 1760 then -- zardy
-      
+    if curStep == 1760 then
+        changeBoyfriendCharacter('zardy', 670, 400)
     end
 
-    if curStep == 1824 then -- bf-lexi
-      
+    if curStep == 1824 then
+        changeDadCharacter('bf-lexi-b3', 135, 640)
     end
 
     if curStep == 1840 then -- lexi
-      
+        changeBoyfriendCharacter('lexi-b3', 900, 550)
     end
 
     if curStep == 1856 then

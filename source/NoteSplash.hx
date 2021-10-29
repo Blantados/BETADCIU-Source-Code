@@ -18,6 +18,8 @@ class NoteSplash extends FlxSprite
 		{
 			case '1930' | 'fever':
 				skin = '-'+ PlayState.SONG.noteStyle;
+			case 'taki' | 'party-crasher':
+				skin = '-fever';
 			default:
 				skin = PlayState.splashSkin;
 		}
@@ -36,6 +38,7 @@ class NoteSplash extends FlxSprite
 		setPosition(x - Note.swagWidth * 0.95, y - Note.swagWidth);
 		alpha = 0.6;
 		scale.set(1, 1);
+		offset.set(0, 0);
 
 		if(texture == null) {
 			texture = "";
@@ -46,9 +49,24 @@ class NoteSplash extends FlxSprite
 			{
 				case '1930' | 'fever':
 					texture = '-'+ PlayState.SONG.noteStyle;
+				case 'taki' | 'party-crasher':
+					texture = '-fever';
 				default:
 					texture = PlayState.splashSkin;
 			}
+
+			if (PlayState.changeArrows)
+			{
+				switch (PlayState.SONG.bfNoteStyle)
+				{
+					case '1930' | 'fever':
+						texture = '-'+ PlayState.SONG.noteStyle;
+					case 'taki' | 'party-crasher':
+						texture = '-fever';
+					default:
+						texture = PlayState.splashSkin;
+				}
+			}	
 		}
 
 		if(textureLoaded != texture) {

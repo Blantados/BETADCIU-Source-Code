@@ -28,7 +28,7 @@ function beatHit (beat)
     end
 
     if curBeat == 64 then
-        changeDadCharacter('nene', 50, 225)
+        changeDadCharacter('nene2', 50, 255)
     end
 
     if curBeat == 74 then
@@ -132,7 +132,7 @@ function beatHit (beat)
     end
 
     if curBeat == 376 then
-        -- trail shit didn't work so I had to hardcode it in along with tabi
+        changeDadCharacter('tabi-crazy', 120, -25);
     end
 
     if curBeat == 392 then

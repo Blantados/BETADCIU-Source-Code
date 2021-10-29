@@ -43,6 +43,8 @@ class BETADCIUSecretState extends MusicBeatState
 	{
 		FlxG.mouse.visible = false;
 
+		MainMenuState.mainMusic = false;
+
 		if (FlxG.sound.music != null)
 		{
 			FlxG.sound.music.fadeIn(2, 0, 0.8);
@@ -60,9 +62,7 @@ class BETADCIUSecretState extends MusicBeatState
 		isDebug = true;
 		#end
 
-			addWeek(['Hunger', 'High-School-Conflict', 'Norway'], 1, ['rebecca', 'monika', 'tord']);
-			addWeek(['Sorrow', 'Shinkyoku'], 2, ['calli', 'duet-sm']);
-
+			addWeek(['Treasure-Trove-Cove', 'Bopeebo Rumble', 'Friends'], 1, ['mom', 'hd-monika', 'bf-sonic']);
 
 		// LOAD MUSIC
 
@@ -197,7 +197,7 @@ class BETADCIUSecretState extends MusicBeatState
 		if (controls.BACK)
 		{
 			FlxG.sound.music.stop();
-			FlxG.switchState(new BETADCIUState());
+			FlxG.switchState(new MainMenuState());
 		}
 
 		if (accepted)
@@ -208,10 +208,10 @@ class BETADCIUSecretState extends MusicBeatState
 
 			PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
 			PlayState.isStoryMode = false;
-			PlayState.isBETADCIU = true;
+			PlayState.isBETADCIU = false;
 			PlayState.isNeonight = false;
 			PlayState.isVitor = false;
-			PlayState.isBonus = false;
+			PlayState.isBonus = true;
 			PlayState.storyDifficulty = curDifficulty;
 			
 			PlayState.storyWeek = songs[curSelected].week;

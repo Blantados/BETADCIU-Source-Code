@@ -1,5 +1,6 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " donwscroll: " .. downscroll)
+    setActorAlpha(0, 'dad1')
 end
 
 local defaultHudX = 0

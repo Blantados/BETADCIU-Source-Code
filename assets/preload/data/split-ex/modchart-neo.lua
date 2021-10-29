@@ -1,6 +1,5 @@
 function start (song)
 	print("This is the stage switch Modchart")
-
 end
 
 local defaultHudX = 0
@@ -184,10 +183,9 @@ function stepHit (step)
     if curStep == 1808 then
         changeStage('churchselever')
         setBFStaticNotes('normal')
-        changeGFCharacter('gf', 300, 70)
-        changeDadCharacter('selever', 0, 150)
-        changeBoyfriendCharacter('bf', 870, 550)
-        characterZoom('gf', 0.9)
+        changeGFCharacter('gf', 250, -50)
+        changeDadCharacter('selever', -50, 35)
+        changeBoyfriendCharacter('bf', 770, 450)
     end
 
     if curStep == 1936 then

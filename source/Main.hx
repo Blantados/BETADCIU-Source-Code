@@ -30,9 +30,10 @@ class Main extends Sprite
 	public static var isHidden:Bool = false; //Lol Hidden Menu Stuff
 	public static var seenMessage:Bool = false; //Lol Hidden Restore Shit
 	public static var restoreUnlocked:Bool = false; //Lol Hidden Restore Shit
-	public static var realDeath:Bool = false; //Lol Hidden Restore Shit
-	public static var cursedUnlocked:Bool = false; //Lol Hidden Restore Shit
-	public static var deathHolo:Bool = false; //Lol Hidden Restore Shit
+	public static var realDeath:Bool = false; //now unused
+	public static var cursedUnlocked:Bool = false; //Lol cursed cocoa Shit
+	public static var deathHolo:Bool = false; //Lol Hidden deathmatch Shit
+	public static var hiddenSongs:Array<String> = ['hunger', 'diva', 'scary swings', 'sorrow', 'shinkyoku', 'norway', 'my-sweets']; //Lol Hidden  stuff
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 

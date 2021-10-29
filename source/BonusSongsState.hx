@@ -95,12 +95,12 @@ class BonusSongsState extends MusicBeatState
 		addWeek(['Monika', 'Roses-Remix-Senpai'], 1, ['monika', 'senpai-angry']);
 		addWeek(['Pico-G', 'Good-Enough', 'EEEAAAOOO'], 3, ['nene', 'bf-annie', 'lila']);
 		addWeek(['WhittyVsSarv', 'High-Sarv', 'Ruvbattle'], 4, ['sarvente', 'sarvente', 'ruv']);
-		addWeek(['Winter-Horrorland-Miku', 'Fading-Senpai', 'Memories'], 5, ['miku-mad-christmas', 'senpaighosty', 'sarvente-worried-night']);
+		addWeek(['Winter-Horrorland-Miku', 'Memories'], 5, ['miku-mad-christmas', 'sarvente-worried-night']);
 		addWeek(['Their-Battle', 'Glitcher', 'Sussus-Moogus'], 6, ['tabi', 'agoti-glitcher', 'impostor']);
 		addWeek(['Five-Nights' ,'FNFVSEDDSWORLD', 'Accidental-Bop'], 7, ['hex', 'tord2', 'tord2']);
 		addWeek(['Sharkventure', 'Context', 'Pom-Pomeranian'], 8, ['liz', 'sky-annoyed', 'cj-ruby']);
 		addWeek(['Milf-G', 'Demon-Training', 'No-Cigar'], 9, ['rosie', 'dad', 'garcello']);
-		addWeek(['Fruity-Encounter', 'Get Out', 'Battle'], 10, ['mia', 'peri', 'monika']);
+		addWeek(['Fruity-Encounter', 'Get Out'], 10, ['mia', 'peri']);
 		addWeek(['Gura-Nazel', 'Gun-Buddies', 'Possession'], 11, ['gura-amelia', 'botan', 'coco-car']);
 		addWeek(['Unholy-Worship', 'Argument', 'Pure-Gospel'], 12, ['dad', 'sarvente-lucifer', 'sh-carol']);
 		addWeek(['Sunshine', 'Jump-in', 'Aspirer'], 13, ['bob2', 'bob', 'blantad-blue']);
@@ -125,7 +125,7 @@ class BonusSongsState extends MusicBeatState
 		}	
 
 		addWeek(['Technokinesis', 'Copy-Cat', 'Milk'], 18, ['yukichi-mad', 'nene2', 'mom']);
-		addWeek(['Norsky'], 19, ['sky-pissed']);
+		addWeek(['Norsky', 'Spectral-Spat'], 19, ['sky-pissed', 'gar-spirit']);
 
 		if (TitleState.curWacky[1].contains('uncorruption') && Main.seenMessage)
 		{

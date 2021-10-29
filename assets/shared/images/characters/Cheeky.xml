@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Cheeky.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cheeky Idle Dance0000" x="0" y="0" width="300" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky Idle Dance0001" x="300" y="0" width="302" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky Idle Dance0002" x="602" y="0" width="304" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky Idle Dance0003" x="906" y="0" width="309" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky Idle Dance0004" x="1215" y="0" width="313" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky Idle Dance0005" x="1528" y="0" width="315" height="218"/>
+	<SubTexture name="Cheeky Idle Dance0006" x="0" y="218" width="315" height="218"/>
+	<SubTexture name="Cheeky Idle Dance0007" x="315" y="218" width="315" height="218"/>
+	<SubTexture name="Cheeky Idle Dance0008" x="315" y="218" width="315" height="218"/>
+	<SubTexture name="Cheeky Idle Dance0009" x="315" y="218" width="315" height="218"/>
+	<SubTexture name="Cheeky Idle Dance0010" x="0" y="218" width="315" height="218"/>
+	<SubTexture name="Cheeky Idle Dance0011" x="630" y="218" width="313" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky Idle Dance0012" x="943" y="218" width="308" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky Idle Dance0013" x="1251" y="218" width="307" height="218" frameX="0" frameY="0" frameWidth="315" frameHeight="218"/>
+	<SubTexture name="Cheeky NOTE DOWN0000" x="1558" y="218" width="282" height="221" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0001" x="0" y="439" width="281" height="223" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0002" x="281" y="439" width="279" height="225" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0003" x="560" y="439" width="279" height="227" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0004" x="839" y="439" width="279" height="227" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0005" x="1118" y="439" width="279" height="228" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0006" x="1397" y="439" width="279" height="228" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0007" x="1397" y="439" width="279" height="228" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0008" x="1397" y="439" width="279" height="228" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0009" x="1397" y="439" width="279" height="228" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0010" x="1676" y="439" width="279" height="228" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0011" x="0" y="667" width="279" height="226" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE DOWN0012" x="279" y="667" width="282" height="218" frameX="0" frameY="0" frameWidth="282" frameHeight="228"/>
+	<SubTexture name="Cheeky NOTE LEFT0000" x="561" y="667" width="262" height="218" frameX="-3" frameY="-1" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0001" x="823" y="667" width="251" height="218" frameX="-3" frameY="-1" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0002" x="1074" y="667" width="246" height="218" frameX="-2" frameY="-1" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0003" x="1320" y="667" width="245" height="219" frameX="-1" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0004" x="1565" y="667" width="243" height="219" frameX="0" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0005" x="0" y="893" width="243" height="219" frameX="0" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0006" x="243" y="893" width="242" height="219" frameX="0" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0007" x="243" y="893" width="242" height="219" frameX="0" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0008" x="243" y="893" width="242" height="219" frameX="0" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0009" x="485" y="893" width="241" height="219" frameX="0" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0010" x="726" y="893" width="241" height="219" frameX="0" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0011" x="967" y="893" width="239" height="219" frameX="-2" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE LEFT0012" x="1206" y="893" width="248" height="219" frameX="-5" frameY="0" frameWidth="265" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0000" x="1454" y="893" width="291" height="218" frameX="0" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0001" x="1745" y="893" width="294" height="218" frameX="-3" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0002" x="0" y="1112" width="298" height="218" frameX="-6" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0003" x="298" y="1112" width="303" height="218" frameX="-7" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0004" x="601" y="1112" width="305" height="218" frameX="-8" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0005" x="906" y="1112" width="306" height="219" frameX="-9" frameY="0" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0006" x="906" y="1112" width="306" height="219" frameX="-9" frameY="0" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0007" x="906" y="1112" width="306" height="219" frameX="-10" frameY="0" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0008" x="906" y="1112" width="306" height="219" frameX="-10" frameY="0" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0009" x="906" y="1112" width="306" height="219" frameX="-10" frameY="0" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0010" x="906" y="1112" width="306" height="219" frameX="-10" frameY="0" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0011" x="1212" y="1112" width="308" height="219" frameX="-9" frameY="0" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0012" x="1520" y="1112" width="308" height="218" frameX="-8" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0013" x="0" y="1331" width="308" height="218" frameX="-3" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE RIGHT0014" x="308" y="1331" width="296" height="218" frameX="0" frameY="-1" frameWidth="317" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0000" x="604" y="1331" width="260" height="218" frameX="0" frameY="-1" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0001" x="864" y="1331" width="255" height="218" frameX="0" frameY="-1" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0002" x="1119" y="1331" width="251" height="219" frameX="0" frameY="0" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0003" x="1370" y="1331" width="250" height="219" frameX="0" frameY="0" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0004" x="1620" y="1331" width="249" height="219" frameX="0" frameY="0" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0005" x="1620" y="1331" width="249" height="219" frameX="0" frameY="0" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0006" x="0" y="1550" width="249" height="219" frameX="0" frameY="0" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0007" x="0" y="1550" width="249" height="219" frameX="0" frameY="0" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0008" x="249" y="1550" width="251" height="219" frameX="0" frameY="0" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0009" x="500" y="1550" width="254" height="218" frameX="0" frameY="-1" frameWidth="260" frameHeight="219"/>
+	<SubTexture name="Cheeky NOTE UP0010" x="500" y="1550" width="254" height="218" frameX="0" frameY="-1" frameWidth="260" frameHeight="219"/>
+</TextureAtlas>

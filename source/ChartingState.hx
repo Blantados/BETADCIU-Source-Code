@@ -1333,7 +1333,7 @@ class ChartingState extends MusicBeatState
 	function loadJson(song:String):Void
 	{
 		PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());
-		if (hiddenSongs.contains(song.toLowerCase()) && !Main.isHidden || song.toLowerCase() == 'restore' && !Main.restoreUnlocked || song.toLowerCase() == 'deathmatch' && !Main.realDeath || song.toLowerCase() == 'deathmatch-holo' && !Main.deathHolo)
+		if (Main.hiddenSongs.contains(song.toLowerCase()) && !Main.isHidden || song.toLowerCase() == 'restore' && !Main.restoreUnlocked || song.toLowerCase() == 'deathmatch-holo' && !Main.deathHolo)
 		{
 			LoadingState.loadAndSwitchState(new GoFindTheSecretState());
 		}

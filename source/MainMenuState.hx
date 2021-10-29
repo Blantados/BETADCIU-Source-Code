@@ -27,16 +27,16 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor0502', 'donate', 'options'];
+	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor', 'donate', 'options'];
 	#else
-	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor0502'];
+	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor'];
 	#end
 
 	var newGaming:FlxText;
 	var newGaming2:FlxText;
 	var newInput:Bool = true;
 	var menuItem:FlxSprite;
-	public static var mainMusic = true;//
+	public static var mainMusic = true;
 
 	public static var kadeEngineVer:String = "Kade Engine";
 	public static var gameVer:String = "0.2.7.1";
@@ -50,13 +50,14 @@ class MainMenuState extends MusicBeatState
 	{
 		FlxG.mouse.visible = false;
 		secretMenu = 0;
+		activated = false;
 		
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end
 		
-		if (!FlxG.sound.music.playing || !mainMusic)//
+		if (!FlxG.sound.music.playing || !mainMusic)
 		{
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 		}
@@ -110,7 +111,7 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 1...2)
 		{
-			menuItem = new FlxSprite(710, 70);
+			menuItem = new FlxSprite(710, 60);
 			menuItem.frames = tex;
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
@@ -147,11 +148,11 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 3...4)
 		{
-			menuItem = new FlxSprite(710, 250);
+			menuItem = new FlxSprite(800, 240);
 			menuItem.frames = tex;
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
-			menuItem.setGraphicSize(Std.int(menuItem.width * 0.65));
+			menuItem.setGraphicSize(Std.int(menuItem.width * 0.85));
 			menuItem.updateHitbox();
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
@@ -209,10 +210,14 @@ class MainMenuState extends MusicBeatState
 
 		changeItem();
 
+		Main.isHidden = false;
+		
 		super.create();
 	}
 
 	var selectedSomethin:Bool = false;
+	var activated:Bool = false;
+	var itemX:Array<Float> = [];
 
 	override function update(elapsed:Float)
 	{
@@ -228,29 +233,15 @@ class MainMenuState extends MusicBeatState
 			FlxG.switchState(new FreeplayState());
 		}
 		#end
+			
+		//yeah i removed something here too
 
-		//secret menu
-		if (FlxG.keys.justPressed.UP && secretMenu == 0)
-			secretMenu++;
-		if (FlxG.keys.justPressed.UP && secretMenu == 1)
-			secretMenu++;
-		if (FlxG.keys.justPressed.DOWN && secretMenu == 2)
-			secretMenu++;
-		if (FlxG.keys.justPressed.DOWN && secretMenu == 3)
-			secretMenu++;
-		if (FlxG.keys.justPressed.LEFT && secretMenu == 4)
-			secretMenu++;
-		if (FlxG.keys.justPressed.RIGHT && secretMenu == 5)
-			secretMenu++;
-		if (FlxG.keys.justPressed.B && secretMenu == 6)
-			secretMenu++;
-		if (FlxG.keys.justPressed.A && secretMenu == 7)
-			secretMenu++;
-		if (FlxG.keys.justPressed.ENTER && secretMenu == 8)
+		if (secretMenu == 9 && !activated)
 		{
 			FlxG.sound.music.stop();
 			FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX', 'shared'));
-			FlxG.switchState(new FreeplayState());
+			FlxG.switchState(new BETADCIUSecretState()); //yay
+			activated = true;
 		}
 			
 		if (!selectedSomethin)
@@ -258,7 +249,7 @@ class MainMenuState extends MusicBeatState
 			if (controls.UP_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
-				changeItem(-2);
+				changeItem(-2);	
 			}
 
 			if (controls.DOWN_P)
@@ -333,7 +324,7 @@ class MainMenuState extends MusicBeatState
 										FlxG.switchState(new NeonightState());
 										trace("Neonight Menu Selected");
 
-									case 'vitor0502':
+									case 'vitor':
 										FlxG.switchState(new VitorState());
 										trace("Vitor Menu Selected");
 
@@ -372,5 +363,24 @@ class MainMenuState extends MusicBeatState
 
 			spr.updateHitbox();
 		});
+
+		var selectedX:Array<Float> = [40, 630, 70, 750, 100, 750];
+		var selectedY:Array<Float> = [50, 50, 230, 230, 410, 410];
+		var staticX:Array<Float> = [100, 710, 100, 800, 150, 800];
+		var staticY:Array<Float> = [60, 60, 240, 240, 420, 420];
+
+		for (i in 0...menuItems.members.length)
+		{
+			if (menuItems.members[i].animation.curAnim.name == 'selected')
+			{
+				menuItems.members[i].x = selectedX[i];
+				menuItems.members[i].y = selectedY[i];
+			}
+			else if (menuItems.members[i].animation.curAnim.name != 'selected')
+			{
+				menuItems.members[i].x = staticX[i];
+				menuItems.members[i].y = staticY[i];
+			}
+		}
 	}
 }

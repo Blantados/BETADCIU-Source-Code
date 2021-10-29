@@ -249,7 +249,7 @@ function stepHit (step)
     if curStep == 1500 then
         changeGFCharacter('holo-cart-hover', 357, -9001)
         followBFXOffset = 0
-        changeBoyfriendCharacter('beardington', 970, -9400)    
+        changeBoyfriendCharacter('beardington', 970, -9400) 
     end
 
     if curStep == 1534 then      

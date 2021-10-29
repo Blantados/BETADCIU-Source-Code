@@ -142,7 +142,7 @@ function stepHit (step)
     end
 
     if curStep == 454 then
-        changeBoyfriendCharacter('nene', 910, 375)
+        changeBoyfriendCharacter('nene2', 910, 405)
     end
 
 end

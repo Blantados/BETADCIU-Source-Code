@@ -20,7 +20,7 @@ bf-exgf
 miku
 hex
 pico
-nene
+nene2
 whitty
 agoti
 kapi
