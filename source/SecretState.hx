@@ -50,7 +50,7 @@ class SecretState extends MusicBeatState
 
 		lolText = new FlxText(0, 0, FlxG.width - 100, 32);
 		lolText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
-		lolText.text = "Holy s$%t. It's been six updates since the last playable BETADCIU update. Well uh... now you finally get to play most of the BETADCIUs/covers I've made videos on since the last update. Also introduced two extra BETADCIUs from Snow The Fox & spres!
+		lolText.text = "Holy s$%t. It's been five updates since the last playable BETADCIU update. Well uh... now you finally get to play most of the BETADCIUs/covers I've made videos on since the last update. Also introduced two extra BETADCIUs from Snow The Fox & spres!
 		To Neonight: I'll add Portrait next update, I just wanted to get an update out now. 
 		Deathmatch Holo has also received a revamp so replay it or if you haven't unlocked it yet, go do that. Will try to push out updates faster next time!
 		Thanks for playing!";

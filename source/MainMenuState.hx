@@ -40,7 +40,7 @@ class MainMenuState extends MusicBeatState
 
 	public static var kadeEngineVer:String = "Kade Engine";
 	public static var gameVer:String = "0.2.7.1";
-	public static var betadciuVer:String = "Update 12";
+	public static var betadciuVer:String = "Update 11.5";
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;

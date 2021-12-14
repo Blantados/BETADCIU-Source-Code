@@ -89,6 +89,7 @@ function stepHit (step)
     if curStep == 192 then
         changeDadCharacterBetter(-150, 250, 'parents-christmas-soft')
         characterZoom('dad', 0.85)
+        followDadXOffset = 150
     end
 
     if curStep == 224 then

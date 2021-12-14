@@ -10477,7 +10477,9 @@ class PlayState extends MusicBeatState
 						gf_rock.alpha = 1;		
 				}
 			case 'safety-lullaby':
-				lolText.text = Std.string(trance);
+				#if debug
+					lolText.text = Std.string(trance); //tracking this is bs
+				#end
 				switch (curStep % 16) {
 					case 7 | 15:
 						canHitPendulum = true;

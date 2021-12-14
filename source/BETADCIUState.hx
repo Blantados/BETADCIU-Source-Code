@@ -89,7 +89,7 @@ class BETADCIUState extends MusicBeatState
 			addWeek(['Cosmic', 'Storm', 'Haachama'], 5, ['kou', 'annie-bw', 'haachama']);
 			if (FlxG.save.data.exUnlocked)
 				addSong('Haachama-EX', 5, 'haachama');
-			addWeek(['Scary Swings', 'Kaboom', 'Safety-Lullaby'], 6, ['spooky-pelo', 'demoman', 'hypno']);
+			addWeek(['Scary Swings', 'Kaboom', /*'Safety-Lullaby'*/], 6, ['spooky-pelo', 'demoman', /*'hypno'*/]);
 
 		// LOAD MUSIC
 
@@ -411,6 +411,7 @@ class BETADCIUState extends MusicBeatState
 	
 		var wrongPass:Bool = false;
 
+	// i like don't care anymore. I don't even know how funkipedia managed to find them all... just uh good job i guess.
 		if (passwordText.text != "" && FlxG.keys.justPressed.ENTER)
 		{	
 			switch (passwordText.text)
@@ -420,7 +421,7 @@ class BETADCIUState extends MusicBeatState
 				case 'double trouble': startSong('Shinkyoku');
 				case 'norway when': startSong('Norway');
 				case 'holofunk yeah': startSong('Sorrow');
-				case 'parfait girls': startSong('My Sweets');
+				case 'good night': startSong('Safety-Lullaby');
 				default: wrongPass = true;
 			}	
 		} 
