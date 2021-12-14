@@ -1,0 +1,2 @@
+If you have an old version of the mod, feel free to just replace the old exe file and manifest folder with the ones here. Though you will still need all the updated assets so install them 
+with GitZip or something. This is also the debug version since there currently isn't a release version.
