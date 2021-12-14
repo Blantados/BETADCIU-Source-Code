@@ -19,6 +19,7 @@ import flixel.FlxObject;
 import openfl.display.BlendMode;
 import openfl.display.StageQuality;
 import openfl.filters.ShaderFilter;
+import flixel.text.FlxText;
 
 using StringTools;
 
@@ -1334,6 +1335,18 @@ class PreloadStage extends MusicBeatState
 				tv.active = false;
 				swagBacks['tv'] = tv;
 				toAdd.push(tv);
+
+				if (PlayState.SONG.song.toLowerCase() == 'you-cant-run')
+				{
+					var tv2 = new FlxSprite(-370, 148).loadGraphic(Paths.image('tvSchool'));
+					tv2.setGraphicSize(Std.int(tv2.width * 1.8));
+					tv2.updateHitbox();
+					tv2.antialiasing = true;
+					tv2.scrollFactor.set(0.9, 0.9);
+					tv2.active = false;
+					swagBacks['tv2'] = tv2;
+					toAdd.push(tv2);
+				}		
 			}
 			
 			case 'space': 
@@ -1890,6 +1903,28 @@ class PreloadStage extends MusicBeatState
 				stageFront2.updateHitbox();
 				swagBacks['stageFront2'] = stageFront2;
 				layInFront[0].push(stageFront2);
+			}
+
+			case 'acrimony':
+			{
+				camZoom = 0.98;
+
+				var schoolBg:FlxSprite = new FlxSprite(-550, -900).loadGraphic(Paths.image('maginage/Schoolyard'));
+				schoolBg.antialiasing = true;
+				schoolBg.scrollFactor.set(0.85, 0.98);
+				schoolBg.setGraphicSize(Std.int(schoolBg.width * 0.65));
+				schoolBg.updateHitbox();
+				swagBacks['schoolBg'] = schoolBg;
+				toAdd.push(schoolBg);
+
+				var modCrowdBig = new FlxSprite(-290, 55);
+				modCrowdBig.frames = Paths.getSparrowAtlas('maginage/Crowd2');
+				modCrowdBig.animation.addByPrefix('bop', 'Crowd2_Idle', 24, false);
+				modCrowdBig.antialiasing = true;
+				modCrowdBig.scrollFactor.set(0.9, 0.95);
+				modCrowdBig.updateHitbox();
+				swagBacks['modCrowdBig'] = modCrowdBig;
+				toAdd.push(modCrowdBig);
 			}
 
 			case 'sunshine' | 'withered':
@@ -3519,168 +3554,6 @@ class PreloadStage extends MusicBeatState
 				foregroundGlitch.animation.addByPrefix('idle', 'n', 24, true);*/				
 			}
 
-			case "concert":
-			{
-				camZoom = 0.59;
-
-				var sky:FlxSprite = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/sky'));
-				sky.scrollFactor.set(1, 1);
-				sky.scale.set(0.85, 0.85);
-				sky.antialiasing = true;
-				sky.active = false;
-				toAdd.push(sky);
-
-				var back_buildings:FlxSprite = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/farbuildings'));
-				back_buildings.scrollFactor.set(1, 1);
-				back_buildings.scale.set(0.85, 0.85);
-				back_buildings.antialiasing = true;
-				back_buildings.active = false;
-				toAdd.push(back_buildings);
-
-				var buildings:FlxSprite = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/buildings'));
-				buildings.scrollFactor.set(1, 1);
-				buildings.scale.set(0.85, 0.85);
-				buildings.antialiasing = true;
-				buildings.active = false;
-				toAdd.push(buildings);
-
-				// I'll fix it later
-				var concertLights = new FlxTypedGroup<FlxSprite>();
-				swagGroup['concertLights'] = concertLights;
-				toAdd.push(concertLights);
-
-				for (i in 1...5)
-				{
-					var light:FlxSprite = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/win' + i));
-					light.visible = false;
-					light.scale.set(0.85, 0.85);
-					// light.setGraphicSize(Std.int(light.width * 0.85));
-					light.antialiasing = true;
-					concertLights.add(light);
-					swagBacks['light' + i] = light;
-				}
-
-				concertLights.members[1].visible = true;
-
-				crowd_back = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/backcrowd'));
-				crowd_back.scrollFactor.set(1, 1);
-				crowd_back.scale.set(0.85, 0.85);
-				crowd_back.antialiasing = true;
-				toAdd.push(crowd_back);
-
-				crowd_back2 = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/backcrowd_notricky'));
-				crowd_back2.scrollFactor.set(1, 1);
-				crowd_back2.scale.set(0.85,0.85);
-				crowd_back2.antialiasing = true;
-				crowd_back2.alpha = 0;
-				toAdd.push(crowd_back2);
-
-				crowd_back3 = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/backcrowd_nosticky'));
-				crowd_back3.scrollFactor.set(1, 1);
-				crowd_back3.scale.set(0.85,0.85);
-				crowd_back3.antialiasing = true;
-				crowd_back3.alpha = 0;
-				toAdd.push(crowd_back3);
-
-				var stage:FlxSprite = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/stage'));
-				stage.scrollFactor.set(1, 1);
-				stage.scale.set(0.85, 0.85);
-				stage.antialiasing = true;
-				stage.active = false;
-				toAdd.push(stage);
-
-				speaker_left = new FlxSprite(-450, 45);
-				speaker_left.frames = Paths.getSparrowAtlas('camelliastage2/speaker_left');
-				speaker_left.animation.addByPrefix('bop', 'speaker 20', 24, false);
-				speaker_left.scrollFactor.set(1, 1);
-				speaker_left.antialiasing = true;
-				speaker_left.scale.set(0.75, 0.75);
-				toAdd.push(speaker_left);
-
-				speaker_right = new FlxSprite(1225, 45);
-				speaker_right.frames = Paths.getSparrowAtlas('camelliastage2/speaker_right');
-				speaker_right.animation.addByPrefix('bop', 'speaker 10', 24, false);
-				speaker_right.scrollFactor.set(1, 1);
-				speaker_right.antialiasing = true;
-				speaker_right.scale.set(0.75, 0.75);
-				toAdd.push(speaker_right);
-
-				var speaker_left2 = new FlxSprite(-325, 55);
-				speaker_left2.frames = Paths.getSparrowAtlas('camelliastage2/speakerleft');
-				speaker_left2.animation.addByPrefix('bop', 'speaker', 24, false);
-				speaker_left2.scrollFactor.set(1, 1);
-				speaker_left2.antialiasing = true;
-				speaker_left2.scale.set(0.5, 0.5);
-				swagBacks['speaker_left'] = speaker_left2;
-				toAdd.push(speaker_left2);
-
-				var speaker_right2 = new FlxSprite(790, 55);
-				speaker_right2.frames = Paths.getSparrowAtlas('camelliastage2/speakerleft');
-				speaker_right2.animation.addByPrefix('bop', 'speaker', 24, false);
-				speaker_right2.scrollFactor.set(1, 1);
-				speaker_right2.antialiasing = true;
-				speaker_right2.scale.set(0.5, 0.5);
-				speaker_right2.flipX = true;
-				swagBacks['speaker_right'] = speaker_right2;
-				toAdd.push(speaker_right2);
-
-				var gardead = new FlxSprite().loadGraphic(Paths.image('garcello/gardead'));
-				gardead.setPosition(970, 680);
-				gardead.flipX = true;
-				swagBacks['gardead'] = gardead;
-				layInFront[1].push(gardead);
-
-				crowd_front = new FlxSprite(-1275, -225).loadGraphic(Paths.image('camelliastage2/frontcrowd'));
-				crowd_front.scrollFactor.set(1, 1);
-				crowd_front.scale.set(0.85, 0.85);
-				crowd_front.antialiasing = true;
-				layInFront[2].push(crowd_front);
-
-				crowd_front2 = new FlxSprite(-1275, -225).loadGraphic(Paths.image('camelliastage2/frontcrowd_nowhitty'));
-				crowd_front2.scrollFactor.set(1, 1);
-				crowd_front2.scale.set(0.85, 0.85);
-				crowd_front2.antialiasing = true;
-				layInFront[2].push(crowd_front2);
-
-				crowd_front3 = new FlxSprite(-1275, -225).loadGraphic(Paths.image('camelliastage2/frontcrowd_nocarol'));
-				crowd_front3.scrollFactor.set(1, 1);
-				crowd_front3.scale.set(0.85, 0.85);
-				crowd_front3.antialiasing = true;
-				layInFront[2].push(crowd_front3);
-
-				crowd_front4 = new FlxSprite(-1275, -225).loadGraphic(Paths.image('camelliastage2/frontcrowd_nomiku'));
-				crowd_front4.scrollFactor.set(1, 1);
-				crowd_front4.scale.set(0.85, 0.85);
-				crowd_front4.antialiasing = true;
-				layInFront[2].push(crowd_front4);
-
-				if (FlxG.random.bool(10))
-				{
-					jabibi_amogus = new FlxSprite(-1275, -625).loadGraphic(Paths.image('camelliastage2/jabibiamogus'));
-					jabibi_amogus.scrollFactor.set(1, 1);
-					jabibi_amogus.scale.set(0.85, 0.85);
-					jabibi_amogus.antialiasing = true;
-					layInFront[2].push(jabibi_amogus);
-					addedAmogus = true;
-					trace("sus");
-				}
-
-				var blackScreen = new FlxSprite().makeGraphic(Std.int(FlxG.width * 5), Std.int(FlxG.height * 5), (FlxColor.fromString('#' + '101010')));
-				blackScreen.screenCenter();
-				blackScreen.cameras = [PlayState.instance.camOther];
-				swagBacks['blackScreen'] = blackScreen;
-				layInFront[2].push(blackScreen);
-
-				var undertale = new FlxSprite();
-				undertale.frames = Paths.getSparrowAtlas('UndertaleEncounter');
-				undertale.animation.addByPrefix('idle', 'Soul Anim', 24, false);
-				undertale.antialiasing = true;
-				undertale.cameras = [PlayState.instance.camOther];
-				undertale.screenCenter();
-				swagBacks['undertale'] = undertale;
-				layInFront[2].push(undertale);
-			}
-
 			case 'market':
 			{
 				camZoom = 0.7;
@@ -3711,7 +3584,14 @@ class PreloadStage extends MusicBeatState
 			{
 				camZoom = 1.0;
 
-				var sSKY:FlxSprite = new FlxSprite(-222, -16 + 150).loadGraphic(Paths.image('exe/PolishedP1/SKY'));
+				var bgspec = new FlxSprite(-600, -600).makeGraphic(3840, 2160, (FlxColor.fromString('#' + 'D60000'))); // some parts are too low and can be seen with maijin
+				bgspec.antialiasing = true;
+				bgspec.scrollFactor.set(1, 1);
+				bgspec.active = false;
+				swagBacks['bgspec'] = bgspec;
+				toAdd.push(bgspec);
+
+				var sSKY:FlxSprite = new FlxSprite(-222, 134).loadGraphic(Paths.image('exe/PolishedP1/SKY'));
 				sSKY.antialiasing = true;
 				sSKY.scrollFactor.set(1, 1);
 				sSKY.active = false;
@@ -3911,6 +3791,22 @@ class PreloadStage extends MusicBeatState
 				swagBacks['bgspec'] = bgspec;
 				toAdd.push(bgspec);
 			}
+			case 'facility':
+			{
+				camZoom = 0.9;
+						
+				var fac_bg = new FlxSprite( -104.35, -108.25).loadGraphic(Paths.image("whitty/wallbg"),true,2781,1631);
+				fac_bg.animation.add("shitfart", [0], 0);
+				fac_bg.animation.add("shitfartflip", [1], 1);
+				fac_bg.animation.play("shitfart");
+				swagBacks['fac_bg'] = fac_bg;
+				toAdd.push(fac_bg);
+
+				var headlight = new FlxSprite( 891.2, 166.75).loadGraphic(Paths.image("whitty/light"));
+				headlight.blend = "add";
+				swagBacks['headlight'] = headlight;
+				toAdd.push(headlight);
+			}
 
 			//the end of my stuff
 			case 'stage' | 'holostage' | 'FNAFstage' | 'holostage-corrupt' | 'arcade' | 'ballin' | 'holostage-past' | 'stuco':
@@ -4022,6 +3918,8 @@ class PreloadStage extends MusicBeatState
 				bfXOffset = 200;
 				gfXOffset = 100;
 				dadXOffset = 100;
+			case 'pokecenter':
+				bfYOffset = -350;	
 			case 'philly-neo':
 				dadXOffset = 100;
 			case 'airplane1' | 'airplane2':
@@ -4261,7 +4159,7 @@ class PreloadStage extends MusicBeatState
 				swagBacks['orb'].alpha = FlxMath.lerp(0.96, swagBacks['orb'].alpha, 0.90);
 				swagBacks['ass2'].alpha = FlxMath.lerp(1, swagBacks['ass2'].alpha, 0.90);
 			case 'airplane':
-				updateGraph();	
+				updateGraph();
 		}
 	}
 
@@ -4296,52 +4194,6 @@ class PreloadStage extends MusicBeatState
 			{
 				for (bg in array)
 					bg.visible = !bg.visible;
-			}
-		}
-
-		switch (PlayState.SONG.song.toLowerCase())
-		{
-			case "ghost-vip":
-			{
-				if (curStage == 'concert')
-				{
-					switch (curStep)
-					{
-						case 1264:
-							crowd_front.alpha = 0;
-							crowd_front2.alpha = 0;
-							crowd_front3.alpha = 1;
-							crowd_front4.alpha = 0;
-						case 1328:
-							crowd_front.alpha = 0;
-							crowd_front2.alpha = 1;
-							crowd_front3.alpha = 0;
-							crowd_front4.alpha = 0;
-						case 1392 | 4528:
-							crowd_front.alpha = 1;
-							crowd_front2.alpha = 0;
-							crowd_front3.alpha = 0;
-							crowd_front4.alpha = 0;
-						case 4464:
-							crowd_front.alpha = 0;
-							crowd_front2.alpha = 0;
-							crowd_front3.alpha = 0;
-							crowd_front4.alpha = 1;
-
-						case 3248:
-							crowd_back.alpha = 0;
-							crowd_back2.alpha = 1;
-							crowd_back3.alpha = 0;
-						case 3824:
-							crowd_back.alpha = 0;
-							crowd_back2.alpha = 0;
-							crowd_back3.alpha = 1;
-						case 3312 | 3888:
-							crowd_back.alpha = 1;
-							crowd_back2.alpha = 0;
-							crowd_back3.alpha = 0;
-					}
-				}			
 			}
 		}
 	}
@@ -4524,140 +4376,8 @@ class PreloadStage extends MusicBeatState
 					if (!curStage.contains('yuri'))
 						swagBacks['yuri'].animation.play('idle', true);
 				}
-			case "concert":
-				if (FlxG.save.data.distractions)
-				{
-					if (curBeat % 4 == 0)
-					{
-						var concertLights = swagGroup['concertLights'];
-						concertLights.forEach(function(light:FlxSprite)
-						{
-							light.visible = false;
-						});
-
-						curLight = FlxG.random.int(0, concertLights.length - 1, [pastCurLight]);
-						pastCurLight = curLight;
-
-						concertLights.members[curLight].visible = true;
-					}
-
-					if (curBeat % 2 == 0)
-					{
-						speaker_left.animation.play("bop", true);
-						speaker_right.animation.play("bop", true);
-						swagBacks['speaker_left'].animation.play("bop", true);
-						swagBacks['speaker_right'].animation.play("bop", true);
-
-						// TODO: make the tweens better looking LMFAO
-
-						FlxTween.tween(crowd_front, {
-							"scale.x": 0.87,
-							"scale.y": 0.92
-						}, 0.05, {
-							onComplete: function(flxTween:FlxTween)
-							{
-								FlxTween.tween(crowd_front, {
-									"scale.x": 0.85,
-									"scale.y": 0.85
-								}, 0.125);
-							}
-						});
-
-						FlxTween.tween(crowd_front2, {
-							"scale.x": 0.87,
-							"scale.y": 0.92
-						}, 0.05, {
-							onComplete: function(flxTween:FlxTween)
-							{
-								FlxTween.tween(crowd_front2, {
-									"scale.x": 0.85,
-									"scale.y": 0.85
-								}, 0.125);
-							}
-						});
-
-						FlxTween.tween(crowd_front3, {
-							"scale.x": 0.87,
-							"scale.y": 0.92
-						}, 0.05, {
-							onComplete: function(flxTween:FlxTween)
-							{
-								FlxTween.tween(crowd_front3, {
-									"scale.x": 0.85,
-									"scale.y": 0.85
-								}, 0.125);
-							}
-						});
-
-						FlxTween.tween(crowd_front4, {
-							"scale.x": 0.87,
-							"scale.y": 0.92
-						}, 0.05, {
-							onComplete: function(flxTween:FlxTween)
-							{
-								FlxTween.tween(crowd_front4, {
-									"scale.x": 0.85,
-									"scale.y": 0.85
-								}, 0.125);
-							}
-						});
-
-						FlxTween.tween(crowd_back, {
-							"scale.x": 0.87,
-							"scale.y": 0.92
-						}, 0.05, {
-							onComplete: function(flxTween:FlxTween)
-							{
-								FlxTween.tween(crowd_back, {
-									"scale.x": 0.85,
-									"scale.y": 0.85
-								}, 0.125);
-							}
-						});
-
-						FlxTween.tween(crowd_back2, {
-							"scale.x": 0.87,
-							"scale.y": 0.92
-						}, 0.05, {
-							onComplete: function(flxTween:FlxTween)
-							{
-								FlxTween.tween(crowd_back2, {
-									"scale.x": 0.85,
-									"scale.y": 0.85
-								}, 0.125);
-							}
-						});
-
-						FlxTween.tween(crowd_back3, {
-							"scale.x": 0.87,
-							"scale.y": 0.92
-						}, 0.05, {
-							onComplete: function(flxTween:FlxTween)
-							{
-								FlxTween.tween(crowd_back3, {
-									"scale.x": 0.85,
-									"scale.y": 0.85
-								}, 0.125);
-							}
-						});
-
-						if (addedAmogus)
-						{
-							FlxTween.tween(jabibi_amogus, {
-								"scale.x": 0.87,
-								"scale.y": 0.92
-							}, 0.05, {
-								onComplete: function(flxTween:FlxTween)
-								{
-									FlxTween.tween(jabibi_amogus, {
-										"scale.x": 0.85,
-										"scale.y": 0.85
-									}, 0.125);
-								}
-							});
-						}
-					}
-				}
+			case 'acrimony':
+				swagBacks['modCrowdBig'].animation.play('bop', true);
 		}
 	}
 
