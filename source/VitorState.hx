@@ -51,7 +51,7 @@ class VitorState extends MusicBeatState
 
 		 #if desktop
 		 // Updating Discord Rich Presence
-		 DiscordClient.changePresence("In BETADCIU Secret Menu", null);
+		 DiscordClient.changePresence("In Vitor BETADCIU Menu", null);
 		 #end
 
 		var isDebug:Bool = false;

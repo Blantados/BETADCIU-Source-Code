@@ -1,0 +1,11 @@
+deathLoop 0 0
+singDOWN -1 77
+singRIGHTmiss 0 5
+singUP 4 74
+singLEFTmiss 93 22
+firstDeath -1 -27
+idle 0 0
+singRIGHT 0 -22
+singDOWNmiss 0 78
+singUPmiss 6 106
+singLEFT 94 26

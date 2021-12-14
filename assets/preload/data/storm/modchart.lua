@@ -1,5 +1,6 @@
 function start (song)
 	print("Song then " .. song .. " @ " .. bpm .. " downscroll then " .. downscroll) 
+    newIcons = true
 end
 
 local defaultHudX = 0
@@ -26,6 +27,10 @@ function beatHit (beat)
 end
 
 function stepHit (step)
+
+    if curStep == 1 then
+
+    end
 
     if curStep == 128 then
 		changeDadCharacterBetter(0, 100, 'whitty-bw')

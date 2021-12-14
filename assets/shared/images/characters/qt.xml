@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="qt.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Final_Down0000" x="2" y="2" width="574" height="546" frameX="-2" frameY="-35" frameWidth="577" frameHeight="589"/>
+	<SubTexture name="Final_Down0001" x="578" y="2" width="575" height="562" frameX="-1" frameY="-24" frameWidth="577" frameHeight="589"/>
+	<SubTexture name="Final_Down0002" x="1155" y="2" width="575" height="562" frameX="-1" frameY="-24" frameWidth="577" frameHeight="589"/>
+	<SubTexture name="Final_Down0003" x="1732" y="2" width="577" height="580" frameX="0" frameY="-9" frameWidth="577" frameHeight="589"/>
+	<SubTexture name="Final_Down0004" x="2311" y="2" width="577" height="586" frameX="0" frameY="0" frameWidth="577" frameHeight="589"/>
+	<SubTexture name="Final_Idle0000" x="2890" y="2" width="387" height="446" frameX="-37" frameY="-15" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0001" x="3279" y="2" width="406" height="443" frameX="-20" frameY="-18" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0002" x="2" y="590" width="421" height="451" frameX="-9" frameY="-11" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0003" x="425" y="590" width="430" height="455" frameX="0" frameY="-7" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0004" x="857" y="590" width="424" height="455" frameX="-2" frameY="-5" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0005" x="1283" y="590" width="414" height="454" frameX="-10" frameY="-6" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0006" x="1699" y="590" width="398" height="457" frameX="-21" frameY="-3" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0007" x="2099" y="590" width="396" height="460" frameX="-28" frameY="0" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0008" x="2497" y="590" width="393" height="460" frameX="-31" frameY="0" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0009" x="2892" y="590" width="388" height="460" frameX="-36" frameY="0" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0010" x="3282" y="590" width="389" height="460" frameX="-35" frameY="0" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Idle0011" x="3282" y="590" width="389" height="460" frameX="-35" frameY="0" frameWidth="430" frameHeight="462"/>
+	<SubTexture name="Final_Left0000" x="3673" y="590" width="283" height="482" frameX="0" frameY="0" frameWidth="291" frameHeight="482"/>
+	<SubTexture name="Final_Left0001" x="2" y="1074" width="279" height="481" frameX="-4" frameY="-1" frameWidth="291" frameHeight="482"/>
+	<SubTexture name="Final_Left0002" x="283" y="1074" width="276" height="479" frameX="-7" frameY="-3" frameWidth="291" frameHeight="482"/>
+	<SubTexture name="Final_Left0003" x="561" y="1074" width="279" height="479" frameX="-5" frameY="-3" frameWidth="291" frameHeight="482"/>
+	<SubTexture name="Final_Left0004" x="842" y="1074" width="280" height="477" frameX="-11" frameY="-5" frameWidth="291" frameHeight="482"/>
+	<SubTexture name="Final_Right0000" x="1124" y="1074" width="609" height="513" frameX="-3" frameY="-3" frameWidth="612" frameHeight="519"/>
+	<SubTexture name="Final_Right0001" x="1735" y="1074" width="612" height="513" frameX="0" frameY="-3" frameWidth="612" frameHeight="519"/>
+	<SubTexture name="Final_Right0002" x="2349" y="1074" width="593" height="513" frameX="-11" frameY="-2" frameWidth="612" frameHeight="519"/>
+	<SubTexture name="Final_Right0003" x="2944" y="1074" width="579" height="519" frameX="-12" frameY="0" frameWidth="612" frameHeight="519"/>
+	<SubTexture name="Final_Right0004" x="2" y="1595" width="579" height="519" frameX="-12" frameY="0" frameWidth="612" frameHeight="519"/>
+	<SubTexture name="Final_Up0000" x="583" y="1595" width="516" height="518"/>
+	<SubTexture name="Final_Up0001" x="1101" y="1595" width="507" height="518" frameX="-9" frameY="0" frameWidth="516" frameHeight="518"/>
+	<SubTexture name="Final_Up0002" x="1610" y="1595" width="500" height="518" frameX="-16" frameY="0" frameWidth="516" frameHeight="518"/>
+	<SubTexture name="Final_Up0003" x="2112" y="1595" width="500" height="497" frameX="-16" frameY="-18" frameWidth="516" frameHeight="518"/>
+	<SubTexture name="Final_Up0004" x="2614" y="1595" width="500" height="487" frameX="-16" frameY="-28" frameWidth="516" frameHeight="518"/>
+</TextureAtlas>

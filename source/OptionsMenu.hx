@@ -50,7 +50,7 @@ class OptionsMenu extends MusicBeatState
 
 		new OptionCategory("BETADCIU", [
 			#if desktop
-			new NoStageChange("Stage Switching for Neonight's BETADCIUs")
+			new NoStageChange("Stage Switching for BETADCIUs with Stage Switching Compatibility")
 			#end
 		]),
 		

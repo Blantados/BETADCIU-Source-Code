@@ -1,0 +1,29 @@
+{
+	"name": "Killer Scream",
+	"artist": "GGalactigal",
+	"week": 0,
+	"freeplayDialogue": true,
+	"difficulties": [
+		{
+			"hidden": true,
+			"name": "easy",
+			"chart": "killer-scream",
+			"displayName": "Easy"
+		},
+		{
+			"name": "normal",
+			"chart": "killer-scream",
+			"displayName": "DEATH"
+		},
+		{
+			"hidden": true,
+			"name": "hard",
+			"chart": "killer-scream-hard",
+			"displayName": "Hard"
+		}
+	],
+	"initDifficulty": "normal",
+	"icon": "russia",
+	"background": "rushia",
+	"colors": [ "0xFF17FFB2" ]
+}

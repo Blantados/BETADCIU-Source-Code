@@ -1,5 +1,6 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " donwscroll: " .. downscroll)
+    newIcons = true
 end
 
 local defaultHudX = 0
@@ -29,7 +30,8 @@ function stepHit (step)
 
     --for testing purposes
     if curStep == 1 then
-        
+        --changeDadCharacter('taeyai-b3', 150, 820)
+        --changeBoyfriendCharacter('miku', 900, 350)
     end
 
     if curStep == 192 then
@@ -93,7 +95,7 @@ function stepHit (step)
         changeBoyfriendCharacter('selever', 900, 350)
     end
 
-    if curStep == 848 then -- hd-monika
+    if curStep == 848 then
         changeDadCharacter('hd-monika', 55, 450)
     end
 
@@ -121,9 +123,9 @@ function stepHit (step)
         changeDadCharacter('hd-senpai-angry-b3', 55, 400)
     end
 
-    if curStep == 1220 then -- aloe
+    if curStep == 1220 then--
         changeDadCharacter('hd-senpai-giddy-b3', 55, 400)
-        changeBoyfriendCharacter('bf-aloe', 920, 750)
+        changeBoyfriendCharacter('bf-aloe-b3', 920, 750)
     end
 
     if curStep == 1276 then
@@ -134,8 +136,8 @@ function stepHit (step)
         changeBoyfriendCharacter('tankman', 900, 600)
     end
 
-    if curStep == 1408 then -- beebz
-        changeDadCharacter('beebz', 25, 640)
+    if curStep == 1408 then
+        changeDadCharacter('beebz-b3', 25, 640)
     end
 
     if curStep == 1424 then -- b3 gf? if no such thing then normal gf
@@ -146,8 +148,8 @@ function stepHit (step)
         changeDadCharacter('dad-b3', 55, 275)
     end
 
-    if curStep == 1536 then -- b3 bf dad
-      
+    if curStep == 1536 then
+        changeBoyfriendCharacter('bf-dad-b3', 900, 400)
     end
 
     if curStep == 1600 then
@@ -187,7 +189,7 @@ function stepHit (step)
         changeDadCharacter('bf-lexi-b3', 135, 640)
     end
 
-    if curStep == 1840 then -- lexi
+    if curStep == 1840 then
         changeBoyfriendCharacter('lexi-b3', 900, 550)
     end
 

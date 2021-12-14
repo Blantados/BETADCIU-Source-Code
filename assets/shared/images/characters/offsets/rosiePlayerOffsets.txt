@@ -1,0 +1,6 @@
+idle 0 0
+ara -113 0
+singDOWN 1 -126
+singRIGHT 57 7
+singLEFT 15 -147
+singUP -63 97

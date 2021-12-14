@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="UndertaleEncounter.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Soul Anim0000" x="0" y="0" width="962" height="720" pivotX="-159" pivotY="0"/>
+	<SubTexture name="Soul Anim0001" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0002" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0003" x="0" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0004" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0005" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0006" x="0" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0007" x="0" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0008" x="1944" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0009" x="2916" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0010" x="0" y="730" width="962" height="720"/>
+	<SubTexture name="Soul Anim0011" x="972" y="730" width="962" height="720"/>
+	<SubTexture name="Soul Anim0012" x="1944" y="730" width="962" height="720"/>
+	<SubTexture name="Soul Anim0013" x="2916" y="730" width="962" height="720"/>
+	<SubTexture name="Soul Anim0014" x="0" y="1460" width="962" height="720"/>
+	<SubTexture name="Soul Anim0015" x="972" y="1460" width="962" height="720"/>
+	<SubTexture name="Soul Anim0016" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0017" x="1944" y="1460" width="962" height="720"/>
+	<SubTexture name="Soul Anim0018" x="2916" y="1460" width="962" height="720"/>
+	<SubTexture name="Soul Anim0019" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0020" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0021" x="0" y="2190" width="962" height="720"/>
+	<SubTexture name="Soul Anim0022" x="972" y="0" width="962" height="720"/>
+	<SubTexture name="Soul Anim0023" x="972" y="0" width="962" height="720"/>
+</TextureAtlas>

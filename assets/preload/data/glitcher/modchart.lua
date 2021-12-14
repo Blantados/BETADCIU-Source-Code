@@ -1,7 +1,6 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " donwscroll: " .. downscroll)
-    setActorAlpha(0, 'wireBG')
-
+    setActorAlpha(0, 'wireBG', true)
 end
 
 local defaultHudX = 0
@@ -27,28 +26,28 @@ function beatHit (beat)
 
     if curBeat == 144 then
         setActorAlpha(0, 'gf')
-        setActorAlpha(1, 'wireBG')
+        setActorAlpha(1, 'wireBG', true)
         changeDadCharacter('agoti-wire', 0, 200)
         changeBoyfriendCharacter('tabi-wire', 920, 100)
     end
 
     if curBeat == 204 then
         setActorAlpha(1, 'gf')
-        setActorAlpha(0, 'wireBG')
+        setActorAlpha(0, 'wireBG', true)
         changeDadCharacter('agoti-glitcher', 0, 200)
         changeBoyfriendCharacter('tabi-glitcher', 920, 100)
     end
 
     if curBeat == 272 then
         setActorAlpha(0, 'gf')
-        setActorAlpha(1, 'wireBG')
+        setActorAlpha(1, 'wireBG', true)
         changeDadCharacter('agoti-wire', 0, 200)
         changeBoyfriendCharacter('tabi-wire', 920, 100)
     end
 
     if curBeat == 332 then
         setActorAlpha(1, 'gf')
-        setActorAlpha(0, 'wireBG')
+        setActorAlpha(0, 'wireBG', true)
         changeDadCharacter('agoti-glitcher', 0, 200)
         changeBoyfriendCharacter('tabi-glitcher', 920, 100)
     end

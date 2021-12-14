@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="omega_BOSS_assets.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="OMEGA FUCKING DOWN 0000" x="0" y="0" width="933" height="760" frameX="-12" frameY="-7" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA FUCKING DOWN 0001" x="0" y="0" width="933" height="760" frameX="-12" frameY="-7" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA FUCKING DOWN 0002" x="933" y="0" width="931" height="767" frameX="0" frameY="0" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA FUCKING DOWN 0003" x="933" y="0" width="931" height="767" frameX="0" frameY="0" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA FUCKING DOWN 0004" x="1864" y="0" width="888" height="740" frameX="-143" frameY="-37" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA FUCKING DOWN 0005" x="1864" y="0" width="888" height="740" frameX="-143" frameY="-37" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA FUCKING DOWN 0006" x="2752" y="0" width="878" height="754" frameX="-150" frameY="-26" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA FUCKING DOWN 0007" x="2752" y="0" width="878" height="754" frameX="-150" frameY="-26" frameWidth="1031" frameHeight="780"/>
+	<SubTexture name="OMEGA LEFT0000" x="0" y="767" width="741" height="818" frameX="-35" frameY="0" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0001" x="0" y="767" width="741" height="818" frameX="-35" frameY="0" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0002" x="741" y="767" width="740" height="817" frameX="-18" frameY="-1" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0003" x="741" y="767" width="740" height="817" frameX="-18" frameY="-1" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0004" x="1481" y="767" width="777" height="818" frameX="-18" frameY="0" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0005" x="2258" y="767" width="997" height="818" frameX="-5" frameY="0" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0006" x="2258" y="767" width="997" height="818" frameX="-5" frameY="0" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0007" x="0" y="1585" width="1015" height="815" frameX="0" frameY="-3" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA LEFT0008" x="0" y="1585" width="1015" height="815" frameX="0" frameY="-3" frameWidth="1015" frameHeight="818"/>
+	<SubTexture name="OMEGA RIGHT0000" x="1015" y="1585" width="584" height="820" frameX="-23" frameY="0" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0001" x="1015" y="1585" width="584" height="820" frameX="-23" frameY="0" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0002" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0003" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0004" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0005" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0006" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0007" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0008" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="OMEGA RIGHT0009" x="1599" y="1585" width="607" height="815" frameX="0" frameY="-5" frameWidth="607" frameHeight="820"/>
+	<SubTexture name="omega boss UP0000" x="2206" y="1585" width="727" height="992" frameX="0" frameY="0" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0001" x="2206" y="1585" width="727" height="992" frameX="0" frameY="0" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0002" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0003" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0004" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0005" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0006" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0007" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0008" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss UP0009" x="2933" y="1585" width="728" height="990" frameX="-27" frameY="-2" frameWidth="755" frameHeight="992"/>
+	<SubTexture name="omega boss idle0000" x="0" y="2577" width="762" height="744" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0001" x="0" y="2577" width="762" height="744" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0002" x="762" y="2577" width="759" height="744" frameX="-2" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0003" x="762" y="2577" width="759" height="744" frameX="-2" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0004" x="1521" y="2577" width="751" height="745" frameX="-2" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0005" x="1521" y="2577" width="751" height="745" frameX="-2" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0006" x="2272" y="2577" width="730" height="746" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0007" x="2272" y="2577" width="730" height="746" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0008" x="3002" y="2577" width="730" height="746" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0009" x="3002" y="2577" width="730" height="746" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0010" x="3002" y="2577" width="730" height="746" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+	<SubTexture name="omega boss idle0011" x="3002" y="2577" width="730" height="746" frameX="0" frameY="0" frameWidth="762" frameHeight="746"/>
+</TextureAtlas>

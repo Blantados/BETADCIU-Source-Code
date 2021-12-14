@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				175
+			],
+			"playerOffsets": [
+				86,
+				207
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-207,
+				-32
+			],
+			"playerOffsets": [
+				-7,
+				-32
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-176,
+				495
+			],
+			"playerOffsets": [
+				-146,
+				495
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-88,
+				207
+			],
+			"playerOffsets": [
+				-108,
+				175
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-225,
+				161
+			],
+			"playerOffsets": [
+				-225,
+				161
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "ALDRYX_IDLE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aldryx-shaded/ALDRYX",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "aldryx",
+	"flip_x": false,
+	"healthbar_colors": [
+		186,
+		30,
+		36
+	],
+	"camera_position": [
+		400,
+		-200
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

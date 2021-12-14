@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="prdev_assets.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PRDevDown0000" x="0" y="0" width="605" height="613" frameX="0" frameY="-11" frameWidth="605" frameHeight="624"/>
+	<SubTexture name="PRDevDown0001" x="605" y="0" width="601" height="616" frameX="-1" frameY="-8" frameWidth="605" frameHeight="624"/>
+	<SubTexture name="PRDevDown0002" x="1206" y="0" width="597" height="620" frameX="-3" frameY="-4" frameWidth="605" frameHeight="624"/>
+	<SubTexture name="PRDevDown0003" x="1803" y="0" width="593" height="624" frameX="-4" frameY="0" frameWidth="605" frameHeight="624"/>
+	<SubTexture name="PRDevDown0004" x="2396" y="0" width="590" height="622" frameX="-4" frameY="-2" frameWidth="605" frameHeight="624"/>
+	<SubTexture name="PRDevDown0005" x="2986" y="0" width="588" height="620" frameX="-3" frameY="-4" frameWidth="605" frameHeight="624"/>
+	<SubTexture name="PRDevDown0006" x="0" y="624" width="588" height="618" frameX="-3" frameY="-6" frameWidth="605" frameHeight="624"/>
+	<SubTexture name="PRDevIdle0000" x="588" y="624" width="369" height="749" frameX="-25" frameY="-32" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0001" x="957" y="624" width="373" height="759" frameX="-20" frameY="-22" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0002" x="1330" y="624" width="374" height="768" frameX="-17" frameY="-13" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0003" x="1704" y="624" width="377" height="777" frameX="-13" frameY="-4" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0004" x="2081" y="624" width="378" height="779" frameX="-9" frameY="-2" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0005" x="2459" y="624" width="379" height="780" frameX="-5" frameY="-1" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0006" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0007" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0008" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0009" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0010" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0011" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0012" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0013" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0014" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevIdle0015" x="2838" y="624" width="383" height="782" frameX="0" frameY="0" frameWidth="394" frameHeight="782"/>
+	<SubTexture name="PRDevLeft0000" x="3221" y="624" width="480" height="698" frameX="0" frameY="-7" frameWidth="480" frameHeight="705"/>
+	<SubTexture name="PRDevLeft0001" x="0" y="1406" width="477" height="700" frameX="0" frameY="-5" frameWidth="480" frameHeight="705"/>
+	<SubTexture name="PRDevLeft0002" x="477" y="1406" width="475" height="702" frameX="0" frameY="-3" frameWidth="480" frameHeight="705"/>
+	<SubTexture name="PRDevLeft0003" x="952" y="1406" width="472" height="705" frameX="0" frameY="0" frameWidth="480" frameHeight="705"/>
+	<SubTexture name="PRDevLeft0004" x="1424" y="1406" width="470" height="703" frameX="0" frameY="-2" frameWidth="480" frameHeight="705"/>
+	<SubTexture name="PRDevLeft0005" x="1894" y="1406" width="467" height="702" frameX="0" frameY="-3" frameWidth="480" frameHeight="705"/>
+	<SubTexture name="PRDevLeft0006" x="2361" y="1406" width="465" height="701" frameX="0" frameY="-4" frameWidth="480" frameHeight="705"/>
+	<SubTexture name="PRDevRight0000" x="2826" y="1406" width="554" height="632" frameX="-10" frameY="-25" frameWidth="564" frameHeight="657"/>
+	<SubTexture name="PRDevRight0001" x="3380" y="1406" width="553" height="640" frameX="-8" frameY="-17" frameWidth="564" frameHeight="657"/>
+	<SubTexture name="PRDevRight0002" x="0" y="2111" width="552" height="648" frameX="-6" frameY="-9" frameWidth="564" frameHeight="657"/>
+	<SubTexture name="PRDevRight0003" x="552" y="2111" width="551" height="656" frameX="-5" frameY="-1" frameWidth="564" frameHeight="657"/>
+	<SubTexture name="PRDevRight0004" x="1103" y="2111" width="550" height="656" frameX="-3" frameY="-1" frameWidth="564" frameHeight="657"/>
+	<SubTexture name="PRDevRight0005" x="1653" y="2111" width="548" height="657" frameX="-2" frameY="0" frameWidth="564" frameHeight="657"/>
+	<SubTexture name="PRDevRight0006" x="2201" y="2111" width="548" height="657" frameX="0" frameY="0" frameWidth="564" frameHeight="657"/>
+	<SubTexture name="PRDevUp0000" x="2749" y="2111" width="370" height="811" frameX="-6" frameY="0" frameWidth="376" frameHeight="811"/>
+	<SubTexture name="PRDevUp0001" x="3119" y="2111" width="363" height="808" frameX="-11" frameY="-3" frameWidth="376" frameHeight="811"/>
+	<SubTexture name="PRDevUp0002" x="3482" y="2111" width="359" height="803" frameX="-12" frameY="-7" frameWidth="376" frameHeight="811"/>
+	<SubTexture name="PRDevUp0003" x="0" y="2922" width="361" height="800" frameX="-8" frameY="-10" frameWidth="376" frameHeight="811"/>
+	<SubTexture name="PRDevUp0004" x="361" y="2922" width="362" height="793" frameX="-4" frameY="-18" frameWidth="376" frameHeight="811"/>
+	<SubTexture name="PRDevUp0005" x="723" y="2922" width="364" height="784" frameX="0" frameY="-27" frameWidth="376" frameHeight="811"/>
+</TextureAtlas>

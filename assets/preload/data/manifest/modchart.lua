@@ -133,6 +133,7 @@ function beatHit (beat)
 
     if curBeat == 376 then
         changeDadCharacter('tabi-crazy', 120, -25);
+        fixTrail('tabiTrail')
     end
 
     if curBeat == 392 then
@@ -140,6 +141,7 @@ function beatHit (beat)
     end
 
     if curBeat == 408 then
+        removeObject('tabiTrail')
         changeDadCharacter('tord', 170, 100)    
     end
 

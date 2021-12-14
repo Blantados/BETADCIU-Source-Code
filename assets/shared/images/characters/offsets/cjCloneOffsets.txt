@@ -1,0 +1,6 @@
+idle 0 0
+singDOWN -20 -20
+singRIGHT -20 37
+Hank 0 0
+singUP -46 28
+singLEFT -2 3

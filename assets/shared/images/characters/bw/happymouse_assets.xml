@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="happymouse_assets.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sadmouse Down0000" x="0" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Down0001" x="669" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Down0002" x="1338" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Down0003" x="2007" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Down0004" x="2676" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Down0005" x="3345" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0000" x="4014" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0001" x="4683" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0002" x="5352" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0003" x="6021" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0004" x="6690" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0005" x="7359" y="0" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0006" x="0" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0007" x="669" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0008" x="1338" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0009" x="2007" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0010" x="2676" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0011" x="3345" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0012" x="4014" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Idle0013" x="4683" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Left0000" x="5352" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Left0001" x="6021" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Left0002" x="6690" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Left0003" x="7359" y="721" width="669" height="721"/>
+	<SubTexture name="Sadmouse Left0004" x="0" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Left0005" x="669" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Right0000" x="1338" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Right0001" x="2007" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Right0002" x="2676" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Right0003" x="3345" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Right0004" x="4014" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Right0005" x="4683" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Up0000" x="5352" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Up0001" x="6021" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Up0002" x="6690" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Up0003" x="7359" y="1442" width="669" height="721"/>
+	<SubTexture name="Sadmouse Up0004" x="0" y="2163" width="669" height="721"/>
+	<SubTexture name="Sadmouse Up0005" x="669" y="2163" width="669" height="721"/>
+</TextureAtlas>

@@ -1,7 +1,8 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " downscroll: " .. downscroll)
     followDadYOffset = 50
-    followBFYOffset = 50
+    followBFYOffset = 70
+    followBFXOffset = -30
 end
 
 local defaultHudX = 0
@@ -37,6 +38,8 @@ function stepHit (step)
 
     if curStep == 240 then
         followDadXOffset = 0
+        followBFXOffset = 100
+        followBFYOffset = 100
         changeDadCharacter('senpaighosty', 240, 130)
         changeBoyfriendCharacter('monika-real', 860, 130)
         characterZoom('dad', 0.9)
@@ -48,6 +51,8 @@ function stepHit (step)
     end
 
     if curStep == 368 then
+        followBFXOffset = 0
+        followBFYOffset = 50
         changeBoyfriendCharacter('sunky', 720, 210)
     end
 
@@ -71,6 +76,7 @@ function stepHit (step)
         followDadXOffset = -50
         followDadYOffset = 100
         followBFXOffset = 50
+        followBFYOffset = 0
         changeDadCharacter('freddy', 320, 130)
         characterZoom('dad', 0.9)
         changeBoyfriendCharacter('geese-minus', 900, 180)
@@ -85,6 +91,7 @@ function stepHit (step)
 
     if curStep == 752 then
         followBFXOffset = 0
+        followBFYOffset = 50
         changeBoyfriendCharacter('steve', 980, 250)
         characterZoom('boyfriend', 0.9)
     end

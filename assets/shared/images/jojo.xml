@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jojo.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="JoJo0000" x="0" y="0" width="1280" height="720" pivotX="0" pivotY="0"/>
+	<SubTexture name="JoJo0001" x="1290" y="0" width="1280" height="720"/>
+	<SubTexture name="JoJo0002" x="2580" y="0" width="1280" height="720"/>
+	<SubTexture name="JoJo0003" x="0" y="730" width="1280" height="720"/>
+	<SubTexture name="JoJo0004" x="1290" y="730" width="1280" height="720"/>
+	<SubTexture name="JoJo0005" x="2580" y="730" width="1280" height="720"/>
+	<SubTexture name="JoJo0006" x="0" y="1460" width="1280" height="720"/>
+	<SubTexture name="JoJo0007" x="1290" y="1460" width="1280" height="720"/>
+	<SubTexture name="JoJo0008" x="2580" y="1460" width="1280" height="720"/>
+</TextureAtlas>

@@ -1,5 +1,5 @@
 function start(song) -- do nothing
-
+    
 end
 
 function update(elapsed)
@@ -13,6 +13,11 @@ function update(elapsed)
 end
 
 function beatHit(beat) -- do nothing
+
+    if curBeat % 16 == 15 and curBeat > 16 and curBeat < 48 then
+        playActorAnimation('boyfriend', 'hey', true, false)
+        playActorAnimation('dad', 'cheer', true, false)
+    end
 
 end
 

@@ -1,0 +1,9 @@
+troll 0 0
+chaChing 0 0
+singDOWN 0 0
+sell 0 0
+singUP 0 0
+surprised 0 0
+idle 0 0
+singRIGHT -2 -1
+singLEFT 9 1

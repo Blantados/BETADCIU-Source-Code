@@ -27,9 +27,9 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor', 'donate', 'options'];
+	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor', 'donate', 'options', 'extras'];
 	#else
-	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor'];
+	var optionShit:Array<String> = ['betadciu', 'bonus songs', 'neonight', 'vitor', 'extras'];
 	#end
 
 	var newGaming:FlxText;
@@ -40,7 +40,7 @@ class MainMenuState extends MusicBeatState
 
 	public static var kadeEngineVer:String = "Kade Engine";
 	public static var gameVer:String = "0.2.7.1";
-	public static var betadciuVer:String = "Update 9";
+	public static var betadciuVer:String = "Update 12";
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
@@ -111,7 +111,7 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 1...2)
 		{
-			menuItem = new FlxSprite(710, 60);
+			menuItem = new FlxSprite(680, 60);
 			menuItem.frames = tex;
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
@@ -119,11 +119,6 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			if (menuItem.animation.curAnim.name == 'selected')
-			{
-				menuItem.x -= 200;	
-				menuItem.y = 60;	
-			}
 			menuItems.add(menuItem);
 			menuItem.scrollFactor.set();
 			menuItem.antialiasing = true;
@@ -194,6 +189,22 @@ class MainMenuState extends MusicBeatState
 			menuItem.centerOffsets();
 		}
 
+		for (i in 6...7)
+		{
+			menuItem = new FlxSprite(150, 600);
+			menuItem.frames = tex;
+			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
+			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
+			menuItem.setGraphicSize(Std.int(menuItem.width * 0.85));
+			menuItem.updateHitbox();
+			menuItem.animation.play('idle');
+			menuItem.ID = i;
+			menuItems.add(menuItem);
+			menuItem.scrollFactor.set();
+			menuItem.antialiasing = true;
+			menuItem.centerOffsets();
+		}
+
 		FlxG.camera.follow(camFollow, null, 0.06);
 
 		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, gameVer + " FNF - " + kadeEngineVer + " CUSTOM BUILD - " + "BETADCIU " + betadciuVer, 12);
@@ -234,7 +245,7 @@ class MainMenuState extends MusicBeatState
 		}
 		#end
 			
-		//yeah i removed something here too
+		//yeah i removed something here too. edit: I forgot to add it back. oops.
 
 		if (secretMenu == 9 && !activated)
 		{
@@ -327,9 +338,14 @@ class MainMenuState extends MusicBeatState
 									case 'vitor':
 										FlxG.switchState(new VitorState());
 										trace("Vitor Menu Selected");
-
+									
 									case 'options':
 										FlxG.switchState(new OptionsMenu());
+
+									case 'extras':
+										FlxG.switchState(new GuestBETADCIUState());
+										trace("Extras Menu Selected");
+
 								}
 							});
 						}
@@ -358,16 +374,18 @@ class MainMenuState extends MusicBeatState
 			if (spr.ID == curSelected)
 			{
 				spr.animation.play('selected');
-				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
+
+				if (spr.ID != 6)
+					camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y);
 			}
 
 			spr.updateHitbox();
 		});
 
-		var selectedX:Array<Float> = [40, 630, 70, 750, 100, 750];
-		var selectedY:Array<Float> = [50, 50, 230, 230, 410, 410];
-		var staticX:Array<Float> = [100, 710, 100, 800, 150, 800];
-		var staticY:Array<Float> = [60, 60, 240, 240, 420, 420];
+		var selectedX:Array<Float> = [40, 600, 60, 750, 100, 750, 110];
+		var selectedY:Array<Float> = [50, 50, 230, 230, 410, 410, 590];
+		var staticX:Array<Float> = [100, 680, 100, 800, 150, 800, 150];
+		var staticY:Array<Float> = [60, 60, 240, 240, 420, 420, 600];
 
 		for (i in 0...menuItems.members.length)
 		{

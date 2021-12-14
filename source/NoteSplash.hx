@@ -16,7 +16,17 @@ class NoteSplash extends FlxSprite
 
 		switch (PlayState.SONG.noteStyle)
 		{
-			case '1930' | 'fever':
+			case '1930' | 'fever' | 'holofunk' | 'maijin':
+				skin = '-'+ PlayState.SONG.noteStyle;
+			case 'taki' | 'party-crasher':
+				skin = '-fever';
+			default:
+				skin = PlayState.splashSkin;
+		}
+
+		switch (PlayState.SONG.bfNoteStyle)
+		{
+			case '1930' | 'fever' | 'holofunk' | 'maijin':
 				skin = '-'+ PlayState.SONG.noteStyle;
 			case 'taki' | 'party-crasher':
 				skin = '-fever';
@@ -36,9 +46,33 @@ class NoteSplash extends FlxSprite
 
 	public function setupNoteSplash(x:Float, y:Float, note:Int = 0, texture:String = null, hueColor:Float = 0, satColor:Float = 0, brtColor:Float = 0) {
 		setPosition(x - Note.swagWidth * 0.95, y - Note.swagWidth);
-		alpha = 0.6;
-		scale.set(1, 1);
-		offset.set(0, 0);
+		if (texture == '-holofunk')
+		{
+			switch (note)
+			{
+				case 0:
+					this.x += 30;
+				// offset.set(-20, 0);
+				case 1:
+					this.y += 30;
+				// offset.set(0, -20);
+				case 2:
+					this.y += 30;
+				// offset.set(0, -20);
+				case 3:
+					this.x += 30;
+					// offset.set(-20, 0);
+			}
+			alpha = 0.75;
+			scale.set(1.2, 1.2);
+		}
+		else
+		{
+			alpha = 0.6;
+			scale.set(1, 1);
+			offset.set(0, 0);
+		}
+		
 
 		if(texture == null) {
 			texture = "";

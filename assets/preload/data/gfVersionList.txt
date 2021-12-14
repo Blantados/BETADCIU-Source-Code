@@ -5,3 +5,4 @@ gf-pixel
 nogf
 emptygf
 gf-pelo-spooky
+nogf-bw

@@ -1,0 +1,9 @@
+prefix:idle:pinkie idle:24 
+prefix:singLEFT:pinkie left:24 
+prefix:singRIGHT:pinkie right:24 
+prefix:singUP:pinkie up:24 
+prefix:singDOWN:pinkie down:24
+prefix:hello:pinkie hello:24
+prefix:howyadoin:pinkie howyadoin:24
+prefix:howdy:pinkie howdy:24
+prefix:whatsup:pinkie whatsup:24

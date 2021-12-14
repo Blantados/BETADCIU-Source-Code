@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "CrazyBob Idle"
+		},
+		{
+			"offsets": [
+				-20,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "CrazyBob Sing Up"
+		},
+		{
+			"offsets": [
+				-10,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "CrazyBob Sing Left"
+		},
+		{
+			"offsets": [
+				-2,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "CrazyBob Sing Right"
+		},
+		{
+			"offsets": [
+				0,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "CrazyBob Sing Down"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/spongebob-pibby/CrazyBob",
+	"position": [
+		-310,
+		-10
+	],
+	"healthicon": "CrazyBob",
+	"flip_x": false,
+	"healthbar_colors": [
+		243,
+		255,
+		110
+	],
+	"camera_position": [
+		-120,
+		-110
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

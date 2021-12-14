@@ -1,0 +1,298 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well that last one was a bust... Who's up next?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hmmmm... the name's written in this really extravagant cursive..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "I can't really read it..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Should I just call them in?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I guess so."
+		},
+		{
+			"speed": 0.02,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "NEXT CONTESTANT, PLEASE COME OUT!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hey Hey!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yo Yo!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hello! Can you state your name and what you're auditioning for?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "also be sure to face the camera when you do so!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Camera, you say!?"
+		},
+		{
+			"speed": 0.015,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well well well, Hello world!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "My name is one many of you may have heard, but certainly never gets old!"
+		},
+		{
+			"speed": 0.1,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "uhuh..."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "vacant",
+			"text": "Wait are you wanting me to say it in a certain way or---"
+		},
+		{
+			"speed": 0.015,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bro just state your name. it is not that deep."
+		},
+		{
+			"speed": 0.02,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "sOrry sorry!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well then I'll come out with it! My name is-"
+		},
+		{
+			"speed": 0.01,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "wait wait wait wait hold up--"
+		},
+		{
+			"speed": 0.055,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you DO actually look familiar..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "vacant",
+			"text": "Oh?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh! Really!?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "WAIT YEAH!! You're from---"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "oh what was it called..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Haha! Great to hear my reputation still proceeds m-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're Spinel! From Steven Universe!"
+		},
+		{
+			"speed": 0.22,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "vacant",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "vacant",
+			"text": "no."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you're one of them 'Animaniacs', right!?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Pardon??"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "OH! I KNOW! I KNOW!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "You're Mickey Mouse!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "I am..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "a fucking..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "angry",
+			"expression": "upset",
+			"text": "RABBIT!!!!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah but you look like an old geezer boobtoob cartoo-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "OSWALD! My name is OSWALD THE LUCKY RABBIT!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "And I am auditioning for a music gig here."
+		},
+		{
+			"speed": 0.075,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Th-that was my next guess!... haha..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "OKAYYYYYY 'Oswald~!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You gonna show me what you got or what??"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "oswald",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "With Pleasure!"
+		}
+	]
+}

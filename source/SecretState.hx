@@ -50,9 +50,10 @@ class SecretState extends MusicBeatState
 
 		lolText = new FlxText(0, 0, FlxG.width - 100, 32);
 		lolText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
-		lolText.text = "Alright, Update 9! Skipped over Hunger for now because of a few coloring problems. Also skipped over Diva while I'm B3-ifying all the characters used. Also added a few of Neonight and Vitor0502's covers.
-		For Neonight's covers, there is an option to toggle stage switching so just head to the options for that.
-		 Oh and I err.. removed some more stuff that will be ported to the Senpai and Tankman Mod coming soon! So yeah mostly songs that relate to that group. Hope you enjoy!";
+		lolText.text = "Holy s$%t. It's been six updates since the last playable BETADCIU update. Well uh... now you finally get to play most of the BETADCIUs/covers I've made videos on since the last update. Also introduced two extra BETADCIUs from Snow The Fox & spres!
+		To Neonight: I'll add Portrait next update, I just wanted to get an update out now. 
+		Deathmatch Holo has also received a revamp so replay it or if you haven't unlocked it yet, go do that. Will try to push out updates faster next time!
+		Thanks for playing!";
 		lolText.borderColor = FlxColor.BLACK;
 		lolText.borderSize = 3;
 		lolText.borderStyle = FlxTextBorderStyle.OUTLINE;

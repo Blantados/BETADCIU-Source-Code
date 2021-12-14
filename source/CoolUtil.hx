@@ -14,11 +14,26 @@ using StringTools;
 
 class CoolUtil
 {
-	public static var difficultyArray:Array<String> = ['EASY', "NORMAL", "HARD", "Neonight", "Vitor0502"];
+	public static var difficultyArray:Array<String> = ['EASY', "NORMAL", "HARD", "Neonight", "Vitor0502", ""];
+	public static var guestArray:Array<String> = ['Snow The Fox', "spres", "LiterallyNoOne"];
 
 	public static function difficultyString():String
 	{
-		return difficultyArray[PlayState.storyDifficulty];
+		var guestNumber:Int = 0;
+
+		if (PlayState.storyDifficulty == 5)
+		{
+			switch (PlayState.SONG.song.toLowerCase())
+			{
+				case 'epiphany': guestNumber = 0;
+				case "rabbit's-luck": guestNumber = 1;
+				case 'ghost-vip': guestNumber = 2;
+			}
+
+			return guestArray[guestNumber];
+		}
+		else
+			return difficultyArray[PlayState.storyDifficulty];
 	}
 
 	public static function coolTextFile(path:String):Array<String>

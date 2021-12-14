@@ -1,0 +1,7 @@
+prefix:idle:Hypno Idle 1:24 
+prefix:singLEFT:Hypno Left:24 
+prefix:singRIGHT:Hypno Right:24 
+prefix:singUP:Hypno Up:24 
+prefix:singDOWN:Final Hypno Down:24
+prefix:psyshock:Psyshock Full:24
+prefix:psyshock particle:Full Psyshock Particle:24

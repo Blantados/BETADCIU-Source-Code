@@ -261,6 +261,7 @@ function stepHit (step)
         setActorVisibility(false, 'gf')
         setActorVisibility(true, 'rope')
         newIcons = true
+        swapIcons = false
     end
 
     if curStep == 2176 then

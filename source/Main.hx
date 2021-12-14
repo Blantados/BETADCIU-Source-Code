@@ -33,7 +33,10 @@ class Main extends Sprite
 	public static var realDeath:Bool = false; //now unused
 	public static var cursedUnlocked:Bool = false; //Lol cursed cocoa Shit
 	public static var deathHolo:Bool = false; //Lol Hidden deathmatch Shit
-	public static var hiddenSongs:Array<String> = ['hunger', 'diva', 'scary swings', 'sorrow', 'shinkyoku', 'norway', 'my-sweets']; //Lol Hidden  stuff
+	public static var hiddenSongs:Array<String> = ['hunger', 'diva', 'sorrow', 'shinkyoku', 'norway', 'haachama-ex']; //Lol Hidden  stuff
+	public static var keyAmmo:Array<Int> = [4, 6, 9, 5];
+	public static var dataJump:Array<Int> = [8, 12, 18];
+	public static var isMegalo:Bool = false;
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
@@ -99,6 +102,23 @@ class Main extends Sprite
 		#end
 	}
 
+	public static function dumpCache()
+	{
+		///* SPECIAL THANKS TO HAYA
+		@:privateAccess
+		for (key in FlxG.bitmap._cache.keys())
+		{
+			var obj = FlxG.bitmap._cache.get(key);
+			if (obj != null)
+			{
+				Assets.cache.removeBitmapData(key);
+				FlxG.bitmap._cache.remove(key);
+				obj.destroy();
+			}
+		}
+		Assets.cache.clear("songs");
+	}
+	
 	var game:FlxGame;
 
 	var fpsCounter:FPS;

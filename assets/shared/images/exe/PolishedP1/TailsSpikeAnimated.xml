@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TailsSpikeAnimated.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tails Spike Animated instance 10000" x="0" y="0" width="237" height="623"/>
+	<SubTexture name="Tails Spike Animated instance 10001" x="237" y="0" width="237" height="623"/>
+	<SubTexture name="Tails Spike Animated instance 10002" x="474" y="0" width="237" height="623"/>
+	<SubTexture name="Tails Spike Animated instance 10003" x="711" y="0" width="237" height="623"/>
+	<SubTexture name="Tails Spike Animated instance 10004" x="948" y="0" width="237" height="623"/>
+</TextureAtlas>

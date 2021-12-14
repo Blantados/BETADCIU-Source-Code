@@ -45,19 +45,27 @@ class BETADCIUState extends MusicBeatState
 	var blackScreen:FlxSprite;
 
 	var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-	public static var bgcol:FlxColor = 0xFFFFFFFF;
-	public static var bgcoldown:FlxColor = 0xFFFFFFFF;
-	public static var bgcolup:FlxColor = 0xFFFFFFFF;
+	var bgManifest:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGManifest'));
+	var bgStorm:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGStorm'));
+	var trackedAssets:Array<Dynamic> = [];
+
+	//we doin this color shit again
+	public var curCol:FlxColor = 0xFFFFFFFF;
+	public var songCol:FlxColor = 0xFFE78B07;
 
 	private var iconArray:Array<HealthIcon> = [];
 
 	override function create()
 	{
+		//Main.dumpCache();
+		clean();
 		if (FlxG.sound.music.volume == 0 || !FlxG.sound.music.playing)
 		{
 			FlxG.sound.music.volume = 1;
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 		}
+
+		Main.isMegalo = false;
 
 		 #if desktop
 		 // Updating Discord Rich Presence
@@ -77,18 +85,27 @@ class BETADCIUState extends MusicBeatState
 			addWeek(['Ugh', 'Guns', 'Animal'], 1, ['tankman', 'tankman', 'drunk-annie']);
 			addWeek(['Nerves', 'Manifest', 'Roses-Remix'], 2, ['garcello', 'sky-mad', 'senpai-giddy']);
 			addWeek(['Takeover', 'Hands', 'Jeez'], 3, ['demoncass', 'coco-car', 'brody']);
-			addWeek(['Cosmic', 'Storm', 'Haachama'], 4, ['kou', 'annie-bw', 'haachama']);
-			//addWeek(['Scary Swings'/*, 'Hunger'*/], 5, ['spooky-pelo'/*, 'rebecca'*/]);
+			addWeek(['Killer-Scream', 'Shotgun-Shell', 'Hill-Of-The-Void'], 4, ['rushia', 'aldryx', 'exe-front']);
+			addWeek(['Cosmic', 'Storm', 'Haachama'], 5, ['kou', 'annie-bw', 'haachama']);
+			if (FlxG.save.data.exUnlocked)
+				addSong('Haachama-EX', 5, 'haachama');
+			addWeek(['Scary Swings', 'Kaboom', 'Safety-Lullaby'], 6, ['spooky-pelo', 'demoman', 'hypno']);
 
 		// LOAD MUSIC
 
 		// LOAD CHARACTERS
 
 		bg.scrollFactor.x = 0;
-		bg.color = bgcol;
+		bg.color = curCol;
 		add(bg);
 
-	//	FlxTween.color(bg, 0.5, bgcol, bgcolup);
+		bgManifest.scrollFactor.x = 0;
+		bgManifest.alpha = 0;
+		add(bgManifest);
+
+		bgStorm.scrollFactor.x = 0;
+		bgStorm.alpha = 0;
+		add(bgStorm);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
@@ -190,7 +207,7 @@ class BETADCIUState extends MusicBeatState
 			trace(md);
 		 */
 
-
+		changeBGColor();
 
 		super.create();
 	}
@@ -198,6 +215,60 @@ class BETADCIUState extends MusicBeatState
 	public function addSong(songName:String, weekNum:Int, songCharacter:String)
 	{
 		songs.push(new SongMetadata2(songName, weekNum, songCharacter));
+	}
+
+	public function changeBGColor():Void
+	{
+		if (songs[curSelected].songName.toLowerCase() == 'manifest' || songs[curSelected].songName.toLowerCase() == 'storm')
+		{
+			if (songs[curSelected].songName.toLowerCase() == 'manifest')
+				FlxTween.tween(bgManifest, {alpha: 1}, 0.5);
+			if (songs[curSelected].songName.toLowerCase() == 'storm')
+				FlxTween.tween(bgStorm, {alpha: 1}, 0.5);
+		}
+		else
+		{
+			switch (songs[curSelected].songName.toLowerCase())
+			{
+				case 'ugh' | 'guns':
+					songCol = 0xFFE78B07;
+				case 'animal':
+					songCol = 0xFFFF2043;
+				case 'nerves':
+					songCol = 0xFF00FF90;
+				case 'roses-remix':
+					songCol = 0xFFC16FA5;
+				case 'takeover':
+					songCol = 0xFF414141;
+				case 'hands':
+					songCol = 0xFFFF7D1E;
+				case 'jeez':
+					songCol = 0xFFFFAF26;
+				case 'killer-scream':
+					songCol = 0xFF17FFB2;
+				case 'cosmic':
+					songCol = 0xFFFFACDF;
+				case 'haachama' | 'haachama-ex':
+					songCol = 0xFFF7C558;
+				case 'scary swings':
+					songCol = 0xFFFFA420;
+				case 'kaboom':
+					songCol = 0xFFF7555A;
+				case 'shotgun-shell':
+					songCol = 0xFFBA1E24;
+				case 'hill-of-the-void':
+					songCol = 0xFF0000E5;
+				case 'safety-lullaby':
+					songCol = 0xFFF9DF44;
+			}
+
+			if (bgManifest.alpha > 0)
+				FlxTween.tween(bgManifest, {alpha: 0}, 0.5);
+			if (bgStorm.alpha > 0)
+				FlxTween.tween(bgStorm, {alpha: 0}, 0.5);
+			
+			FlxTween.color(bg, 0.5, curCol, songCol);
+		}
 	}
 
 	public function addWeek(songs:Array<String>, weekNum:Int, ?songCharacters:Array<String>)
@@ -235,7 +306,9 @@ class BETADCIUState extends MusicBeatState
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
 
-		if (isOnBtt(extras.getMidpoint().x, extras.getMidpoint().y, 150))
+		curCol = bg.color;
+
+		if (FlxG.mouse.overlaps(extras))
 		{
 			extras.animation.play('hover');
 			if (FlxG.mouse.justPressed && canMove)
@@ -246,7 +319,7 @@ class BETADCIUState extends MusicBeatState
 				canMove = false;
 			}
 		}
-		else if (!isOnBtt(extras.getMidpoint().x, extras.getMidpoint().y, 150))
+		else if (!FlxG.mouse.overlaps(extras))
 		{
 			extras.animation.play('idle');
 		}
@@ -269,19 +342,29 @@ class BETADCIUState extends MusicBeatState
 		if (upP && inMain && canMove)
 		{
 			changeSelection(-1);
+			changeBGColor();
 		}
 		if (downP && inMain && canMove)
 		{
 			changeSelection(1);
+			changeBGColor();
 		}
 
 		if (controls.BACK && inMain && canMove)
 		{
+			//unloadAssets();
 			FlxG.switchState(new MainMenuState());
 		}
 
 		if (accepted && inMain && canMove)
 		{
+			if (FlxG.random.bool(20) && songs[curSelected].songName.toLowerCase() == 'hill-of-the-void')
+			{
+				curDifficulty = 1;
+				Main.isMegalo = true;
+				trace ('sans');
+			}
+
 			var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
 
 			trace(poop);
@@ -294,7 +377,7 @@ class BETADCIUState extends MusicBeatState
 			PlayState.isBonus = false;
 			PlayState.storyDifficulty = curDifficulty;
 			canMove = false;
-			
+		
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
 			var llll = FlxG.sound.play(Paths.sound('confirmMenu')).length;
@@ -332,7 +415,12 @@ class BETADCIUState extends MusicBeatState
 		{	
 			switch (passwordText.text)
 			{
-				//ha i'm not an idiot. Find the passwords for real.
+				case 'dont overwork': startSong('Hunger');
+				case 'osu mania': startSong('Diva');
+				case 'double trouble': startSong('Shinkyoku');
+				case 'norway when': startSong('Norway');
+				case 'holofunk yeah': startSong('Sorrow');
+				case 'parfait girls': startSong('My Sweets');
 				default: wrongPass = true;
 			}	
 		} 
@@ -435,6 +523,20 @@ class BETADCIUState extends MusicBeatState
 			}
 		}
 	}
+
+	override function add(Object:flixel.FlxBasic):flixel.FlxBasic
+	{
+		trackedAssets.insert(trackedAssets.length, Object);
+		return super.add(Object);
+	}
+	
+	function unloadAssets():Void
+	{
+		for (asset in trackedAssets)
+		{
+			remove(asset);
+		}
+	}	
 }
 
 class SongMetadata2

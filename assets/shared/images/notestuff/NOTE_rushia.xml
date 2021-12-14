@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_rushia.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue tail0000" x="48" y="454" width="60" height="58"/>
+	<SubTexture name="blue hold0000" x="54" y="0" width="62" height="82"/>
+	<SubTexture name="blue alone0000" x="0" y="82" width="158" height="180"/>
+	<SubTexture name="green tail0000" x="164" y="454" width="60" height="58"/>
+	<SubTexture name="green hold0000" x="170" y="0" width="62" height="82"/>
+	<SubTexture name="green alone0000" x="158" y="82" width="158" height="180"/>
+	<SubTexture name="purple alone0000" x="316" y="82" width="180" height="158"/>
+	<SubTexture name="purple tail0000" x="280" y="454" width="60" height="58"/>
+	<SubTexture name="purple hold0000" x="286" y="0" width="62" height="82"/>
+	<SubTexture name="red tail0000" x="396" y="454" width="60" height="59"/>
+	<SubTexture name="red hold0000" x="402" y="0" width="62" height="82"/>
+	<SubTexture name="red alone0000" x="0" y="262" width="180" height="158"/>
+</TextureAtlas>

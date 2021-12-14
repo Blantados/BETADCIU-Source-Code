@@ -1,0 +1,6 @@
+idle 0 0
+singDOWN 26 -49
+singLEFT 58 0
+pain 27 2
+singUP 15 12
+singRIGHT 15 1

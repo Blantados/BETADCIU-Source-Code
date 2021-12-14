@@ -105,7 +105,7 @@ class BonusSongsState extends MusicBeatState
 		addWeek(['Unholy-Worship', 'Argument', 'Pure-Gospel'], 12, ['dad', 'sarvente-lucifer', 'sh-carol']);
 		addWeek(['Sunshine', 'Jump-in', 'Aspirer'], 13, ['bob2', 'bob', 'blantad-blue']);
 		addWeek(['Ballistic', 'Expurgation', 'Crucify'], 14, ['picoCrazy', 'cjClone', 'gf']);
-		addWeek(['Ugh-Remix', 'Parish', 'Honeydew'], 15, ['tankman', 'isa', 'hd-senpai-happy']);
+		addWeek(['Ugh-Remix', 'Honeydew'], 15, ['tankman', 'hd-senpai-happy']);
 		addWeek(['Mad-Tall', 'Spooky-Fight', 'Happy'], 16, ['bf-carol', 'zardy', 'exe-bw']);
 
 		if (lamentCombo == 'GFC' && ughCombo == 'GFC' && spookyCombo == 'GFC' && unholyCombo == 'GFC' && argumentCombo == 'GFC' || isDebug)
@@ -125,12 +125,14 @@ class BonusSongsState extends MusicBeatState
 		}	
 
 		addWeek(['Technokinesis', 'Copy-Cat', 'Milk'], 18, ['yukichi-mad', 'nene2', 'mom']);
-		addWeek(['Norsky', 'Spectral-Spat'], 19, ['sky-pissed', 'gar-spirit']);
+		addWeek(['Norsky', 'Spectral-Spat', 'Really-Happy'], 19, ['sky-pissed', 'gar-spirit', 'yuri-crazy-bw']);
+		addWeek(['Kaboom', 'Monochrome', 'Reactor'], 20, ['whittyCrazy', 'bigmonika', 'midas-r']);
+		addWeek(['Synthesize', 'Endless', 'Triple-Trouble'], 21, ['bf-aloe', 'haachama-blue', 'beast-sonic']);
+		addWeek(["You-Cant-Run", 'Bi-nb', 'Smile'], 22, ['dad', 'sunday', 'betty-bw']);
+
 
 		if (TitleState.curWacky[1].contains('uncorruption') && Main.seenMessage)
-		{
 			addSong('Restore', 6, 'senpai-glitch');
-		}
 	
 		// LOAD MUSIC
 

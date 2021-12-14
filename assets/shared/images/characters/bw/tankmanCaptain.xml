@@ -136,4 +136,54 @@
 <SubTexture name="Tankman UP note instance 10007" x="496" y="0" width="499" height="612" frameX="-7" frameY="-11" frameWidth="506" frameHeight="623"/>
 <SubTexture name="Tankman UP note instance 10008" x="496" y="0" width="499" height="612" frameX="-7" frameY="-11" frameWidth="506" frameHeight="623"/>
 <SubTexture name="Tankman UP note instance 10009" x="496" y="0" width="499" height="612" frameX="-7" frameY="-11" frameWidth="506" frameHeight="623"/>
+<SubTexture name="Lil Dude0000" x="0" y="2848" width="434" height="579" pivotX="229.35" pivotY="291.65" frameX="-3" frameY="-2" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0001" x="0" y="2848" width="434" height="579" frameX="-3" frameY="-2" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0002" x="439" y="2848" width="434" height="576" frameX="0" frameY="-5" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0003" x="439" y="2848" width="434" height="576" frameX="0" frameY="-5" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0004" x="878" y="2848" width="433" height="581" frameX="-4" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0005" x="878" y="2848" width="433" height="581" frameX="-4" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0006" x="1316" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0007" x="1316" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0008" x="1755" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0009" x="1755" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0010" x="1755" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0011" x="2194" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0012" x="2194" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0013" x="2633" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0014" x="2633" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0015" x="3072" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0016" x="3072" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0017" x="3072" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0018" x="3511" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0019" x="3511" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0020" x="2633" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0021" x="2633" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0022" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0023" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0024" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0025" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0026" x="439" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0027" x="439" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0028" x="878" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0029" x="878" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0030" x="1317" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0031" x="1317" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0032" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0033" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0034" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0035" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0036" x="1756" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0037" x="1756" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0038" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0039" x="0" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0040" x="2194" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0041" x="2194" y="2848" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0042" x="2195" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0043" x="2195" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0044" x="2634" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0045" x="2634" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0046" x="1317" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0047" x="1317" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0048" x="1317" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
+<SubTexture name="Lil Dude0049" x="1317" y="3434" width="434" height="581" frameX="-3" frameY="0" frameWidth="437" frameHeight="581"/>
 </TextureAtlas>

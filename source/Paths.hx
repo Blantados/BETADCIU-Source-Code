@@ -142,12 +142,17 @@ class Paths
 		var pre:String = "";
 		var suf:String = "";
 
-		if (PlayState.isNeonight) {
+		if (PlayState.isNeonight)
 			suf = 'NN';
-		}
-		if (PlayState.isVitor) {
+		if (PlayState.isVitor)
 			suf = 'V';
-		}
+		if (PlayState.isBETADCIU && PlayState.storyDifficulty == 5)		
+			suf = 'Guest';
+		if (PlayState.isBETADCIU && songLowercase == 'kaboom')		
+			suf = 'BETADCIU';
+		if (Main.isMegalo && songLowercase == 'hill-of-the-void')		
+			suf = 'Megalo';
+
 		return 'songs:assets/songs/${songLowercase}/'+pre+'Voices'+suf+'.$SOUND_EXT';
 	}
 
@@ -158,20 +163,21 @@ class Paths
 				case 'dad-battle': songLowercase = 'dadbattle';
 				case 'philly-nice': songLowercase = 'philly';
 				case 'scary-swings': songLowercase = 'scary swings';
+				case 'my-sweets': songLowercase = 'my sweets';
 			}
 
 		var pre:String = "";
 		var suf:String = "";
 
-		if (Main.noCopyright && song.toLowerCase() == "sharkventure") 	{
-			pre = 'Alt_';
-		}			
-		if (PlayState.isNeonight) {
+		if (Main.noCopyright && song.toLowerCase() == "sharkventure")
+			pre = 'Alt_';		
+		if (PlayState.isNeonight)
 			suf = 'NN';
-		}	
-		if (PlayState.isVitor) {		
+		if (PlayState.isVitor)		
 			suf = 'V';
-		}		
+		if (PlayState.isBETADCIU && PlayState.storyDifficulty == 5)		
+			suf = 'Guest';
+	
 		return 'songs:assets/songs/${songLowercase}/'+pre+'Inst'+suf+'.$SOUND_EXT';
 	}
 

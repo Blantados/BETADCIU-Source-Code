@@ -12,6 +12,7 @@ import flixel.addons.transition.FlxTransitionableState;
 import flixel.addons.ui.FlxUIState;
 import flixel.math.FlxRect;
 import flixel.util.FlxTimer;
+import flixel.FlxBasic;
 
 class MusicBeatState extends FlxUIState
 {
@@ -24,6 +25,8 @@ class MusicBeatState extends FlxUIState
 
 	inline function get_controls():Controls
 		return PlayerSettings.player1.controls;
+
+	private var assets:Array<FlxBasic> = [];
 
 	override function create()
 	{
@@ -80,6 +83,14 @@ class MusicBeatState extends FlxUIState
 	{
 		lastBeat = curStep;
 		curBeat = Math.floor(curStep / 4);
+	}
+
+	public function clean()
+	{
+		for (i in assets)
+		{
+			remove(i);
+		}
 	}
 
 	public static var currentColor = 0;

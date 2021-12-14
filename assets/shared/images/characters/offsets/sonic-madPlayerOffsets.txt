@@ -1,0 +1,5 @@
+idle 0 148
+singUP -28 155
+singLEFT -39 149
+singRIGHT 6 149
+singDOWN -11 139

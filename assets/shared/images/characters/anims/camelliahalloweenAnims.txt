@@ -1,0 +1,11 @@
+prefix:idle:Camellia_Idle:24 
+prefix:singLEFT:Camellia_Left0:24 
+prefix:singRIGHT:Camellia_Right0:24 
+prefix:singUP:Camellia_Up0:24 
+prefix:singDOWN:Camellia_Down0:24
+prefix:singLEFTmiss:Camellia_Left_MISS:24 
+prefix:singRIGHTmiss:Camellia_Right_MISS:24 
+prefix:singUPmiss:Camellia_Up_MISS:24 
+prefix:singDOWNmiss:Camellia_Down_MISS:24
+prefix:firstDeath:Camellia_DEATH:24 
+prefix:deathLoop:Camellia_DEATHLoop:24 

@@ -1,0 +1,7 @@
+psyshock -312 22
+idle 0 0
+singRIGHT -338 93
+singDOWN -150 -120
+psyshock particle -940 190
+singLEFT 144 22
+singUP -89 267

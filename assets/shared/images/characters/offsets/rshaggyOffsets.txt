@@ -1,0 +1,8 @@
+danceLeft 0 0
+danceRight -1 0
+singUP -16 27
+singDOWN -10 -160
+singLEFT 165 -114
+singRIGHT -1 -43
+sit 29 -218
+stand 33 0

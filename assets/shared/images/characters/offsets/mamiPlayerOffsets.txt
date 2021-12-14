@@ -1,0 +1,12 @@
+danceLeft 0 0
+danceLeft-alt 0 0
+danceRight 0 0
+danceRight-alt 0 0
+singUP 0 0 
+singRIGHT 0 0 
+singLEFT 0 0 
+singDOWN 0 0 
+ah 0 0 
+ah-charged 0 0 
+chu 0 0 
+chu-charged 0 0 

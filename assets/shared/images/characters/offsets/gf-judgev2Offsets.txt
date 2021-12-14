@@ -1,0 +1,9 @@
+cheer 170 79
+sad 170 63
+danceLeft 171 73
+danceRight 171 73
+singLEFT 171 71
+singRIGHT 171 70
+singDOWN 171 69
+singUP 171 74
+spooked 171 70

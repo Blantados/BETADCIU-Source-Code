@@ -104,6 +104,8 @@ class Highscore
 			daSong += '-neo';
 		else if (diff == 4)
 			daSong += '-vitor';
+		else if (diff == 5)
+			daSong += '-guest';
 
 		return daSong;
 	}

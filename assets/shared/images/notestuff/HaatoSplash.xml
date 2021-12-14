@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HaatoSplash.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="haato note shatter blue 10000" x="0" y="0" width="157" height="157" frameX="-59" frameY="-59" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10001" x="157" y="0" width="214" height="214" frameX="-31" frameY="-31" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10002" x="371" y="0" width="250" height="250" frameX="-13" frameY="-13" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10003" x="621" y="0" width="270" height="270" frameX="-3" frameY="-3" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10004" x="891" y="0" width="276" height="276"/>
+	<SubTexture name="haato note shatter blue 10005" x="1167" y="0" width="276" height="276"/>
+	<SubTexture name="haato note shatter blue 10006" x="1443" y="0" width="252" height="252" frameX="-12" frameY="-12" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10007" x="1695" y="0" width="228" height="228" frameX="-24" frameY="-24" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10008" x="0" y="276" width="204" height="204" frameX="-36" frameY="-36" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10009" x="204" y="276" width="181" height="182" frameX="-47" frameY="-46" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 10010" x="385" y="276" width="173" height="175" frameX="-47" frameY="-46" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20000" x="0" y="0" width="157" height="157" frameX="-59" frameY="-59" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20001" x="157" y="0" width="214" height="214" frameX="-31" frameY="-31" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20002" x="371" y="0" width="250" height="250" frameX="-13" frameY="-13" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20003" x="621" y="0" width="270" height="270" frameX="-3" frameY="-3" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20004" x="891" y="0" width="276" height="276"/>
+	<SubTexture name="haato note shatter blue 20005" x="1167" y="0" width="276" height="276"/>
+	<SubTexture name="haato note shatter blue 20006" x="1443" y="0" width="252" height="252" frameX="-12" frameY="-12" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20007" x="1695" y="0" width="228" height="228" frameX="-24" frameY="-24" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20008" x="0" y="276" width="204" height="204" frameX="-36" frameY="-36" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20009" x="204" y="276" width="181" height="182" frameX="-47" frameY="-46" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter blue 20010" x="558" y="276" width="173" height="175" frameX="-47" frameY="-46" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 10000" x="731" y="276" width="158" height="157" frameX="-59" frameY="-59" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 10001" x="889" y="276" width="215" height="214" frameX="-31" frameY="-31" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 10002" x="1104" y="276" width="251" height="250" frameX="-13" frameY="-13" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 10003" x="1355" y="276" width="271" height="270" frameX="-3" frameY="-3" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 10004" x="1626" y="276" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 10005" x="0" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 10006" x="277" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 10007" x="554" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 10008" x="831" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 10009" x="1108" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 10010" x="1385" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 20000" x="731" y="276" width="158" height="157" frameX="-59" frameY="-59" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 20001" x="889" y="276" width="215" height="214" frameX="-31" frameY="-31" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 20002" x="1104" y="276" width="251" height="250" frameX="-13" frameY="-13" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 20003" x="1355" y="276" width="271" height="270" frameX="-3" frameY="-3" frameWidth="277" frameHeight="276"/>
+	<SubTexture name="haato note shatter green 20004" x="1626" y="276" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 20005" x="0" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 20006" x="277" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 20007" x="554" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 20008" x="831" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 20009" x="1108" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter green 20010" x="1662" y="552" width="277" height="276"/>
+	<SubTexture name="haato note shatter purple 10000" x="0" y="828" width="157" height="157" frameX="-59" frameY="-59" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 10001" x="157" y="828" width="214" height="214" frameX="-31" frameY="-31" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 10002" x="371" y="828" width="250" height="250" frameX="-13" frameY="-13" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 10003" x="621" y="828" width="270" height="270" frameX="-3" frameY="-3" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 10004" x="891" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 10005" x="1167" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 10006" x="1443" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 10007" x="1719" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 10008" x="0" y="1104" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 10009" x="276" y="1104" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 10010" x="552" y="1104" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 20000" x="0" y="828" width="157" height="157" frameX="-59" frameY="-59" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 20001" x="157" y="828" width="214" height="214" frameX="-31" frameY="-31" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 20002" x="371" y="828" width="250" height="250" frameX="-13" frameY="-13" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 20003" x="621" y="828" width="270" height="270" frameX="-3" frameY="-3" frameWidth="276" frameHeight="276"/>
+	<SubTexture name="haato note shatter purple 20004" x="891" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 20005" x="1167" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 20006" x="1443" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 20007" x="1719" y="828" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 20008" x="0" y="1104" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 20009" x="276" y="1104" width="276" height="276"/>
+	<SubTexture name="haato note shatter purple 20010" x="828" y="1104" width="276" height="276"/>
+	<SubTexture name="haato note shatter red 10000" x="1104" y="1104" width="149" height="150" frameX="-28" frameY="-28" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 10001" x="1253" y="1104" width="176" height="177" frameX="-15" frameY="-15" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 10002" x="1429" y="1104" width="194" height="195" frameX="-6" frameY="-6" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 10003" x="1623" y="1104" width="202" height="203" frameX="-2" frameY="-2" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 10004" x="1825" y="1104" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 10005" x="0" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 10006" x="206" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 10007" x="412" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 10008" x="618" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 10009" x="824" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 10010" x="1030" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 20000" x="1104" y="1104" width="149" height="150" frameX="-28" frameY="-28" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 20001" x="1253" y="1104" width="176" height="177" frameX="-15" frameY="-15" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 20002" x="1429" y="1104" width="194" height="195" frameX="-6" frameY="-6" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 20003" x="1623" y="1104" width="202" height="203" frameX="-2" frameY="-2" frameWidth="206" frameHeight="207"/>
+	<SubTexture name="haato note shatter red 20004" x="1825" y="1104" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 20005" x="0" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 20006" x="206" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 20007" x="412" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 20008" x="618" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 20009" x="824" y="1380" width="206" height="207"/>
+	<SubTexture name="haato note shatter red 20010" x="1236" y="1380" width="206" height="207"/>
+</TextureAtlas>

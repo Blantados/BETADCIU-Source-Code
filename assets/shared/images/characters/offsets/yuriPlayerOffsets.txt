@@ -1,0 +1,6 @@
+breath 2 24
+idle 0 0
+singDOWN 37 -7
+singRIGHT 12 -20
+singUP 15 17
+singLEFT 22 0

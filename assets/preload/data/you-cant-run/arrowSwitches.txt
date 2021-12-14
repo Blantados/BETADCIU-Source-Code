@@ -1,0 +1,6 @@
+0 normal dad
+0 normal bf
+33 pixel dad
+33 pixel bf
+49 normal dad
+49 pixel bf

@@ -1,0 +1,8 @@
+danceLeft 8 0
+danceRight 1 0
+singUP 48 47
+singRIGHT -121 -35
+singLEFT 44 13
+singDOWN -100 -221
+hah 70 50
+notold -42 212

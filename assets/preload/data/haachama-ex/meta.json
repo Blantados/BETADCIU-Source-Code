@@ -1,0 +1,28 @@
+{
+	"name": "Haachama EX",
+	"artist": "GGalactigal",
+	"week": 2,
+	"difficulties": [
+		{
+			"hidden": true,
+			"name": "easy",
+			"chart": "haachama-ex-easy",
+			"displayName": "Easy"
+		},
+		{
+			"name": "normal",
+			"chart": "haachama-ex",
+			"displayName": "CHAMA"
+		},
+		{
+			"hidden": true,
+			"name": "hard",
+			"chart": "haachama-ex-hard",
+			"displayName": "Hard"
+		}
+	],
+	"initDifficulty": "normal",
+	"icon": "chama",
+	"background": "haachama",
+	"colors": [ "0xFFF7C558" ]
+}

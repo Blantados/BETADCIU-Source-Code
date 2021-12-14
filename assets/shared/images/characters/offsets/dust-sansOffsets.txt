@@ -1,0 +1,7 @@
+idle 0 0
+singUP 0 0
+singRIGHT 0 0
+singLEFT 0 0
+singDOWN 0 0
+swingDOWN 0 0
+swingUP 0 0

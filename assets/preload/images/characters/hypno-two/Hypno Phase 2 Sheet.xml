@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Hypno Phase 2 Sheet.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hypno Down0000" x="20" y="20" width="780" height="564" frameX="0" frameY="0" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0001" x="820" y="20" width="807" height="478" frameX="-7" frameY="-40" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0002" x="1647" y="20" width="793" height="491" frameX="-14" frameY="-27" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0003" x="2460" y="20" width="803" height="484" frameX="-16" frameY="-35" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0004" x="3283" y="20" width="787" height="502" frameX="-16" frameY="-17" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0005" x="4090" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0006" x="4915" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0007" x="4915" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0008" x="5740" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0009" x="5740" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0010" x="5740" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0011" x="5740" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0012" x="5740" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0013" x="5740" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Down0014" x="5740" y="20" width="805" height="486" frameX="-16" frameY="-33" frameWidth="821" frameHeight="564"/>
+	<SubTexture name="Hypno Left final0000" x="6565" y="20" width="782" height="710" frameX="0" frameY="-5" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0001" x="7367" y="20" width="757" height="715" frameX="0" frameY="0" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0002" x="20" y="755" width="674" height="685" frameX="-61" frameY="-30" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0003" x="714" y="755" width="700" height="704" frameX="-41" frameY="-11" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0004" x="1434" y="755" width="698" height="663" frameX="-63" frameY="-52" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0005" x="2152" y="755" width="722" height="694" frameX="-57" frameY="-21" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0006" x="2894" y="755" width="730" height="694" frameX="-57" frameY="-21" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0007" x="3644" y="755" width="724" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0008" x="4388" y="755" width="726" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0009" x="4388" y="755" width="726" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0010" x="4388" y="755" width="726" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0011" x="4388" y="755" width="726" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0012" x="4388" y="755" width="726" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0013" x="4388" y="755" width="726" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Left final0014" x="4388" y="755" width="726" height="692" frameX="-63" frameY="-23" frameWidth="789" frameHeight="715"/>
+	<SubTexture name="Hypno Right Finished0000" x="5134" y="755" width="1247" height="604" frameX="0" frameY="-76" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0001" x="6401" y="755" width="1203" height="664" frameX="-6" frameY="-16" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0002" x="20" y="1479" width="1138" height="640" frameX="-10" frameY="-40" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0003" x="1178" y="1479" width="1098" height="630" frameX="-10" frameY="-50" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0004" x="2296" y="1479" width="1098" height="680" frameX="-12" frameY="0" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0005" x="3414" y="1479" width="1084" height="667" frameX="-13" frameY="-13" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0006" x="4518" y="1479" width="1084" height="667" frameX="-13" frameY="-13" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0007" x="5622" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0008" x="6722" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0009" x="6722" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0010" x="6722" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0011" x="6722" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0012" x="6722" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0013" x="6722" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Right Finished0014" x="6722" y="1479" width="1080" height="652" frameX="-13" frameY="-28" frameWidth="1247" frameHeight="680"/>
+	<SubTexture name="Hypno Up Finished0000" x="20" y="2179" width="912" height="896"/>
+	<SubTexture name="Hypno Up Finished0001" x="952" y="2179" width="850" height="874" frameX="-3" frameY="-22" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0002" x="1822" y="2179" width="845" height="841" frameX="-3" frameY="-55" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0003" x="2687" y="2179" width="814" height="831" frameX="-5" frameY="-65" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0004" x="3521" y="2179" width="806" height="819" frameX="-7" frameY="-77" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0005" x="4347" y="2179" width="803" height="813" frameX="-7" frameY="-83" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0006" x="5170" y="2179" width="804" height="812" frameX="-7" frameY="-84" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0007" x="5994" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0008" x="6816" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0009" x="6816" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0010" x="6816" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0011" x="6816" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0012" x="6816" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0013" x="6816" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno Up Finished0014" x="6816" y="2179" width="802" height="807" frameX="-7" frameY="-89" frameWidth="912" frameHeight="896"/>
+	<SubTexture name="Hypno2 Idle0000" x="20" y="3095" width="865" height="592" frameX="-2" frameY="-200" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0001" x="905" y="3095" width="916" height="621" frameX="0" frameY="-171" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0002" x="1841" y="3095" width="846" height="656" frameX="-3" frameY="-136" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0003" x="2707" y="3095" width="882" height="643" frameX="-3" frameY="-149" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0004" x="3609" y="3095" width="773" height="716" frameX="-13" frameY="-76" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0005" x="4402" y="3095" width="879" height="703" frameX="-13" frameY="-89" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0006" x="5301" y="3095" width="893" height="751" frameX="-16" frameY="-41" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0007" x="6214" y="3095" width="852" height="735" frameX="-16" frameY="-57" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0008" x="7086" y="3095" width="872" height="740" frameX="-16" frameY="-52" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0009" x="20" y="3866" width="1052" height="792" frameX="-16" frameY="0" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0010" x="1092" y="3866" width="860" height="694" frameX="-16" frameY="-98" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0011" x="1972" y="3866" width="990" height="740" frameX="-16" frameY="-52" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0012" x="2982" y="3866" width="836" height="656" frameX="-16" frameY="-136" frameWidth="1068" frameHeight="792"/>
+	<SubTexture name="Hypno2 Idle0013" x="3838" y="3866" width="900" height="684" frameX="-16" frameY="-108" frameWidth="1068" frameHeight="792"/>
+</TextureAtlas>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ina.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ina_Down0000" x="0" y="0" width="689" height="833" frameX="0" frameY="0" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0001" x="689" y="0" width="678" height="832" frameX="-6" frameY="-2" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0002" x="1367" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0003" x="2024" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0004" x="2681" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0005" x="3338" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0006" x="3995" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0007" x="4652" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0008" x="5309" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0009" x="5966" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0010" x="6623" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0011" x="7280" y="0" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0012" x="0" y="833" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Down0013" x="657" y="833" width="657" height="830" frameX="-13" frameY="-5" frameWidth="689" frameHeight="835"/>
+	<SubTexture name="Ina_Idle0000" x="1314" y="833" width="641" height="803" frameX="-11" frameY="-3" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0001" x="1955" y="833" width="641" height="803" frameX="-11" frameY="-3" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0002" x="2596" y="833" width="633" height="804" frameX="0" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0003" x="3229" y="833" width="633" height="804" frameX="0" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0004" x="3862" y="833" width="633" height="804" frameX="0" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0005" x="4495" y="833" width="651" height="793" frameX="-11" frameY="-10" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0006" x="5146" y="833" width="651" height="793" frameX="-11" frameY="-10" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0007" x="5797" y="833" width="651" height="793" frameX="-11" frameY="-10" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0008" x="6448" y="833" width="663" height="807" frameX="-11" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0009" x="7111" y="833" width="663" height="807" frameX="-11" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0010" x="0" y="1663" width="663" height="807" frameX="-11" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0011" x="663" y="1663" width="663" height="807" frameX="-11" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0012" x="1326" y="1663" width="663" height="807" frameX="-11" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Idle0013" x="1989" y="1663" width="663" height="807" frameX="-11" frameY="0" frameWidth="674" frameHeight="807"/>
+	<SubTexture name="Ina_Left0000" x="2652" y="1663" width="688" height="840"/>
+	<SubTexture name="Ina_Left0001" x="3340" y="1663" width="675" height="839" frameX="-9" frameY="-1" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0002" x="4015" y="1663" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0003" x="4679" y="1663" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0004" x="5343" y="1663" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0005" x="6007" y="1663" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0006" x="6671" y="1663" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0007" x="7335" y="1663" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0008" x="0" y="2503" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0009" x="664" y="2503" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0010" x="1328" y="2503" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0011" x="1992" y="2503" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0012" x="2656" y="2503" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Left0013" x="3320" y="2503" width="664" height="838" frameX="-16" frameY="-2" frameWidth="688" frameHeight="840"/>
+	<SubTexture name="Ina_Right0000" x="3984" y="2503" width="655" height="850" frameX="-22" frameY="-6" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0001" x="4639" y="2503" width="663" height="853" frameX="-11" frameY="-3" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0002" x="5302" y="2503" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0003" x="5972" y="2503" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0004" x="6642" y="2503" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0005" x="7312" y="2503" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0006" x="0" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0007" x="670" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0008" x="1340" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0009" x="2010" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0010" x="2680" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0011" x="3350" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0012" x="4020" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Right0013" x="4690" y="3358" width="670" height="855" frameX="0" frameY="0" frameWidth="677" frameHeight="856"/>
+	<SubTexture name="Ina_Up0000" x="5360" y="3358" width="699" height="844"/>
+	<SubTexture name="Ina_Up0001" x="6059" y="3358" width="689" height="841" frameX="-6" frameY="-2" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0002" x="6748" y="3358" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0003" x="7427" y="3358" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0004" x="0" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0005" x="679" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0006" x="1358" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0007" x="2037" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0008" x="2716" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0009" x="3395" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0010" x="4074" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0011" x="4753" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0012" x="5432" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+	<SubTexture name="Ina_Up0013" x="6111" y="4213" width="679" height="834" frameX="-12" frameY="-4" frameWidth="699" frameHeight="844"/>
+</TextureAtlas>

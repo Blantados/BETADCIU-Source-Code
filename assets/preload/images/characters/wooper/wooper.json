@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-107
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Wooper Note Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				27
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Wooper Note Up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Wooper_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-54,
+				-30
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Wooper Note Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				-32
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Wooper Note Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/wooper/Wooper_Assets",
+	"position": [
+		0,
+		290
+	],
+	"healthicon": "woopy",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		100,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

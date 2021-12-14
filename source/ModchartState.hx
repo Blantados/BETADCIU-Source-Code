@@ -4,7 +4,7 @@
 import openfl.display3D.textures.VideoTexture;
 import flixel.graphics.FlxGraphic;
 import flixel.graphics.frames.FlxAtlasFrames;
-#if windows
+#if desktop
 import flixel.tweens.FlxEase;
 import openfl.filters.ShaderFilter;
 import flixel.tweens.FlxTween;
@@ -28,11 +28,21 @@ import flixel.addons.effects.FlxTrail;
 import flixel.addons.effects.FlxTrailArea;
 import flixel.util.FlxTimer;
 
+#if desktop
+import Sys;
+import sys.FileSystem;
+#end
+
+using StringTools;
+
 class ModchartState 
 {
 	//public static var shaders:Array<LuaShader> = null;
 
 	public static var lua:State = null;
+	var lePlayState:PlayState = null;
+	public static var Function_Stop = 1;
+	public static var Function_Continue = 0;
 
 	function callLua(func_name : String, args : Array<Dynamic>, ?type : String) : Dynamic
 	{
@@ -242,13 +252,26 @@ class ModchartState
 			case 'camFollow':
                 @:privateAccess
 				return PlayState.camFollow;
+			case 'camHUD':
+                @:privateAccess
+				return PlayState.instance.camHUD;
+			case 'camGame':
+                @:privateAccess
+				return FlxG.camera;
+			case 'camGame.scroll':
+                @:privateAccess
+				return FlxG.camera.scroll;
 		}
 		// lua objects or what ever
 		if (luaSprites.get(id) == null)
 		{
-			if (Std.parseInt(id) == null)
-				return Reflect.getProperty(PlayState.instance,id);
-			return PlayState.PlayState.strumLineNotes.members[Std.parseInt(id)];
+			if (luaTrails.get(id) == null)
+			{
+				if (Std.parseInt(id) == null)
+					return Reflect.getProperty(PlayState.instance,id);
+				return PlayState.PlayState.strumLineNotes.members[Std.parseInt(id)];
+			}
+			return luaTrails.get(id);
 		}
 		return luaSprites.get(id);
 	}
@@ -258,7 +281,13 @@ class ModchartState
 		return Reflect.field(PlayState.instance,id);
 	}
 
+	function getCurCharacter(id:String)
+	{
+		return getActorByName(id).curCharacter;
+	}
+
 	public static var luaSprites:Map<String,FlxSprite> = [];
+	public static var luaTrails:Map<String,DeltaTrail> = [];
 
 	//Kade why tf is it not like in PlayState???
 
@@ -272,15 +301,25 @@ class ModchartState
 		PlayState.instance.addObject(PlayState.gf);
 	}
 
-	function changeDadCharacter(id:String, x:Float, y:Float)
+	function changeDadCharacter(id:String, x:Float, y:Float, ?xFactor:Float = 1, ?yFactor:Float = 1)
 	{		
+		PlayState.instance.removeObject(PlayState.instance.dadTrail);
 		PlayState.instance.removeObject(PlayState.dad);
-		//PlayState.dad = new Character(x, y, null);
 		PlayState.instance.destroyObject(PlayState.dad);
 		PlayState.dad = new Character(x, y, id);
+		PlayState.dad.scrollFactor.set(xFactor, yFactor);
+		PlayState.instance.addObject(PlayState.instance.dadTrail);
+		PlayState.instance.dadTrail.resetTrail();
 		PlayState.instance.addObject(PlayState.dad);
 
-		if (!PlayState.newIcons)
+		if (PlayState.newIcons)
+		{
+			if (PlayState.swapIcons)
+				PlayState.instance.iconP2.changeIcon(id);
+			else
+				''; //do nothing
+		}
+		else
 			PlayState.instance.iconP2.useOldSystem(id);
 
 		if (PlayState.changeArrows)
@@ -296,19 +335,17 @@ class ModchartState
 
 	function changeDad1Character(id:String, x:Float, y:Float)
 	{		
+		PlayState.instance.removeObject(PlayState.instance.dad1Trail);
 		PlayState.instance.removeObject(PlayState.dad1);
-		//PlayState.dad1 = new Character(x, y, null);
 		PlayState.instance.destroyObject(PlayState.dad1);
 		PlayState.dad1 = new Character(x, y, id);
+		PlayState.instance.addObject(PlayState.instance.dad1Trail);
+		PlayState.instance.dad1Trail.resetTrail();
 		PlayState.instance.addObject(PlayState.dad1);
 
-		if (!PlayState.newIcons)
-			PlayState.instance.iconP2.useOldSystem(id);
-
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
-		{
 			PlayState.regenerateDadArrows = true;
-		}
+
 		if (PlayState.defaultBar)
 		{
 			PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + PlayState.dad1.iconColor), FlxColor.fromString('#' + PlayState.boyfriend.iconColor));
@@ -319,18 +356,13 @@ class ModchartState
 	function changeDad2Character(id:String, x:Float, y:Float)
 	{		
 		PlayState.instance.removeObject(PlayState.dad2);
-		//PlayState.dad2 = new Character(x, y, null);
 		PlayState.instance.destroyObject(PlayState.dad2);
 		PlayState.dad2 = new Character(x, y, id);
 		PlayState.instance.addObject(PlayState.dad2);
 
-		if (!PlayState.newIcons)
-			PlayState.instance.iconP2.useOldSystem(id);
-
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
-		{
 			PlayState.regenerateDadArrows = true;
-		}
+
 		if (PlayState.defaultBar)
 		{
 			PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + PlayState.dad2.iconColor), FlxColor.fromString('#' + PlayState.boyfriend.iconColor));
@@ -338,38 +370,58 @@ class ModchartState
 		}	
 	}
 
-	function changeBoyfriendCharacter(id:String, x:Float, y:Float)
-	{							
+	function changeBoyfriendCharacter(id:String, x:Float, y:Float, ?xFactor:Float = 1, ?yFactor:Float = 1)
+	{	
+		var animationName:String = "no way anyone have an anim name this big";
+		var animationFrame:Int = 0;						
+		if (PlayState.boyfriend.animation.curAnim.name.startsWith('sing'))
+		{
+			animationName = PlayState.boyfriend.animation.curAnim.name;
+			animationFrame = PlayState.boyfriend.animation.curAnim.curFrame;
+		}
+
+		PlayState.instance.removeObject(PlayState.instance.bfTrail);
 		PlayState.instance.removeObject(PlayState.boyfriend);
-		//PlayState.boyfriend = new Boyfriend(x, y, null);//
 		PlayState.instance.destroyObject(PlayState.boyfriend);
 		PlayState.boyfriend = new Boyfriend(x, y, id);
+		PlayState.boyfriend.scrollFactor.set(xFactor, yFactor);
+		PlayState.instance.addObject(PlayState.instance.bfTrail);
+		PlayState.instance.bfTrail.resetTrail();
 		PlayState.instance.addObject(PlayState.boyfriend);
 
-		if (!PlayState.newIcons)
+		if (PlayState.newIcons)
+		{
+			if (PlayState.swapIcons)
+				PlayState.instance.iconP1.changeIcon(id);
+			else
+				''; //do nothing
+		}
+		else
 			PlayState.instance.iconP1.useOldSystem(id);
 
 		if (PlayState.changeArrows)
-		{
 			PlayState.regenerateDadArrows = true;
-		}
+
 		if (PlayState.defaultBar)
 		{
 			PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + PlayState.dad.iconColor), FlxColor.fromString('#' + PlayState.boyfriend.iconColor));
 			PlayState.healthBar.updateBar();
 		}	
+
+		if (PlayState.boyfriend.animOffsets.exists(animationName))
+			PlayState.boyfriend.playAnim(animationName, true, false, animationFrame);
 	}
 
 	function changeBoyfriend1Character(id:String, x:Float, y:Float)
 	{							
+		PlayState.instance.removeObject(PlayState.instance.bf1Trail);
 		PlayState.instance.removeObject(PlayState.boyfriend1);
 		//PlayState.boyfriend1 = new Boyfriend1(x, y, null);
 		PlayState.instance.destroyObject(PlayState.boyfriend1);
 		PlayState.boyfriend1 = new Boyfriend(x, y, id);
+		PlayState.instance.addObject(PlayState.instance.bf1Trail);
+		PlayState.instance.bf1Trail.resetTrail();
 		PlayState.instance.addObject(PlayState.boyfriend1);
-
-		if (!PlayState.newIcons)
-			PlayState.instance.iconP1.useOldSystem(id);
 
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
 		{
@@ -388,9 +440,6 @@ class ModchartState
 		PlayState.instance.destroyObject(PlayState.boyfriend2);
 		PlayState.boyfriend2 = new Boyfriend(x, y, id);
 		PlayState.instance.addObject(PlayState.boyfriend2);
-
-		if (!PlayState.newIcons)
-			PlayState.instance.iconP1.useOldSystem(id);
 		
 		if (PlayState.defaultBar)
 		{
@@ -399,12 +448,15 @@ class ModchartState
 		}	
 	}
 
-	//does this work. right?
+	//does this work. right? -- future me here. yes it does.
 	function changeStage(id:String)
 	{	
 		PlayState.instance.removeObject(PlayState.gf);
 		PlayState.instance.removeObject(PlayState.dad);
 		PlayState.instance.removeObject(PlayState.boyfriend);
+
+		if (PlayState.SONG.song.toLowerCase() == 'epiphany' && PlayState.storyDifficulty == 5)
+			PlayState.instance.removeObject(PlayState.dad1);
 
 		for (i in PlayState.Stage.toAdd)
 		{
@@ -451,6 +503,9 @@ class ModchartState
 					for (bg in array)
 						PlayState.instance.addObject(bg);
 				case 1:
+					if (PlayState.SONG.song.toLowerCase() == 'epiphany' && PlayState.storyDifficulty == 5)
+						PlayState.instance.addObject(PlayState.dad1);
+
 					PlayState.instance.addObject(PlayState.dad);
 					for (bg in array)
 						PlayState.instance.addObject(bg);
@@ -461,6 +516,8 @@ class ModchartState
 			}
 		}	
 	}
+
+	
 
 	// this is better. easier to port shit from playstate.
 	function changeGFCharacterBetter(x:Float, y:Float, id:String, ?xFactor:Float = 0.95, ?yFactor:Float = 0.95)
@@ -481,13 +538,19 @@ class ModchartState
 		PlayState.dad = new Character(x, y, id);
 		PlayState.instance.addObject(PlayState.dad);
 
-		if (!PlayState.newIcons)
+		if (PlayState.newIcons)
+		{
+			if (PlayState.swapIcons)
+				PlayState.instance.iconP2.changeIcon(id);
+			else
+				''; //do nothing
+		}
+		else
 			PlayState.instance.iconP2.useOldSystem(id);
 
 		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
-		{
 			PlayState.regenerateDadArrows = true;
-		}
+
 		if (PlayState.defaultBar)
 		{
 			PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + PlayState.dad.iconColor), FlxColor.fromString('#' + PlayState.boyfriend.iconColor));
@@ -503,10 +566,17 @@ class ModchartState
 		PlayState.boyfriend = new Boyfriend(x, y, id);
 		PlayState.instance.addObject(PlayState.boyfriend);
 
-		if (!PlayState.newIcons)
+		if (PlayState.newIcons)
+		{
+			if (PlayState.swapIcons)
+				PlayState.instance.iconP1.changeIcon(id);
+			else
+				''; //do nothing
+		}
+		else
 			PlayState.instance.iconP1.useOldSystem(id);
 
-		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))
+		if (PlayState.changeArrowSongs.contains(PlayState.SONG.song.toLowerCase()))//
 		{
 			PlayState.regenerateDadArrows = true;
 		}
@@ -608,7 +678,7 @@ class ModchartState
 		if (scale > 1)
 			scale = 1;
 
-		sprite.makeGraphic(Std.int(data.width * scale),Std.int(data.width * scale),FlxColor.TRANSPARENT);//
+		sprite.makeGraphic(Std.int(data.width * scale),Std.int(data.width * scale),FlxColor.TRANSPARENT);
 		sprite.scrollFactor.set(xFactor, yFactor);
 
 		var data2:BitmapData = sprite.pixels.clone();
@@ -678,9 +748,26 @@ class ModchartState
 						suf = '-neo';
 				}
 				if (PlayState.isVitor)
+					suf = '-vitor';	
+				
+				if (PlayState.isBETADCIU && PlayState.storyDifficulty == 5)
 				{
-					suf = '-vitor';		
+					if (PlayState.isSpres)
+					{
+						if (!FlxG.save.data.stageChange)
+							suf = '-guest-noStage';				
+						else
+							suf = '-guest';
+					}
+					else
+						suf = '-guest';	
 				}
+
+				if (PlayState.isBETADCIU && FileSystem.exists(Paths.lua(songLowercase  + "/modchart-betadciu")))
+					suf = '-betadciu';
+				
+				if (PlayState.isBETADCIU && PlayState.SONG.song.toLowerCase() == 'hill-of-the-void' && !FlxG.save.data.stageChange)
+					suf = '-noStage';
 
 				var result = LuaL.dofile(lua, Paths.lua(songLowercase + "/modchart" + suf)); // execute le file
 	
@@ -704,6 +791,7 @@ class ModchartState
 				setVar("curStep", 0);
 				setVar("daSection", 0);
 				setVar("curBeat", 0);
+				setVar("crochetReal", Conductor.crochet);
 				setVar("crochet", Conductor.stepCrochet);
 				setVar("safeZoneOffset", Conductor.safeZoneOffset);
 	
@@ -739,6 +827,9 @@ class ModchartState
 	
 				setVar("mustHit", false);
 				setVar("newIcons", false);
+				setVar("swapIcons", true);
+				setVar("playDadSing", true);
+				setVar("playBFSing", true);
 
 				setVar("strumLineY", PlayState.instance.strumLine.y);
 				
@@ -766,7 +857,9 @@ class ModchartState
 
 				Lua_helper.add_callback(lua,"moveHoloDancers", moveHoloDancers);
 
-				Lua_helper.add_callback(lua,"getProperty", getPropertyByName);
+				Lua_helper.add_callback(lua,"getProperty", getPropertyByName);//
+
+				Lua_helper.add_callback(lua,"getCurCharacter", getCurCharacter);
 
 				Lua_helper.add_callback(lua,"changeDad1Character", changeDad1Character);
 
@@ -786,6 +879,15 @@ class ModchartState
 					PlayState.instance.removeObject(sprite);
 					return true;
 				});
+
+				Lua_helper.add_callback(lua,"destroyObject", function(id:String) {
+					PlayState.instance.destroyObject(getActorByName(id));
+				});
+
+				
+				Lua_helper.add_callback(lua,"setScrollFactor", function(id:String , x:Float, y:Float) {
+					getActorByName(id).scrollFactor.set(x, y);
+				});
 	
 				// hud/camera
 
@@ -794,8 +896,21 @@ class ModchartState
 					PlayState.instance.backgroundVideo("assets/videos/" + videoName + ".webm");
 				});
 
-				Lua_helper.add_callback(lua,"updateHealthbar", function(dadColor:String, bfColor:String) {
-					PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + dadColor), FlxColor.fromString('#' + bfColor));
+				Lua_helper.add_callback(lua,"updateHealthbar", function(dadColor:String = "", bfColor:String = ""){
+					var opponent:String;
+					var player:String;
+
+					if (dadColor == "")
+						opponent = PlayState.dad.iconColor;
+					else
+						opponent = dadColor;
+
+					if (bfColor == "")
+						player = PlayState.boyfriend.iconColor;
+					else
+						player = bfColor;
+
+					PlayState.healthBar.createFilledBar(FlxColor.fromString('#' + opponent), FlxColor.fromString('#' + player));
 					PlayState.healthBar.updateBar();
 				});
 
@@ -821,12 +936,44 @@ class ModchartState
 					PlayState.instance.iconP1.useOldSystem(id);
 				});
 
+				Lua_helper.add_callback(lua,"softCountdown", function(id:String) {
+					PlayState.instance.softCountdown(id);
+				});
+
+				Lua_helper.add_callback(lua,"fixTrail", function(id:String) {
+					PlayState.instance.fixTrailShit(id);
+				});
+
+				Lua_helper.add_callback(lua,"resetTrail", function(id:String) {
+					getActorByName(id).resetTrail();
+				});
+
+				Lua_helper.add_callback(lua,"generateNumberFromRange", function(min:Float, max:Float) {
+					return FlxG.random.float(min, max);
+				});
+
+				Lua_helper.add_callback(lua,"startWriting", function(timer:Int = 15, word:String) {
+					PlayState.instance.writeStuff(timer, word);
+				});
+
+				Lua_helper.add_callback(lua,"zoomingFunctionThing", function(?camSpeed:Float = 0.55, ?camZoomMult:Float = 1) {
+					PlayState.Stage.zoomingFunctionThing(camSpeed, camZoomMult); //only works on concert stage. don't use anywhere else
+				});
+
+				Lua_helper.add_callback(lua,"exeStatic", function(?id:String) {
+					PlayState.instance.staticHitMiss(); //only works on concert stage. don't use anywhere else
+				});
+
 				Lua_helper.add_callback(lua,"changeDadIconNew", function(id:String) {
 					PlayState.instance.iconP2.changeIcon(id);
 				});
 
 				Lua_helper.add_callback(lua,"changeBFIconNew", function(id:String) {
 					PlayState.instance.iconP1.changeIcon(id);
+				});
+
+				Lua_helper.add_callback(lua,"getCurCharacter", function(id:String) {
+					return getActorByName(id).curCharacter();
 				});
 
 				Lua_helper.add_callback(lua,"setBFStaticNotes", function(id:String) {
@@ -841,6 +988,10 @@ class ModchartState
 					PlayState.SONG.dadNoteStyle = id;
 				});
 
+				Lua_helper.add_callback(lua,"setDownscroll", function(id:Bool) {
+					FlxG.save.data.downscroll = id;
+				});
+
 				Lua_helper.add_callback(lua,"setBFNotes", function(id:String) {
 					PlayState.SONG.bfNoteStyle = id;
 				});
@@ -849,8 +1000,28 @@ class ModchartState
 					PlayState.splashSkin = id;
 				});
 
+				Lua_helper.add_callback(lua,"pixelStrums", function(id:String, on:Bool) {
+					if (id == 'dad')
+						PlayState.pixelStrumsDad = on;
+					else if (id == 'bf')
+						PlayState.pixelStrumsBF = on;
+				});
+
 				Lua_helper.add_callback(lua,"removeObject", function(id:String) {
 					PlayState.instance.removeObject(getActorByName(id));
+				});
+
+				Lua_helper.add_callback(lua,"addObject", function(id:String) {
+					PlayState.instance.addObject(getActorByName(id));
+				});
+
+				Lua_helper.add_callback(lua,"changeStaticNotes", function(id:String, ?id2:String) {
+					if (id2 == "" || id2 == null)id2 = id;
+					PlayState.instance.changeStaticNotes(id, id2);
+				});
+
+				Lua_helper.add_callback(lua,"doStaticSign", function(lestatic:Int = 0, ?leopa:Bool = true) {
+					PlayState.instance.doStaticSign(lestatic, leopa);
 				});
 
 				Lua_helper.add_callback(lua,"characterZoom", function(id:String, zoomAmount:Float) {
@@ -900,6 +1071,10 @@ class ModchartState
 	
 				Lua_helper.add_callback(lua,"getHudY", function () {
 					return PlayState.instance.camHUD.y;
+				});
+
+				Lua_helper.add_callback(lua,"getPlayerStrumsY", function (id:Int) {
+					return PlayState.strumLineNotes.members[id].y;
 				});
 				
 				Lua_helper.add_callback(lua,"setCamPosition", function (x:Int, y:Int) {
@@ -985,6 +1160,11 @@ class ModchartState
 					});	
 				});
 
+				Lua_helper.add_callback(lua,"sundayFilter", function(bool:Bool) {
+					//The string does absolutely nothing
+					PlayState.instance.chromOn = bool;
+				});
+
 				Lua_helper.add_callback(lua,"offCamFollow", function(id:String) {
 					//The string does absolutely nothing
 					PlayState.camFollowIsOn = false;
@@ -1010,6 +1190,11 @@ class ModchartState
 				Lua_helper.add_callback(lua,"resetSnapCam", function(id:String) {
 					//The string does absolutely nothing
 					PlayState.defaultCamFollow = true;
+				});
+
+				Lua_helper.add_callback(lua,"toggleSnapCam", function(id:Bool) {
+					//The string does absolutely nothing
+					PlayState.defaultCamFollow = id;
 				});
 				
 				Lua_helper.add_callback(lua,"resetCamEffects", function(id:String) {
@@ -1143,8 +1328,8 @@ class ModchartState
 					}				
 				});
 				
-				Lua_helper.add_callback(lua,"playActorAnimation", function(id:String,anim:String,force:Bool = false,reverse:Bool = false) {
-					getActorByName(id).playAnim(anim, force, reverse);
+				Lua_helper.add_callback(lua,"playActorAnimation", function(id:String,anim:String,force:Bool = false,reverse:Bool = false, ?frame:Int = 0) {
+					getActorByName(id).playAnim(anim, force, reverse, frame);
 				});
 
 				Lua_helper.add_callback(lua,"playBGAnimation", function(id:String,anim:String,force:Bool = false,reverse:Bool = false) {
@@ -1184,8 +1369,13 @@ class ModchartState
 					getActorByName(id).members[id2].visible = visible;
 				});*/
 
-				Lua_helper.add_callback(lua,"setActorVisibility", function(alpha:Bool,id:String) {
-					getActorByName(id).visible = alpha;
+				Lua_helper.add_callback(lua,"setActorVisibility", function(alpha:Bool,id:String, ?bg:Bool = false) {
+					if (bg){
+						PlayState.Stage.swagBacks[id].visible = alpha;
+					}
+					else {
+						getActorByName(id).visible = alpha;
+					}	
 				});
 	
 				Lua_helper.add_callback(lua,"setActorY", function(y:Int,id:String, ?bg:Bool = false) {
@@ -1230,6 +1420,10 @@ class ModchartState
 				Lua_helper.add_callback(lua,"stopGFDance", function(stop:Bool) {
 					PlayState.picoCutscene = stop;
 				});
+
+				Lua_helper.add_callback(lua,"isPixel", function(change:Bool) {
+					PlayState.isPixel = change;
+				});
 	
 				Lua_helper.add_callback(lua, "setActorFlipX", function(flip:Bool, id:String)
 				{
@@ -1258,12 +1452,18 @@ class ModchartState
 					return getActorByName(id).angle;
 				});
 	
-				Lua_helper.add_callback(lua,"getActorX", function (id:String) {
-					return getActorByName(id).x;
+				Lua_helper.add_callback(lua,"getActorX", function (id:String, ?bg:Bool = false) {
+					if (bg)
+						return PlayState.Stage.swagBacks[id].x;
+					else
+						return getActorByName(id).x;
 				});
 	
-				Lua_helper.add_callback(lua,"getActorY", function (id:String) {
-					return getActorByName(id).y;
+				Lua_helper.add_callback(lua,"getActorY", function (id:String, ?bg:Bool = false) {
+					if (bg)
+						return PlayState.Stage.swagBacks[id].y;
+					else
+						return getActorByName(id).y;
 				});
 
 				Lua_helper.add_callback(lua,"getActorXMidpoint", function (id:String) {
@@ -1455,7 +1655,36 @@ class ModchartState
 				});
 
 				Lua_helper.add_callback(lua,"tweenColor", function(id:String, time:Float, initColor:FlxColor, finalColor:FlxColor) {
-					FlxTween.color(getActorByName(id), time, initColor, finalColor);//
+					FlxTween.color(getActorByName(id), time, initColor, finalColor);
+				});
+
+				//my version of some psych tweens
+				Lua_helper.add_callback(lua,"tweenAnglePsych", function(id:String, toAngle:Int, time:Float, ease:String, onComplete:String, ?bg:Bool = false) {
+					if (bg)
+						FlxTween.tween(PlayState.Stage.swagBacks[id], {angle: toAngle}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+					else
+						FlxTween.tween(getActorByName(id), {angle: toAngle}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+				});
+
+				Lua_helper.add_callback(lua,"tweenXPsych", function(id:String, toX:Int, time:Float, ease:String, onComplete:String, ?bg:Bool = false) {
+					if (bg)
+						FlxTween.tween(PlayState.Stage.swagBacks[id], {x: toX}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+					else
+						FlxTween.tween(getActorByName(id), {x: toX}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+				});
+
+				Lua_helper.add_callback(lua,"tweenYPsych", function(id:String, toY:Int, time:Float, ease:String, onComplete:String, ?bg:Bool = false) {
+					if (bg)
+						FlxTween.tween(PlayState.Stage.swagBacks[id], {y: toY}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+					else
+						FlxTween.tween(getActorByName(id), {y: toY}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+				});
+
+				Lua_helper.add_callback(lua,"tweenZoomPsych", function(id:String, toZoom:Int, time:Float, ease:String, onComplete:String, ?bg:Bool = false) {
+					if (bg)
+						FlxTween.tween(PlayState.Stage.swagBacks[id], {zoom: toZoom}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
+					else
+						FlxTween.tween(getActorByName(id), {zoom: toZoom}, time, {ease: getFlxEaseByString(ease), onComplete: function(flxTween:FlxTween) { if (onComplete != '' && onComplete != null) {callLua(onComplete,[id]);}}});
 				});
 
 				//forgot and accidentally commit to master branch
@@ -1491,6 +1720,7 @@ class ModchartState
 					setVar("defaultStrum" + i + "Y", Math.floor(member.y));
 					//setVar("strum" + i + "Angle", Math.floor(member.angle));
 					setVar("defaultStrum" + i + "Angle", Math.floor(member.angle));
+					setVar("defaultStrum" + i + "Alpha", Math.floor(member.alpha));
 					trace("Adding strum" + i);
 				}
 
@@ -1507,5 +1737,48 @@ class ModchartState
     {
         return new ModchartState();
     }
+
+	function getFlxEaseByString(?ease:String = '') {
+		switch(ease.toLowerCase().trim()) {
+			case 'backin': return FlxEase.backIn;
+			case 'backinout': return FlxEase.backInOut;
+			case 'backout': return FlxEase.backOut;
+			case 'bouncein': return FlxEase.bounceIn;
+			case 'bounceinout': return FlxEase.bounceInOut;
+			case 'bounceout': return FlxEase.bounceOut;
+			case 'circin': return FlxEase.circIn;
+			case 'circinout': return FlxEase.circInOut;
+			case 'circout': return FlxEase.circOut;
+			case 'cubein': return FlxEase.cubeIn;
+			case 'cubeinout': return FlxEase.cubeInOut;
+			case 'cubeout': return FlxEase.cubeOut;
+			case 'elasticin': return FlxEase.elasticIn;
+			case 'elasticinout': return FlxEase.elasticInOut;
+			case 'elasticout': return FlxEase.elasticOut;
+			case 'expoin': return FlxEase.expoIn;
+			case 'expoinout': return FlxEase.expoInOut;
+			case 'expoout': return FlxEase.expoOut;
+			case 'quadin': return FlxEase.quadIn;
+			case 'quadinout': return FlxEase.quadInOut;
+			case 'quadout': return FlxEase.quadOut;
+			case 'quartin': return FlxEase.quartIn;
+			case 'quartinout': return FlxEase.quartInOut;
+			case 'quartout': return FlxEase.quartOut;
+			case 'quintin': return FlxEase.quintIn;
+			case 'quintinout': return FlxEase.quintInOut;
+			case 'quintout': return FlxEase.quintOut;
+			case 'sinein': return FlxEase.sineIn;
+			case 'sineinout': return FlxEase.sineInOut;
+			case 'sineout': return FlxEase.sineOut;
+			case 'smoothstepin': return FlxEase.smoothStepIn;
+			case 'smoothstepinout': return FlxEase.smoothStepInOut;
+			case 'smoothstepout': return FlxEase.smoothStepInOut;
+			case 'smootherstepin': return FlxEase.smootherStepIn;
+			case 'smootherstepinout': return FlxEase.smootherStepInOut;
+			case 'smootherstepout': return FlxEase.smootherStepOut;
+		}
+		return FlxEase.linear;
+	}
+
 }
 #end

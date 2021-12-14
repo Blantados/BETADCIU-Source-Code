@@ -71,7 +71,7 @@ function stepHit (step)
     end
 
     if curStep == 896 then
-        changeDadCharacterBetter(130, 410, 'sayori-blue')
+        changeDadCharacterBetter(130, 410, 'sayori-sad-blue')
         characterZoom('dad', 1.22)
     end
 

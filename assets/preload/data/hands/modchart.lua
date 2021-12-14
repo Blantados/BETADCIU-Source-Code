@@ -124,7 +124,7 @@ function stepHit (step)
     end
     
     if curStep == 988 then
-        changeBoyfriendCharacter('miku', 980, -120)
+        changeBoyfriendCharacter('miku', 1020, -130)
     end
 
     if curStep == 1022 then
@@ -237,7 +237,6 @@ function stepHit (step)
     end
 
     if curStep == 1440 then
-        changeGFCharacter('holo-cart-hover-botan', 357, -9001)
         changeBoyfriendCharacter('pico', 970, -9350)
         followBFXOffset = -120
     end
@@ -247,7 +246,6 @@ function stepHit (step)
     end
 
     if curStep == 1500 then
-        changeGFCharacter('holo-cart-hover', 357, -9001)
         followBFXOffset = 0
         changeBoyfriendCharacter('beardington', 970, -9400) 
     end
@@ -261,8 +259,8 @@ function stepHit (step)
     end
 
     if curStep == 1610 then
-        changeDadCharacter('isabella', 140, -9400)
-        changeBoyfriendCharacter('kodacho', 930, -9650)
+        changeDadCharacter('hex', 140, -9420)
+        changeBoyfriendCharacter('cyrix', 930, -9650)
     end
 
     if curStep == 1676 then
@@ -306,10 +304,6 @@ function stepHit (step)
     if curStep == 2064 then
         changeDadCharacter('tankman', 140, -9220)
         changeBoyfriendCharacter('phil', 930, -9300)
-    end
-
-    if curStep == 2192 then
-        playActorAnimation('dad', 'lilDude', true, false)
     end
 
     if curStep == 2224 then

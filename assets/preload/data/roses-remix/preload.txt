@@ -22,7 +22,7 @@ bf-sans-pixel
 gura-amelia-pixel
 bf-botan-pixel
 gf-playtime
-baldi-angry
+baldi-angry-pixel
 mangle-angry
 gf-pixel-neon
 neon

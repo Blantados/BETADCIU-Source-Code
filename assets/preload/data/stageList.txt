@@ -8,5 +8,6 @@ school
 tank
 churchselever
 facility
-eddhouse-bot
-genocide
+camelliastage2
+sonicFUNSTAGE
+nyan

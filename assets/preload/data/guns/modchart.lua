@@ -19,7 +19,7 @@ end
 function beatHit (beat)
 
     if curBeat == 1 then
-        changeDadCharacter('sarvente', -55, 75)
+       
     end
     
     if curBeat == 64 then

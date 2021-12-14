@@ -1,12 +1,5 @@
 idle 0 0
-singUP 161 45
-singRIGHT -18 -164
-singLEFT 292 14
-singDOWN 0 -335
-singUPmiss 153 29
-singRIGHTmiss 3 -151
-singLEFTmiss 275 13
-singDOWNmiss -11 -300
-firstDeath 0 0
-deathLoop 0 0
-deathConfirm 0 0
+singDOWN 20 -115
+singLEFT -15 6
+singUP -11 28
+singRIGHT -8 -56

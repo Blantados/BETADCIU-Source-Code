@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-11
+			],
+			"playerOffsets": [
+				0,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "PRDevIdle"
+		},
+		{
+			"offsets": [
+				50,
+				-86
+			],
+			"playerOffsets": [
+				100,
+				-145
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "PRDevLeft"
+		},
+		{
+			"offsets": [
+				20,
+				-133
+			],
+			"playerOffsets": [
+				20,
+				-96
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "PRDevRight"
+		},
+		{
+			"offsets": [
+				70,
+				-170
+			],
+			"playerOffsets": [
+				70,
+				-170
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "PRDevDown"
+		},
+		{
+			"offsets": [
+				-36,
+				20
+			],
+			"playerOffsets": [
+				14,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "PRDevUp"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/prdev/prdev_assets",
+	"position": [
+		0,
+		-20
+	],
+	"healthicon": "prdev",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-60,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

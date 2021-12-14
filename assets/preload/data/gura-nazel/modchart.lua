@@ -12,8 +12,6 @@ function beatHit(beat)
 end
 
 function stepHit(step) 
-
-		
 		
 	if step == 66 then
 	print("sneeze nigga")

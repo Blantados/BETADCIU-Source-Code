@@ -37,6 +37,8 @@ class GameOverSubstate extends MusicBeatSubstate
 			case 'bf-aloe-corrupt':
 				daBf = daCharacter;
 				isCorrupt = true;
+			case 'bf-nene' | 'bf-nene-scream':
+				daBf = 'bf-nene';
 			case 'bf-pixel-neon':
 				stageSuffix = '-pixel';
 				daBf = 'bf-pixel-dead';
@@ -52,13 +54,16 @@ class GameOverSubstate extends MusicBeatSubstate
 				isSenpai = true;
 			default:	
 				if (PlayState.boyfriend.animOffsets.exists('firstDeath'))
-				{
 					daBf = daCharacter;
-				}
 				else
-				{
-					daBf = 'bf';
-				}		
+					daBf = 'bf';	
+		}
+
+		switch (PlayState.SONG.song.toLowerCase())
+		{
+			case 'epiphany':
+				stageSuffix = '-bigmonika';
+				daBf = 'bf-bigmonika-dead';
 		}
 
 		super();
@@ -114,9 +119,16 @@ class GameOverSubstate extends MusicBeatSubstate
 			if (PlayState.isStoryMode)
 				FlxG.switchState(new StoryMenuState());
 			else if (PlayState.isBETADCIU)
-				FlxG.switchState(new BETADCIUState());
+				if (PlayState.storyDifficulty == 5)
+					FlxG.switchState(new GuestBETADCIUState());
+				else
+					FlxG.switchState(new BETADCIUState());
 			else if (PlayState.isBonus)
 				FlxG.switchState(new BonusSongsState());
+			else if (PlayState.isNeonight)
+				FlxG.switchState(new NeonightState());
+			else if (PlayState.isVitor)
+				FlxG.switchState(new VitorState());
 			else
 				FlxG.switchState(new FreeplayState());
 			PlayState.loadRep = false;

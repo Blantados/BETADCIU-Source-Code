@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "yell1",
+			"text": "Bf??"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "yell2",
+			"text": "Bf!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "real-smooth",
+			"text": "Man, wheres that cute blue dwarf and his magnum dick..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-shock",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're looking for a blue dwarf, child?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hypno",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Follow me into the forest, I saw him in there"
+		}
+	]
+}

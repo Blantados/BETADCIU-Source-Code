@@ -1,6 +1,7 @@
 function start (song)
 	print("Song: " .. song .. " @ " .. bpm .. " donwscroll: " .. downscroll)
     setActorAlpha(0, 'dad1')
+    setActorAlpha(0, 'boyfriend1')
 end
 
 local defaultHudX = 0
@@ -81,8 +82,8 @@ end
 
 function stepHit (step)
 
-    if curStep == 1 then
-
+    if curStep == 1 then --testing duh
+       
     end
 
     if curStep == 192 then
@@ -112,21 +113,106 @@ function stepHit (step)
         characterZoom('dad', 0.85)
     end
 
+    if curStep == 480 then
+        changeBoyfriendCharacterBetter(770, 200, 'shaggy')
+        changeBoyfriend1Character('matt', 970, 500)
+        followBFXOffset = -200
+        followBFYOffset = 200
+    end
+
+    if curStep == 512 then --512
+        followDadXOffset = -20--
+        followDadYOffset = 20
+        --setActorAlpha(1, 'dad1')
+        changeDad1Character('mia', 0, 300)
+        changeDadCharacter('bana', 200, 210)
+    end
+
     if curStep == 580 then
-        followBFYOffset = 85
-        followBFXOffset = 20
+        followBFYOffset = 150
+        followBFXOffset = 75
+        setActorAlpha(0, 'boyfriend1')
         changeBoyfriendCharacterBetter(720, 450, 'liz')
         characterZoom('boyfriend', 0.85)
+        followBFXOffset = 0
+        followBFYOffset = 0
+    end
+
+    if curStep == 624 then
+        followBFYOffset = 300
+        followBFXOffset = 100
+        changeBoyfriendCharacterBetter(650, 150, 'garcello')
+        changeBoyfriend1Character('drunk-annie', 460, 230)
+        followBFXOffset = 100
+        followBFYOffset = 150
+    end
+
+    if curStep == 644 then --644
+        followDadXOffset = 130--
+        followDadYOffset = 20
+        --setActorAlpha(1, 'dad1')      
+        changeDad1Character('agoti', 160, 200)
+        changeDadCharacter('tabi', -150, 220)
+        characterZoom('dad', 0.85)
+        characterZoom('dad1', 0.8)
+    end
+	
+	if curStep == 768 then --768
+        followDadXOffset = 130--
+        followDadYOffset = 20
+        --setActorAlpha(1, 'dad1')      
+        changeDad1Character('tom2', 10, 150)
+        changeDadCharacter('tord2', -180, 150)
+    end
+	
+	if curStep == 784 then --784
+        followBFYOffset = 300
+        followBFXOffset = 100
+        changeBoyfriendCharacterBetter(650, 150, 'matt2')
+        changeBoyfriend1Character('edd2', 420, 150)
+        followBFXOffset = 100
+        followBFYOffset = 150
     end
 
     if curStep == 832 then
-        followDadYOffset = 50
-        changeDadCharacterBetter(0, 360, 'spooky-pixel')
+        followDadYOffset = 30
+        followDadXOffset = 90
+		setActorAlpha(0, 'dad1')
+        changeDadCharacterBetter(0, 380, 'spooky-pixel')
     end
 
     if curStep == 848 then
-        followBFYOffset = 50
+        followBFYOffset = 30
+        followBFXOffset = -20
+		setActorAlpha(0, 'boyfriend1')
         changeBoyfriendCharacterBetter(970, 530, 'gura-amelia-pixel')
+    end
+	
+	if curStep == 864 then --864
+        followDadXOffset = 40--
+        followDadYOffset = -150
+        --setActorAlpha(1, 'dad1')      
+        changeDad1Character('bf-botan-pixel', 330, 600)
+        changeDadCharacter('bf-pico-pixel', 100, 650)
+    end
+	
+	if curStep == 880 then --880
+        followBFYOffset = 300
+        followBFXOffset = 100
+        changeBoyfriendCharacterBetter(850, 280, 'rosie')
+        changeBoyfriend1Character('bf-pixel', 850, 670)
+        followBFXOffset = 100
+        followBFYOffset = 150
+    end
+	
+	if curStep == 896 then --896
+        followDadXOffset = 100--
+        followDadYOffset = -20
+        --setActorAlpha(1, 'dad1')      
+        changeDad1Character('cablecrow', -100, 30)
+        changeDadCharacter('zardy', -250, 160)
+        characterZoom('dad1', 0.9)
+		 characterZoom('dad', 0.9)
     end
         
     -- the arrow shits

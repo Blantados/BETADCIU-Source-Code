@@ -1,0 +1,7 @@
+danceRight 0 0
+singRIGHT -54 -2
+singDOWN -27 -44
+singUP -8 43
+danceLeft 0 0
+singLEFT 37 -8
+nara 43 1
