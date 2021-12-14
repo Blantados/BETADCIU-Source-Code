@@ -28,18 +28,7 @@ class TextSubState extends MusicBeatSubstate
 	var poemText:FlxText; //yeah i changed the way this works to how my password system works
 	//i couldn't think of many words
 	var words:Array<String> = [
-		'Just Monika',
-		'Happy Thoughts',
-		'Dear Sunshine',
-		'Grief',
-		'Rainclouds',
-		'Alone',
-		'Hopeless',
-		'Hanging',
-		'Get Out',
-		'Raincloud',
-		'My Head',
-		'Pain'
+		'Unhardcoded Baby!'
 	];
 
 	var lines:FlxTypedGroup<FlxSprite>;
@@ -51,6 +40,9 @@ class TextSubState extends MusicBeatSubstate
 	var timerTxt:FlxText;
 	public function new(theTimer:Int = 15, word:String = '')
 	{
+		//unhardcoded the words so you can add extras.
+		words = CoolUtil.coolTextFile(Paths.txt('unownWords'));
+
 		timer = theTimer;
 		super();
 		var overlay:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, 0xFFB3DFd8);

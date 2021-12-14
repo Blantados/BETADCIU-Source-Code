@@ -2401,6 +2401,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('deathLoop', 'Big Monika Retry Loop', 24, true);
 				animation.addByPrefix('deathConfirm', 'Big Monika Retry End', 24, false);
 				animation.addByPrefix('crashDeath', 'Big Monika SCARY', 24, false);
+				animation.addByPrefix('crashDeath2', 'Big Monika JUMP', 24, false);
 				
 				loadOffsetFile(curCharacter);
 
@@ -7686,7 +7687,7 @@ class Character extends FlxSprite
 		{
 			switch (curCharacter)
 			{
-				case 'bigmonika-dead':
+				case 'bf-bigmonika-dead':
 					if (animation.curAnim.name != 'crashDeath2')
 					{
 						if (isPlayer)
